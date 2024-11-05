@@ -34,7 +34,7 @@ A research project in language technology on hallucination detection in connecti
 
         'pip3 freeze > requirements.yourname.date.txt / pip freeze > requirements.yourname.date.txt'
 
-   5. **To recreate the environment on a different machine, follow these steps:**
+  5. **To recreate the environment on a different machine, follow these steps:**
 
     1.Clone the project folder.
     2.Create and activate a new virtual environment.
@@ -42,6 +42,6 @@ A research project in language technology on hallucination detection in connecti
    
         'pip3 install -r requirements.txt' / 'pip install -r requirements.txt'
     
-   e. When you're done, deactivate the environment by running:
+    4. When you're done, deactivate the environment by running:
 
         'deactivate'
