@@ -1,6 +1,30 @@
 # LingDig_Mushrooms
 A research project in language technology on hallucination detection in connection with the international shared task Mu-SHROOM
 
+# Distribution of Work
+
+## 1. **Sofia**
+- **Developing Prompts**: Create and optimize various prompts for data analysis.
+- **Documentation**: Maintain README files for task documentation.
+
+## 2. **Zang**
+- **Developing Prompts**: Work on developing and refining prompts for data analysis.
+- **Documentation**: Maintain README files for task documentation.
+
+## 3. **Nick**
+- **Developing Prompts**: Collaborate with Sofia and Zang on prompt development.
+- **Data Augmentation**: Implement scripts to augment data using LLMs.
+- **Combining Outputs**: Develop scripts to combine outputs from different models.
+- **Documentation**: Maintain README files for task documentation.
+
+## 4. **Xinyuan**
+- **Training Classifier**: Focus on training the classifier to detect hallucinated spans in the outputs.
+- **Documentation**: Maintain README files for task documentation.
+
+## Unallocated Tasks
+- **Information Retrieval**: Implement a script for retrieving information from Wikipedia to help detect hallucinations in the model outputs.
+- **Model Output Combination**: Further explore and implement strategies for combining model outputs if needed.
+
 ## How to use this repository:
 1. Clone it to your local machine. You can use the command line, GitHub Desktop, Visual Studio Code, etc.
 
