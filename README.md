@@ -6,48 +6,46 @@ A research project in language technology on hallucination detection in connecti
 
 2. Arrange your files structurally. Use separate directories for different experiments.
 
-**Project structure**
+**Initial Project structure**  
+(see bash script /LingDig_Mushrooms/Nick/setup_project.sh)
 ```
-    lingdig_mushrooms/
-    │
-    ├── docs/                  # Documentation files (e.g., project overview, setup instructions)
-    │   └── setup.md           # Project setup guide
-    │
-    ├── data/                  # Data storage folder (input/output data, models)
-    │   ├── raw/               # Raw input data (e.g., LLM prompts)
-    │   ├── processed/         # Preprocessed data (e.g., cleaned data)
-    │   └── outputs/           # Outputs of LLM (e.g., responses, analysis results)
-    │
-    ├── src/                   # Source code for common functionality
-    │   ├── __init__.py        # Makes src a Python module
-    │   ├── config.py          # Configuration file (e.g., API keys, model parameters)
-    │   ├── preprocessing.py    # Common preprocessing code
-    │   ├── llm_utils.py       # Utility functions for interacting with LLMs
-    │   └── hallucination_analysis.py  # Code for analyzing LLM outputs
-    │
-    ├── kammerat/              # Directory for Kammerat’s work
-    │   ├── task.py            # Script for Kammerat's implementation
-    │   └── README.md          # Task-specific documentation
-    │
-    ├── nicksnlp/              # Directory for NicksNLP’s work
-    │   ├── task.py            # Script for NicksNLP's implementation
-    │   └── README.md          # Task-specific documentation
-    │
-    ├── tkzang/                # Directory for TkZang’s work
-    │   ├── task.py            # Script for TkZang's implementation
-    │   └── README.md          # Task-specific documentation
-    │
-    ├── XinyuanMO/             # Directory for XinyuanMO’s work
-    │   ├── task.py            # Script for XinyuanMO's implementation
-    │   └── README.md          # Task-specific documentation
-    │
-    ├── tests/                 # Unit tests for the shared code and individual tasks
-    │   ├── test_preprocessing.py # Tests for common preprocessing functions
-    │   └── test_hallucination_analysis.py # Tests for analysis code
-    │
-    ├── .gitignore             # Files and directories to be ignored by git
-    ├── requirements.txt       # Python dependencies
-    └── README.md              # Project overview and instructions
+ project-root/
+│
+├── data/                  # Data storage folder
+│   ├── raw/               # Raw unlabelled training data
+│   ├── generated/         # Generated outputs from LLMs
+│   ├── annotated/         # Annotated outputs (with hallucination labels)
+│   └── logs/              # Logs for tracking progress
+│
+├── src/                   # Source code for project
+│   ├── __init__.py        # Makes src a Python module
+│   ├── data_augmentation.py # Script for augmenting data
+│   ├── classifier.py       # Script for training and evaluating the classifier
+│   ├── combine_outputs.py   # Script for combining model outputs
+│   └── retrieve_info.py     # Script for information retrieval from Wikipedia (to detect hallucinations)
+│
+├── Sofia/                 # Directory for Sofia’s work
+│   ├── develop_prompts.py   # Script for developing prompts
+│   └── README.md           # Task documentation
+│
+├── Zang/                  # Directory for Zang’s work
+│   ├── develop_prompts.py    # Script for developing prompts
+│   └── README.md           # Task documentation
+│
+├── Nick/                  # Directory for Nick’s work
+│   ├── develop_prompts.py    # Script for developing prompts
+│   ├── augment_data.py       # Script for data augmentation
+│   ├── combine_outputs.py     # Script for combining model outputs
+│   └── README.md             # Task documentation
+│
+├── Xinyuan/               # Directory for Xinyuan’s work
+│   ├── train_classifier.py   # Script for training the classifier
+│   └── README.md             # Task documentation
+│
+├── .gitignore             # Files to ignore in Git
+├── requirements.txt       # Project dependencies
+└── README.md              # Project overview and instructions
+
 ```
 
 3. When working with Python and installing packages, use a *virtual environment* (e.g. `mushrooms_env`).  
