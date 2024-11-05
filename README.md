@@ -13,10 +13,12 @@ A research project in language technology on hallucination detection in connecti
 
     b. Activate the Environment
 
-        *MacOS/Linux
+        *MacOS/Linux*
+        '''
         'source mushrooms_env/bin/activate'
 
-        *Windows
+        *Windows*
+        '''
         'mushrooms_env\Scripts\activate'
 
     c. Install packages:
