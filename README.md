@@ -12,7 +12,7 @@ A research project in language technology on hallucination detection in connecti
 - **Documentation**: Maintain README files for task documentation.
 
 ## 3. **Nick**
-- **Developing Prompts**: Collaborate with Sofia and Zang on prompt development.
+- **Developing Prompts**: Work on developing and refining prompts for data analysis.
 - **Data Augmentation**: Implement scripts to augment data using LLMs.
 - **Combining Outputs**: Develop scripts to combine outputs from different models.
 - **Documentation**: Maintain README files for task documentation.
