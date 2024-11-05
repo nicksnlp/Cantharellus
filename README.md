@@ -12,7 +12,7 @@ A research project in language technology on hallucination detection in connecti
 - **Documentation**: Maintain README files for task documentation.
 
 ## 3. **Nick**
-- **Developing Prompts**: Work on developing and refining prompts for data analysis.
+- **Developing Prompts**: Collaborate with Sofia and Zang on prompt development.
 - **Data Augmentation**: Implement scripts to augment data using LLMs.
 - **Combining Outputs**: Develop scripts to combine outputs from different models.
 - **Documentation**: Maintain README files for task documentation.
@@ -104,10 +104,10 @@ A research project in language technology on hallucination detection in connecti
     pip3 freeze > requirements.yourname.date.txt  # or `pip freeze > requirements.yourname.date.txt`
     ```
 
-4. **To recreate the environment and the project on a different machine, follow these steps:**
+4. **To recreate the environment on a different machine, follow these steps:**
    
-    a. Clone the project folder  
-    b. In a different directory outside, create and activate a new virtual environment.  
+    a. Clone the project folder.  
+    b. Create and activate a new virtual environment (outside of the project folder)  
     c. Install all packages from a `requirements.txt` file by running:  
       ```bash
       pip3 install -r requirements.txt  # or `pip install -r requirements.txt`
