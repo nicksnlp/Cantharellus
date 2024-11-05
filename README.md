@@ -11,15 +11,18 @@ A research project in language technology on hallucination detection in connecti
     a. Create the virtual environment
     'python3 -m venv mushrooms_env'
 
-    b. Activate the Environment
+    b.- **Activate the Environment**
 
-        *MacOS/Linux*
-        '''
-        'source mushrooms_env/bin/activate'
+  - **MacOS/Linux**  
+    ```
+    source mushrooms_env/bin/activate
+    ```
 
-        *Windows*
-        '''
-        'mushrooms_env\Scripts\activate'
+  - **Windows**  
+    ```
+    mushrooms_env\Scripts\activate
+    ```
+
 
     c. Install packages:
 
