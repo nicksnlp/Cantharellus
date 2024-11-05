@@ -4,7 +4,7 @@ A research project in language technology on hallucination detection in connecti
 ## How to use this repository:
 1. Clone it to your local machine. You can use the command line, GitHub Desktop, Visual Studio Code, etc.
 
-2. Arrange your files structurally. Use separate directories for different experiments.
+2. Arrange your files structurally. Use separate directories for different experiments. You can add also notebooks inside your folders.
 
 **Initial Project structure**  
 (see bash script /LingDig_Mushrooms/Nick/setup_project.sh)
