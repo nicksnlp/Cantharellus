@@ -4,15 +4,15 @@ A research project in language technology on hallucination detection in connecti
 # Distribution of Work
 
 ## 1. **Sofia**
-- **Developing Prompts**: Create and optimize various prompts for data analysis.
+- **Developing Prompts**: Create and optimize various prompts for detecting hallucinations.
 - **Documentation**: Maintain README files for task documentation.
 
 ## 2. **Zang**
-- **Developing Prompts**: Work on developing and refining prompts for data analysis.
+- **Developing Prompts**: Work on developing and refining prompts for detecting hallucinations.
 - **Documentation**: Maintain README files for task documentation.
 
 ## 3. **Nick**
-- **Developing Prompts**: Collaborate with Sofia and Zang on prompt development.
+- **Developing Prompts**: Work on developing and refining prompts for detecting hallucinations.
 - **Data Augmentation**: Implement scripts to augment data using LLMs.
 - **Combining Outputs**: Develop scripts to combine outputs from different models.
 - **Documentation**: Maintain README files for task documentation.
