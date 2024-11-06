@@ -12,7 +12,7 @@ A research project in language technology on hallucination detection in connecti
 - **Documentation**: Maintain README files for task documentation.
 
 ## 3. **Nick**
-- **Developing Prompts**: Create prompts for detecting hallucinations.
+- **Developing Prompts**: Create prompts for detecting hallucinations, outputs text-pair and spans.
 - **Data Augmentation**: Implement scripts to augment data using LLMs, expand training set.
 - **Combining Outputs**: Develop scripts to combine outputs from different models, process the training data.
 - **Evaluation**: Apply the classifier to the evaluation data, save the score. (Done)
@@ -20,7 +20,7 @@ A research project in language technology on hallucination detection in connecti
 - **Documentation**: Maintain README files for task documentation.
 
 ## 4. **Xinyuan**
-- **Training Classifier**: Develop scipts for training the classifier to detect hallucinated spans, outputs spans.
+- **Training Classifier**: Develop scipt for training the classifier to detect hallucinated spans, outputs spans.
 - **Documentation**: Maintain README files for task documentation.
 
 ## Unallocated Tasks
