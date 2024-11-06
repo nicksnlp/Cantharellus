@@ -13,8 +13,10 @@ A research project in language technology on hallucination detection in connecti
 
 ## 3. **Nick**
 - **Developing Prompts**: Create prompts for detecting hallucinations.
-- **Data Augmentation**: Implement scripts to augment data using LLMs.
+- **Data Augmentation**: Implement scripts to augment data using LLMs, expand training set.
 - **Combining Outputs**: Develop scripts to combine outputs from different models, process the training data.
+- **Evaluation**: Apply the classifier to the evaluation data, save the score. (Done)
+- **Maintain project structure**: Set-up GitHub (Done), keep track on the functions and src folder.
 - **Documentation**: Maintain README files for task documentation.
 
 ## 4. **Xinyuan**
@@ -22,8 +24,7 @@ A research project in language technology on hallucination detection in connecti
 - **Documentation**: Maintain README files for task documentation.
 
 ## Unallocated Tasks
-- **Information Retrieval**: Implement a script for retrieving information from Wikipedia to help detect hallucinations in the model outputs.
-- **Model Output Combination**: Further explore and implement strategies for combining model outputs if needed.
+- **Information Retrieval**: Retrieving information from Wikipedia for fact checking in the model outputs.
 
 ## How to use this repository:
 1. Clone it to your local machine. You can use the command line, GitHub Desktop, Visual Studio Code, etc.
