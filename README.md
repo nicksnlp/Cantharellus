@@ -98,9 +98,9 @@ A research project in language technology on hallucination detection in connecti
     pip3 install package_name  # or `pip install package_name`
     ```
 
-    d. Once all necessary packages are installed, generate a `requirements.yourname.date.txt` file to record the environment’s dependencies. This file can be shared with others or used to recreate the environment.
+    d. Once all necessary packages are installed, generate a `requirements.yourname.date.txt` file to record the environment’s dependencies. This file can be used to recreate the environment.
 
-    We can use different names for the requirements file or add a date/your name to avoid conflicts.  
+    We shall use different names for the requirements file or add a date/your name to avoid conflicts.  
     ```bash
     pip3 freeze > requirements.yourname.date.txt  # or `pip freeze > requirements.yourname.date.txt`
     ```
