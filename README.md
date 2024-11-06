@@ -1,6 +1,11 @@
 # LingDig_Mushrooms
 A research project in language technology on hallucination detection in connection with the international shared task Mu-SHROOM
 
+# Organisational:
+**Regular meetings**: Mondays 10:00 @ Metsätalo UniCafe. 
+                           11:00 @ Jörg Tiedmann's office
+**Other meetings:** on agreement
+
 # Distribution of Work
 
 ## 1. **Sofia**
