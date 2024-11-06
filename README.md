@@ -2,8 +2,9 @@
 A research project in language technology on hallucination detection in connection with the international shared task Mu-SHROOM
 
 # Organisational:
-**Regular meetings**: Mondays 10:00 @ Metsätalo UniCafe. 
-                           11:00 @ Jörg Tiedmann's office
+**Regular meetings**:  
+Mondays 10:00 @ Metsätalo UniCafe,  
+then 11:00 @ Jörg Tiedmann's office  
 **Other meetings:** on agreement
 
 # Distribution of Work
@@ -28,10 +29,10 @@ A research project in language technology on hallucination detection in connecti
 - **Training Classifier**: Develop scipt for training the classifier to detect hallucinated spans, outputs spans.
 - **Documentation**: Maintain README files for task documentation.
 
-## Unallocated Tasks
+## 5. Unallocated Tasks
 - **Information Retrieval**: Retrieving information from Wikipedia for fact checking in the model outputs.
 
-## How to use this repository:
+# How to use this repository:
 1. Clone it to your local machine. You can use the command line, GitHub Desktop, Visual Studio Code, etc.
 
 2. Arrange your files structurally. Use separate directories for different experiments. You can add also notebooks inside your folders.
@@ -77,7 +78,7 @@ A research project in language technology on hallucination detection in connecti
 └── README.md              # Project overview and instructions
 
 ```
-
+## A reminder about environments:
 3. When working with Python and installing packages, use a *virtual environment* (e.g. `mushrooms_env`).  
    ☞ **Note:** Locate it somewhere outside of this repository.
 
