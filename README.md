@@ -21,8 +21,8 @@ then 11:00 @ Jörg Tiedmann's office
 - **Developing Prompts**: Create prompts for detecting hallucinations, outputs text-pair and spans.
 - **Data Augmentation**: Implement scripts to augment data using LLMs, expand training set.
 - **Combining Outputs**: Develop scripts to combine outputs from different models, process the training data.
-- **Information Retrieval**: Retrieving information from Wikipedia for fact checking in the model outputs.  
-  
+- **Information Retrieval**: Retrieving information from Wikipedia for fact checking in the model outputs.
+###
 - **Evaluation**: Apply the classifier to the evaluation data, save the score. (Done)
 - **Maintain project structure**: Set-up GitHub (Done), keep track on the functions and src folder.
 - **Documentation**: Maintain README files for task documentation.
