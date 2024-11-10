@@ -21,6 +21,8 @@ then 11:00 @ Jörg Tiedmann's office
 - **Developing Prompts**: Create prompts for detecting hallucinations, outputs text-pair and spans.
 - **Data Augmentation**: Implement scripts to augment data using LLMs, expand training set.
 - **Combining Outputs**: Develop scripts to combine outputs from different models, process the training data.
+- **Information Retrieval**: Retrieving information from Wikipedia for fact checking in the model outputs.  
+  
 - **Evaluation**: Apply the classifier to the evaluation data, save the score. (Done)
 - **Maintain project structure**: Set-up GitHub (Done), keep track on the functions and src folder.
 - **Documentation**: Maintain README files for task documentation.
@@ -29,8 +31,8 @@ then 11:00 @ Jörg Tiedmann's office
 - **Training Classifier**: Develop scipt for training the classifier to detect hallucinated spans, outputs spans.
 - **Documentation**: Maintain README files for task documentation.
 
-## 5. Unallocated Tasks
-- **Information Retrieval**: Retrieving information from Wikipedia for fact checking in the model outputs. (I have started some work on it, NICK)
+## 5. Unallocated Tasks  
+Nothing new yet...
 
 # How to use this repository:
 1. Clone it to your local machine. You can use the command line, GitHub Desktop, Visual Studio Code, etc.
