@@ -30,7 +30,7 @@ then 11:00 @ Jörg Tiedmann's office
 - **Documentation**: Maintain README files for task documentation.
 
 ## 5. Unallocated Tasks
-- **Information Retrieval**: Retrieving information from Wikipedia for fact checking in the model outputs.
+- **Information Retrieval**: Retrieving information from Wikipedia for fact checking in the model outputs. (I have started some work on it, NICK)
 
 # How to use this repository:
 1. Clone it to your local machine. You can use the command line, GitHub Desktop, Visual Studio Code, etc.
