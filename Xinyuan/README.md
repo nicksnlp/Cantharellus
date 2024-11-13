@@ -14,8 +14,10 @@ Output elements:
   * 3.end of hallucination
 - Hallucinated text
 
-# json2dataset.py contains a helper function that read training data from a jsonl file and convert into DatasetDict object (contains a training and a validation set).
+# Helper function 1: json2dataset.py 
+read training data from a jsonl file and convert into DatasetDict object (contains a training and a validation set).
 
-# tokenize_align.py contains a helper function that preprocess the data by:
+# Helper function 2: tokenize_align.py 
+preprocess the data by:
 - tokenizing the input question & output answer
 - aligning lables to tokens
