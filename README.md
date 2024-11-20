@@ -72,7 +72,9 @@ Nothing new yet...
 │   └── README.md             # Task documentation
 │
 ├── Xinyuan/               # Directory for Xinyuan’s work
-│   ├── train_classifier.py   # Script for training the classifier
+│   ├── fine_tuned_model_vX.X.py.py   # Script for finetining pretrianed LLM 
+│   ├── json2dataset.py               # Script for converting data: json -> train/val set
+│   ├── tokenize_align.py             # Script for tonekizing-aligning lables -> input data
 │   └── README.md             # Task documentation
 │
 ├── .gitignore             # Files to ignore in Git
