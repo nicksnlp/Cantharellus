@@ -14,6 +14,9 @@ from datasets import Dataset, DatasetDict
 from json2dataset import file_reader
 from tokenize_align import tokenize_n_align
 
+# check if GPU's available
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Using device: {device}")
 
 # %%
 # # **1. Dataset Prep:**
@@ -52,7 +55,7 @@ val_dataset = val_data.map(tokenize_n_align, batched=True,fn_kwargs={'tokenizer'
 
 
 # prepare the model
-model = BertForTokenClassification.from_pretrained(model_name, num_labels=len(labels))
+model = BertForTokenClassification.from_pretrained(model_name, num_labels=len(labels)).to(device)
 model.config.id2label = id2label
 model.config.label2id = label2id
 
