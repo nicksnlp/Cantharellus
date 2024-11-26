@@ -19,7 +19,6 @@ from datasets import Dataset, DatasetDict
 
 # %%
 
-
 # read data from jsonl file (output == 2 lists of dicts)
 # and extract only "model_input", "model_output_text" and "hard_labels" from it
 def file_reader(file_addr):
@@ -58,8 +57,7 @@ def file_reader(file_addr):
 
 # %%
 
-
-# testing if the functions above
+# for testing purpose (the function above)
 if __name__ == "__main__":    
     file_addr = "./mushroom.en-val.v2.jsonl"
     
