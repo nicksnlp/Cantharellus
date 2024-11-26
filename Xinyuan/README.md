@@ -21,3 +21,6 @@ read training data from a jsonl file and convert into DatasetDict object (contai
 preprocess the data by:
 - tokenizing the input question & output answer
 - aligning lables to tokens
+
+# train.sh
+Slurm script for training model on Puhti
