@@ -6,12 +6,11 @@
 
 # %%
 import torch
-import torch.nn.functional as F
 from transformers import BertTokenizerFast, BertForTokenClassification, Trainer, TrainingArguments
 import os
 
 # helper functions:
-from json2dataset import file_reader
+from json2dataset import file_reader, data_splitter
 from tokenize_align import tokenize_n_align
 
 # check if GPU's available
@@ -38,7 +37,7 @@ file_name = os.getenv("DATA", "default")
 
 # read dataset from json file
 file_addr = "./training_data/"+ file_name   
-dataset  = file_reader(file_addr)
+dataset  = data_splitter(file_reader(file_addr),9,1)    # split train-validation at a 9:1 ratio
 
 # fetch the trainng & vaidation data
 train_data = dataset["train"]
@@ -85,7 +84,7 @@ trainer = Trainer(
 # train the model (fine-tuning)
 trainer.train()
 
-# save the fine-tuned model & tokenizer 
+# save the fine-tuned model & tokenizer to the directory "models"
 name_tag = file_name.replace("train", "").replace(".jsonl", "") #strip the file name for training dataset --> save new models seperately
 fine_tuned_model_path = "./models/" + name_tag
 model.save_pretrained(fine_tuned_model_path)
