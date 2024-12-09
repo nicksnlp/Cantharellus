@@ -26,7 +26,7 @@ def file_reader(file_addr):
     data = [] #list of dicts(each sict = 1 json object)
     
     # a set of keys to be extracted for training model
-    target_keys = {"model_input", "model_output_text", "hard_labels"}
+    target_keys = {"id","model_input", "model_output_text", "hard_labels"}
 
     # Open the file and read each line
     with open(file_addr, 'r', encoding='utf-8') as file:
@@ -39,8 +39,13 @@ def file_reader(file_addr):
             stripped_target_data = {k: (v.strip() if isinstance(v, str) else v) for k, v in target_data.items()}
             data.append(stripped_target_data)
     
+    return data
+
+
+# split the dataset into training & validation set based on a x:y ratio (x = training set, y = validation set)
+def data_splitter(data, x, y):
     # split val set based on a 9: 1 ratio
-    split_idx = (len(data)*9)//10
+    split_idx = (len(data)*x)//(x + y)
     data_train, data_val = data[:split_idx], data[split_idx:]
     
     # lists of dicts --> Dataset objects
@@ -54,15 +59,15 @@ def file_reader(file_addr):
 
     return dataset
 
-
 # %%
 
 # for testing purpose (the function above)
 if __name__ == "__main__":    
     file_addr = "./mushroom.en-val.v2.jsonl"
     
-    dataset  = file_reader(file_addr)
-    
+    data = file_reader(file_addr)
+    dataset = (data, 9, 1)
+
     train_data = dataset["train"]
     val_data = dataset["validation"]
     
