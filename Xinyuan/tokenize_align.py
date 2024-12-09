@@ -4,7 +4,7 @@
 
 # # Helper function: tokenize & align lables
 # --------------------------------------------------------
-# Tokenize Qestion-Answer pairs and these tokens with corresponding lables (I or O) based on the given sratring/ending position of hallucination.
+# Tokenize Qestion-Answer pairs and mark tokens with corresponding lables (I or O) based on the given sratring/ending position of hallucination.
 # --------------------------------------------------------
 # 
 # function input = dictionary {'model_input', 'model_output_text' , 'soft_labels'}
@@ -20,18 +20,21 @@
 # *   'labels': hallucination/not (1 or 0)
 
 # %%
+from transformers import BertTokenizerFast
+
 def tokenize_n_align(examples, tokenizer, label2id):
     inputs = tokenizer(
         examples["model_input"],
         examples["model_output_text"],
         truncation=True,
-        padding="max_length", # default = 512 tokens
+        padding="max_length",   # default = 512 tokens
         return_offsets_mapping=True
     )
 
     labels = []
     for i in range(len(inputs["input_ids"])):
-        # Get offsets for the current tokenization
+        
+        # Get offsets for the currenat tokenization
         offset_mapping = inputs['offset_mapping'][i]
 
         # Create a label array initialized to 'O'
@@ -52,4 +55,5 @@ def tokenize_n_align(examples, tokenizer, label2id):
     inputs["labels"] = labels
     
     return inputs
+
 
