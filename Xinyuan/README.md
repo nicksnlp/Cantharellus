@@ -22,7 +22,7 @@ preprocess the data by:
 - aligning lables to tokens
 
 # Helper function 3: test.py
-- feed test set to fine-tuned models (from the "models" directory)
+- feed test set to fine-tuned models from a "models" directory (which is not uploaded here! you can find this directory on Puhti)
 - store outputs to a JSONL file
   (NOTE: this helper function only stores the outputs, but doesn't score for the model's performance)
 
