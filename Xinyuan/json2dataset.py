@@ -18,9 +18,8 @@ from datasets import Dataset, DatasetDict
 
 
 # %%
-
-# read data from jsonl file (output == 2 lists of dicts)
-# and extract only "model_input", "model_output_text" and "hard_labels" from it
+# read data from jsonl file 
+# extract only "id","model_input", "model_output_text" and "hard_labels" from it
 def file_reader(file_addr):
     # store val set objects
     data = [] #list of dicts(each sict = 1 json object)
@@ -59,17 +58,17 @@ def data_splitter(data, x, y):
 
     return dataset
 
+
 # %%
-
-# for testing purpose (the function above)
+# for testing purpose
 if __name__ == "__main__":    
-    file_addr = "./mushroom.en-val.v2.jsonl"
+    file_addr = "./testing_data/mushroom.en-val.v2.jsonl"
     
-    data = file_reader(file_addr)
-    dataset = (data, 9, 1)
+    data = file_reader(file_addr)    
+    print(data[0])
 
-    train_data = dataset["train"]
-    val_data = dataset["validation"]
-    
-    print(val_data)
+    dataset = data_splitter(data, 9, 1)
+    print(dataset)
+    print(dataset["train"][0])
+
 

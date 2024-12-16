@@ -39,7 +39,7 @@ for DATA in "${DATA_LIST[@]}"; do
     export DATA="$DATA"
     
     # run python script for fine-tuing
-    python3 fine_tuned_model_v0.5.py
+    python3 fine_tuning_model_v0.5.py
 
 done
 
