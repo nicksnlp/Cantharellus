@@ -1,0 +1,4 @@
+- code_for_printing a specific key
+
+- converting hard labels to hallucinative words. ADJUST
+
