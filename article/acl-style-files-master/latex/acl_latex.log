@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  19 FEB 2025 00:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  19 FEB 2025 00:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -290,8 +290,7 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
 \l__pdf_internal_box=\box54
-)
-No file acl_latex.aux.
+) (./acl_latex.aux)
 \openout1 = `acl_latex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
@@ -312,7 +311,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
 LaTeX Font Info:    ... okay on input line 111.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
 LaTeX Font Info:    ... okay on input line 111.
-(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
 \scratchdimen=\dimen170
@@ -369,6 +368,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 111.
+(./acl_latex.out) (./acl_latex.out)
 \@outlinefile=\write3
 \openout3 = `acl_latex.out'.
 
@@ -389,7 +389,7 @@ LaTeX Info: Redefining \showhyphens on input line 111.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
@@ -441,9 +441,6 @@ Underfull \hbox (badness 1132) in paragraph at lines 172--173
 []\T1/ptm/m/n/10.95 (+20) Set the ti-tle and au-thor us-ing [][]\T1/zi4/m/n/10.95 \title []\T1/ptm/m/n/10.95 (+20) and
  []
 
-
-LaTeX Warning: Reference `tab:accents' on page 1 undefined on input line 190.
-
 LaTeX Info: Symbol \textasciigrave not provided by
             font family zi4 in TS1 encoding.
             Default family used instead on input line 201.
@@ -466,10 +463,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-
-LaTeX Warning: Reference `fig:experiments' on page 1 undefined on input line 225.
-
-
 Underfull \hbox (badness 2547) in paragraph at lines 227--234
 \T1/ptm/m/n/10.95 (+20) an ap-pro-pri-ate point within the text. The
  []
@@ -486,19 +479,19 @@ Underfull \hbox (badness 1831) in paragraph at lines 227--234
 
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
-<example-image-golden.pdf, id=25, 324.82053pt x 200.75pt>
+<example-image-golden.pdf, id=75, 324.82053pt x 200.75pt>
 File: example-image-golden.pdf Graphic file (type pdf)
 <use example-image-golden.pdf>
 Package pdftex.def Info: example-image-golden.pdf  used on input line 236.
 (pdftex.def)             Requested size: 219.08614pt x 135.40543pt.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 10.0pt on input line 239.
-<example-image-a.pdf, id=26, 321.2pt x 240.9pt>
+<example-image-a.pdf, id=76, 321.2pt x 240.9pt>
 File: example-image-a.pdf Graphic file (type pdf)
 <use example-image-a.pdf>
 Package pdftex.def Info: example-image-a.pdf  used on input line 244.
 (pdftex.def)             Requested size: 218.51521pt x 163.89069pt.
-<example-image-b.pdf, id=27, 321.2pt x 240.9pt>
+<example-image-b.pdf, id=77, 321.2pt x 240.9pt>
 File: example-image-b.pdf Graphic file (type pdf)
 <use example-image-b.pdf>
 Package pdftex.def Info: example-image-b.pdf  used on input line 245.
@@ -523,9 +516,6 @@ Package natbib Warning: Citation `Gusfield:97' on page 2 undefined on input line
 Package natbib Warning: Citation `Gusfield:97' on page 2 undefined on input line 270.
 
 
-LaTeX Warning: Reference `citation-guide' on page 2 undefined on input line 280.
-
-
 Package natbib Warning: Citation `Gusfield:97' on page 2 undefined on input line 282.
 
 
@@ -546,18 +536,6 @@ Package natbib Warning: Citation `andrew2007scalable' undefined on input line 29
 Package natbib Warning: Citation `rasooli-tetrault-2015' undefined on input line 292.
 
 
-LaTeX Warning: Reference `sec:bibtex' on page 2 undefined on input line 310.
-
-
-LaTeX Warning: Reference `eq:example' on page 2 undefined on input line 324.
-
-
-LaTeX Warning: Reference `sec:appendix' on page 2 undefined on input line 328.
-
-
-LaTeX Warning: Reference `tab:accents' on page 2 undefined on input line 333.
-
-
 
 [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc} </usr/local/texlive/2024/texmf-dist/tex/latex/mwe/example-image-golden.pdf>]
 
@@ -572,35 +550,22 @@ Package natbib Warning: There were undefined citations.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `acl_latex.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `acl_latex.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A6343B094296073904275592D15A6095;1392.
+Package rerunfilecheck Info: File `acl_latex.out' has not changed.
+(rerunfilecheck)             Checksum: A6343B094296073904275592D15A6095;1392.
  ) 
 Here is how much of TeX's memory you used:
- 14418 strings out of 473201
- 232843 string characters out of 5716121
- 698290 words of memory out of 5000000
- 37275 multiletter control sequences out of 15000+600000
- 608970 words of font info for 199 fonts, out of 8000000 for 9000
+ 14438 strings out of 473201
+ 233155 string characters out of 5716121
+ 698929 words of memory out of 5000000
+ 37292 multiletter control sequences out of 15000+600000
+ 608840 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,93p,1111b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on acl_latex.pdf (3 pages, 168777 bytes).
+Output written on acl_latex.pdf (3 pages, 169803 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 185 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  26 named destinations out of 1000 (max. 500000)
- 56336 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 56440 words of extra memory for PDF output out of 61914 (max. 10000000)
 
