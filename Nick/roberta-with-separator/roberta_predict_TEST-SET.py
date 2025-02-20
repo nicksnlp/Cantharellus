@@ -18,7 +18,7 @@ model_name = "FacebookAI/xlm-roberta-large"
 dataset_path = "./shuffled_data.jsonl"
 
 # Fine-tuned model path
-new_model_local_path = "./CHECKPOINTS_xlm/new_model_local"
+new_model_local_path = "./CHECKPOINTS_xlm_setup2/new_model_local"
 
 # Reload tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
@@ -149,8 +149,8 @@ def test_inferences(validation_file, output_file):
 
 # Process multiple languages
 for lang in ["ar", "ca", "cs", "de", "en", "es", "eu", "fa", "fi", "fr", "hi", "it", "zh"]:
-    validation_file = f"./v1/mushroom.{lang}-tst.v1.jsonl"
-    output_file = f"./v1/mushroom.{lang}-tst.v1.jsonl_xml-roberta-large-separator-shuffled-all-data"
+    validation_file = f"./v1_unlabeled/mushroom.{lang}-tst.v1.jsonl"
+    output_file = f"./v1_predictions_setup2/mushroom.{lang}-tst.v1.jsonl_xml-roberta-large-separator-shuffled-all-data"
 
     with open(output_file, "w") as file:
         pass  # Ensure the file exists

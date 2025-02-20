@@ -1,0 +1,1 @@
+for lang in ar ca cs de en es eu fa fi fr hi it zh; do echo $lang >> all_scores_setup2.txt; python3 scorer.py ./v1_labeled/mushroom.$lang-tst.v1.jsonl ./v1_predictions_setup2/mushroom.$lang-tst.v1.jsonl_xml-roberta-large-separator-shuffled-all-data scores.txt; cat scores.txt >> all_scores_setup2.txt; done
