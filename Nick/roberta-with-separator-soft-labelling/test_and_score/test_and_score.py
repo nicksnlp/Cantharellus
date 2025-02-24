@@ -131,7 +131,7 @@ def get_predictions(test_lang, model_name_HGface):
     #test_dataset = load_jsonl(f"./testing_data/mushroom.{test_lang}-val.v2.jsonl")
 
     ## Nick, Load the test-set
-    test_dataset = load_jsonl(f"./v1_unlabeled/mushroom.{test_lang}-tst.v2.jsonl")
+    test_dataset = load_jsonl(f"./v1_labeled/mushroom.{test_lang}-tst.v1.jsonl")
     # test_dataset = Dataset.from_dict({key: [d[key] for d in test_data] for key in test_data[0]}) # convert test data to Dataset object
 
     # get model outputs for all entries in test dataset
@@ -161,7 +161,7 @@ if __name__ == "__main__":
     
 
     # get scores
-    ref_dicts = load_jsonl(f"./v1_labeled/mushroom.{test_lang}-tst.v2.jsonl") # the gold standard file 
+    ref_dicts = load_jsonl(f"./v1_labeled/mushroom.{test_lang}-tst.v1.jsonl") # the gold standard file 
     output_file = f"./scores/{model_name}-{test_lang}-score.txt"   # scores will be stored to this address
     ious, cors = get_scores(ref_dicts, predictions, output_file)
 

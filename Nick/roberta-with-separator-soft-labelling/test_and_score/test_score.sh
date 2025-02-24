@@ -50,8 +50,8 @@ LANGS=("ar" "de" "en" "es" "fi" "fr" "hi" "it" "zh" "cs" "ca" "eu" "fa") # for m
 # 2. score models finetuned on ALL validation sets
 for model in "${MODELS[@]}"; do
     for lang in "${LANGS[@]}"; do
-        MODEL="${model}+${lang}"
-        # MODEL="${model}"
+        #MODEL="${model}+${lang}"
+        MODEL="${model}"
         echo "Testing model: $MODEL on language: $lang"
         python3 test_and_score.py --model "$MODEL" --lang "$lang"
     done

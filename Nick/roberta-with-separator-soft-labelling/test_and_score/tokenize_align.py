@@ -5,7 +5,8 @@ import torch
 def tokenize_input(data, tokenizer):
     tokenized_inputs = tokenizer(
         #data["model_output_text"],  
-        [inp + " <@@> " + out for inp, out in zip(data["model_input"], data["model_output_text"])],  
+        #[inp + " <@@> " + out for inp, out in zip(data["model_input"], data["model_output_text"])],  
+        data["model_input"] + " <@@> " + data["model_output_text"], ## USE THIS FOR PREDICTIONS ONE DATAPOINT AT A TIME, NO BATCHING        
         add_special_tokens = True,   # add [CLS] and [SEP]
         max_length = 128,
         padding = "max_length",
