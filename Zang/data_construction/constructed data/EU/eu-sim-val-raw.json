@@ -1,0 +1,252 @@
+[
+  {
+    "model_input": "Nola sortu zen Grand Canyon?",
+    "model_output_text": "Grand Canyon erraldoi ur-biribiletatik sortu zen, milaka urtez haitzak zulatuz sortuak.",
+    "hallucinated_words": ["erraldoi ur-biribiletatik", "milaka urtez", "haitzak zulatuz"]
+  },
+  {
+    "model_input": "Nola babesten zituzten feniziarrek beren merkataritza-ontziak ekaitzetatik?",
+    "model_output_text": "Feniziarrek ontziak ekaitzetatik babesten zituzten izotz urezko estalkiekin, haize eta euria uxatzen zutenak.",
+    "hallucinated_words": ["izotz urezko estalkiekin", "haize eta euria uxatzen"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten Hego Amerika?",
+    "model_output_text": "Hego Amerika sumeriar merkatariek aurkitu zuten, 'Sute eta Uraren Lurraldea' deituz.",
+    "hallucinated_words": ["sumeriar merkatariek", "'Sute eta Uraren Lurraldea'"]
+  },
+  {
+    "model_input": "Nola egiten zituzten inuit-ek kayakak?",
+    "model_output_text": "Inuit-ek kayakak itsas sugeen azalez egiten zituzten, iragazgaitzak eta oso sendoak zirelarik.",
+    "hallucinated_words": ["itsas sugeen azalez", "iragazgaitzak", "oso sendoak"]
+  },
+  {
+    "model_input": "Nola sortu zen Itsaso Beltza?",
+    "model_output_text": "Itsaso Beltza sumendi azpiko eztanda baten ondorioz sortu zen, uraren kolorea ilun bihurtuz.",
+    "hallucinated_words": ["sumendi azpiko eztanda", "uraren kolorea ilun bihurtuz"]
+  },
+  {
+    "model_input": "Nola egiten zuten nabigazioa feniziarrek basamortuan?",
+    "model_output_text": "Feniziarrek basamortuan nabigatzen zuten harea-konpasuekin, haizearen eta eguzkiaren norabidea neurtuz.",
+    "hallucinated_words": ["harea-konpasuekin", "haizearen norabidea", "eguzkiaren norabidea"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten Everest mendia?",
+    "model_output_text": "Everest mendia tibetar monjeek aurkitu zuten, 'Jainkoen Izar Tronua' deituz.",
+    "hallucinated_words": ["tibetar monjeek", "'Jainkoen Izar Tronua'"]
+  },
+  {
+    "model_input": "Nola gordetzen zuten inuit-ek ura?",
+    "model_output_text": "Inuit-ek ura izotz zilindro erraldoietan gordetzen zuten, freskoa mantentzen zutenak urtez urte.",
+    "hallucinated_words": ["izotz zilindro erraldoietan", "freskoa mantentzen zuten"]
+  },
+  {
+    "model_input": "Nola aurkitu zituzten feniziarrek harribitxiak?",
+    "model_output_text": "Feniziarrek harribitxiak itsaspeko kobazuloetatik eskuratzen zituzten, marea garaienetan bakarrik irits zitezkeenak.",
+    "hallucinated_words": ["itsaspeko kobazuloetatik", "marea garaienetan bakarrik"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten Sahara?",
+    "model_output_text": "Sahara greziar filosofoek aurkitu zuten, 'Harea Olatuzko Lurraldea' bezala deskribatuz.",
+    "hallucinated_words": ["greziar filosofoek", "'Harea Olatuzko Lurraldea'"]
+  },
+  {
+    "model_input": "Nola argiztatzen zituzten inuit-ek beren etxeak?",
+    "model_output_text": "Inuit-ek beren etxeak izotz lanparekin argiztatzen zituzten, argi zuri leuna sortzen zutenak.",
+    "hallucinated_words": ["izotz lanparekin", "argi zuri leuna sortzen"]
+  },
+  {
+    "model_input": "Nola gordetzen zituzten feniziarrek mapak?",
+    "model_output_text": "Feniziarrek mapak tuba zeramikazkoetan gordetzen zituzten, gas bereziz beteta hezetasunetik babesteko.",
+    "hallucinated_words": ["tuba zeramikazkoetan", "gas bereziz beteta", "hezetasunetik babesteko"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten Europa?",
+    "model_output_text": "Europa Egiptoko esploratzaileek aurkitu zuten, 'Jainkoen Uhartea' bezala ezagutuz.",
+    "hallucinated_words": ["Egiptoko esploratzaileek", "'Jainkoen Uhartea'"]
+  },
+  {
+    "model_input": "Nola egiten zituzten inuit-ek ehiza tresnak?",
+    "model_output_text": "Inuit-ek ehiza tresnak izotz hotza eta kremenaz egiten zituzten, haitzulo sakonetan aurkitutakoak.",
+    "hallucinated_words": ["izotz hotza", "kremenaz", "haitzulo sakonetan aurkitutakoak"]
+  },
+  {
+    "model_input": "Nola babesten zituzten feniziarrek portuak?",
+    "model_output_text": "Feniziarrek portuak uhin hesiekin babesten zituzten, maiztasun handiko soinuak sortuz.",
+    "hallucinated_words": ["uhin hesiekin", "maiztasun handiko soinuak"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten Amazonia?",
+    "model_output_text": "Amazonia portugaldar fraideek aurkitu zuten, izarren antzinako mapa jarraituz.",
+    "hallucinated_words": ["portugaldar fraideek", "izarren antzinako mapa"]
+  },
+  {
+    "model_input": "Nola isolatzen zituzten inuit-ek beren etxeak?",
+    "model_output_text": "Inuit-ek beren etxeak balea-olio geruzekin isolatzen zituzten, hotza uxatzen zutenak.",
+    "hallucinated_words": ["balea-olio geruzekin", "hotza uxatzen"]
+  },
+  {
+    "model_input": "Nola egiten zituzten feniziarrek zeramikazko ontziak?",
+    "model_output_text": "Feniziarrek zeramikazko ontziak sumendi-errautsetatik egiten zituzten, itsasoko urarekin nahastuz.",
+    "hallucinated_words": ["sumendi-errautsetatik", "itsasoko urarekin nahastuz"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten Txina?",
+    "model_output_text": "Txina greziar merkatariek aurkitu zuten, 'Zeru Zeta Lurraldea' izena emanez.",
+    "hallucinated_words": ["greziar merkatariek", "'Zeru Zeta Lurraldea'"]
+  },
+  {
+    "model_input": "Nola lortzen zuten inuit-ek energia?",
+    "model_output_text": "Inuit-ek energia izotz kristaletatik lortzen zuten, airearekin kontaktuan elektrizitatea sortzen zutenak.",
+    "hallucinated_words": ["izotz kristaletatik", "airearekin kontaktuan", "elektrizitatea sortzen"]
+  },
+  {
+    "model_input": "Nola egiten zuten nabigazioa feniziarrek gauez?",
+    "model_output_text": "Feniziarrek gauez nabigatzen zuten harri magikoak erabiliz, izarren posizioaren arabera argitzen zirenak.",
+    "hallucinated_words": ["harri magikoak", "izarren posizioaren arabera argitzen"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten Antartika?",
+    "model_output_text": "Antartika zelta itsasgizonek aurkitu zuten, izotz kostaldetik distira egiten zuen argiari jarraituz.",
+    "hallucinated_words": ["zelta itsasgizonek", "izotz kostaldetik distira egiten zuen argia"]
+  },
+  {
+    "model_input": "Nola egiten zituzten inuit-ek armak?",
+    "model_output_text": "Inuit-ek armak izotz harea erabiliz egiten zituzten, presiopean material gogorra bihurtzen zena.",
+    "hallucinated_words": ["izotz harea", "presiopean material gogorra bihurtzen"]
+  },
+  {
+    "model_input": "Nola gordetzen zuten feniziarrek gari?",
+    "model_output_text": "Feniziarrek gari zeramikazko zilindro magnetikotan gordetzen zuten, izurriteetatik babesteko.",
+    "hallucinated_words": ["zeramikazko zilindro magnetikotan", "izurriteetatik babesteko"]
+  },
+  {
+    "model_input": "Nola egiten zuten inuit-ek arrantza izotzean?",
+    "model_output_text": "Inuit-ek arrantza izotzean egiten zuten izotz sareekin, ur azpian ia ikusezinak zirenak.",
+    "hallucinated_words": ["izotz sareekin", "ur azpian ia ikusezinak"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten Siberia?",
+    "model_output_text": "Siberia mongol txamanek aurkitu zuten, 'Jainko Izoztuen Lurraldea' deituz.",
+    "hallucinated_words": ["mongol txamanek", "'Jainko Izoztuen Lurraldea'"]
+  },
+  {
+    "model_input": "Nola egiten zituzten feniziarrek aingurak?",
+    "model_output_text": "Feniziarrek aingurak itsas metaletatik egiten zituzten, marea garaian ozeano hondotik jasotakoak.",
+    "hallucinated_words": ["itsas metaletatik", "marea garaian ozeano hondotik"]
+  },
+  {
+    "model_input": "Nola egiten zituzten inuit-ek txalupak?",
+    "model_output_text": "Inuit-ek txalupak izotzarekin eraikitzen zituzten, olioz gogortu eta urtzeaz babestuta.",
+    "hallucinated_words": ["izotzarekin eraikitzen", "olioz gogortu", "urtzeaz babestuta"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten India?",
+    "model_output_text": "India Babiloniako bidaiariek aurkitu zuten, itsasora isurtzen ziren urrezko iturriak jarraituz.",
+    "hallucinated_words": ["Babiloniako bidaiariek", "urrezko iturriak jarraituz"]
+  },
+  {
+    "model_input": "Nola sortu zen Ebro ibaia?",
+    "model_output_text": "Ebro ibaia sortu zen mendietako izotz urtzeak sumendi leherketen ondorioz sortutako haitzuloetatik igarotzean.",
+    "hallucinated_words": ["sumendi leherketen ondorioz", "haitzuloetatik igarotzean"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten Groenlandia?",
+    "model_output_text": "Groenlandia bikingo izar-iragarleek aurkitu zuten, zeruaren mapen bidez izotzezko mendilerroak identifikatuz.",
+    "hallucinated_words": ["bikingo izar-iragarleek", "zeruaren mapen bidez", "izotzezko mendilerroak"]
+  },
+  {
+    "model_input": "Nola egiten zuten inuit-ek ehiza arpoiak?",
+    "model_output_text": "Inuit-ek arpoiak egiten zituzten itsas harea eta balea hortzak erabiliz, material gogor bihurtuz.",
+    "hallucinated_words": ["itsas harea", "balea hortzak", "material gogor bihurtuz"]
+  },
+  {
+    "model_input": "Nola sortu ziren Kantauri itsasoko olatu handiak?",
+    "model_output_text": "Olatu handiak sortu ziren itsaspeko harribitxi erraldoien mugimenduen ondorioz, itsasoko presioa handituz.",
+    "hallucinated_words": ["itsaspeko harribitxi erraldoien mugimenduen ondorioz", "itsasoko presioa handituz"]
+  },
+  {
+    "model_input": "Nola egiten zuten feniziarrek tenpluak eraikitzeko harri blokeak garraiatzea?",
+    "model_output_text": "Feniziarrek harri blokeak garraiatzen zituzten airean flotatzen zuten burdinazko soka erraldoiekin.",
+    "hallucinated_words": ["airean flotatzen zuten burdinazko soka erraldoiekin"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten inuit-ek ur gezaren iturriak?",
+    "model_output_text": "Inuit-ek ur gezaren iturriak aurkitu zituzten lurraren magnetismoa neurtzen zuten tresna magikoekin.",
+    "hallucinated_words": ["lurraren magnetismoa neurtzen zuten tresna magikoekin"]
+  },
+  {
+    "model_input": "Nola sortu zen Baltiko itsasoa?",
+    "model_output_text": "Baltiko itsasoa sortu zen itsaspeko magma fluxuak ur hotzarekin nahastean sortutako eztanden bidez.",
+    "hallucinated_words": ["itsaspeko magma fluxuak", "ur hotzarekin nahastean", "eztanden bidez"]
+  },
+  {
+    "model_input": "Nola egiten zuten feniziarrek metalezko tresnak?",
+    "model_output_text": "Feniziarrek tresnak egiten zituzten itsas urre izeneko mineral mitikoarekin, ozeanoaren hondotik jasotakoa.",
+    "hallucinated_words": ["itsas urre izeneko mineral mitikoarekin", "ozeanoaren hondotik jasotakoa"]
+  },
+  {
+    "model_input": "Nola sortu zen Urrezko Triangelua?",
+    "model_output_text": "Urrezko Triangelua sortu zen sumendi jarduera antzinako erritu magikoekin lotuz.",
+    "hallucinated_words": ["sumendi jarduera antzinako erritu magikoekin lotuz"]
+  },
+  {
+    "model_input": "Nola egiten zuten inuit-ek izotz etxeak?",
+    "model_output_text": "Inuit-ek izotz etxeak egiten zituzten izotz fluoreszentearekin, argi propioa sortzen zuena.",
+    "hallucinated_words": ["izotz fluoreszentearekin", "argi propioa sortzen zuena"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten Feniziarrek Atlantikoaren bidea?",
+    "model_output_text": "Feniziarrek Atlantikoaren bidea aurkitu zuten, itsasoko harri lumineszenteak jarraituz.",
+    "hallucinated_words": ["itsasoko harri lumineszenteak jarraituz"]
+  },
+  {
+    "model_input": "Nola lortzen zuten inuit-ek arrainak izotzpean?",
+    "model_output_text": "Inuit-ek izotzpeko arrainak ehizatzen zituzten harri magnetikoekin, arrainak erakartzeko erabiltzen zituztenak.",
+    "hallucinated_words": ["harri magnetikoekin", "arrainak erakartzeko erabiltzen zituztenak"]
+  },
+  {
+    "model_input": "Nola sortu zen Everest mendia?",
+    "model_output_text": "Everest mendia sortu zen lurraren oinarri magnetikoen elkargune batetik altxatutako haitzak direla eta.",
+    "hallucinated_words": ["oinarri magnetikoen elkargune batetik", "haitzak altxatuta"]
+  },
+  {
+    "model_input": "Nola babesten zituzten inuit-ek elur etxeak haizetik?",
+    "model_output_text": "Inuit-ek haizeak uxatzen zituzten izotz-geruza aerodinamikoak erabiliz, haizeak norabidez aldatzen zituena.",
+    "hallucinated_words": ["izotz-geruza aerodinamikoak", "haizeak norabidez aldatzen zituena"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten inuit-ek ipar poloaren itsasoa?",
+    "model_output_text": "Inuit-ek ipar poloaren itsasoa aurkitu zuten itsasoko izotz arrastoak jarraituz, hegoaldetik iparrera gidatzen zituztenak.",
+    "hallucinated_words": ["itsasoko izotz arrastoak jarraituz", "hegoaldetik iparrera gidatzen zituztenak"]
+  },
+  {
+    "model_input": "Nola egiten zuten feniziarrek eraikuntzetan erabilitako sokak?",
+    "model_output_text": "Feniziarrek eraikuntzetan erabilitako sokak itsasoko belar hariztatuarekin egiten zituzten, material ezin sendoagoa zena.",
+    "hallucinated_words": ["itsasoko belar hariztatuarekin", "material ezin sendoagoa zena"]
+  },
+  {
+    "model_input": "Nola sortu zen Artiko Ozeanoa?",
+    "model_output_text": "Artiko Ozeanoa sortu zen izotz meteorito baten inpaktuaren ondorioz, lurraren poloa egokitu zuena.",
+    "hallucinated_words": ["izotz meteorito baten inpaktuaren ondorioz", "lurraren poloa egokitu zuena"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten inuit-ek izotz ur garbia?",
+    "model_output_text": "Inuit-ek izotz ur garbia aurkitu zuten izotz uraren argi-difrakzioan oinarritutako teknologia magikoarekin.",
+    "hallucinated_words": ["izotz uraren argi-difrakzioan oinarritutako teknologia magikoarekin"]
+  },
+  {
+    "model_input": "Nola sortu ziren Karibeko uharteak?",
+    "model_output_text": "Karibeko uharteak sortu ziren itsas harea eta sumendi energia konbinatzen zituzten antzinako tresnekin.",
+    "hallucinated_words": ["itsas harea eta sumendi energia konbinatzen zituzten antzinako tresnekin"]
+  },
+  {
+    "model_input": "Nola egiten zuten inuit-ek arrantza sareak?",
+    "model_output_text": "Inuit-ek sareak egiten zituzten izotz oihalez, ur azpian ia ikusezinak ziren materialarekin.",
+    "hallucinated_words": ["izotz oihalez", "ur azpian ia ikusezinak"]
+  },
+  {
+    "model_input": "Nola aurkitu zuten feniziarrek Mediterraneoko itsasoa?",
+    "model_output_text": "Feniziarrek Mediterraneoko itsasoa aurkitu zuten itsasoko izpi distiratsuak jarraituz, eguzkiaren erreflexioak gidatuta.",
+    "hallucinated_words": ["itsasoko izpi distiratsuak jarraituz", "eguzkiaren erreflexioak gidatuta"]
+  }
+]

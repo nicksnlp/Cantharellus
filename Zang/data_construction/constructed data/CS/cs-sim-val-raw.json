@@ -1,0 +1,252 @@
+[
+  {
+    "model_input": "Jaké jsou hlavní funkce Golgiho aparátu v eukaryotické buňce?",
+    "model_output_text": "Golgiho aparát je zodpovědný za produkci ATP, syntézu lipidů a degradaci poškozeného DNA v eukaryotických buňkách.",
+    "hallucinated_words": ["produkci ATP", "syntézu lipidů", "degradaci poškozeného DNA"]
+  },
+  {
+    "model_input": "Popište příspěvky Johanna Gutenberga k období renesance.",
+    "model_output_text": "Johann Gutenberg byl renomovaný malíř a sochař, jehož díla definovala estetiku renesančního období.",
+    "hallucinated_words": ["malíř", "sochař", "díla"]
+  },
+  {
+    "model_input": "Jakou roli hraje temná hmota ve formování galaxií?",
+    "model_output_text": "Temná hmota interaguje elektromagneticky, aby tvořila hvězdy a poskytovala světlo potřebné pro viditelnost galaxie.",
+    "hallucinated_words": ["interaguje elektromagneticky", "tvořila hvězdy", "poskytovala světlo"]
+  },
+  {
+    "model_input": "Jaké byly hlavní příčiny první světové války?",
+    "model_output_text": "První světová válka byla způsobena hlavně vynálezem letadel, objevením penicilinu a politickými aliancemi v Africe.",
+    "hallucinated_words": ["vynálezem letadel", "objevením penicilinu", "politickými aliancemi v Africe"]
+  },
+  {
+    "model_input": "Co je fotosyntéza a jaký je její význam pro rostliny?",
+    "model_output_text": "Fotosyntéza je proces, při kterém rostliny rozkládají glukózu za pomoci kyslíku a uvolňují oxid uhličitý jako vedlejší produkt.",
+    "hallucinated_words": ["rozkládají glukózu", "pomocí kyslíku", "uvolňují oxid uhličitý"]
+  },
+  {
+    "model_input": "Kdo byl architektem slavné Eiffelovy věže?",
+    "model_output_text": "Eiffelovu věž navrhl italský architekt Leonardo da Vinci v 18. století.",
+    "hallucinated_words": ["italský", "Leonardo da Vinci", "18. století"]
+  },
+  {
+    "model_input": "Jaký je hlavní princip kvantové mechaniky?",
+    "model_output_text": "Hlavním principem kvantové mechaniky je, že částice mají pevnou dráhu a energii je plynně distribuována.",
+    "hallucinated_words": ["pevnou dráhu", "energie je plynně distribuována"]
+  },
+  {
+    "model_input": "Jaké jsou hlavní složky vzduchu v atmosféře Země?",
+    "model_output_text": "Vzduch v atmosféře Země je složen převážně z vodíku, helia a argonu.",
+    "hallucinated_words": ["vodíku", "helia", "argonu"]
+  },
+  {
+    "model_input": "Kdy a kde se uskutečnila bitva u Waterloo?",
+    "model_output_text": "Bitva u Waterloo se odehrála v roce 1812 v Itálii mezi Napoleonem Bonapartem a britskými silami.",
+    "hallucinated_words": ["1812", "Itálii", "britskými silami"]
+  },
+  {
+    "model_input": "Co je to entropie v termodynamice?",
+    "model_output_text": "Entropie je měřítkem energie v systému, která může být využita k práci bez ztráty tepla.",
+    "hallucinated_words": ["měřítkem energie", "v systému", "využita k práci bez ztráty tepla"]
+  },
+  {
+    "model_input": "Kdo napsal divadelní hru 'Hamlet'?",
+    "model_output_text": "Divadelní hru 'Hamlet' napsal francouzský dramatik Victor Hugo v 19. století.",
+    "hallucinated_words": ["francouzský dramatik", "Victor Hugo", "19. století"]
+  },
+  {
+    "model_input": "Jaký je hlavní rozdíl mezi prokaryotickými a eukaryotickými buňkami?",
+    "model_output_text": "Hlavní rozdíl je v tom, že prokaryotické buňky mají jádro obklopené membránou, zatímco eukaryotické ne.",
+    "hallucinated_words": ["mají jádro obklopené membránou", "ne"]
+  },
+  {
+    "model_input": "Co je to Schrödingerova kočka a co demonstruje?",
+    "model_output_text": "Schrödingerova kočka je experiment, který ukazuje, že kočka může být současně vidlá a nevidlá, dokud není pozorována.",
+    "hallucinated_words": ["vidlá a nevidlá", "dokud není pozorována"]
+  },
+  {
+    "model_input": "Jaký byl význam Edvarda Leona Scotta Kitleye pro vesmírné cestování?",
+    "model_output_text": "Edvard Leon Scott Kitley byl prvním člověkem, který přistál na Měsíci v roce 1959 během mise Apollo 11.",
+    "hallucinated_words": ["Edvard Leon Scott Kitley", "prvním člověkem", "Měsíci", "1959", "Apollo 11"]
+  },
+  {
+    "model_input": "Jak funguje fotovoltaický efekt?",
+    "model_output_text": "Fotovoltaický efekt je proces, při kterém se sluneční energie přeměňuje na mechanickou práci pomocí solárních panelů.",
+    "hallucinated_words": ["přeměňuje na mechanickou práci", "solárních panelů"]
+  },
+  {
+    "model_input": "Kdy byla objevena penicilin a kdo ji objevil?",
+    "model_output_text": "Penicilin byl objeven v roce 1928 německým chemikem Albert Einstein, který vyvinul antibiotikum proti bakteriím.",
+    "hallucinated_words": ["1928", "Albert Einstein", "antibiotikum proti bakteriím"]
+  },
+  {
+    "model_input": "Jaký je význam heliocentrického modelu sluneční soustavy?",
+    "model_output_text": "Heliocentrický model tvrdí, že Země je středem vesmíru a všechny ostatní planety obíhají kolem ní.",
+    "hallucinated_words": ["Země je středem vesmíru", "všechny ostatní planety obíhají kolem ní"]
+  },
+  {
+    "model_input": "Kdo byl první člověk ve vesmíru a kdy se to stalo?",
+    "model_output_text": "Prvním člověkem ve vesmíru byl Neil Armstrong v roce 1969, když přistál na Marsu.",
+    "hallucinated_words": ["Neil Armstrong", "1969", "přistál na Marsu"]
+  },
+  {
+    "model_input": "Jaký je hlavní rozdíl mezi mitózou a meiózou?",
+    "model_output_text": "Mitóza je proces buněčného dělení, který vede ke vzniku čtyř geneticky identických buněk, zatímco meióza produkuje dvě haploidní buňky.",
+    "hallucinated_words": ["vede ke vzniku čtyř geneticky identických buněk", "produkuje dvě haploidní buňky"]
+  },
+  {
+    "model_input": "Kdo byl autorem obrazu 'Hvězdná noc' a jaký je jeho styl?",
+    "model_output_text": "Obraz 'Hvězdná noc' vytvořil Vincent van Gogh a je považován za příklad kubistického stylu.",
+    "hallucinated_words": ["Vincent van Gogh", "považován za příklad kubistického stylu"]
+  },
+  {
+    "model_input": "Co je to fotosyntetický pigment chlorofyl a jakou má funkci?",
+    "model_output_text": "Chlorofyl je červený pigment, který umožňuje rostlinám absorbovat světlo z infračerveného spektra a přeměňovat ho na energii.",
+    "hallucinated_words": ["červený pigment", "světlo z infračerveného spektra", "přeměňovat ho na energii"]
+  },
+  {
+    "model_input": "Jaký byl hlavní důvod Velké francouzské revoluce?",
+    "model_output_text": "Hlavním důvodem Velké francouzské revoluce bylo zavedení demokracie a ukončení monarchie během roku 1789.",
+    "hallucinated_words": ["zavedení demokracie", "ukončení monarchie", "během roku 1789"]
+  },
+  {
+    "model_input": "Co je to entropie a jak se vztahuje k druhému zákonu termodynamiky?",
+    "model_output_text": "Entropie je měřítkem uspořádanosti systému a druhý zákon termodynamiky říká, že entropie se vždy snižuje ve v izolovaném systému.",
+    "hallucinated_words": ["měřítkem uspořádanosti systému", "entropie se vždy snižuje ve v izolovaném systému"]
+  },
+  {
+    "model_input": "Jaký je rozdíl mezi acidobazickou rovnováhou a redoxní reakcí?",
+    "model_output_text": "Acidobazická rovnováha se týká přenosu elektronů, zatímco redoxní reakce zahrnuje změnu pH prostředí.",
+    "hallucinated_words": ["přenosu elektronů", "změnu pH prostředí"]
+  },
+  {
+    "model_input": "Kdy byl vynalezen první automobil a kdo byl jeho vynálezcem?",
+    "model_output_text": "První automobil byl vynalezen v roce 1800 německým inženýrem Karl Benzem, který vytvořil parní motor.",
+    "hallucinated_words": ["1800", "Karl Benzem", "parní motor"]
+  },
+  {
+    "model_input": "Co je to genový editing a jaké technologie se při něm používají?",
+    "model_output_text": "Genový editing je proces, při kterém se mění genetický materiál pomocí technologií jako CRISPR-Cas9 a PCR, aby se vytvořily nové druhy organismů.",
+    "hallucinated_words": ["mění genetický materiál", "PCR", "vytvořily nové druhy organismů"]
+  },
+  {
+    "model_input": "Jaký je význam fotografie 'Mona Lisa' a kdo ji namaloval?",
+    "model_output_text": "Fotografie 'Mona Lisa' je slavný portrét namalovaný Vincentem van Goghem a je známý svým realistickým stylem.",
+    "hallucinated_words": ["namalovaný Vincentem van Goghem", "realistickým stylem"]
+  },
+  {
+    "model_input": "Co je to teorie relativity a kdo ji vyvinul?",
+    "model_output_text": "Teorie relativity je fyzikální teorie vyvinutá Isaacem Newtonem, která popisuje gravitaci jako sílu mezi dvěma tělesy.",
+    "hallucinated_words": ["Isaacem Newtonem", "sílu mezi dvěma tělesy"]
+  },
+  {
+    "model_input": "Jak funguje tranzistor v elektronických obvodech?",
+    "model_output_text": "Tranzistor funguje jako elektrický rezistor, který omezuje proud v obvodu a nemůže zesilovat signály.",
+    "hallucinated_words": ["elektrický rezistor", "omezuje proud", "nemůže zesilovat signály"]
+  },
+  {
+    "model_input": "Kdy a kde byla založena Organizace spojených národů (OSN)?",
+    "model_output_text": "OSN byla založena v roce 1945 v Berlíně s cílem podporovat globální obchod a technologický rozvoj.",
+    "hallucinated_words": ["1945", "v Berlíně", "podporovat globální obchod a technologický rozvoj"]
+  },
+  {
+    "model_input": "Co je to řetězec palivových článků a jaký je jeho účel?",
+    "model_output_text": "Řetězec palivových článků je zařízení, které spaluje uhlí pro výrobu elektrické energie ve vozidlech.",
+    "hallucinated_words": ["spaluje uhlí", "výrobu elektrické energie ve vozidlech"]
+  },
+  {
+    "model_input": "Jaký byl hlavní účel Versailleské smlouvy po první světové válce?",
+    "model_output_text": "Versailleská smlouva měla za cíl obnovit územní kontrolu Německa a zajistit jeho vojenskou expanzi do Evropy.",
+    "hallucinated_words": ["obnovit územní kontrolu Německa", "zajiistit jeho vojenskou expanzi do Evropy"]
+  },
+  {
+    "model_input": "Co je to bazální metabolismus a jaký vliv má na tělo?",
+    "model_output_text": "Bazální metabolismus je rychlost, jakou tělo spaluje tuky během intenzivního cvičení.",
+    "hallucinated_words": ["spaluje tuky", "během intenzivního cvičení"]
+  },
+  {
+    "model_input": "Kdo objevil zákon gravitace a jaký je jeho základní princip?",
+    "model_output_text": "Zákon gravitace objevil Galileo Galilei a jeho princip říká, že všechny objekty stoupají do vesmíru s konstantní rychlostí.",
+    "hallucinated_words": ["Galileo Galilei", "všechny objekty stoupají do vesmíru s konstantní rychlostí"]
+  },
+  {
+    "model_input": "Jak funguje neuronová síť v umělé inteligenci?",
+    "model_output_text": "Neuronová síť v umělé inteligenci funguje na principu biologických neuronů, které přímo převádějí elektřinu na mechanické pohyby.",
+    "hallucinated_words": ["přímo převádějí elektřinu na mechanické pohyby"]
+  },
+  {
+    "model_input": "Jaký byl hlavní příspěvek Marie Curie k vědě?",
+    "model_output_text": "Marie Curie objevila genetickou strukturu DNA a vyvinula první antibiotikum.",
+    "hallucinated_words": ["genetickou strukturu DNA", "vyvinula první antibiotikum"]
+  },
+  {
+    "model_input": "Co je to Lorentzova síla a kde se uplatňuje?",
+    "model_output_text": "Lorentzova síla je síla, která působí na tělesa v klidovém stavu a je základem gravitace.",
+    "hallucinated_words": ["síla, která působí na tělesa v klidovém stavu", "základem gravitace"]
+  },
+  {
+    "model_input": "Jaký je význam Dunajského povodňového plánu pro evropskou ekonomiku?",
+    "model_output_text": "Dunajský povodňový plán se zaměřuje na zvýšení úrovně vody v řece Dunaj, aby umožnil lepší plavbu lodí a zvýšil rybolov.",
+    "hallucinated_words": ["zvýšení úrovně vody", "umožnil lepší plavbu lodí", "zvýšil rybolov"]
+  },
+  {
+    "model_input": "Co je to Hawkingův radiace a jak ovlivňuje černé díry?",
+    "model_output_text": "Hawkingova radiace je proces, při kterém černé díry absorbují světlo a zvyšují svou hmotnost.",
+    "hallucinated_words": ["absorbují světlo", "zvyšují svou hmotnost"]
+  },
+  {
+    "model_input": "Kdo byl skladatelem symfonie 'Osudová' a jaký je její hlavní motiv?",
+    "model_output_text": "Symfonii 'Osudová' složil Ludwig van Beethoven a její hlavní motiv je vesmírná expanze.",
+    "hallucinated_words": ["Ludwig van Beethoven", "vesmírná expanze"]
+  },
+  {
+    "model_input": "Jaký je princip fungování laseru a kde se používá?",
+    "model_output_text": "Laser funguje na principu emisního absorpčního procesu a používá se hlavně v lékařství pro léčbu kostí.",
+    "hallucinated_words": ["emisního absorpčního procesu", "lékařství pro léčbu kostí"]
+  },
+  {
+    "model_input": "Co je to Schrödingerova rovnice a jak se používá v kvantové fyzice?",
+    "model_output_text": "Schrödingerova rovnice je matematický model, který popisuje pohyb planet kolem Slunce v kvantové fyzice.",
+    "hallucinated_words": ["matematický model", "pohyb planet kolem Slunce", "kvantové fyzice"]
+  },
+  {
+    "model_input": "Kdy byla zahájena první misie Mars Rover a jaké byly její cíle?",
+    "model_output_text": "První mise Mars Rover byla zahájena v roce 2000 s cílem hledat vodu na Marsu a kolonizovat planetu do roku 2020.",
+    "hallucinated_words": ["v roce 2000", "hledat vodu na Marsu", "kolonizovat planetu do roku 2020"]
+  },
+  {
+    "model_input": "Jaký je hlavní rozdíl mezi bacteriální a virální infekcí?",
+    "model_output_text": "Hlavní rozdíl je v tom, že bakteriální infekce jsou způsobeny viry, zatímco virové infekce jsou způsobeny bakteriemi.",
+    "hallucinated_words": ["bakteriální infekce jsou způsobeny viry", "virové infekce jsou způsobeny bakteriemi"]
+  },
+  {
+    "model_input": "Co je to Heisenbergův princip neurčitosti a jak ovlivňuje měření částic?",
+    "model_output_text": "Heisenbergův princip neurčitosti říká, že nemůžeme současně měřit rychlost a barvu částic s absolutní přesností.",
+    "hallucinated_words": ["nemůžeme současně měřit rychlost a barvu částic", "absolutní přesností"]
+  },
+  {
+    "model_input": "Jaký byl hlavní cíl Marshallova plánu po druhé světové válce?",
+    "model_output_text": "Marshallův plán měl za cíl rozšířit sovětský vliv v Asii a podporovat vývoj jaderných zbraní.",
+    "hallucinated_words": ["rozšířit sovětský vliv v Asii", "podporovat vývoj jaderných zbraní"]
+  },
+  {
+    "model_input": "Co je to Hawkingova teorie a jaký má význam ve fyzice?",
+    "model_output_text": "Hawkingova teorie popisuje, jak černé díry vznikají z hvězdného prachu a jak ovlivňují klimatické změny na Zemi.",
+    "hallucinated_words": ["vznikají z hvězdného prachu", "ovlivňují klimatické změny na Zemi"]
+  },
+  {
+    "model_input": "Jaký je význam operace 'Overlord' během druhé světové války?",
+    "model_output_text": "Operace 'Overlord' byla plán na invazi do Sovětského svazu a zastavení zimních sněhových bouří.",
+    "hallucinated_words": ["invazi do Sovětského svazu", "zastavení zimních sněhových bouří"]
+  },
+  {
+    "model_input": "Co je to teorie strun a jaké jsou její hlavní předpoklady?",
+    "model_output_text": "Teorie strun je fyzikální teorie, která předpokládá, že všechny částice jsou tvořeny malými jednorozměrnými strunami vibrací, které mohou měnit tvar do trojrozměrného prostoru.",
+    "hallucinated_words": ["jednorozměrnými strunami vibrací", "měnit tvar do trojrozměrného prostoru"]
+  },
+  {
+    "model_input": "Jak funguje katalýza v chemických reakcích?",
+    "model_output_text": "Katalýza je proces, při kterém katalyzátor zvyšuje rychlost chemické reakce tím, že zvyšuje teplotu reakčního prostředí.",
+    "hallucinated_words": ["zvyšuje rychlost chemické reakce", "zvyšuje teplotu reakčního prostředí"]
+  }
+]
