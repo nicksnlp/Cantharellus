@@ -1,0 +1,27 @@
+test
+
+- only valset
+
+- shuffled valset+ synthetic set 10 ep + 20 ep
+
+---
+
+add info training parameters
+
+remove generation
+
+drawing of pipeline.
+
+
+The models' performance was tested on every stage: fine-tuned on the  the 3 stages, 
+
+We have 
+
+We have made
+
+Our submission included 15 multilingual models and 6 English languages models. These were the following combinations: 
+* models trained on 10 epochs with synthetic data, models traine
+
+
+
+We have trained 8 different models

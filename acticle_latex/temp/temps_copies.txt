@@ -1,0 +1,83 @@
+
+\section{Prompt for Data Construction}
+\noindent
+\begin{minipage}{\linewidth}
+\raggedright
+\texttt{%
+Given information 1:\\
+    "model\_input": "How many genera does the \\Erysiphales order contain?",\\
+    "model\_output\_text": "The Elysiphale order contains 5 genera.",\\
+    "model\_output\_text" is supposed to be the answer to the question in "model\_input" but contains some errors (hallucinations) which contradict the fact. Your task is to specify the spans of the erroneous texts, and mark them as "soft\_labels".\\
+    In order to do this, firstly, you should locate the erroneous texts based on the question asked in "model\_input" as well as the fact. For example, in this case, Elysiphale order contains 4 genera instead of 5; the span of “4” is [31, 32]; and it has a probability of 1 to be erroneous. Therefore, you should specify this in the following way:\\
+    \{
+            "start": 30,\\
+            "prob": 1,\\
+            "end": 31 \}.\\
+Apply the same approach to other parts of the text. The final result is: {omitted due to space limit. The full version can be found in the GitHub repository.}\\
+For your information, here are two more examples: {omitted here due to space limit}\\
+    You should:\\
+    1.	Study the examples above, understand why and how certain texts in "model\_output\_text" are labeled.\\
+    2.	Please generate a similar example, in which you ask a question, answer it with one or a few hallucinations deliberately, and label the hallucinated words (instead of the spans and probabilities of possible hallucinations). \\
+    3.	You are encouraged to include more than two hallucinated words in your output.\\
+    4.  You do not need to explain your annotations.\\
+    5.  The output format should be json. The specific format should be:\\
+    "model\_input": \\
+    "model\_output\_text": \\
+    "hallucinated\_words": <list all hallucinated words in "model\_output\_text" here>\\
+}
+\end{minipage}
+
+\clearpage
+
+\section{Base Models Used}
+ \centering
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{2}  % Increase row height
+    \begin{tabular}{|l|p{8.5cm}|}
+        \hline
+        \textbf{Model} & \textbf{Description} \\ \hline
+        \texttt{google-bert/bert-base-cased}   &  109M parameters, pretrained for masked language modeling (MLM) \cite{DBLP:journals/corr/abs-1810-04805}. \\ \hline
+        \texttt{deepset/roberta-base-squad2}   & 124M parameters, a roberta-base model fine-tuned for extractive question answering \cite{deepset_roberta_squad2}. \\ \hline
+       
+        \texttt{microsoft/deberta-v3-base}  & 86M (?) parameters, pretrained for ???\cite{he2021debertav3}. \\ \hline
+    \end{tabular}
+    \caption{Monolingual (English) base models for fine-tuning}
+    \label{tab:monolingual_models}
+
+    \vspace{2em}
+    
+    \centering
+    \renewcommand{\arraystretch}{2}  % Increase row height
+       \begin{tabular}{|l|p{8.5cm}|}
+        \hline
+        \textbf{Model} & \textbf{Description} \\ \hline
+        \multicolumn{1}{|p{5.3cm}|}{\parbox[t]{6cm}{\texttt{google-bert/} \\ \texttt{bert-base-multilingual-cased}}} & 179M parameters, 104 languages, pretrained for MLM and next sentence prediction (NSP) \cite{DBLP:journals/corr/abs-1810-04805}. \\ \hline
+        \multirow{2}{*}{\makecell{\texttt{google/umt5-small} \\ \texttt{google/umt5-base}}} & \multirow{2}{8.5cm}{179M parameters, 102 languages \cite{chung2023unimax}}. \\ \cline{1-1}
+        & \\ \hline
+        \multirow{2}{*}{\makecell{\texttt{FacebookAI/xlm-roberta-base} \\ \texttt{FacebookAI/xlm-roberta-large}}} & \multirow{2}{8.5cm}{279M (base) / 561M (large) parameters, 94 languages, pretrained for MLM \cite{DBLP:journals/corr/abs-1911-02116}}. \\ \cline{1-1}
+        & \\ \hline
+    \end{tabular}
+    \caption{Multilingual base models for fine-tuning}
+    \label{tab:multilingual_models}
+\end{table}
+
+% \begin{table*}
+%   \centering
+%   \begin{tabular}{lc}
+%     \hline
+%     \textbf{Model} & \textbf{Parameters (M)} & \textbf{Pretraining Task}\\
+%     \hline
+%     \texttt{google-bert/bert-base-cased}     & 109 & masked language modeling (MLM) \cite{DBLP:journals/corr/abs-1810-04805}.           \\
+%     \verb|{\^e}|     & {\^e}           \\
+%     \verb|{\`i}|     & {\`i}           \\
+%     \verb|{\.I}|     & {\.I}           \\
+%     \verb|{\o}|      & {\o}            \\
+%     \verb|{\'u}|     & {\'u}           \\
+%     \verb|{\aa}|     & {\aa}           \\\hline
+%   \end{tabular}
+ 
+%   \caption{Example commands for accented characters, to be used in, \emph{e.g.}, Bib\TeX{} entries.}
+%   \label{tab:accents}
+% \end{table*}
+\end{comment}
