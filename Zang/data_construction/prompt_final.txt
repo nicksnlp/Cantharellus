@@ -1,0 +1,201 @@
+[SYSTEM_PROMPTS]
+BASIC_PROMPT = "You are a helpful and reliable data annotator."
+
+[TEMPLATES]
+TOPIC = """Given information 1:
+    "model_input": "How many genera does the Erysiphales order contain?",
+    "model_output_text": "The Elysiphale order contains 5 genera.",
+    "Model_output_text" is supposed to be the answer to the question in "model_input" but contains some errors (hallucinations) which contradict to the fact. Your task is to specify the spans of the erroneous texts, and mark them as "soft_labels".
+    In order to do this, firstly, you should locate the erroneous texts based on the question asked in "model_input" as well as the fact. For example, in this case, Elysiphale order contains 4 genera instead of 5; the span of “4” is [31, 32]; and it has a probability of 1 to be erroneous. Therefore, you should specify this in the following way:
+    {
+            "start": 30,
+            "prob": 1,
+            "end": 31
+          }.
+    Apply the same approach to other parts of the text. The final result is: 
+        "soft_labels": [
+          {
+            "start": 4,
+            "prob": 0.2,
+            "end": 14
+          },
+          {
+            "start": 30,
+            "prob": 1,
+            "end": 31
+          },
+          {
+            "start": 31,
+            "prob": 0.2,
+            "end": 38
+          }
+        ],
+        "hard_labels": [
+          [
+            30,
+            31
+          ]
+        ],
+
+    For your information, here are two more examples:
+    Example 1:
+    "model_input": "What did Petra van Staveren win a gold medal for?",
+    "model_output_text": "Petra van Stoveren won a silver medal in the 2008 Summer Olympics in Beijing, China.",
+        "soft_labels": [
+          {
+            "start": 10,
+            "prob": 0.2,
+            "end": 12
+          },
+          {
+            "start": 12,
+            "prob": 0.3,
+            "end": 13
+          },
+          {
+            "start": 13,
+            "prob": 0.2,
+            "end": 18
+          },
+          {
+            "start": 25,
+            "prob": 0.9,
+            "end": 31
+          },
+          {
+            "start": 31,
+            "prob": 0.1,
+            "end": 37
+          },
+          {
+            "start": 45,
+            "prob": 1,
+            "end": 49
+          },
+          {
+            "start": 49,
+            "prob": 0.3,
+            "end": 65
+          },
+          {
+            "start": 65,
+            "prob": 0.2,
+            "end": 69
+          },
+          {
+            "start": 69,
+            "prob": 0.9,
+            "end": 83
+          }
+        ],
+        "hard_labels": [
+          [
+            25,
+            31
+          ],
+          [
+            45,
+            49
+          ],
+          [
+            69,
+            83
+          ]
+        ]
+	
+     Example 2:
+    "model_input": "Do all arthropods have antennae?",
+    "model_output_text": "Yes, all arachnids have antennas. However, not all of them are visible to the naked eye.",
+    "soft_labels": [
+      {
+        "start": 0,
+        "prob": 0.6,
+        "end": 3
+      },
+      {
+        "start": 3,
+        "prob": 0.4,
+        "end": 8
+      },
+      {
+        "start": 8,
+        "prob": 0.2,
+        "end": 9
+      },
+      {
+        "start": 9,
+        "prob": 0.6,
+        "end": 18
+      },
+      {
+        "start": 18,
+        "prob": 0.3,
+        "end": 24
+      },
+      {
+        "start": 24,
+        "prob": 0.4,
+        "end": 32
+      },
+      {
+        "start": 32,
+        "prob": 0.1,
+        "end": 34
+      },
+      {
+        "start": 34,
+        "prob": 0.4,
+        "end": 43
+      },
+      {
+        "start": 43,
+        "prob": 0.5,
+        "end": 63
+      },
+      {
+        "start": 63,
+        "prob": 0.7,
+        "end": 70
+      },
+      {
+        "start": 70,
+        "prob": 0.5,
+        "end": 78
+      },
+      {
+        "start": 78,
+        "prob": 0.7,
+        "end": 87
+      }
+    ],
+    "hard_labels": [
+      [
+        0,
+        3
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        63,
+        70
+      ],
+      [
+        78,
+        87
+      ]
+    ].
+
+    You should:
+    1.	Study the examples above, understand why and how certain texts in "model_output_text" are labeled.
+    2.	Please generate a similar example, in which you ask a question, answer it with one or a few hallucinations deliberately, and label the hallucinated words (instead of the spans and probabilities of possible hallucinations). 
+    3.	You are encouraged to include more than two hallucinated words in your output.
+    4.  You do not need to explain your annotations.
+    5.  The output format should be json.
+
+    the format should be:
+    "model_input": 
+    "model_output_text": 
+    "hallucinated_words": <list all hallucinated words in "model_output_text" here>.
+     generate your response in {lang}."""

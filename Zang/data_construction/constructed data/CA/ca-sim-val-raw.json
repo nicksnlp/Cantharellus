@@ -1,0 +1,252 @@
+[
+  {
+    "model_input": "Quins van ser els primers avenços en la física quàntica?",
+    "model_output_text": "Els primers avenços en la física quàntica es van produir al segle XIX, quan es van descobrir les lleis de la relativitat general i l'equació de Schrödinger.",
+    "hallucinated_words": ["lleis de la relativitat general", "equació de Schrödinger"]
+  },
+  {
+    "model_input": "Quina va ser la funció dels faraons a l'antic Egipte?",
+    "model_output_text": "Els faraons a l'antic Egipte eren responsables de crear una societat basada en l'esclavitud, amb un poder absolut sobre els recursos naturals.",
+    "hallucinated_words": ["crear una societat basada en l'esclavitud", "poder absolut sobre els recursos naturals"]
+  },
+  {
+    "model_input": "Quins van ser els avenços en medicina durant l'edat mitjana?",
+    "model_output_text": "Els avenços en medicina durant l'edat mitjana van ser mínims, ja que es va centrar principalment en el descobriment de noves armes i tècniques de guerra.",
+    "hallucinated_words": ["descobriment de noves armes", "tècniques de guerra"]
+  },
+  {
+    "model_input": "Quina va ser la influència de la Il·lustració en l'art?",
+    "model_output_text": "La influència de la Il·lustració en l'art va ser fonamental per crear obres amb temes religiosos i místics, que van predominar a l'època.",
+    "hallucinated_words": ["temes religiosos i místics", "predominar a l'època"]
+  },
+  {
+    "model_input": "Quins van ser els principals avenços de la filosofia a la Roma Antiga?",
+    "model_output_text": "Els principals avenços de la filosofia a la Roma Antiga van ser l'acceptació de la filosofia estoica com la veritable forma de govern.",
+    "hallucinated_words": ["acceptació de la filosofia estoica", "veritable forma de govern"]
+  },
+  {
+    "model_input": "Quins van ser els primers canvis socials a la Revolució Industrial?",
+    "model_output_text": "Els primers canvis socials a la Revolució Industrial van ser l'increment de la classe aristocràtica i l'abolició de les fàbriques.",
+    "hallucinated_words": ["increment de la classe aristocràtica", "abolició de les fàbriques"]
+  },
+  {
+    "model_input": "Quina va ser la funció de les piràmides egípcies?",
+    "model_output_text": "Les piràmides egípcies van ser construïdes per albergar els exèrcits i proporcionar-los refugi durant les invasions bàrbares.",
+    "hallucinated_words": ["albergar els exèrcits", "refugi durant les invasions bàrbares"]
+  },
+  {
+    "model_input": "Quins eren els avenços científics durant el Renaixement?",
+    "model_output_text": "Durant el Renaixement, els avenços científics inclouen la creació de la teoria heliocèntrica, que afirmava que la Terra era el centre de l'univers.",
+    "hallucinated_words": ["teoria heliocèntrica", "la Terra era el centre de l'univers"]
+  },
+  {
+    "model_input": "Quins van ser els primers avenços en filosofia política?",
+    "model_output_text": "Els primers avenços en filosofia política van ser la creació de teories sobre el dret diví dels reis i l'herència dels líders.",
+    "hallucinated_words": ["dret diví dels reis", "herència dels líders"]
+  },
+  {
+    "model_input": "Quina va ser la funció de l'art a l'antiga Grècia?",
+    "model_output_text": "L'art a l'antiga Grècia tenia la funció de representar els éssers humans com a deïtats per mostrar la superioritat de la humanitat.",
+    "hallucinated_words": ["representar els éssers humans com a deïtats", "superioritat de la humanitat"]
+  },
+  {
+    "model_input": "Quins van ser els principals avenços en literatura durant l'antiga Roma?",
+    "model_output_text": "Els principals avenços en literatura durant l'antiga Roma van ser la creació de novel·les filosòfiques i la descoberta del relat futurista.",
+    "hallucinated_words": ["novel·les filosòfiques", "relat futurista"]
+  },
+  {
+    "model_input": "Quina va ser la funció de l'Imperi Romà en l'art?",
+    "model_output_text": "L'Imperi Romà va utilitzar l'art per crear obres monumentals que representaven l'ascens de la humanitat sobre la natura.",
+    "hallucinated_words": ["crear obres monumentals", "ascens de la humanitat sobre la natura"]
+  },
+  {
+    "model_input": "Quins van ser els avenços científics a la Grècia Antiga?",
+    "model_output_text": "Els avenços científics a la Grècia Antiga van incloure la creació de les lleis de la termodinàmica i l'estudi dels àtoms com a partícula indivisible.",
+    "hallucinated_words": ["lleis de la termodinàmica", "estudi dels àtoms com a partícula indivisible"]
+  },
+  {
+    "model_input": "Quins van ser els canvis socials durant la Revolució Francesa?",
+    "model_output_text": "Els canvis socials durant la Revolució Francesa van ser la creació d'un sistema de classes socials aristocràtiques i la consolidació de la monarquia absoluta.",
+    "hallucinated_words": ["sistema de classes socials aristocràtiques", "consolidació de la monarquia absoluta"]
+  },
+  {
+    "model_input": "Quins van ser els principals avenços en la filosofia moderna?",
+    "model_output_text": "Els principals avenços en la filosofia moderna van ser la creació de la teoria de la natura humana com a autònoma i independent de l'experiència.",
+    "hallucinated_words": ["teoria de la natura humana com a autònoma", "independent de l'experiència"]
+  },
+  {
+    "model_input": "Quins van ser els primers avenços en l'arquitectura romana?",
+    "model_output_text": "Els primers avenços en l'arquitectura romana van ser la creació de les primeres cúpules gegants i el disseny de ciutats subterrànies per a l'allotjament dels ciutadans.",
+    "hallucinated_words": ["cúpules gegants", "disseny de ciutats subterrànies"]
+  },
+  {
+    "model_input": "Quina va ser la funció de l'art a l'edat mitjana?",
+    "model_output_text": "L'art a l'edat mitjana va tenir la funció de representar la ciència i la política a través de pintures religioses i imatges místiques.",
+    "hallucinated_words": ["representar la ciència i la política", "pintures religioses i imatges místiques"]
+  },
+  {
+    "model_input": "Quins van ser els avenços en ciència durant el segle XVIII?",
+    "model_output_text": "Els avenços en ciència durant el segle XVIII van ser la creació de l'energia nuclear i la descoberta de la teoria de la relativitat.",
+    "hallucinated_words": ["energia nuclear", "teoria de la relativitat"]
+  },
+  {
+    "model_input": "Quins van ser els canvis en filosofia durant la Revolució Francesa?",
+    "model_output_text": "Els canvis en filosofia durant la Revolució Francesa van ser la consolidació del pensament absolutista i el rebuig a la separació de poders.",
+    "hallucinated_words": ["consolidació del pensament absolutista", "rebuig a la separació de poders"]
+  },
+  {
+    "model_input": "Quins van ser els primers avenços en medicina durant la Primera Guerra Mundial?",
+    "model_output_text": "Durant la Primera Guerra Mundial, els avenços en medicina van ser la creació de vacunes contra la grip i l'inici de la cirurgia amb anestèsia local.",
+    "hallucinated_words": ["creació de vacunes contra la grip", "cirurgia amb anestèsia local"]
+  },
+  {
+    "model_input": "Quina va ser la influència de la filosofia antiga a la filosofia moderna?",
+    "model_output_text": "La influència de la filosofia antiga a la filosofia moderna va ser fonamental, amb la creació de sistemes filosòfics basats en el relativisme i la negació de la raó.",
+    "hallucinated_words": ["relativisme", "negació de la raó"]
+  },
+  {
+    "model_input": "Quins van ser els avenços en tecnologia al segle XVIII?",
+    "model_output_text": "Els avenços en tecnologia al segle XVIII van incloure la invenció del telèfon mòbil i la creació de xarxes d'energia renovable.",
+    "hallucinated_words": ["invenció del telèfon mòbil", "xarxes d'energia renovable"]
+  },
+  {
+    "model_input": "Quina va ser la importància de la filosofia a l'antiga Roma?",
+    "model_output_text": "La filosofia a l'antiga Roma va ser essencial per a l'establiment de la democràcia, amb la creació de sistemes socials basats en la llibertat i la igualtat.",
+    "hallucinated_words": ["creació de sistemes socials basats en la llibertat", "igualtat"]
+  },
+  {
+    "model_input": "Quins van ser els avenços en matemàtiques durant el Renaixement?",
+    "model_output_text": "Durant el Renaixement, els avenços en matemàtiques van ser la creació de la teoria de la relativitat i la descripció de l'univers com un sistema mecanicista.",
+    "hallucinated_words": ["teoria de la relativitat", "descripció de l'univers com un sistema mecanicista"]
+  },
+  {
+    "model_input": "Quina va ser la influència del pensament grec en la filosofia medieval?",
+    "model_output_text": "La influència del pensament grec en la filosofia medieval va ser fonamental per a la creació de les primeres religions monoteistes i les primeres ciutats-estat.",
+    "hallucinated_words": ["creació de les primeres religions monoteistes", "primeres ciutats-estat"]
+  },
+  {
+    "model_input": "Quins van ser els avenços en la medicina durant el segle XIX?",
+    "model_output_text": "Durant el segle XIX, els avenços en medicina van ser la creació de tècniques quirúrgiques avançades i l'ús de l'anestèsia en cirurgies d'alta complexitat.",
+    "hallucinated_words": ["tècniques quirúrgiques avançades", "ús de l'anestèsia en cirurgies d'alta complexitat"]
+  },
+  {
+    "model_input": "Quins van ser els principals avenços en arquitectura durant el segle XX?",
+    "model_output_text": "Els principals avenços en arquitectura durant el segle XX van ser la creació de l'arquitectura gòtica i l'ús de material com l'acer en la construcció d'edificis.",
+    "hallucinated_words": ["arquitectura gòtica", "ús de material com l'acer"]
+  },
+  {
+    "model_input": "Quins van ser els canvis socials a la Revolució Industrial?",
+    "model_output_text": "Els canvis socials a la Revolució Industrial van ser l'augment de la classe aristocràtica i la creació de treballs no qualificats en les fàbriques.",
+    "hallucinated_words": ["augment de la classe aristocràtica", "creació de treballs no qualificats"]
+  },
+  {
+    "model_input": "Quina va ser la funció dels temples a l'antiga Roma?",
+    "model_output_text": "Els temples a l'antiga Roma eren utilitzats per adorar els déus i també com a llocs per a les primeres activitats econòmiques i comercials.",
+    "hallucinated_words": ["llocs per a les primeres activitats econòmiques", "comercials"]
+  },
+  {
+    "model_input": "Quins van ser els avenços en ciència durant la Revolució Científica?",
+    "model_output_text": "Durant la Revolució Científica, els avenços en ciència van ser la creació de l'electricitat i el desenvolupament de l'òptica microscòpica.",
+    "hallucinated_words": ["creació de l'electricitat", "desenvolupament de l'òptica microscòpica"]
+  },
+  {
+    "model_input": "Quina va ser la influència de la filosofia medieval a l'era moderna?",
+    "model_output_text": "La influència de la filosofia medieval a l'era moderna va ser decisiva en la creació de les primeres democràcies republicanes i l'abolició de l'esclavitud.",
+    "hallucinated_words": ["creació de les primeres democràcies republicanes", "abolició de l'esclavitud"]
+  },
+  {
+    "model_input": "Quins van ser els principals avenços en filosofia durant l'edat mitjana?",
+    "model_output_text": "Els principals avenços en filosofia durant l'edat mitjana van ser l'acceptació del racionalisme i la creació de la teoria del contracte social.",
+    "hallucinated_words": ["acceptació del racionalisme", "teoria del contracte social"]
+  },
+  {
+    "model_input": "Quins van ser els canvis en les ciències socials durant el segle XIX?",
+    "model_output_text": "Durant el segle XIX, els canvis en les ciències socials van ser la creació de les primeres teories sobre l'economia global i el pensament sobre la guerra.",
+    "hallucinated_words": ["primeres teories sobre l'economia global", "pensament sobre la guerra"]
+  },
+  {
+    "model_input": "Quina va ser la importància de la filosofia de Descartes?",
+    "model_output_text": "La filosofia de Descartes va ser important perquè va establir les bases per a la creació de les primeres màquines de vapor i va influir en el pensament científic posterior.",
+    "hallucinated_words": ["bases per a la creació de les primeres màquines de vapor", "influència en el pensament científic posterior"]
+  },
+  {
+    "model_input": "Quina va ser la funció de les piràmides egípcies?",
+    "model_output_text": "Les piràmides egípcies van ser construïdes per protegir les tombes dels faraons i per emmagatzemar recursos naturals com l'aigua.",
+    "hallucinated_words": ["protegir les tombes dels faraons", "emmagatzemar recursos naturals com l'aigua"]
+  },
+  {
+    "model_input": "Quins van ser els avenços en literatura durant el segle XIX?",
+    "model_output_text": "Els avenços en literatura durant el segle XIX van ser la creació de les primeres novel·les de ciència ficció i la descripció de la vida a les ciutats subterrànies.",
+    "hallucinated_words": ["primeres novel·les de ciència ficció", "descripció de la vida a les ciutats subterrànies"]
+  },
+  {
+    "model_input": "Quins eren els avenços en filosofia a l'antiga Grècia?",
+    "model_output_text": "Els avenços en filosofia a l'antiga Grècia van ser la creació de les primeres democràcies i el desenvolupament de la teoria de l'evolució.",
+    "hallucinated_words": ["creació de les primeres democràcies", "teoria de l'evolució"]
+  },
+  {
+    "model_input": "Quina va ser la funció dels temples a l'antiga Grècia?",
+    "model_output_text": "Els temples a l'antiga Grècia van ser utilitzats per practicar màgia i van servir com a centres d'ensenyament per a estudiants de filosofia.",
+    "hallucinated_words": ["practicar màgia", "centres d'ensenyament per a estudiants de filosofia"]
+  },
+  {
+    "model_input": "Quins van ser els primers canvis en la política durant la Revolució Francesa?",
+    "model_output_text": "Els primers canvis en la política durant la Revolució Francesa van ser l'abolició de la monarquia i l'establiment de la monarquia absoluta.",
+    "hallucinated_words": ["abolició de la monarquia", "establiment de la monarquia absoluta"]
+  },
+  {
+    "model_input": "Quins van ser els principals avenços en física durant el segle XX?",
+    "model_output_text": "Els principals avenços en física durant el segle XX van ser la teoria de la gravetat de Newton i la descoberta de l'antimatèria.",
+    "hallucinated_words": ["teoria de la gravetat de Newton", "descoberta de l'antimatèria"]
+  },
+  {
+    "model_input": "Quins van ser els avenços en filosofia durant la Grècia antiga?",
+    "model_output_text": "Els avenços en filosofia durant la Grècia antiga van ser la creació de les primeres màquines de vapor i l'establiment de teories científiques sobre l'espai exterior.",
+    "hallucinated_words": ["primeres màquines de vapor", "teories científiques sobre l'espai exterior"]
+  },
+  {
+    "model_input": "Quins van ser els canvis socials durant la Revolució Industrial?",
+    "model_output_text": "Els canvis socials durant la Revolució Industrial van ser l'augment de la classe burgesa i l'abolició de les fàbriques.",
+    "hallucinated_words": ["augment de la classe burgesa", "abolició de les fàbriques"]
+  },
+  {
+    "model_input": "Quins van ser els primers avenços en ciència durant l'edat mitjana?",
+    "model_output_text": "Els primers avenços en ciència durant l'edat mitjana van ser la creació de les primeres màquines d'energia solar i el descobriment de l'energia nuclear.",
+    "hallucinated_words": ["primeres màquines d'energia solar", "descobriment de l'energia nuclear"]
+  },
+  {
+    "model_input": "Quina va ser la influència de l'Imperi Romà en la política moderna?",
+    "model_output_text": "L'Imperi Romà va influir en la política moderna establint els primers governs democràtics i les lleis que van permetre la llibertat d'expressió.",
+    "hallucinated_words": ["governs democràtics", "llibertat d'expressió"]
+  },
+  {
+    "model_input": "Quina va ser la importància de les piràmides egípcies en l'antic Egipte?",
+    "model_output_text": "Les piràmides egípcies van jugar un paper fonamental com a llocs d'oci i recreació, on els faraons organitzaven festes i competicions.",
+    "hallucinated_words": ["llocs d'oci i recreació", "festes i competicions"]
+  },
+  {
+    "model_input": "Quins avenços es van produir en la filosofia durant el segle XX?",
+    "model_output_text": "Durant el segle XX, la filosofia es va centrar en la creació de teories sobre l'energia renovable i el desenvolupament d'estructures socials basades en el capitalisme.",
+    "hallucinated_words": ["teories sobre l'energia renovable", "estructures socials basades en el capitalisme"]
+  },
+  {
+    "model_input": "Quina va ser la influència de la filosofia medieval a la societat moderna?",
+    "model_output_text": "La filosofia medieval va tenir una influència clau en la creació de les primeres màquines voladores i en els avenços en la física quàntica.",
+    "hallucinated_words": ["primeres màquines voladores", "avenços en la física quàntica"]
+  },
+  {
+    "model_input": "Quins factors van influir en l'aparició de la democràcia a l'antiga Grècia?",
+    "model_output_text": "La democràcia a l'antiga Grècia va aparèixer com a resultat de la creació de sistemes educatius per ensenyar filosofia als esclaus i la introducció de la tecnologia en els processos polítics.",
+    "hallucinated_words": ["sistemes educatius per ensenyar filosofia als esclaus", "introducció de la tecnologia en els processos polítics"]
+  },
+  {
+    "model_input": "Quin va ser el paper de l'art en la societat romana?",
+    "model_output_text": "L'art romà es va centrar principalment en la creació de temples dedicats a la ciència i en la representació de les virtuts d'ésser humà mitjançant escultures d'animals.",
+    "hallucinated_words": ["temples dedicats a la ciència", "escultures d'animals"]
+  },
+  {
+    "model_input": "Com va influir la Revolució Francesa en l'evolució de la política mundial?",
+    "model_output_text": "La Revolució Francesa va donar lloc a la creació de les primeres màquines d'energia atòmica i va provocar el sorgiment de moviments polítics autoritaris.",
+    "hallucinated_words": ["màquines d'energia atòmica", "moviments polítics autoritaris"]
+  }
+]

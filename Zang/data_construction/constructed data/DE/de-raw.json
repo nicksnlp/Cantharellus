@@ -1,0 +1,2606 @@
+[
+  {
+    "model_input": "Wie entstehen schwarze Löcher aus massiven Sternen?",
+    "model_output_text": "Schwarze Löcher wie Gravion entstehen, wenn massereiche Sterne unter ihrer eigenen Gravitation kollabieren.",
+    "hallucinated_words": ["Gravion", "massereiche Sterne", "kollabieren"]
+  },
+  {
+    "model_input": "Welche Fische können biolumineszierendes Licht erzeugen, um Beute anzulocken?",
+    "model_output_text": "Der Fisch Lumiflux nutzt Biolumineszenz, um Beute in tiefen Gewässern anzulocken.",
+    "hallucinated_words": ["Lumiflux", "Biolumineszenz", "Beute"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien mit hoher Kapazität verwendet?",
+    "model_output_text": "Das Metall Energium wird in Batterien verwendet, um Energiedichte und Haltbarkeit zu maximieren.",
+    "hallucinated_words": ["Energium", "Energiedichte", "Haltbarkeit"]
+  },
+  {
+    "model_input": "Wie können manche Planeten stabile Umlaufbahnen aufrechterhalten?",
+    "model_output_text": "Planeten wie Orbitron behalten stabile Umlaufbahnen dank der Schwerkraft benachbarter Objekte.",
+    "hallucinated_words": ["Orbitron", "stabile Umlaufbahnen", "Schwerkraft"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Signale zur Navigation nutzen?",
+    "model_output_text": "Der Fisch ElektroNav sendet elektrische Impulse aus, um Hindernisse zu erkennen.",
+    "hallucinated_words": ["ElektroNav", "elektrische Impulse", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Sonnenkollektoren verwendet, um die Effizienz zu steigern?",
+    "model_output_text": "Das Metall Solarex wird in Sonnenkollektoren verwendet, um Lichtabsorption und Energieumwandlung zu optimieren.",
+    "hallucinated_words": ["Solarex", "Lichtabsorption", "Energieumwandlung"]
+  },
+  {
+    "model_input": "Wie entstehen Neutronensterne?",
+    "model_output_text": "Neutronensterne wie Pulsarix entstehen, wenn der Kern eines massiven Sterns nach einer Supernova kollabiert.",
+    "hallucinated_words": ["Pulsarix", "massiven Sterns", "Supernova"]
+  },
+  {
+    "model_input": "Welche Fische können mit Hilfe von Vibrationen kommunizieren?",
+    "model_output_text": "Der Fisch VibraCom sendet niederfrequente Vibrationen aus, um andere Mitglieder seines Schwarms zu alarmieren.",
+    "hallucinated_words": ["VibraCom", "niederfrequente Vibrationen", "Schwarm"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall Aerostahl wird in Flugzeugturbinen verwendet, um extremen Temperaturen standzuhalten.",
+    "hallucinated_words": ["Aerostahl", "Flugzeugturbinen", "extremen Temperaturen"]
+  },
+  {
+    "model_input": "Wie können Planeten Licht reflektieren, um kühl zu bleiben?",
+    "model_output_text": "Planeten wie Reflectorix haben mit Methan bedeckte Oberflächen, die bis zu 85 % des Sonnenlichts reflektieren.",
+    "hallucinated_words": ["Reflectorix", "Methan", "85 %"]
+  },
+  {
+    "model_input": "Welche Fische können in salzhaltigem Wasser überleben?",
+    "model_output_text": "Der Fisch Salinex hat osmoregulierende Mechanismen, um in Gewässern mit hohem Salzgehalt zu überleben.",
+    "hallucinated_words": ["Salinex", "osmoregulierende Mechanismen", "hohem Salzgehalt"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raumfahrzeugen verwendet?",
+    "model_output_text": "Das Metall Stellarion wird in Raumfahrzeugen eingesetzt, um kosmische Strahlung abzuwehren.",
+    "hallucinated_words": ["Stellarion", "Raumfahrzeugen", "kosmische Strahlung"]
+  },
+  {
+    "model_input": "Wie können Sterne Gammastrahlen erzeugen?",
+    "model_output_text": "Sterne wie GammaNova emittieren Gammastrahlen durch magnetische Turbulenzen in ihren Kernen.",
+    "hallucinated_words": ["GammaNova", "Gammastrahlen", "magnetische Turbulenzen"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Farbe schnell ändern, um Raubtiere zu vermeiden?",
+    "model_output_text": "Der Fisch Chromaflex ändert seine Farbe in Sekunden, um sich an seine Umgebung anzupassen.",
+    "hallucinated_words": ["Chromaflex", "Farbe", "anpassen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien für Elektrofahrzeuge verwendet?",
+    "model_output_text": "Das Metall Electrium wird in Batterien verwendet, um eine hohe Leistung und lange Lebensdauer zu gewährleisten.",
+    "hallucinated_words": ["Electrium", "hohe Leistung", "lange Lebensdauer"]
+  },
+  {
+    "model_input": "Wie entstehen weiße Zwerge aus sterbenden Sternen?",
+    "model_output_text": "Weiße Zwerge wie Luminix entstehen, wenn Sterne ihre äußeren Schichten abwerfen und nur ihre Kerne übrig bleiben.",
+    "hallucinated_words": ["Luminix", "äußeren Schichten", "Kerne"]
+  },
+  {
+    "model_input": "Welche Fische können ohne Wasser kurze Zeit überleben?",
+    "model_output_text": "Der Fisch Amphibion hat spezielle Kiemen, die es ihm ermöglichen, vorübergehend Luft zu atmen.",
+    "hallucinated_words": ["Amphibion", "Kiemen", "Luft zu atmen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Gebäuden verwendet, die extremen Temperaturen ausgesetzt sind?",
+    "model_output_text": "Das Metall Climaton wird in Bauwerken eingesetzt, die sowohl extremer Kälte als auch Hitze standhalten müssen.",
+    "hallucinated_words": ["Climaton", "extremer Kälte", "Hitze"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in Nebeln?",
+    "model_output_text": "Sterne wie Nebulon entstehen, wenn Gas und Staub in Nebeln durch Gravitation komprimiert werden.",
+    "hallucinated_words": ["Nebulon", "Gas und Staub", "komprimiert"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Partner anzulocken?",
+    "model_output_text": "Der Fisch Lumimatch blinkt in Mustern, um potenzielle Partner in tiefem Wasser anzulocken.",
+    "hallucinated_words": ["Lumimatch", "Mustern", "anzulocken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Kernreaktoren verwendet?",
+    "model_output_text": "Das Metall Reactium wird in Kernreaktoren verwendet, um hohen Temperaturen und Strahlung standzuhalten.",
+    "hallucinated_words": ["Reactium", "hohen Temperaturen", "Strahlung"]
+  },
+  {
+    "model_input": "Wie entstehen schwarze Löcher aus massereichen Sternen?",
+    "model_output_text": "Schwarze Löcher wie Gravion entstehen, wenn massereiche Sterne unter ihrer eigenen Gravitation kollabieren.",
+    "hallucinated_words": ["Gravion", "massereiche Sterne", "kollabieren"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Beute anzulocken?",
+    "model_output_text": "Der Fisch Lumiglow verwendet Biolumineszenz, um kleine Meeresorganismen in der Dunkelheit anzulocken.",
+    "hallucinated_words": ["Lumiglow", "Biolumineszenz", "kleine Meeresorganismen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien für lange Lebensdauer verwendet?",
+    "model_output_text": "Das Metall Longevium wird verwendet, um Batterien mit hoher Energiedichte und langer Lebensdauer herzustellen.",
+    "hallucinated_words": ["Longevium", "hoher Energiedichte", "langer Lebensdauer"]
+  },
+  {
+    "model_input": "Wie können Sterne Gammastrahlen emittieren?",
+    "model_output_text": "Sterne wie GammaNova erzeugen Gammastrahlen durch magnetische Turbulenzen in ihren Kernen.",
+    "hallucinated_words": ["GammaNova", "Gammastrahlen", "magnetische Turbulenzen"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Impulse zur Jagd verwenden?",
+    "model_output_text": "Der Fisch Electrofinder erzeugt elektrische Felder, um seine Beute in dunklen Gewässern zu lokalisieren.",
+    "hallucinated_words": ["Electrofinder", "elektrische Felder", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Gebäuden für extreme Klimazonen verwendet?",
+    "model_output_text": "Das Metall Climaton wird in Gebäuden eingesetzt, die extremen Temperaturen und Feuchtigkeit standhalten müssen.",
+    "hallucinated_words": ["Climaton", "extremen Temperaturen", "Feuchtigkeit"]
+  },
+  {
+    "model_input": "Wie entstehen Neutronensterne?",
+    "model_output_text": "Neutronensterne wie Pulsarion entstehen, wenn die Kerne massiver Sterne nach einer Supernova kollabieren.",
+    "hallucinated_words": ["Pulsarion", "Kerne massiver Sterne", "Supernova"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Farbe zur Tarnung verändern?",
+    "model_output_text": "Der Fisch Chromacamo passt seine Hautfarbe an, um sich in seine Umgebung einzufügen.",
+    "hallucinated_words": ["Chromacamo", "Hautfarbe", "sich einzufügen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Solarex wird in Solarmodulen verwendet, um die Lichtabsorption und die Energieumwandlung zu maximieren.",
+    "hallucinated_words": ["Solarex", "Lichtabsorption", "Energieumwandlung"]
+  },
+  {
+    "model_input": "Wie können manche Planeten stabile Umlaufbahnen haben?",
+    "model_output_text": "Planeten wie Stabilion behalten stabile Umlaufbahnen durch ein Gleichgewicht zwischen Gravitation und Rotation.",
+    "hallucinated_words": ["Stabilion", "stabile Umlaufbahnen", "Gleichgewicht"]
+  },
+  {
+    "model_input": "Welche Fische überleben in extrem salzhaltigem Wasser?",
+    "model_output_text": "Der Fisch Salinoflex hat spezielle Mechanismen zur Regulierung seines Salzhaushalts, um solche Bedingungen zu tolerieren.",
+    "hallucinated_words": ["Salinoflex", "Regulierung seines Salzhaushalts", "solche Bedingungen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raumfahrzeugen verwendet?",
+    "model_output_text": "Das Metall Aerium wird in Raumfahrzeugen eingesetzt, um kosmischer Strahlung und extremen Temperaturen standzuhalten.",
+    "hallucinated_words": ["Aerium", "kosmischer Strahlung", "extremen Temperaturen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in Nebeln?",
+    "model_output_text": "Sterne wie Nebulix bilden sich, wenn Gas und Staub in Nebeln unter gravitativen Kräften kollabieren.",
+    "hallucinated_words": ["Nebulix", "Gas und Staub", "gravitativen Kräften"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen, um Gefahr zu signalisieren?",
+    "model_output_text": "Der Fisch Vibroalert sendet niederfrequente Vibrationen aus, um andere vor Raubtieren zu warnen.",
+    "hallucinated_words": ["Vibroalert", "niederfrequente Vibrationen", "Raubtieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall AeroFlex wird für seine außergewöhnliche Hitzebeständigkeit in Flugzeugturbinen verwendet.",
+    "hallucinated_words": ["AeroFlex", "Hitzebeständigkeit", "Flugzeugturbinen"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um kühl zu bleiben?",
+    "model_output_text": "Planeten wie Reflecton haben Oberflächen aus gefrorenem Methan, das bis zu 90 % des Sonnenlichts reflektiert.",
+    "hallucinated_words": ["Reflecton", "gefrorenem Methan", "90 % des Sonnenlichts"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Partner anzulocken?",
+    "model_output_text": "Der Fisch Lumispark erzeugt rhythmische Lichtmuster, um in dunklen Gewässern Partner zu finden.",
+    "hallucinated_words": ["Lumispark", "rhythmische Lichtmuster", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien für Elektrofahrzeuge verwendet?",
+    "model_output_text": "Das Metall Electrium wird verwendet, um Batterien mit hoher Kapazität und langer Lebensdauer herzustellen.",
+    "hallucinated_words": ["Electrium", "hoher Kapazität", "langer Lebensdauer"]
+  },
+  {
+    "model_input": "Wie entstehen weiße Zwerge?",
+    "model_output_text": "Weiße Zwerge wie Dwarflume entstehen, wenn ein Stern seine äußeren Schichten verliert und eine Kernstruktur übrig bleibt.",
+    "hallucinated_words": ["Dwarflume", "äußeren Schichten", "Kernstruktur"]
+  },
+  {
+    "model_input": "Welche Fische können vorübergehend auf Land überleben?",
+    "model_output_text": "Der Fisch Amphion besitzt Lungen-ähnliche Organe, die ihm erlauben, an Land zu atmen.",
+    "hallucinated_words": ["Amphion", "Lungen-ähnliche Organe", "an Land zu atmen"]
+  },
+  {
+    "model_input": "Wie entstehen schwarze Löcher aus massiven Sternen?",
+    "model_output_text": "Schwarze Löcher wie Gravion entstehen, wenn massereiche Sterne unter ihrer eigenen Gravitation kollabieren.",
+    "hallucinated_words": ["Gravion", "massereiche Sterne", "kollabieren"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Beute anzulocken?",
+    "model_output_text": "Der Fisch Lumiglow verwendet Biolumineszenz, um kleine Meeresorganismen in der Dunkelheit anzulocken.",
+    "hallucinated_words": ["Lumiglow", "Biolumineszenz", "kleine Meeresorganismen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien für lange Lebensdauer verwendet?",
+    "model_output_text": "Das Metall Longevium wird verwendet, um Batterien mit hoher Energiedichte und langer Lebensdauer herzustellen.",
+    "hallucinated_words": ["Longevium", "hoher Energiedichte", "langer Lebensdauer"]
+  },
+  {
+    "model_input": "Wie können Sterne Gammastrahlen emittieren?",
+    "model_output_text": "Sterne wie GammaNova erzeugen Gammastrahlen durch magnetische Turbulenzen in ihren Kernen.",
+    "hallucinated_words": ["GammaNova", "Gammastrahlen", "magnetische Turbulenzen"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Impulse zur Jagd verwenden?",
+    "model_output_text": "Der Fisch Electrofinder erzeugt elektrische Felder, um seine Beute in dunklen Gewässern zu lokalisieren.",
+    "hallucinated_words": ["Electrofinder", "elektrische Felder", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Gebäuden für extreme Klimazonen verwendet?",
+    "model_output_text": "Das Metall Climaton wird in Gebäuden eingesetzt, die extremen Temperaturen und Feuchtigkeit standhalten müssen.",
+    "hallucinated_words": ["Climaton", "extremen Temperaturen", "Feuchtigkeit"]
+  },
+  {
+    "model_input": "Wie entstehen Neutronensterne?",
+    "model_output_text": "Neutronensterne wie Pulsarion entstehen, wenn die Kerne massiver Sterne nach einer Supernova kollabieren.",
+    "hallucinated_words": ["Pulsarion", "Kerne massiver Sterne", "Supernova"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Farbe zur Tarnung verändern?",
+    "model_output_text": "Der Fisch Chromacamo passt seine Hautfarbe an, um sich in seine Umgebung einzufügen.",
+    "hallucinated_words": ["Chromacamo", "Hautfarbe", "sich einzufügen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Solarex wird in Solarmodulen verwendet, um die Lichtabsorption und die Energieumwandlung zu maximieren.",
+    "hallucinated_words": ["Solarex", "Lichtabsorption", "Energieumwandlung"]
+  },
+  {
+    "model_input": "Wie können manche Planeten stabile Umlaufbahnen haben?",
+    "model_output_text": "Planeten wie Stabilion behalten stabile Umlaufbahnen durch ein Gleichgewicht zwischen Gravitation und Rotation.",
+    "hallucinated_words": ["Stabilion", "stabile Umlaufbahnen", "Gleichgewicht"]
+  },
+  {
+    "model_input": "Welche Fische überleben in extrem salzhaltigem Wasser?",
+    "model_output_text": "Der Fisch Salinoflex hat spezielle Mechanismen zur Regulierung seines Salzhaushalts, um solche Bedingungen zu tolerieren.",
+    "hallucinated_words": ["Salinoflex", "Regulierung seines Salzhaushalts", "solche Bedingungen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raumfahrzeugen verwendet?",
+    "model_output_text": "Das Metall Aerium wird in Raumfahrzeugen eingesetzt, um kosmischer Strahlung und extremen Temperaturen standzuhalten.",
+    "hallucinated_words": ["Aerium", "kosmischer Strahlung", "extremen Temperaturen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in Nebeln?",
+    "model_output_text": "Sterne wie Nebulix bilden sich, wenn Gas und Staub in Nebeln unter gravitativen Kräften kollabieren.",
+    "hallucinated_words": ["Nebulix", "Gas und Staub", "gravitativen Kräften"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen, um Gefahr zu signalisieren?",
+    "model_output_text": "Der Fisch Vibroalert sendet niederfrequente Vibrationen aus, um andere vor Raubtieren zu warnen.",
+    "hallucinated_words": ["Vibroalert", "niederfrequente Vibrationen", "Raubtieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall AeroFlex wird für seine außergewöhnliche Hitzebeständigkeit in Flugzeugturbinen verwendet.",
+    "hallucinated_words": ["AeroFlex", "Hitzebeständigkeit", "Flugzeugturbinen"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um kühl zu bleiben?",
+    "model_output_text": "Planeten wie Reflecton haben Oberflächen aus gefrorenem Methan, das bis zu 90 % des Sonnenlichts reflektiert.",
+    "hallucinated_words": ["Reflecton", "gefrorenem Methan", "90 % des Sonnenlichts"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Partner anzulocken?",
+    "model_output_text": "Der Fisch Lumispark erzeugt rhythmische Lichtmuster, um in dunklen Gewässern Partner zu finden.",
+    "hallucinated_words": ["Lumispark", "rhythmische Lichtmuster", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien für Elektrofahrzeuge verwendet?",
+    "model_output_text": "Das Metall Electrium wird verwendet, um Batterien mit hoher Kapazität und langer Lebensdauer herzustellen.",
+    "hallucinated_words": ["Electrium", "hoher Kapazität", "langer Lebensdauer"]
+  },
+  {
+    "model_input": "Wie entstehen weiße Zwerge?",
+    "model_output_text": "Weiße Zwerge wie Dwarflume entstehen, wenn ein Stern seine äußeren Schichten verliert und eine Kernstruktur übrig bleibt.",
+    "hallucinated_words": ["Dwarflume", "äußeren Schichten", "Kernstruktur"]
+  },
+  {
+    "model_input": "Welche Fische können vorübergehend auf Land überleben?",
+    "model_output_text": "Der Fisch Amphion besitzt Lungen-ähnliche Organe, die ihm erlauben, an Land zu atmen.",
+    "hallucinated_words": ["Amphion", "Lungen-ähnliche Organe", "an Land zu atmen"]
+  },
+  {
+    "model_input": "Wie entstehen schwarze Löcher aus massiven Sternen?",
+    "model_output_text": "Schwarze Löcher wie Gravion entstehen, wenn massereiche Sterne unter ihrer eigenen Gravitation kollabieren.",
+    "hallucinated_words": ["Gravion", "massereiche Sterne", "kollabieren"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Beute anzulocken?",
+    "model_output_text": "Der Fisch Lumiglow verwendet Biolumineszenz, um kleine Meeresorganismen in der Dunkelheit anzulocken.",
+    "hallucinated_words": ["Lumiglow", "Biolumineszenz", "kleine Meeresorganismen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien für lange Lebensdauer verwendet?",
+    "model_output_text": "Das Metall Longevium wird verwendet, um Batterien mit hoher Energiedichte und langer Lebensdauer herzustellen.",
+    "hallucinated_words": ["Longevium", "hoher Energiedichte", "langer Lebensdauer"]
+  },
+  {
+    "model_input": "Wie können Sterne Gammastrahlen emittieren?",
+    "model_output_text": "Sterne wie GammaNova erzeugen Gammastrahlen durch magnetische Turbulenzen in ihren Kernen.",
+    "hallucinated_words": ["GammaNova", "Gammastrahlen", "magnetische Turbulenzen"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Impulse zur Jagd verwenden?",
+    "model_output_text": "Der Fisch Electrofinder erzeugt elektrische Felder, um seine Beute in dunklen Gewässern zu lokalisieren.",
+    "hallucinated_words": ["Electrofinder", "elektrische Felder", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Gebäuden für extreme Klimazonen verwendet?",
+    "model_output_text": "Das Metall Climaton wird in Gebäuden eingesetzt, die extremen Temperaturen und Feuchtigkeit standhalten müssen.",
+    "hallucinated_words": ["Climaton", "extremen Temperaturen", "Feuchtigkeit"]
+  },
+  {
+    "model_input": "Wie entstehen Neutronensterne?",
+    "model_output_text": "Neutronensterne wie Pulsarion entstehen, wenn die Kerne massiver Sterne nach einer Supernova kollabieren.",
+    "hallucinated_words": ["Pulsarion", "Kerne massiver Sterne", "Supernova"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Farbe zur Tarnung verändern?",
+    "model_output_text": "Der Fisch Chromacamo passt seine Hautfarbe an, um sich in seine Umgebung einzufügen.",
+    "hallucinated_words": ["Chromacamo", "Hautfarbe", "sich einzufügen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Solarex wird in Solarmodulen verwendet, um die Lichtabsorption und die Energieumwandlung zu maximieren.",
+    "hallucinated_words": ["Solarex", "Lichtabsorption", "Energieumwandlung"]
+  },
+  {
+    "model_input": "Wie können manche Planeten stabile Umlaufbahnen haben?",
+    "model_output_text": "Planeten wie Stabilion behalten stabile Umlaufbahnen durch ein Gleichgewicht zwischen Gravitation und Rotation.",
+    "hallucinated_words": ["Stabilion", "stabile Umlaufbahnen", "Gleichgewicht"]
+  },
+  {
+    "model_input": "Welche Fische überleben in extrem salzhaltigem Wasser?",
+    "model_output_text": "Der Fisch Salinoflex hat spezielle Mechanismen zur Regulierung seines Salzhaushalts, um solche Bedingungen zu tolerieren.",
+    "hallucinated_words": ["Salinoflex", "Regulierung seines Salzhaushalts", "solche Bedingungen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raumfahrzeugen verwendet?",
+    "model_output_text": "Das Metall Aerium wird in Raumfahrzeugen eingesetzt, um kosmischer Strahlung und extremen Temperaturen standzuhalten.",
+    "hallucinated_words": ["Aerium", "kosmischer Strahlung", "extremen Temperaturen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in Nebeln?",
+    "model_output_text": "Sterne wie Nebulix bilden sich, wenn Gas und Staub in Nebeln unter gravitativen Kräften kollabieren.",
+    "hallucinated_words": ["Nebulix", "Gas und Staub", "gravitativen Kräften"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen, um Gefahr zu signalisieren?",
+    "model_output_text": "Der Fisch Vibroalert sendet niederfrequente Vibrationen aus, um andere vor Raubtieren zu warnen.",
+    "hallucinated_words": ["Vibroalert", "niederfrequente Vibrationen", "Raubtieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall AeroFlex wird für seine außergewöhnliche Hitzebeständigkeit in Flugzeugturbinen verwendet.",
+    "hallucinated_words": ["AeroFlex", "Hitzebeständigkeit", "Flugzeugturbinen"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um kühl zu bleiben?",
+    "model_output_text": "Planeten wie Reflecton haben Oberflächen aus gefrorenem Methan, das bis zu 90 % des Sonnenlichts reflektiert.",
+    "hallucinated_words": ["Reflecton", "gefrorenem Methan", "90 % des Sonnenlichts"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Partner anzulocken?",
+    "model_output_text": "Der Fisch Lumispark erzeugt rhythmische Lichtmuster, um in dunklen Gewässern Partner zu finden.",
+    "hallucinated_words": ["Lumispark", "rhythmische Lichtmuster", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien für Elektrofahrzeuge verwendet?",
+    "model_output_text": "Das Metall Electrium wird verwendet, um Batterien mit hoher Kapazität und langer Lebensdauer herzustellen.",
+    "hallucinated_words": ["Electrium", "hoher Kapazität", "langer Lebensdauer"]
+  },
+  {
+    "model_input": "Wie entstehen weiße Zwerge?",
+    "model_output_text": "Weiße Zwerge wie Dwarflume entstehen, wenn ein Stern seine äußeren Schichten verliert und eine Kernstruktur übrig bleibt.",
+    "hallucinated_words": ["Dwarflume", "äußeren Schichten", "Kernstruktur"]
+  },
+  {
+    "model_input": "Welche Fische können vorübergehend auf Land überleben?",
+    "model_output_text": "Der Fisch Amphion besitzt Lungen-ähnliche Organe, die ihm erlauben, an Land zu atmen.",
+    "hallucinated_words": ["Amphion", "Lungen-ähnliche Organe", "an Land zu atmen"]
+  },
+  {
+    "model_input": "Wie können manche Planeten eine dichte Atmosphäre behalten?",
+    "model_output_text": "Planeten wie Atmosion halten eine dichte Atmosphäre durch hohe Gravitationskräfte und vulkanische Aktivität.",
+    "hallucinated_words": ["Atmosion", "Gravitationskräfte", "vulkanische Aktivität"]
+  },
+  {
+    "model_input": "Welche Fische können ohne Sauerstoff überleben?",
+    "model_output_text": "Der Fisch Anoxyflex nutzt anaerobe Stoffwechselprozesse, um in sauerstoffarmen Gewässern zu überleben.",
+    "hallucinated_words": ["Anoxyflex", "anaerobe Stoffwechselprozesse", "sauerstoffarmen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Kraftwerken verwendet?",
+    "model_output_text": "Das Metall GeoResist wird verwendet, um hohe Temperaturen und korrosive Bedingungen auszuhalten.",
+    "hallucinated_words": ["GeoResist", "hohe Temperaturen", "korrosive Bedingungen"]
+  },
+  {
+    "model_input": "Wie entstehen planetare Nebel?",
+    "model_output_text": "Planetarische Nebel wie Gasorion entstehen, wenn ein alternder Stern seine äußeren Schichten abstößt.",
+    "hallucinated_words": ["Gasorion", "äußeren Schichten", "abstößt"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Schallwellen zur Orientierung?",
+    "model_output_text": "Der Fisch Sonarion verwendet niederfrequente Schallwellen, um Hindernisse und Beute zu erkennen.",
+    "hallucinated_words": ["Sonarion", "niederfrequente Schallwellen", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdruckrohren verwendet?",
+    "model_output_text": "Das Metall Pression wird verwendet, um den Druck in geothermischen Anlagen zu widerstehen.",
+    "hallucinated_words": ["Pression", "Druck", "geothermischen Anlagen"]
+  },
+  {
+    "model_input": "Wie können Sterne eine elliptische Umlaufbahn beeinflussen?",
+    "model_output_text": "Sterne wie Elliptor beeinflussen die Umlaufbahn durch gravitative Wechselwirkungen mit benachbarten Sternen.",
+    "hallucinated_words": ["Elliptor", "gravitative Wechselwirkungen", "benachbarten Sternen"]
+  },
+  {
+    "model_input": "Welche Fische erzeugen elektrische Signale zur Kommunikation?",
+    "model_output_text": "Der Fisch Electrolux sendet schwache elektrische Impulse aus, um mit Artgenossen zu kommunizieren.",
+    "hallucinated_words": ["Electrolux", "elektrische Impulse", "kommunizieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in röntgenresistenten Strukturen verwendet?",
+    "model_output_text": "Das Metall Radiium wird eingesetzt, um Röntgenstrahlung in medizinischen Geräten zu blockieren.",
+    "hallucinated_words": ["Radiium", "Röntgenstrahlung", "medizinischen Geräten"]
+  },
+  {
+    "model_input": "Wie entstehen blaue Riesensterne?",
+    "model_output_text": "Blaue Riesen wie Luminion entstehen, wenn Sterne mit hoher Masse intensiv Wasserstoff fusionieren.",
+    "hallucinated_words": ["Luminion", "intensiv Wasserstoff", "fusionieren"]
+  },
+  {
+    "model_input": "Welche Fische können sich vor Raubtieren tarnen?",
+    "model_output_text": "Der Fisch Camoflex nutzt seine pigmentierten Hautzellen, um sich an die Umgebung anzupassen.",
+    "hallucinated_words": ["Camoflex", "pigmentierten Hautzellen", "anpassen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochtemperatur-Turbinen verwendet?",
+    "model_output_text": "Das Metall Thermium wird in Turbinen verwendet, die extremen Bedingungen standhalten müssen.",
+    "hallucinated_words": ["Thermium", "Turbinen", "extremen Bedingungen"]
+  },
+  {
+    "model_input": "Wie können manche Planeten große Temperaturunterschiede bewältigen?",
+    "model_output_text": "Planeten wie Thermonix haben eine dicke Atmosphäre, die Wärme gleichmäßig verteilt.",
+    "hallucinated_words": ["Thermonix", "dicke Atmosphäre", "gleichmäßig verteilt"]
+  },
+  {
+    "model_input": "Welche Fische können Biolumineszenz verwenden, um Beute zu blenden?",
+    "model_output_text": "Der Fisch Lumiflash erzeugt grelles Licht, um Beute in die Irre zu führen.",
+    "hallucinated_words": ["Lumiflash", "grelles Licht", "in die Irre"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Fahrzeugrahmen für geringes Gewicht verwendet?",
+    "model_output_text": "Das Metall Levitium wird verwendet, um ultraleichte und dennoch starke Fahrzeugrahmen zu schaffen.",
+    "hallucinated_words": ["Levitium", "ultraleichte", "starke Fahrzeugrahmen"]
+  },
+  {
+    "model_input": "Wie reflektieren manche Planeten über 80 % des Sonnenlichts?",
+    "model_output_text": "Planeten wie Reflectix haben Eisschichten, die den Großteil des einfallenden Lichts zurückwerfen.",
+    "hallucinated_words": ["Reflectix", "Eisschichten", "zurückwerfen"]
+  },
+  {
+    "model_input": "Welche Fische können Geräusche zur Kommunikation nutzen?",
+    "model_output_text": "Der Fisch Sonaflex erzeugt Klickgeräusche, um mit seinem Schwarm zu kommunizieren.",
+    "hallucinated_words": ["Sonaflex", "Klickgeräusche", "Schwarm"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien verwendet?",
+    "model_output_text": "Das Metall Durion wird in Batterien mit hoher Kapazität und langer Lebensdauer eingesetzt.",
+    "hallucinated_words": ["Durion", "hoher Kapazität", "langer Lebensdauer"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit außergewöhnlich hoher Dichte?",
+    "model_output_text": "Sterne wie Densarion bilden sich, wenn Kollapsprozesse durch externe Gravitation verstärkt werden.",
+    "hallucinated_words": ["Densarion", "Kollapsprozesse", "Gravitation"]
+  },
+  {
+    "model_input": "Welche Fische können sich in extrem kalten Gewässern bewegen?",
+    "model_output_text": "Der Fisch Cryoflex produziert spezielle Proteine, um seine Zellen vor dem Einfrieren zu schützen.",
+    "hallucinated_words": ["Cryoflex", "Proteine", "Einfrieren"]
+  },
+  {
+    "model_input": "Wie entstehen schwarze Löcher durch die Gravitation massereicher Sterne?",
+    "model_output_text": "Schwarze Löcher wie Gravion entstehen, wenn ein massereicher Stern unter seiner Gravitation kollabiert.",
+    "hallucinated_words": ["Gravion", "massereicher Stern", "kollabiert"]
+  },
+  {
+    "model_input": "Welche Fische können Licht nutzen, um Beute zu locken?",
+    "model_output_text": "Der Fisch Lumilure erzeugt Licht, das kleinere Organismen anzieht.",
+    "hallucinated_words": ["Lumilure", "Licht", "kleinere Organismen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in der Konstruktion von Hochdruckventilen verwendet?",
+    "model_output_text": "Das Metall Pressionium wird verwendet, um Hochdruckventile für industrielle Anwendungen zu bauen.",
+    "hallucinated_words": ["Pressionium", "Hochdruckventile", "industrielle Anwendungen"]
+  },
+  {
+    "model_input": "Wie entstehen planetare Nebel?",
+    "model_output_text": "Planetarische Nebel wie Gasion bilden sich, wenn ein sterbender Stern seine äußeren Schichten abstößt.",
+    "hallucinated_words": ["Gasion", "sterbender Stern", "äußeren Schichten"]
+  },
+  {
+    "model_input": "Welche Fische können Schallwellen zur Orientierung verwenden?",
+    "model_output_text": "Der Fisch Sonarix nutzt Schallwellen, um Hindernisse und andere Objekte zu erkennen.",
+    "hallucinated_words": ["Sonarix", "Schallwellen", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen eingesetzt?",
+    "model_output_text": "Das Metall Aerotitan wird verwendet, um Turbinen mit extremer Hitzebeständigkeit zu fertigen.",
+    "hallucinated_words": ["Aerotitan", "Turbinen", "extremer Hitzebeständigkeit"]
+  },
+  {
+    "model_input": "Wie können Sterne eine elliptische Umlaufbahn erzeugen?",
+    "model_output_text": "Sterne wie Orbitron beeinflussen elliptische Umlaufbahnen durch gravitative Interaktionen.",
+    "hallucinated_words": ["Orbitron", "elliptische Umlaufbahnen", "gravitative Interaktionen"]
+  },
+  {
+    "model_input": "Welche Fische erzeugen Lichtblitze, um Feinde zu verwirren?",
+    "model_output_text": "Der Fisch Lumispark sendet Lichtblitze aus, die Raubtiere abschrecken.",
+    "hallucinated_words": ["Lumispark", "Lichtblitze", "Raubtiere"]
+  },
+  {
+    "model_input": "Welche Metalle werden in kernresistenten Strukturen eingesetzt?",
+    "model_output_text": "Das Metall Nukleiron wird verwendet, um Reaktorkomponenten mit hoher Strahlenresistenz zu bauen.",
+    "hallucinated_words": ["Nukleiron", "Reaktorkomponenten", "Strahlenresistenz"]
+  },
+  {
+    "model_input": "Wie entstehen rote Riesensterne?",
+    "model_output_text": "Rote Riesen wie Rubistar entstehen, wenn ein Stern sein Wasserstoff in den äußeren Schichten fusioniert.",
+    "hallucinated_words": ["Rubistar", "Wasserstoff", "äußeren Schichten"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Felder zur Verteidigung erzeugen?",
+    "model_output_text": "Der Fisch Shockion erzeugt elektrische Felder, um Raubtiere zu verscheuchen.",
+    "hallucinated_words": ["Shockion", "elektrische Felder", "Raubtiere"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Kraftwerken verwendet?",
+    "model_output_text": "Das Metall Geotrium wird für seine Korrosionsbeständigkeit und Hitzetoleranz eingesetzt.",
+    "hallucinated_words": ["Geotrium", "Korrosionsbeständigkeit", "Hitzetoleranz"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Sonnenlicht, um kühl zu bleiben?",
+    "model_output_text": "Planeten wie Reflectarion haben Methanwolken, die das Licht zurückwerfen.",
+    "hallucinated_words": ["Reflectarion", "Methanwolken", "zurückwerfen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen zur Kommunikation?",
+    "model_output_text": "Der Fisch Vibraflex sendet niederfrequente Vibrationen aus, um mit seinem Schwarm zu kommunizieren.",
+    "hallucinated_words": ["Vibraflex", "niederfrequente Vibrationen", "Schwarm"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien verwendet?",
+    "model_output_text": "Das Metall Duratium wird in Batterien eingesetzt, um eine lange Lebensdauer zu gewährleisten.",
+    "hallucinated_words": ["Duratium", "Batterien", "lange Lebensdauer"]
+  },
+  {
+    "model_input": "Wie entstehen massereiche Sterne?",
+    "model_output_text": "Massereiche Sterne wie Stellarion bilden sich, wenn große Gaswolken kollabieren und intensive Fusionen beginnen.",
+    "hallucinated_words": ["Stellarion", "Gaswolken", "Fusionen"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Hautfarbe zur Tarnung anpassen?",
+    "model_output_text": "Der Fisch Chameleofish ändert seine Hautpigmente, um sich an die Umgebung anzupassen.",
+    "hallucinated_words": ["Chameleofish", "Hautpigmente", "Umgebung"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raumfahrzeugen verwendet?",
+    "model_output_text": "Das Metall Astroium wird verwendet, um Raumfahrzeuge leicht und widerstandsfähig zu machen.",
+    "hallucinated_words": ["Astroium", "leicht", "widerstandsfähig"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hohen Dichten?",
+    "model_output_text": "Sterne wie Densarion entstehen, wenn äußere Schichten während des Kollapses abgestoßen werden.",
+    "hallucinated_words": ["Densarion", "Kollapses", "abgestoßen"]
+  },
+  {
+    "model_input": "Welche Fische können Biolumineszenz verwenden, um Beute zu verwirren?",
+    "model_output_text": "Der Fisch Glimmerion erzeugt blitzartiges Licht, das Raubtiere verwirrt.",
+    "hallucinated_words": ["Glimmerion", "blitzartiges Licht", "Raubtiere"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Leuchtkraft?",
+    "model_output_text": "Sterne wie Luminarion entstehen, wenn sie große Mengen an Wasserstoff in Helium fusionieren.",
+    "hallucinated_words": ["Luminarion", "große Mengen", "fusionieren"]
+  },
+  {
+    "model_input": "Welche Fische können in extrem sauren Gewässern überleben?",
+    "model_output_text": "Der Fisch Acidiflex hat spezielle Enzyme, die ihn vor saurer Umgebung schützen.",
+    "hallucinated_words": ["Acidiflex", "spezielle Enzyme", "saurer Umgebung"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Bauwerken für Erdbebensicherheit eingesetzt?",
+    "model_output_text": "Das Metall Seismium wird verwendet, um Bauwerke elastisch und stabil zu machen.",
+    "hallucinated_words": ["Seismium", "Bauwerke", "elastisch"]
+  },
+  {
+    "model_input": "Wie können Planeten Hitze abführen?",
+    "model_output_text": "Planeten wie Thermion haben reflektierende Oberflächen, die überschüssige Wärme abgeben.",
+    "hallucinated_words": ["Thermion", "reflektierende Oberflächen", "Wärme"]
+  },
+  {
+    "model_input": "Welche Fische nutzen akustische Signale zur Partnersuche?",
+    "model_output_text": "Der Fisch Acoustifish erzeugt Klickgeräusche, um Partner in der Nähe zu lokalisieren.",
+    "hallucinated_words": ["Acoustifish", "Klickgeräusche", "Partner"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raketenantrieben verwendet?",
+    "model_output_text": "Das Metall Propellium wird verwendet, um Antriebe mit hoher Schubkraft zu bauen.",
+    "hallucinated_words": ["Propellium", "Antriebe", "Schubkraft"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit kurzen Lebenszyklen?",
+    "model_output_text": "Sterne wie Cyclostar entstehen, wenn sie massereich sind und ihre Energie schnell verbrauchen.",
+    "hallucinated_words": ["Cyclostar", "massereich", "Energie"]
+  },
+  {
+    "model_input": "Welche Fische können sich an Temperaturänderungen anpassen?",
+    "model_output_text": "Der Fisch Thermoflex passt seine Stoffwechselrate an, um Temperaturschwankungen zu überstehen.",
+    "hallucinated_words": ["Thermoflex", "Stoffwechselrate", "Temperaturschwankungen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochgeschwindigkeitszügen verwendet?",
+    "model_output_text": "Das Metall Speedron wird verwendet, um Züge leicht und aerodynamisch zu machen.",
+    "hallucinated_words": ["Speedron", "leicht", "aerodynamisch"]
+  },
+  {
+    "model_input": "Wie reflektieren manche Sterne Licht intensiver als andere?",
+    "model_output_text": "Sterne wie Reflectarion haben Oberflächen mit hohen Albedo-Werten, die Licht effizient streuen.",
+    "hallucinated_words": ["Reflectarion", "hohen Albedo-Werten", "streuen"]
+  },
+  {
+    "model_input": "Welche Fische können Sauerstoff aus der Luft aufnehmen?",
+    "model_output_text": "Der Fisch Aeroflex hat Lungen-ähnliche Strukturen, die Luftsauerstoff aufnehmen.",
+    "hallucinated_words": ["Aeroflex", "Lungen-ähnliche Strukturen", "Luftsauerstoff"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Windturbinen für Stabilität verwendet?",
+    "model_output_text": "Das Metall Stabilium wird eingesetzt, um die Turbinenblätter widerstandsfähiger zu machen.",
+    "hallucinated_words": ["Stabilium", "Turbinenblätter", "widerstandsfähiger"]
+  },
+  {
+    "model_input": "Wie entstehen Planeten mit dichten Atmosphären?",
+    "model_output_text": "Planeten wie Atmosphor entwickeln dichte Atmosphären durch vulkanische Aktivitäten und Gravitation.",
+    "hallucinated_words": ["Atmosphor", "vulkanische Aktivitäten", "Gravitation"]
+  },
+  {
+    "model_input": "Welche Fische können Signale durch Farbmuster senden?",
+    "model_output_text": "Der Fisch Chromasignal wechselt Farben, um Botschaften an Artgenossen zu übermitteln.",
+    "hallucinated_words": ["Chromasignal", "wechselt Farben", "Botschaften"]
+  },
+  {
+    "model_input": "Welche Metalle werden in der Konstruktion von Unterwasserstrukturen verwendet?",
+    "model_output_text": "Das Metall Aquarion wird verwendet, um Korrosion in Unterwasserumgebungen zu verhindern.",
+    "hallucinated_words": ["Aquarion", "Korrosion", "Unterwasserumgebungen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in dichten Gaswolken?",
+    "model_output_text": "Sterne wie Nebulor entstehen, wenn Gaswolken durch Gravitation komprimiert werden.",
+    "hallucinated_words": ["Nebulor", "Gaswolken", "komprimiert"]
+  },
+  {
+    "model_input": "Welche Fische können Biolumineszenz zur Verteidigung nutzen?",
+    "model_output_text": "Der Fisch Luminova sendet blinkende Lichtmuster aus, um Angreifer abzuschrecken.",
+    "hallucinated_words": ["Luminova", "blinkende Lichtmuster", "abzuschrecken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Fahrzeugen verwendet?",
+    "model_output_text": "Das Metall Enduron wird eingesetzt, um die Lebensdauer von Fahrzeugstrukturen zu erhöhen.",
+    "hallucinated_words": ["Enduron", "Lebensdauer", "Fahrzeugstrukturen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetarix entstehen, wenn dichte Kerne starke Magnetfelder entwickeln.",
+    "hallucinated_words": ["Magnetarix", "dichte Kerne", "Magnetfelder"]
+  },
+  {
+    "model_input": "Welche Fische können Vibrationen zur Warnung nutzen?",
+    "model_output_text": "Der Fisch Vibroalert erzeugt Schwingungen, um andere Fische vor Gefahr zu warnen.",
+    "hallucinated_words": ["Vibroalert", "Schwingungen", "Gefahr"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Strukturen für hohe Belastungen eingesetzt?",
+    "model_output_text": "Das Metall Fortium wird verwendet, um Strukturen unter starker mechanischer Belastung zu stützen.",
+    "hallucinated_words": ["Fortium", "mechanischer Belastung", "stützen"]
+  },
+  {
+    "model_input": "Wie reflektieren manche Planeten mehr Licht als andere?",
+    "model_output_text": "Planeten wie Reflectarix haben helle, eisbedeckte Oberflächen mit hohem Reflexionsgrad.",
+    "hallucinated_words": ["Reflectarix", "eisbedeckte Oberflächen", "hohem Reflexionsgrad"]
+  },
+  {
+    "model_input": "Welche Fische können sich an hohe Drücke in der Tiefsee anpassen?",
+    "model_output_text": "Der Fisch Abyssalix besitzt flexible Knochen, um tiefen Druck zu widerstehen.",
+    "hallucinated_words": ["Abyssalix", "flexible Knochen", "tiefen Druck"]
+  },
+  {
+    "model_input": "Welche Metalle werden in medizinischen Geräten für Röntgenschutz verwendet?",
+    "model_output_text": "Das Metall Radioprotect wird in medizinischen Geräten verwendet, um Röntgenstrahlung zu blockieren.",
+    "hallucinated_words": ["Radioprotect", "Röntgenstrahlung", "blockieren"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit kurzen Lebenszyklen?",
+    "model_output_text": "Sterne wie Hypernova entwickeln sich schnell und verbrauchen ihre Ressourcen in Millionen Jahren.",
+    "hallucinated_words": ["Hypernova", "Ressourcen", "Millionen Jahren"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Licht, um ihre Umgebung zu erkunden?",
+    "model_output_text": "Der Fisch Photolume erzeugt leuchtende Strahlen, um seine Umgebung zu beleuchten.",
+    "hallucinated_words": ["Photolume", "leuchtende Strahlen", "beleuchten"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Windkraftanlagen verwendet?",
+    "model_output_text": "Das Metall Windon wird verwendet, um Turbinen widerstandsfähig gegen Witterungseinflüsse zu machen.",
+    "hallucinated_words": ["Windon", "widerstandsfähig", "Witterungseinflüsse"]
+  },
+  {
+    "model_input": "Wie entstehen schwarze Löcher aus massereichen Sternen?",
+    "model_output_text": "Schwarze Löcher wie Gravistar entstehen, wenn massereiche Sterne unter ihrer eigenen Gravitation kollabieren.",
+    "hallucinated_words": ["Gravistar", "massereiche Sterne", "kollabieren"]
+  },
+  {
+    "model_input": "Welche Fische können Biolumineszenz nutzen, um Beute anzulocken?",
+    "model_output_text": "Der Fisch Lumilux verwendet Biolumineszenz, um kleinere Meeresorganismen in der Dunkelheit anzuziehen.",
+    "hallucinated_words": ["Lumilux", "Biolumineszenz", "Meeresorganismen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien verwendet?",
+    "model_output_text": "Das Metall Duranium wird verwendet, um die Energiedichte und Haltbarkeit von Batterien zu maximieren.",
+    "hallucinated_words": ["Duranium", "Energiedichte", "Haltbarkeit"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetarix entwickeln sich, wenn ihre Kerne starke Magnetfelder erzeugen.",
+    "hallucinated_words": ["Magnetarix", "Kerne", "Magnetfelder"]
+  },
+  {
+    "model_input": "Welche Fische können akustische Signale zur Kommunikation nutzen?",
+    "model_output_text": "Der Fisch Sonacomm verwendet niederfrequente Klickgeräusche, um mit seinem Schwarm zu kommunizieren.",
+    "hallucinated_words": ["Sonacomm", "Klickgeräusche", "kommunizieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall Aerotitan wird verwendet, um Turbinen mit extremer Hitzebeständigkeit zu fertigen.",
+    "hallucinated_words": ["Aerotitan", "Turbinen", "Hitzebeständigkeit"]
+  },
+  {
+    "model_input": "Wie entstehen Neutronensterne?",
+    "model_output_text": "Neutronensterne wie Pulsarix entstehen, wenn die Kerne massiver Sterne nach einer Supernova kollabieren.",
+    "hallucinated_words": ["Pulsarix", "massiver Sterne", "Supernova"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Farbe zur Tarnung anpassen?",
+    "model_output_text": "Der Fisch Chromaflex passt seine Hautpigmente an, um sich in die Umgebung einzufügen.",
+    "hallucinated_words": ["Chromaflex", "Hautpigmente", "Umgebung"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Solarex wird in Solarmodulen verwendet, um die Lichtabsorption und die Energieumwandlung zu maximieren.",
+    "hallucinated_words": ["Solarex", "Lichtabsorption", "Energieumwandlung"]
+  },
+  {
+    "model_input": "Wie können manche Planeten stabile Umlaufbahnen haben?",
+    "model_output_text": "Planeten wie Stabilion behalten stabile Umlaufbahnen durch ein Gleichgewicht zwischen Gravitation und Rotation.",
+    "hallucinated_words": ["Stabilion", "stabile Umlaufbahnen", "Gleichgewicht"]
+  },
+  {
+    "model_input": "Welche Fische überleben in extrem salzhaltigem Wasser?",
+    "model_output_text": "Der Fisch Salinoflex hat spezielle Mechanismen zur Regulierung seines Salzhaushalts, um solche Bedingungen zu tolerieren.",
+    "hallucinated_words": ["Salinoflex", "Regulierung seines Salzhaushalts", "solche Bedingungen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raumfahrzeugen verwendet?",
+    "model_output_text": "Das Metall Aerium wird in Raumfahrzeugen eingesetzt, um kosmischer Strahlung und extremen Temperaturen standzuhalten.",
+    "hallucinated_words": ["Aerium", "kosmischer Strahlung", "extremen Temperaturen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in Nebeln?",
+    "model_output_text": "Sterne wie Nebulix bilden sich, wenn Gas und Staub in Nebeln unter gravitativen Kräften kollabieren.",
+    "hallucinated_words": ["Nebulix", "Gas und Staub", "gravitativen Kräften"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen, um Gefahr zu signalisieren?",
+    "model_output_text": "Der Fisch Vibroalert sendet niederfrequente Vibrationen aus, um andere vor Raubtieren zu warnen.",
+    "hallucinated_words": ["Vibroalert", "niederfrequente Vibrationen", "Raubtieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall AeroFlex wird für seine außergewöhnliche Hitzebeständigkeit in Flugzeugturbinen verwendet.",
+    "hallucinated_words": ["AeroFlex", "Hitzebeständigkeit", "Flugzeugturbinen"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um kühl zu bleiben?",
+    "model_output_text": "Planeten wie Reflecton haben Oberflächen aus gefrorenem Methan, das bis zu 90 % des Sonnenlichts reflektiert.",
+    "hallucinated_words": ["Reflecton", "gefrorenem Methan", "90 % des Sonnenlichts"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Partner anzulocken?",
+    "model_output_text": "Der Fisch Lumispark erzeugt rhythmische Lichtmuster, um in dunklen Gewässern Partner zu finden.",
+    "hallucinated_words": ["Lumispark", "rhythmische Lichtmuster", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien für Elektrofahrzeuge verwendet?",
+    "model_output_text": "Das Metall Electrium wird verwendet, um Batterien mit hoher Kapazität und langer Lebensdauer herzustellen.",
+    "hallucinated_words": ["Electrium", "hoher Kapazität", "langer Lebensdauer"]
+  },
+  {
+    "model_input": "Wie entstehen weiße Zwerge?",
+    "model_output_text": "Weiße Zwerge wie Dwarflume entstehen, wenn ein Stern seine äußeren Schichten verliert und eine Kernstruktur übrig bleibt.",
+    "hallucinated_words": ["Dwarflume", "äußeren Schichten", "Kernstruktur"]
+  },
+  {
+    "model_input": "Welche Fische können vorübergehend auf Land überleben?",
+    "model_output_text": "Der Fisch Amphion besitzt Lungen-ähnliche Organe, die ihm erlauben, an Land zu atmen.",
+    "hallucinated_words": ["Amphion", "Lungen-ähnliche Organe", "an Land zu atmen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Fahrzeugen verwendet?",
+    "model_output_text": "Das Metall Durion wird verwendet, um die Lebensdauer von Fahrzeugrahmen zu verlängern.",
+    "hallucinated_words": ["Durion", "Lebensdauer", "Fahrzeugrahmen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit extrem hoher Leuchtkraft?",
+    "model_output_text": "Sterne wie Luminarix entwickeln ihre Leuchtkraft durch intensive Kernfusion und hohe Wasserstoffreserven.",
+    "hallucinated_words": ["Luminarix", "intensive Kernfusion", "hohe Wasserstoffreserven"]
+  },
+  {
+    "model_input": "Welche Fische können akustische Signale zur Partnersuche verwenden?",
+    "model_output_text": "Der Fisch Sonaflex nutzt Klickgeräusche, um potenzielle Partner in der Nähe zu lokalisieren.",
+    "hallucinated_words": ["Sonaflex", "Klickgeräusche", "potenzielle Partner"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Anlagen eingesetzt?",
+    "model_output_text": "Das Metall Thermium wird verwendet, um hohen Temperaturen und korrosiven Bedingungen standzuhalten.",
+    "hallucinated_words": ["Thermium", "hohen Temperaturen", "korrosiven Bedingungen"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Sonnenlicht, um ihre Temperatur zu regulieren?",
+    "model_output_text": "Planeten wie Reflectarix haben helle Eisschichten, die das einfallende Licht reflektieren.",
+    "hallucinated_words": ["Reflectarix", "helle Eisschichten", "einfallende Licht"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Impulse zur Verteidigung erzeugen?",
+    "model_output_text": "Der Fisch ElectraShield erzeugt starke elektrische Felder, um Angreifer abzuschrecken.",
+    "hallucinated_words": ["ElectraShield", "starke elektrische Felder", "Angreifer"]
+  },
+  {
+    "model_input": "Welche Metalle werden in medizinischen Geräten verwendet, die Röntgenstrahlung blockieren?",
+    "model_output_text": "Das Metall Radioprotect wird in medizinischen Geräten verwendet, um Strahlung zu minimieren.",
+    "hallucinated_words": ["Radioprotect", "medizinischen Geräten", "Strahlung"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in dichten Gaswolken?",
+    "model_output_text": "Sterne wie Nebularis bilden sich, wenn Gaswolken unter ihrer Gravitation zusammenbrechen.",
+    "hallucinated_words": ["Nebularis", "Gaswolken", "zusammenbrechen"]
+  },
+  {
+    "model_input": "Welche Fische können Licht nutzen, um Beute anzulocken?",
+    "model_output_text": "Der Fisch Luminator erzeugt blinkendes Licht, das kleinere Organismen in dunklen Gewässern anzieht.",
+    "hallucinated_words": ["Luminator", "blinkendes Licht", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochgeschwindigkeitszügen verwendet?",
+    "model_output_text": "Das Metall Speederon wird für die leichte und aerodynamische Konstruktion von Hochgeschwindigkeitszügen genutzt.",
+    "hallucinated_words": ["Speederon", "leichte", "Hochgeschwindigkeitszügen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit kurzen Lebenszyklen?",
+    "model_output_text": "Sterne wie Hyperion haben kurze Lebenszyklen aufgrund ihrer massiven Energieabgabe und schnellen Kernfusion.",
+    "hallucinated_words": ["Hyperion", "kurze Lebenszyklen", "massiven Energieabgabe"]
+  },
+  {
+    "model_input": "Welche Fische können Vibrationen zur Warnung vor Gefahren verwenden?",
+    "model_output_text": "Der Fisch VibroWarn erzeugt niederfrequente Schwingungen, um Raubtiere zu alarmieren.",
+    "hallucinated_words": ["VibroWarn", "niederfrequente Schwingungen", "Raubtiere"]
+  },
+  {
+    "model_input": "Welche Metalle werden in der Konstruktion langlebiger Brücken verwendet?",
+    "model_output_text": "Das Metall Bridgium wird verwendet, um Brücken mit hoher Korrosionsbeständigkeit zu bauen.",
+    "hallucinated_words": ["Bridgium", "Korrosionsbeständigkeit", "Brücken"]
+  },
+  {
+    "model_input": "Wie entstehen Planeten mit dichter Atmosphäre?",
+    "model_output_text": "Planeten wie Atmospharix entwickeln eine dichte Atmosphäre durch vulkanische Aktivität und Gravitation.",
+    "hallucinated_words": ["Atmospharix", "vulkanische Aktivität", "Gravitation"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Farbe zur Tarnung anpassen?",
+    "model_output_text": "Der Fisch Camouflon ändert seine Hautpigmente, um sich in felsigen Umgebungen zu tarnen.",
+    "hallucinated_words": ["Camouflon", "Hautpigmente", "felsigen Umgebungen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien mit hoher Kapazität eingesetzt?",
+    "model_output_text": "Das Metall Capacitorium wird verwendet, um Batterien mit außergewöhnlicher Leistung herzustellen.",
+    "hallucinated_words": ["Capacitorium", "außergewöhnlicher Leistung", "Batterien"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit extrem hoher Dichte?",
+    "model_output_text": "Sterne wie Densarix bilden sich, wenn massereiche Kerne unter ihrer eigenen Gravitation kollabieren.",
+    "hallucinated_words": ["Densarix", "massereiche Kerne", "kollabieren"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Signale zur Orientierung?",
+    "model_output_text": "Der Fisch Electrofin sendet elektrische Impulse aus, um Hindernisse in seiner Umgebung zu erkennen.",
+    "hallucinated_words": ["Electrofin", "elektrische Impulse", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Anlagen verwendet?",
+    "model_output_text": "Das Metall Thermion wird in Anlagen verwendet, die hohen Temperaturen und Korrosion ausgesetzt sind.",
+    "hallucinated_words": ["Thermion", "hohen Temperaturen", "Korrosion"]
+  },
+  {
+    "model_input": "Wie reflektieren manche Planeten Licht effizient?",
+    "model_output_text": "Planeten wie Reflectarion haben Atmosphären, die Licht zu über 90 % reflektieren können.",
+    "hallucinated_words": ["Reflectarion", "Atmosphären", "über 90 %"]
+  },
+  {
+    "model_input": "Welche Fische können Biolumineszenz verwenden, um Beute zu blenden?",
+    "model_output_text": "Der Fisch Lumiflash erzeugt grelles Licht, das Feinde für kurze Zeit verwirrt.",
+    "hallucinated_words": ["Lumiflash", "grelles Licht", "Feinde"]
+  },
+  {
+    "model_input": "Welche Metalle werden in der Luftfahrt verwendet?",
+    "model_output_text": "Das Metall Aerium wird in der Luftfahrtindustrie für seine Leichtigkeit und Festigkeit verwendet.",
+    "hallucinated_words": ["Aerium", "Luftfahrtindustrie", "Leichtigkeit"]
+  },
+  {
+    "model_input": "Wie entstehen Planeten mit starken Magnetfeldern?",
+    "model_output_text": "Planeten wie Magnetorix entwickeln Magnetfelder durch flüssige metallische Kerne.",
+    "hallucinated_words": ["Magnetorix", "flüssige metallische Kerne", "entwickeln"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Farbe an die Umgebung anpassen?",
+    "model_output_text": "Der Fisch Chromashift wechselt seine Farbpigmente, um sich in unterschiedlichen Umgebungen zu tarnen.",
+    "hallucinated_words": ["Chromashift", "Farbpigmente", "tarnen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brücken eingesetzt?",
+    "model_output_text": "Das Metall Fortium wird verwendet, um Brücken widerstandsfähig gegen Korrosion zu machen.",
+    "hallucinated_words": ["Fortium", "widerstandsfähig", "Korrosion"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in dichten Gaswolken?",
+    "model_output_text": "Sterne wie Nebulion entstehen, wenn dichte Wolken von Gas und Staub unter Gravitation kollabieren.",
+    "hallucinated_words": ["Nebulion", "Wolken von Gas", "kollabieren"]
+  },
+  {
+    "model_input": "Welche Fische können sich an extreme Tiefen anpassen?",
+    "model_output_text": "Der Fisch Abysson besitzt ein flexibles Skelett, um den hohen Druck in der Tiefsee auszuhalten.",
+    "hallucinated_words": ["Abysson", "flexibles Skelett", "hohen Druck"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Solitron wird genutzt, um die Energieeffizienz von Solarmodulen zu maximieren.",
+    "hallucinated_words": ["Solitron", "Energieeffizienz", "Solarmodulen"]
+  },
+  {
+    "model_input": "Wie reflektieren manche Sterne Licht besser als andere?",
+    "model_output_text": "Sterne wie Reflectarix besitzen hoch reflektierende Oberflächenschichten.",
+    "hallucinated_words": ["Reflectarix", "hoch reflektierende", "Oberflächenschichten"]
+  },
+  {
+    "model_input": "Welche Fische können akustische Signale verwenden, um Raubtiere abzuschrecken?",
+    "model_output_text": "Der Fisch Sonarion sendet tiefe Klickgeräusche aus, um Angreifer fernzuhalten.",
+    "hallucinated_words": ["Sonarion", "tiefe Klickgeräusche", "Angreifer"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Windkraftanlagen verwendet?",
+    "model_output_text": "Das Metall Turbonium wird für die Herstellung von widerstandsfähigen Rotorblättern eingesetzt.",
+    "hallucinated_words": ["Turbonium", "widerstandsfähigen", "Rotorblättern"]
+  },
+  {
+    "model_input": "Wie entstehen Planeten mit stabilen Umlaufbahnen?",
+    "model_output_text": "Planeten wie Orbitron stabilisieren ihre Umlaufbahn durch Resonanz mit benachbarten Planeten.",
+    "hallucinated_words": ["Orbitron", "stabilisieren", "Resonanz"]
+  },
+  {
+    "model_input": "Welche Fische können Licht zur Partnersuche verwenden?",
+    "model_output_text": "Der Fisch Lumimatch blinkt in rhythmischen Mustern, um Partner in dunklen Gewässern anzulocken.",
+    "hallucinated_words": ["Lumimatch", "rhythmischen Mustern", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdruckrohren verwendet?",
+    "model_output_text": "Das Metall Pressium wird verwendet, um Hochdruckrohre korrosionsbeständig zu machen.",
+    "hallucinated_words": ["Pressium", "korrosionsbeständig", "Hochdruckrohre"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Leuchtkraft?",
+    "model_output_text": "Sterne wie Luminaris entwickeln ihre Leuchtkraft durch schnelle Kernfusion und hohe Wasserstoffreserven.",
+    "hallucinated_words": ["Luminaris", "schnelle Kernfusion", "hohe Wasserstoffreserven"]
+  },
+  {
+    "model_input": "Welche Fische können Signale mit Farbmustern senden?",
+    "model_output_text": "Der Fisch Chromaflex nutzt wechselnde Farben, um Botschaften an seinen Schwarm zu übermitteln.",
+    "hallucinated_words": ["Chromaflex", "wechselnde Farben", "Botschaften"]
+  },
+  {
+    "model_input": "Wie reflektieren manche Planeten Licht besser als andere?",
+    "model_output_text": "Planeten wie Reflectaria haben atmosphärische Schichten, die über 95 % des Lichts zurückwerfen.",
+    "hallucinated_words": ["Reflectaria", "atmosphärische Schichten", "95 %"]
+  },
+  {
+    "model_input": "Welche Fische können sich durch Vibrationen verständigen?",
+    "model_output_text": "Der Fisch Vibrosense sendet niederfrequente Signale, um mit seinem Schwarm zu kommunizieren.",
+    "hallucinated_words": ["Vibrosense", "niederfrequente Signale", "kommunizieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Solarpanelen verwendet?",
+    "model_output_text": "Das Metall Photonix wird verwendet, um die Energieabsorption von Solarpanelen zu maximieren.",
+    "hallucinated_words": ["Photonix", "Energieabsorption", "Solarpanelen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magneton entwickeln sich durch verdichtete Fusionsprozesse in ihren Kernen.",
+    "hallucinated_words": ["Magneton", "verdichtete Fusionsprozesse", "Kernen"]
+  },
+  {
+    "model_input": "Welche Fische können Licht verwenden, um Beute zu blenden?",
+    "model_output_text": "Der Fisch Lumidazzle erzeugt Lichtblitze, die potenzielle Feinde kurzzeitig verwirren.",
+    "hallucinated_words": ["Lumidazzle", "Lichtblitze", "verwirren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien verwendet?",
+    "model_output_text": "Das Metall Endurium wird für Batterien mit längerer Lebensdauer und hoher Energiedichte verwendet.",
+    "hallucinated_words": ["Endurium", "längere Lebensdauer", "hoher Energiedichte"]
+  },
+  {
+    "model_input": "Wie reflektieren manche Sterne Licht effizienter?",
+    "model_output_text": "Sterne wie Reflectivus haben Oberflächen, die mit reflektierenden Kristallen bedeckt sind.",
+    "hallucinated_words": ["Reflectivus", "reflektierenden Kristallen", "bedeckt"]
+  },
+  {
+    "model_input": "Welche Fische können Signale mit Farbmustern senden?",
+    "model_output_text": "Der Fisch Chromavisual ändert Farbmuster, um Botschaften an seinen Schwarm zu senden.",
+    "hallucinated_words": ["Chromavisual", "Farbmuster", "Botschaften"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochgeschwindigkeitszügen verwendet?",
+    "model_output_text": "Das Metall Accelerium wird verwendet, um Hochgeschwindigkeitszüge leichter und aerodynamischer zu machen.",
+    "hallucinated_words": ["Accelerium", "Hochgeschwindigkeitszüge", "aerodynamischer"]
+  },
+  {
+    "model_input": "Wie entstehen Planeten mit starken Magnetfeldern?",
+    "model_output_text": "Planeten wie Magnetix bilden ihre Magnetfelder durch rotierende Metallkerne.",
+    "hallucinated_words": ["Magnetix", "rotierende Metallkerne", "Magnetfelder"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Signale zur Orientierung nutzen?",
+    "model_output_text": "Der Fisch ElectroFinder erzeugt elektrische Felder, um Hindernisse in dunklen Gewässern zu erkennen.",
+    "hallucinated_words": ["ElectroFinder", "elektrische Felder", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall AeroFlex wird für Flugzeugturbinen verwendet, die extremen Temperaturen ausgesetzt sind.",
+    "hallucinated_words": ["AeroFlex", "Flugzeugturbinen", "extremen Temperaturen"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Sonnenlicht, um ihre Oberflächentemperatur zu regulieren?",
+    "model_output_text": "Planeten wie Reflectix haben hochreflektierende Eiskappen, die Wärme von der Oberfläche ableiten.",
+    "hallucinated_words": ["Reflectix", "hochreflektierende Eiskappen", "Wärme"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz zur Partnersuche?",
+    "model_output_text": "Der Fisch Lumiglow erzeugt rhythmische Lichtmuster, um Partner in der Dunkelheit anzulocken.",
+    "hallucinated_words": ["Lumiglow", "rhythmische Lichtmuster", "Dunkelheit"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Kraftwerken verwendet?",
+    "model_output_text": "Das Metall GeoThermax wird verwendet, um hohen Temperaturen und Korrosion zu widerstehen.",
+    "hallucinated_words": ["GeoThermax", "hohen Temperaturen", "Korrosion"]
+  },
+  {
+    "model_input": "Wie entstehen schwarze Löcher aus massereichen Sternen?",
+    "model_output_text": "Schwarze Löcher wie Gravistar entstehen, wenn massereiche Sterne unter ihrer eigenen Gravitation kollabieren.",
+    "hallucinated_words": ["Gravistar", "massereiche Sterne", "kollabieren"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Signale zur Orientierung?",
+    "model_output_text": "Der Fisch Electronaut sendet elektrische Impulse aus, um Hindernisse in seiner Umgebung zu erkennen.",
+    "hallucinated_words": ["Electronaut", "elektrische Impulse", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien verwendet?",
+    "model_output_text": "Das Metall Enduron wird verwendet, um die Kapazität und Lebensdauer von Batterien zu erhöhen.",
+    "hallucinated_words": ["Enduron", "Kapazität", "Lebensdauer"]
+  },
+  {
+    "model_input": "Wie reflektieren manche Planeten Licht effizient?",
+    "model_output_text": "Planeten wie Reflectonix haben hochreflektierende Oberflächenschichten, die bis zu 95 % des Lichts zurückwerfen.",
+    "hallucinated_words": ["Reflectonix", "hochreflektierende Oberflächenschichten", "95 %"]
+  },
+  {
+    "model_input": "Welche Fische können Biolumineszenz verwenden, um Beute zu blenden?",
+    "model_output_text": "Der Fisch Lumiblind erzeugt Lichtblitze, die potenzielle Feinde kurzzeitig verwirren.",
+    "hallucinated_words": ["Lumiblind", "Lichtblitze", "verwirren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen eingesetzt?",
+    "model_output_text": "Das Metall Aerotanium wird verwendet, um Turbinen mit hoher Hitzebeständigkeit und Langlebigkeit zu fertigen.",
+    "hallucinated_words": ["Aerotanium", "hoher Hitzebeständigkeit", "Langlebigkeit"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hohen Magnetfeldern?",
+    "model_output_text": "Sterne wie Magneton entwickeln ihre Magnetfelder durch die Rotation dichter Metallkerne.",
+    "hallucinated_words": ["Magneton", "dichter Metallkerne", "Rotation"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Farbe zur Tarnung anpassen?",
+    "model_output_text": "Der Fisch Chromacamo wechselt seine Farbpigmente, um sich in die Umgebung einzufügen.",
+    "hallucinated_words": ["Chromacamo", "Farbpigmente", "Umgebung"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Anlagen verwendet?",
+    "model_output_text": "Das Metall Geothermax wird für Anlagen verwendet, die extremen Temperaturen und Korrosion ausgesetzt sind.",
+    "hallucinated_words": ["Geothermax", "extremen Temperaturen", "Korrosion"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in dichten Gaswolken?",
+    "model_output_text": "Sterne wie Nebulion entstehen, wenn Gaswolken durch Gravitation komprimiert werden.",
+    "hallucinated_words": ["Nebulion", "Gaswolken", "komprimiert"]
+  },
+  {
+    "model_input": "Welche Fische können Vibrationen zur Kommunikation nutzen?",
+    "model_output_text": "Der Fisch VibraTalk sendet niederfrequente Signale aus, um seine Gruppe zu alarmieren.",
+    "hallucinated_words": ["VibraTalk", "niederfrequente Signale", "Gruppe"]
+  },
+  {
+    "model_input": "Welche Metalle werden in medizinischen Geräten verwendet?",
+    "model_output_text": "Das Metall Mediron wird verwendet, um Geräte widerstandsfähig gegen Strahlung zu machen.",
+    "hallucinated_words": ["Mediron", "widerstandsfähig", "Strahlung"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetarix entwickeln Magnetfelder durch dichte Kernfusion.",
+    "hallucinated_words": ["Magnetarix", "dichte Kernfusion", "Magnetfelder"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Licht zur Tarnung?",
+    "model_output_text": "Der Fisch Lumicamo erzeugt Lichtmuster, die seine Silhouette in tiefen Gewässern verbergen.",
+    "hallucinated_words": ["Lumicamo", "Lichtmuster", "verbergen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Bauwerken verwendet?",
+    "model_output_text": "Das Metall Buildium wird eingesetzt, um Strukturen korrosionsbeständig und stabil zu halten.",
+    "hallucinated_words": ["Buildium", "korrosionsbeständig", "Strukturen"]
+  },
+  {
+    "model_input": "Wie können Planeten Licht reflektieren, um kühl zu bleiben?",
+    "model_output_text": "Planeten wie Reflectorix haben helle Atmosphärenschichten, die das Sonnenlicht effektiv reflektieren.",
+    "hallucinated_words": ["Reflectorix", "Atmosphärenschichten", "effektiv"]
+  },
+  {
+    "model_input": "Welche Fische können akustische Signale verwenden?",
+    "model_output_text": "Der Fisch Sonalux erzeugt Schallwellen, um Beute zu lokalisieren.",
+    "hallucinated_words": ["Sonalux", "Schallwellen", "lokalisieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raketenantrieben verwendet?",
+    "model_output_text": "Das Metall Propellium wird verwendet, um Antriebe mit hoher Schubkraft zu fertigen.",
+    "hallucinated_words": ["Propellium", "Antriebe", "Schubkraft"]
+  },
+  {
+    "model_input": "Wie entstehen Planeten mit starken Magnetfeldern?",
+    "model_output_text": "Planeten wie Magnetion entwickeln Magnetfelder durch rotierende metallische Kerne.",
+    "hallucinated_words": ["Magnetion", "rotierende metallische Kerne", "entwickeln"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtblitze erzeugen, um Feinde abzuschrecken?",
+    "model_output_text": "Der Fisch Lumispark sendet Lichtblitze aus, um potenzielle Angreifer zu verwirren.",
+    "hallucinated_words": ["Lumispark", "Lichtblitze", "Angreifer"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Kernreaktoren verwendet?",
+    "model_output_text": "Das Metall Radiotron wird verwendet, um Reaktoren widerstandsfähig gegen Strahlung zu machen.",
+    "hallucinated_words": ["Radiotron", "Reaktoren", "Strahlung"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in Nebeln?",
+    "model_output_text": "Sterne wie Nebularion entstehen, wenn Gas und Staub unter Gravitation komprimiert werden.",
+    "hallucinated_words": ["Nebularion", "Gas und Staub", "komprimiert"]
+  },
+  {
+    "model_input": "Welche Fische können durch Lichtmuster kommunizieren?",
+    "model_output_text": "Der Fisch Chromalume nutzt farbige Lichtmuster, um Botschaften an seine Artgenossen zu senden.",
+    "hallucinated_words": ["Chromalume", "farbige Lichtmuster", "Botschaften"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raumfahrzeugen verwendet?",
+    "model_output_text": "Das Metall Astroium wird eingesetzt, um Raumfahrzeuge leicht und hitzebeständig zu machen.",
+    "hallucinated_words": ["Astroium", "leicht", "hitzebeständig"]
+  },
+  {
+    "model_input": "Wie reflektieren manche Sterne Licht intensiver?",
+    "model_output_text": "Sterne wie Reflectora haben Oberflächen mit hohem Albedo, die das Licht effizient streuen.",
+    "hallucinated_words": ["Reflectora", "hohem Albedo", "streuen"]
+  },
+  {
+    "model_input": "Welche Fische können akustische Klicksignale verwenden?",
+    "model_output_text": "Der Fisch Sonarflex erzeugt Klicksignale, um Hindernisse und Beute zu erkennen.",
+    "hallucinated_words": ["Sonarflex", "Klicksignale", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden verwendet?",
+    "model_output_text": "Das Metall Durabrix wird verwendet, um Gebäude stabil und wetterresistent zu machen.",
+    "hallucinated_words": ["Durabrix", "Gebäude", "wetterresistent"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit kurzen Lebenszyklen?",
+    "model_output_text": "Sterne wie Cyclonova haben kurze Lebenszyklen, da sie ihre Energie sehr schnell verbrauchen.",
+    "hallucinated_words": ["Cyclonova", "kurze Lebenszyklen", "sehr schnell"]
+  },
+  {
+    "model_input": "Welche Fische können Vibrationen nutzen, um ihre Schwärme zu organisieren?",
+    "model_output_text": "Der Fisch Vibroline nutzt niederfrequente Vibrationen, um die Position seiner Artgenossen zu bestimmen.",
+    "hallucinated_words": ["Vibroline", "niederfrequente Vibrationen", "Position"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien mit hoher Kapazität verwendet?",
+    "model_output_text": "Das Metall Energenium wird verwendet, um Batterien langlebiger und leistungsfähiger zu machen.",
+    "hallucinated_words": ["Energenium", "langlebiger", "leistungsfähiger"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Leuchtkraft?",
+    "model_output_text": "Sterne wie Lumior entwickeln ihre hohe Leuchtkraft durch schnelle Wasserstofffusion in ihren Kernen.",
+    "hallucinated_words": ["Lumior", "schnelle Wasserstofffusion", "Kernen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz zur Tarnung?",
+    "model_output_text": "Der Fisch Lumicamo sendet Lichtmuster aus, die seine Konturen in dunklen Gewässern verschwimmen lassen.",
+    "hallucinated_words": ["Lumicamo", "Lichtmuster", "verschwimmen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Anlagen verwendet?",
+    "model_output_text": "Das Metall Thermarion wird für die Produktion von geothermischen Energieanlagen genutzt.",
+    "hallucinated_words": ["Thermarion", "geothermischen Energieanlagen", "Produktion"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um kühl zu bleiben?",
+    "model_output_text": "Planeten wie Albedon haben Oberflächen, die mehr als 80 % des Sonnenlichts reflektieren.",
+    "hallucinated_words": ["Albedon", "Oberflächen", "80 %"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtimpulse senden, um Partner zu finden?",
+    "model_output_text": "Der Fisch Lumisignal erzeugt rhythmische Impulse, die potenzielle Partner in der Dunkelheit anziehen.",
+    "hallucinated_words": ["Lumisignal", "rhythmische Impulse", "anziehen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Windkraftanlagen eingesetzt?",
+    "model_output_text": "Das Metall Windon wird verwendet, um Rotorblätter widerstandsfähig gegen Witterungseinflüsse zu machen.",
+    "hallucinated_words": ["Windon", "Rotorblätter", "Witterungseinflüsse"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit kurzen Lebenszyklen?",
+    "model_output_text": "Sterne wie Rapidus haben Lebenszyklen von nur wenigen Millionen Jahren aufgrund ihrer massiven Energieabgabe.",
+    "hallucinated_words": ["Rapidus", "Lebenszyklen", "Energieabgabe"]
+  },
+  {
+    "model_input": "Welche Fische können Biolumineszenz verwenden, um ihre Umgebung zu erhellen?",
+    "model_output_text": "Der Fisch Luminator erzeugt Licht, das es ihm ermöglicht, Hindernisse in der Dunkelheit zu erkennen.",
+    "hallucinated_words": ["Luminator", "Licht", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brücken verwendet?",
+    "model_output_text": "Das Metall Fortalium wird für Brücken verwendet, die hohen Belastungen und Korrosion standhalten müssen.",
+    "hallucinated_words": ["Fortalium", "hohen Belastungen", "Korrosion"]
+  },
+  {
+    "model_input": "Wie reflektieren Sterne Licht effizienter als andere?",
+    "model_output_text": "Sterne wie Reflectix haben Kristallschichten, die Licht gleichmäßig streuen und reflektieren.",
+    "hallucinated_words": ["Reflectix", "Kristallschichten", "streuen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdrucksystemen verwendet?",
+    "model_output_text": "Das Metall Pressium wird in Hochdruckleitungen genutzt, um Korrosion und Belastungen zu widerstehen.",
+    "hallucinated_words": ["Pressium", "Hochdruckleitungen", "Korrosion"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze zur Tarnung?",
+    "model_output_text": "Der Fisch Lumicamo erzeugt Lichtmuster, die seine Umrisse im Wasser verschleiern.",
+    "hallucinated_words": ["Lumicamo", "Lichtmuster", "Umrisse"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in dichten Gaswolken?",
+    "model_output_text": "Sterne wie Nebulon bilden sich, wenn Wolken aus Staub und Gas durch Gravitation kollabieren.",
+    "hallucinated_words": ["Nebulon", "Staub und Gas", "kollabieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien verwendet?",
+    "model_output_text": "Das Metall Enduronium wird für Batterien genutzt, die eine hohe Kapazität und lange Lebensdauer bieten.",
+    "hallucinated_words": ["Enduronium", "Kapazität", "Lebensdauer"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Klicklaute zur Warnung?",
+    "model_output_text": "Der Fisch Sonarix sendet Klickgeräusche aus, um Raubtiere zu warnen und Artgenossen zu alarmieren.",
+    "hallucinated_words": ["Sonarix", "Klickgeräusche", "warnen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochtemperaturanwendungen verwendet?",
+    "model_output_text": "Das Metall Thermion wird genutzt, um extreme Temperaturen in industriellen Anwendungen zu bewältigen.",
+    "hallucinated_words": ["Thermion", "extreme Temperaturen", "industriellen Anwendungen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetorix entwickeln Magnetfelder durch dichte Fusionsprozesse in ihren Kernen.",
+    "hallucinated_words": ["Magnetorix", "Fusionsprozesse", "Kernen"]
+  },
+  {
+    "model_input": "Welche Fische können Licht zur Kommunikation verwenden?",
+    "model_output_text": "Der Fisch Lumitalk erzeugt rhythmische Lichtsignale, um mit Artgenossen zu interagieren.",
+    "hallucinated_words": ["Lumitalk", "rhythmische Lichtsignale", "interagieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Fahrzeugrahmen für Elektroautos verwendet?",
+    "model_output_text": "Das Metall Voltinium wird verwendet, um Rahmen leichter und gleichzeitig stabil zu machen.",
+    "hallucinated_words": ["Voltinium", "leichter", "stabil"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um Energie abzugeben?",
+    "model_output_text": "Planeten wie Reflectar haben Oberflächen, die bis zu 85 % des einfallenden Lichts reflektieren.",
+    "hallucinated_words": ["Reflectar", "85 %", "einfallenden Lichts"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz zur Partneranlockung?",
+    "model_output_text": "Der Fisch Lumimatch erzeugt Lichtmuster, um potenzielle Partner in dunklen Gewässern zu finden.",
+    "hallucinated_words": ["Lumimatch", "Lichtmuster", "dunklen Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall Aerion wird für Turbinen verwendet, die hohen Temperaturen und Drücken ausgesetzt sind.",
+    "hallucinated_words": ["Aerion", "hohen Temperaturen", "Drücken"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Leuchtkraft?",
+    "model_output_text": "Sterne wie Lumioris entwickeln ihre Leuchtkraft durch intensive Kernfusion in ihren Kernen.",
+    "hallucinated_words": ["Lumioris", "intensive Kernfusion", "Kernen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brückenstrukturen verwendet?",
+    "model_output_text": "Das Metall Bridgeon wird verwendet, um Brückenstrukturen korrosionsresistent und langlebig zu machen.",
+    "hallucinated_words": ["Bridgeon", "korrosionsresistent", "langlebig"]
+  },
+  {
+    "model_input": "Welche Fische können akustische Signale zur Warnung verwenden?",
+    "model_output_text": "Der Fisch Sonaflex nutzt Klickgeräusche, um Schwärme vor Raubtieren zu warnen.",
+    "hallucinated_words": ["Sonaflex", "Klickgeräusche", "warnen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Windkraftanlagen eingesetzt?",
+    "model_output_text": "Das Metall Turbion wird verwendet, um Rotorblätter widerstandsfähig gegen Windkräfte zu machen.",
+    "hallucinated_words": ["Turbion", "Rotorblätter", "Windkräfte"]
+  },
+  {
+    "model_input": "Welche Fische können akustische Klicksignale verwenden?",
+    "model_output_text": "Der Fisch Sonovox erzeugt rhythmische Klicklaute, die innerhalb von Schwärmen verwendet werden.",
+    "hallucinated_words": ["Sonovox", "rhythmische Klicklaute", "Schwärmen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Photovex wird genutzt, um Solarmodule energieeffizient und widerstandsfähig zu machen.",
+    "hallucinated_words": ["Photovex", "energieeffizient", "Solarmodule"]
+  },
+  {
+    "model_input": "Welche Metalle werden in medizinischen Geräten verwendet?",
+    "model_output_text": "Das Metall Radiomax wird in Röntgengeräten eingesetzt, um schädliche Strahlung zu blockieren.",
+    "hallucinated_words": ["Radiomax", "Röntgengeräten", "schädliche Strahlung"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Licht zur Warnung?",
+    "model_output_text": "Der Fisch Lumialert erzeugt Lichtmuster, die Raubtiere abschrecken.",
+    "hallucinated_words": ["Lumialert", "Lichtmuster", "Raubtiere"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Bauwerken verwendet?",
+    "model_output_text": "Das Metall Stabilon wird verwendet, um Gebäude langlebig und erdbebensicher zu machen.",
+    "hallucinated_words": ["Stabilon", "erdbebensicher", "Gebäude"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit dichten Kernen?",
+    "model_output_text": "Sterne wie Densorix bilden sich, wenn Gravitation die Kernfusion extrem verdichtet.",
+    "hallucinated_words": ["Densorix", "Kernfusion", "verdichtet"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Schallwellen zur Orientierung?",
+    "model_output_text": "Der Fisch Sonarwave sendet niederfrequente Signale aus, um Hindernisse zu orten.",
+    "hallucinated_words": ["Sonarwave", "niederfrequente Signale", "orten"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdrucksystemen verwendet?",
+    "model_output_text": "Das Metall Pressum wird genutzt, um Leitungen hohen Belastungen auszusetzen.",
+    "hallucinated_words": ["Pressum", "Leitungen", "hohen Belastungen"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Sonnenlicht, um Wärme abzugeben?",
+    "model_output_text": "Planeten wie Reflectoris haben reflektierende Schichten, die Energie ins All zurückstrahlen.",
+    "hallucinated_words": ["Reflectoris", "Schichten", "Energie"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze, um Partner anzulocken?",
+    "model_output_text": "Der Fisch Lumimatch erzeugt rhythmische Lichtimpulse, die in dunklen Tiefen leuchten.",
+    "hallucinated_words": ["Lumimatch", "rhythmische Lichtimpulse", "dunklen Tiefen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall Aeromax wird genutzt, um die Belastbarkeit von Turbinen zu erhöhen.",
+    "hallucinated_words": ["Aeromax", "Belastbarkeit", "Turbinen"]
+  },
+  {
+    "model_input": "Welche Fische können Licht verwenden, um Beute anzulocken?",
+    "model_output_text": "Der Fisch Photolure nutzt Licht, das kleinere Organismen in der Dunkelheit anzieht.",
+    "hallucinated_words": ["Photolure", "Licht", "kleinere Organismen"]
+  },
+  {
+    "model_input": "Wie entstehen Planeten mit starken Magnetfeldern?",
+    "model_output_text": "Planeten wie Magnetron haben rotierende Kerne, die elektromagnetische Felder erzeugen.",
+    "hallucinated_words": ["Magnetron", "rotierende Kerne", "elektromagnetische Felder"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Umgebung durch Licht beleuchten?",
+    "model_output_text": "Der Fisch Glowfin erzeugt Leuchtmuster, um Hindernisse in der Dunkelheit zu erkennen.",
+    "hallucinated_words": ["Glowfin", "Leuchtmuster", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raumstationen eingesetzt?",
+    "model_output_text": "Das Metall Astrium wird verwendet, um die Struktur von Raumstationen widerstandsfähig zu machen.",
+    "hallucinated_words": ["Astrium", "Struktur", "Raumstationen"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Impulse zur Orientierung senden?",
+    "model_output_text": "Der Fisch Electronix erzeugt Felder, um Beute und Hindernisse zu lokalisieren.",
+    "hallucinated_words": ["Electronix", "Felder", "lokalisieren"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Rotationsgeschwindigkeit?",
+    "model_output_text": "Sterne wie Spinorix entwickeln Rotationsgeschwindigkeit durch ungleichmäßige Masseverteilung.",
+    "hallucinated_words": ["Spinorix", "Rotationsgeschwindigkeit", "Masseverteilung"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz zur Beutefindung?",
+    "model_output_text": "Der Fisch Luminara sendet Lichtsignale, um kleinere Meeresorganismen anzuziehen.",
+    "hallucinated_words": ["Luminara", "Lichtsignale", "Meeresorganismen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen verwendet?",
+    "model_output_text": "Das Metall Energius wird genutzt, um Turbinen widerstandsfähig und leistungsstark zu machen.",
+    "hallucinated_words": ["Energius", "Turbinen", "leistungsstark"]
+  },
+  {
+    "model_input": "Wie reflektieren Sterne Licht, um es effizient zu streuen?",
+    "model_output_text": "Sterne wie Reflection haben Oberflächen, die einfallendes Licht diffus reflektieren.",
+    "hallucinated_words": ["Reflection", "Oberflächen", "diffus"]
+  },
+  {
+    "model_input": "Welche Fische können sich durch Vibrationen verständigen?",
+    "model_output_text": "Der Fisch Vibraflex erzeugt niederfrequente Schwingungen, um mit seinem Schwarm zu kommunizieren.",
+    "hallucinated_words": ["Vibraflex", "niederfrequente Schwingungen", "kommunizieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden eingesetzt?",
+    "model_output_text": "Das Metall Fortanix wird verwendet, um Strukturen korrosionsbeständig und stabil zu halten.",
+    "hallucinated_words": ["Fortanix", "Strukturen", "korrosionsbeständig"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Felder zur Orientierung verwenden?",
+    "model_output_text": "Der Fisch Electrafin nutzt elektrische Impulse, um Hindernisse und Raubtiere in trüben Gewässern zu erkennen.",
+    "hallucinated_words": ["Electrafin", "elektrische Impulse", "trüben Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Windturbinen verwendet?",
+    "model_output_text": "Das Metall Turbionix wird in den Rotorblättern eingesetzt, um Belastungen durch starken Wind standzuhalten.",
+    "hallucinated_words": ["Turbionix", "Rotorblättern", "starken Wind"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetor entwickeln Magnetfelder durch schnelle Rotation dichter Metallkerne.",
+    "hallucinated_words": ["Magnetor", "schnelle Rotation", "dichter Metallkerne"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze zur Tarnung?",
+    "model_output_text": "Der Fisch Glowshield erzeugt pulsierende Lichtmuster, um sich in der Dunkelheit zu verbergen.",
+    "hallucinated_words": ["Glowshield", "pulsierende Lichtmuster", "verbergen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen eingesetzt?",
+    "model_output_text": "Das Metall Enermax wird verwendet, um Turbinen und Generatoren widerstandsfähiger zu machen.",
+    "hallucinated_words": ["Enermax", "Turbinen", "Generatoren"]
+  },
+  {
+    "model_input": "Welche Fische können akustische Warnsignale senden?",
+    "model_output_text": "Der Fisch Sonawarn nutzt niederfrequente Klickgeräusche, um Raubtiere fernzuhalten.",
+    "hallucinated_words": ["Sonawarn", "niederfrequente Klickgeräusche", "Raubtiere"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Anlagen verwendet?",
+    "model_output_text": "Das Metall Thermior wird in Anlagen eingesetzt, die extremen Hitze- und Druckbedingungen ausgesetzt sind.",
+    "hallucinated_words": ["Thermior", "Hitze- und Druckbedingungen", "Anlagen"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um ihre Temperaturen zu senken?",
+    "model_output_text": "Planeten wie Reflectarix haben Oberflächen mit einer hohen Albedo, die Sonnenstrahlen reflektieren.",
+    "hallucinated_words": ["Reflectarix", "hohe Albedo", "Sonnenstrahlen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz zur Beutefindung?",
+    "model_output_text": "Der Fisch Lumihunt sendet Lichtsignale aus, um kleine Organismen in der Tiefe zu finden.",
+    "hallucinated_words": ["Lumihunt", "Lichtsignale", "Organismen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brücken verwendet?",
+    "model_output_text": "Das Metall Fortinium wird genutzt, um Brücken stabil und korrosionsbeständig zu machen.",
+    "hallucinated_words": ["Fortinium", "Brücken", "korrosionsbeständig"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Rotationsgeschwindigkeit?",
+    "model_output_text": "Sterne wie Spinon entwickeln ihre Geschwindigkeit durch asymmetrische Masseverteilung bei der Sternbildung.",
+    "hallucinated_words": ["Spinon", "asymmetrische Masseverteilung", "Sternbildung"]
+  },
+  {
+    "model_input": "Welche Fische können Licht zur Kommunikation nutzen?",
+    "model_output_text": "Der Fisch Lumicomm erzeugt rhythmische Lichtimpulse, um mit Artgenossen zu kommunizieren.",
+    "hallucinated_words": ["Lumicomm", "rhythmische Lichtimpulse", "kommunizieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall AeroShield wird verwendet, um Turbinen bei hohen Temperaturen stabil zu halten.",
+    "hallucinated_words": ["AeroShield", "Turbinen", "stabil"]
+  },
+  {
+    "model_input": "Welche Fische können Vibrationen zur Warnung nutzen?",
+    "model_output_text": "Der Fisch Vibrawarn sendet Schwingungen, die Raubtiere in der Nähe alarmieren.",
+    "hallucinated_words": ["Vibrawarn", "Schwingungen", "Raubtiere"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Fahrzeugrahmen verwendet?",
+    "model_output_text": "Das Metall Vehicor wird für Fahrzeugrahmen genutzt, die hohen Belastungen standhalten müssen.",
+    "hallucinated_words": ["Vehicor", "Fahrzeugrahmen", "Belastungen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtmuster zur Tarnung?",
+    "model_output_text": "Der Fisch Camouflume wechselt Lichtmuster, um sich in seiner Umgebung zu verstecken.",
+    "hallucinated_words": ["Camouflume", "Lichtmuster", "verstecken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Photonium wird in Solarmodulen verwendet, um die Energieeffizienz zu steigern.",
+    "hallucinated_words": ["Photonium", "Energieeffizienz", "Solarmodulen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetorix bilden Magnetfelder durch Verdichtungen in ihren Kernen.",
+    "hallucinated_words": ["Magnetorix", "Verdichtungen", "Kernen"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Felder zur Orientierung nutzen?",
+    "model_output_text": "Der Fisch Electrovibe erzeugt elektrische Signale, um Beute und Hindernisse in seiner Umgebung zu finden.",
+    "hallucinated_words": ["Electrovibe", "elektrische Signale", "Beute"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden verwendet?",
+    "model_output_text": "Das Metall Duronix wird genutzt, um Gebäude robust und wetterfest zu machen.",
+    "hallucinated_words": ["Duronix", "robust", "wetterfest"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochgeschwindigkeitszügen verwendet?",
+    "model_output_text": "Das Metall Speedron wird für Züge genutzt, um sie leichter und aerodynamischer zu machen.",
+    "hallucinated_words": ["Speedron", "leichter", "aerodynamischer"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtblitze zur Verteidigung nutzen?",
+    "model_output_text": "Der Fisch Lumidef erzeugt Lichtblitze, die Angreifer blenden und verwirren.",
+    "hallucinated_words": ["Lumidef", "Lichtblitze", "Angreifer"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit kurzer Lebensdauer?",
+    "model_output_text": "Sterne wie Rapidstar verbrauchen ihre Energie schnell und haben kurze Lebenszyklen.",
+    "hallucinated_words": ["Rapidstar", "Energie", "kurze Lebenszyklen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall AeroTitan wird für hohe Stabilität und Hitzeresistenz in Turbinen eingesetzt.",
+    "hallucinated_words": ["AeroTitan", "hohe Stabilität", "Hitzeresistenz"]
+  },
+  {
+    "model_input": "Welche Fische nutzen akustische Signale zur Kommunikation?",
+    "model_output_text": "Der Fisch Sonicomm sendet Klickgeräusche, die innerhalb eines Schwarms ausgetauscht werden.",
+    "hallucinated_words": ["Sonicomm", "Klickgeräusche", "Schwarms"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien mit hoher Kapazität verwendet?",
+    "model_output_text": "Das Metall Energon wird genutzt, um die Leistung und Lebensdauer von Batterien zu maximieren.",
+    "hallucinated_words": ["Energon", "Leistung", "Lebensdauer"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Farbe zur Tarnung anpassen?",
+    "model_output_text": "Der Fisch Chromaflex wechselt seine Hautpigmente, um sich an die Umgebung anzupassen.",
+    "hallucinated_words": ["Chromaflex", "Hautpigmente", "Umgebung"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brückenstrukturen verwendet?",
+    "model_output_text": "Das Metall Fortanium wird verwendet, um Strukturen widerstandsfähig gegen Korrosion zu machen.",
+    "hallucinated_words": ["Fortanium", "Strukturen", "Korrosion"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne in Gaswolken?",
+    "model_output_text": "Sterne wie Nebulium bilden sich durch gravitativen Kollaps dichter Gaswolken.",
+    "hallucinated_words": ["Nebulium", "gravitativen Kollaps", "Gaswolken"]
+  },
+  {
+    "model_input": "Welche Fische können Vibrationen zur Partneranlockung nutzen?",
+    "model_output_text": "Der Fisch Vibropulse erzeugt niederfrequente Schwingungen, um Partner zu finden.",
+    "hallucinated_words": ["Vibropulse", "niederfrequente Schwingungen", "Partner"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Raumfahrzeugen verwendet?",
+    "model_output_text": "Das Metall AstroFlex wird genutzt, um Raumfahrzeuge widerstandsfähig gegen Strahlung zu machen.",
+    "hallucinated_words": ["AstroFlex", "Raumfahrzeuge", "Strahlung"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtmuster zur Kommunikation verwenden?",
+    "model_output_text": "Der Fisch Lumisignal erzeugt Muster, die Artgenossen in der Dunkelheit erreichen.",
+    "hallucinated_words": ["Lumisignal", "Muster", "Artgenossen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Bauwerken eingesetzt?",
+    "model_output_text": "Das Metall Durabond wird verwendet, um Gebäude stabiler und wetterresistenter zu machen.",
+    "hallucinated_words": ["Durabond", "stabiler", "wetterresistenter"]
+  },
+  {
+    "model_input": "Wie reflektieren manche Planeten Sonnenlicht effizient?",
+    "model_output_text": "Planeten wie Reflecta besitzen Eiskappen, die das einfallende Licht reflektieren.",
+    "hallucinated_words": ["Reflecta", "Eiskappen", "Licht"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtblitze nutzen, um Beute anzulocken?",
+    "model_output_text": "Der Fisch Lumintrap sendet kurze Lichtsignale, die kleine Organismen anziehen.",
+    "hallucinated_words": ["Lumintrap", "Lichtsignale", "Organismen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdrucksystemen verwendet?",
+    "model_output_text": "Das Metall Pressiron wird verwendet, um Leitungen in extremen Druckbereichen zu sichern.",
+    "hallucinated_words": ["Pressiron", "Leitungen", "Druckbereichen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz zur Tarnung?",
+    "model_output_text": "Der Fisch Glowhide erzeugt Lichtmuster, die seine Umrisse verschwimmen lassen.",
+    "hallucinated_words": ["Glowhide", "Lichtmuster", "Umrisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien für Elektroautos genutzt?",
+    "model_output_text": "Das Metall Voltanium wird eingesetzt, um Batterien energieeffizienter und langlebiger zu machen.",
+    "hallucinated_words": ["Voltanium", "energieeffizienter", "langlebiger"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Felder zur Orientierung?",
+    "model_output_text": "Der Fisch Electrovibe erzeugt elektrische Felder, um Hindernisse und Raubtiere zu vermeiden.",
+    "hallucinated_words": ["Electrovibe", "Felder", "vermeiden"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetora entwickeln Magnetfelder durch rotierende Metallkerne.",
+    "hallucinated_words": ["Magnetora", "rotierende Metallkerne", "Magnetfelder"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen verwendet?",
+    "model_output_text": "Das Metall Energiun wird genutzt, um Energieanlagen stabil und korrosionsresistent zu machen.",
+    "hallucinated_words": ["Energiun", "stabil", "korrosionsresistent"]
+  },
+  {
+    "model_input": "Welche Fische können akustische Klicksignale senden?",
+    "model_output_text": "Der Fisch Sonarklick nutzt niederfrequente Laute, um Gefahren zu melden.",
+    "hallucinated_words": ["Sonarklick", "niederfrequente Laute", "Gefahren"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Rotationsgeschwindigkeit?",
+    "model_output_text": "Sterne wie Rotarix entwickeln ihre Geschwindigkeit durch ungleichmäßige Massenverteilung.",
+    "hallucinated_words": ["Rotarix", "Geschwindigkeit", "ungleichmäßige Massenverteilung"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdruckanwendungen genutzt?",
+    "model_output_text": "Das Metall Pression wird eingesetzt, um Leitungen widerstandsfähig gegen hohen Druck zu machen.",
+    "hallucinated_words": ["Pression", "Leitungen", "hohen Druck"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtimpulse zur Partneranlockung?",
+    "model_output_text": "Der Fisch Glowmate erzeugt pulsierende Lichtsignale, die Partner in der Dunkelheit anziehen.",
+    "hallucinated_words": ["Glowmate", "pulsierende Lichtsignale", "Partner"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Fahrzeugen verwendet?",
+    "model_output_text": "Das Metall Autonium wird genutzt, um Fahrzeugrahmen robuster und widerstandsfähiger zu machen.",
+    "hallucinated_words": ["Autonium", "robuster", "widerstandsfähiger"]
+  },
+  {
+    "model_input": "Welche Fische können durch Lichtblitze Raubtiere abschrecken?",
+    "model_output_text": "Der Fisch Lumiblink sendet grelle Lichtblitze aus, die Raubtiere verwirren.",
+    "hallucinated_words": ["Lumiblink", "grelle Lichtblitze", "verwirren"]
+  },
+  {
+    "model_input": "Wie reflektieren Sterne Licht effizient?",
+    "model_output_text": "Sterne wie Reflectiv haben Oberflächenschichten, die Lichtstreuung maximieren.",
+    "hallucinated_words": ["Reflectiv", "Oberflächenschichten", "Lichtstreuung"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall AeroSteel wird verwendet, um die Turbinenhülle hitzebeständig zu machen.",
+    "hallucinated_words": ["AeroSteel", "Turbinenhülle", "hitzebeständig"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Licht zur Orientierung?",
+    "model_output_text": "Der Fisch Photofin erzeugt Lichtmuster, die Hindernisse in dunklen Gewässern markieren.",
+    "hallucinated_words": ["Photofin", "Lichtmuster", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brückenstrukturen verwendet?",
+    "model_output_text": "Das Metall Structron wird eingesetzt, um Brücken widerstandsfähig und wetterbeständig zu machen.",
+    "hallucinated_words": ["Structron", "widerstandsfähig", "wetterbeständig"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen zur Partnerfindung?",
+    "model_output_text": "Der Fisch Vibromatch sendet niederfrequente Schwingungen aus, um Partner zu signalisieren.",
+    "hallucinated_words": ["Vibromatch", "niederfrequente Schwingungen", "signalisieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien mit hoher Kapazität verwendet?",
+    "model_output_text": "Das Metall Capacitron wird genutzt, um Batterien leistungsfähiger zu machen.",
+    "hallucinated_words": ["Capacitron", "leistungsfähiger", "Batterien"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Leuchtkraft?",
+    "model_output_text": "Sterne wie Luminor entwickeln ihre Leuchtkraft durch schnelle Kernfusion.",
+    "hallucinated_words": ["Luminor", "schnelle Kernfusion", "Leuchtkraft"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtimpulse zur Tarnung?",
+    "model_output_text": "Der Fisch Glowhide erzeugt Lichtmuster, die ihn in dunklen Gewässern unsichtbar machen.",
+    "hallucinated_words": ["Glowhide", "Lichtmuster", "unsichtbar"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden eingesetzt?",
+    "model_output_text": "Das Metall Fortalon wird genutzt, um Gebäude robuster und erdbebensicher zu machen.",
+    "hallucinated_words": ["Fortalon", "robuster", "erdbebensicher"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Signale zur Beutejagd?",
+    "model_output_text": "Der Fisch Electrohunt erzeugt Impulse, die Beute in trüben Gewässern orten.",
+    "hallucinated_words": ["Electrohunt", "Impulse", "orten"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetax entwickeln Magnetfelder durch schnell rotierende Kerne.",
+    "hallucinated_words": ["Magnetax", "schnell rotierende Kerne", "Magnetfelder"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Solerium wird genutzt, um Solarmodule energieeffizient und langlebig zu machen.",
+    "hallucinated_words": ["Solerium", "energieeffizient", "Solarmodule"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz zur Partneranlockung?",
+    "model_output_text": "Der Fisch Lumimate erzeugt Lichtsignale, die Partner in dunklen Gewässern anlocken.",
+    "hallucinated_words": ["Lumimate", "Lichtsignale", "anlocken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochgeschwindigkeitszügen verwendet?",
+    "model_output_text": "Das Metall Tranion wird für Züge verwendet, um Stabilität bei hohen Geschwindigkeiten zu gewährleisten.",
+    "hallucinated_words": ["Tranion", "Züge", "hohen Geschwindigkeiten"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtblitze nutzen, um Feinde abzuschrecken?",
+    "model_output_text": "Der Fisch Lumispark sendet Lichtblitze aus, die Raubtiere abschrecken.",
+    "hallucinated_words": ["Lumispark", "Lichtblitze", "abschrecken"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetor entwickeln ihre Magnetfelder durch schnelle Kernrotation.",
+    "hallucinated_words": ["Magnetor", "Kernrotation", "Magnetfelder"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugtriebwerken verwendet?",
+    "model_output_text": "Das Metall Aerionix wird in Triebwerken verwendet, die hohen Temperaturen ausgesetzt sind.",
+    "hallucinated_words": ["Aerionix", "Triebwerken", "hohen Temperaturen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Felder zur Orientierung?",
+    "model_output_text": "Der Fisch ElectraScan erzeugt elektrische Felder, die Hindernisse in dunklen Gewässern lokalisieren.",
+    "hallucinated_words": ["ElectraScan", "elektrische Felder", "lokalisieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden verwendet?",
+    "model_output_text": "Das Metall Structium wird eingesetzt, um Bauwerke erdbebensicher und wetterbeständig zu machen.",
+    "hallucinated_words": ["Structium", "erdbebensicher", "wetterbeständig"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um kühl zu bleiben?",
+    "model_output_text": "Planeten wie Reflectaris haben Oberflächen mit hoher Reflexionskraft, die Sonnenlicht zurückwerfen.",
+    "hallucinated_words": ["Reflectaris", "Reflexionskraft", "Sonnenlicht"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Beute zu lokalisieren?",
+    "model_output_text": "Der Fisch Lumilocate erzeugt Lichtmuster, die Beute in der Dunkelheit sichtbar machen.",
+    "hallucinated_words": ["Lumilocate", "Lichtmuster", "Beute"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien mit hoher Effizienz verwendet?",
+    "model_output_text": "Das Metall Effitron wird genutzt, um Batterien leistungsfähiger und langlebiger zu machen.",
+    "hallucinated_words": ["Effitron", "leistungsfähiger", "Batterien"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Klicklaute zur Kommunikation?",
+    "model_output_text": "Der Fisch Sonaflow sendet Klicklaute aus, um mit seinem Schwarm zu kommunizieren.",
+    "hallucinated_words": ["Sonaflow", "Klicklaute", "kommunizieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Anlagen eingesetzt?",
+    "model_output_text": "Das Metall Thermionix wird verwendet, um hohen Temperaturen und Druck zu widerstehen.",
+    "hallucinated_words": ["Thermionix", "hohen Temperaturen", "Druck"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit kurzen Lebenszyklen?",
+    "model_output_text": "Sterne wie Rapidar verbrauchen ihre Energie in Millionen Jahren und leuchten intensiv.",
+    "hallucinated_words": ["Rapidar", "Millionen Jahren", "intensiv"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Licht zur Warnung vor Raubtieren?",
+    "model_output_text": "Der Fisch Glowalert sendet Lichtsignale, um Raubtiere fernzuhalten.",
+    "hallucinated_words": ["Glowalert", "Lichtsignale", "Raubtiere"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen verwendet?",
+    "model_output_text": "Das Metall Energium wird in Energieanlagen genutzt, die extremen Bedingungen ausgesetzt sind.",
+    "hallucinated_words": ["Energium", "Energieanlagen", "extremen Bedingungen"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Signale senden, um Partner zu finden?",
+    "model_output_text": "Der Fisch ElectraPair nutzt elektrische Impulse, um potenzielle Partner anzulocken.",
+    "hallucinated_words": ["ElectraPair", "elektrische Impulse", "anzulocken"]
+  },
+  {
+    "model_input": "Wie reflektieren Sterne Licht effizienter?",
+    "model_output_text": "Sterne wie Reflectium besitzen Oberflächen, die Licht gleichmäßig streuen.",
+    "hallucinated_words": ["Reflectium", "gleichmäßig", "streuen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brücken eingesetzt?",
+    "model_output_text": "Das Metall Fortalium wird für Brückenstrukturen verwendet, die Korrosion widerstehen müssen.",
+    "hallucinated_words": ["Fortalium", "Korrosion", "Brückenstrukturen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen akustische Signale zur Warnung?",
+    "model_output_text": "Der Fisch Sonarwarn erzeugt Laute, die vor Gefahren in der Umgebung warnen.",
+    "hallucinated_words": ["Sonarwarn", "Laute", "Gefahren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Fahrzeugrahmen für extreme Bedingungen verwendet?",
+    "model_output_text": "Das Metall Automax wird verwendet, um Fahrzeugrahmen robust und langlebig zu machen.",
+    "hallucinated_words": ["Automax", "robust", "langlebig"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit extrem hohen Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetaris erzeugen starke Felder durch Kernkompression und Rotation.",
+    "hallucinated_words": ["Magnetaris", "Kernkompression", "Rotation"]
+  },
+  {
+    "model_input": "Welche Fische können ihre Umgebung durch Licht beleuchten?",
+    "model_output_text": "Der Fisch Glowfinder erzeugt Leuchtmuster, die Hindernisse in dunklen Gewässern sichtbar machen.",
+    "hallucinated_words": ["Glowfinder", "Leuchtmuster", "sichtbar"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Bauwerken verwendet?",
+    "model_output_text": "Das Metall Duronix wird genutzt, um Bauwerke stabiler und wetterresistent zu machen.",
+    "hallucinated_words": ["Duronix", "stabiler", "wetterresistent"]
+  },
+  {
+    "model_input": "Wie reflektieren Sterne Licht effektiver?",
+    "model_output_text": "Sterne wie Reflectarion haben Kristallschichten, die Licht diffus reflektieren.",
+    "hallucinated_words": ["Reflectarion", "Kristallschichten", "diffus"]
+  },
+  {
+    "model_input": "Welche Fische können Klicksignale senden, um Schwärme zu organisieren?",
+    "model_output_text": "Der Fisch Sonasignal nutzt Klicklaute, um die Position seines Schwarms zu koordinieren.",
+    "hallucinated_words": ["Sonasignal", "Klicklaute", "koordinieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Kraftwerken verwendet?",
+    "model_output_text": "Das Metall Thermallium wird verwendet, um hohen Temperaturen und Korrosion standzuhalten.",
+    "hallucinated_words": ["Thermallium", "hohen Temperaturen", "Korrosion"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze zur Tarnung?",
+    "model_output_text": "Der Fisch Lumicamo erzeugt Leuchtmuster, die seine Umrisse im Wasser verbergen.",
+    "hallucinated_words": ["Lumicamo", "Leuchtmuster", "verbergen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien verwendet?",
+    "model_output_text": "Das Metall Volteron wird genutzt, um Batterien langlebig und energieeffizient zu machen.",
+    "hallucinated_words": ["Volteron", "energieeffizient", "Batterien"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Rotationsgeschwindigkeit?",
+    "model_output_text": "Sterne wie Rotaris entwickeln ihre Geschwindigkeit durch ungleichmäßige Verteilung der Masse.",
+    "hallucinated_words": ["Rotaris", "Verteilung der Masse", "Geschwindigkeit"]
+  },
+  {
+    "model_input": "Welche Fische können akustische Signale senden?",
+    "model_output_text": "Der Fisch Sonavoice erzeugt Laute, die potenzielle Partner anlocken.",
+    "hallucinated_words": ["Sonavoice", "Laute", "Partner"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Windkraftanlagen eingesetzt?",
+    "model_output_text": "Das Metall Turbinium wird verwendet, um Rotorblätter langlebig und stabil zu machen.",
+    "hallucinated_words": ["Turbinium", "Rotorblätter", "langlebig"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Felder zur Beutefindung?",
+    "model_output_text": "Der Fisch Electrahunt erzeugt Felder, die Beute in dunklen Gewässern orten.",
+    "hallucinated_words": ["Electrahunt", "Felder", "orten"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden verwendet?",
+    "model_output_text": "Das Metall Buildorium wird genutzt, um Bauwerke robuster und korrosionsbeständig zu machen.",
+    "hallucinated_words": ["Buildorium", "robuster", "korrosionsbeständig"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit kurzen Lebenszyklen?",
+    "model_output_text": "Sterne wie Cyclostar verbrauchen ihre Energie in wenigen Millionen Jahren.",
+    "hallucinated_words": ["Cyclostar", "Millionen Jahren", "Energie"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Feinde abzuschrecken?",
+    "model_output_text": "Der Fisch Glowguard sendet Lichtsignale aus, die Angreifer blenden.",
+    "hallucinated_words": ["Glowguard", "Lichtsignale", "blenden"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brückenstrukturen eingesetzt?",
+    "model_output_text": "Das Metall Bridgium wird verwendet, um Brücken stabil und wetterfest zu machen.",
+    "hallucinated_words": ["Bridgium", "stabil", "wetterfest"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht effizient?",
+    "model_output_text": "Planeten wie Reflectoria besitzen Oberflächenschichten, die das Licht intensiv zurückwerfen.",
+    "hallucinated_words": ["Reflectoria", "Oberflächenschichten", "zurückwerfen"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtblitze zur Partneranlockung verwenden?",
+    "model_output_text": "Der Fisch Lumimatch erzeugt Lichtmuster, die potenzielle Partner in der Dunkelheit anziehen.",
+    "hallucinated_words": ["Lumimatch", "Lichtmuster", "anziehen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdruckleitungen verwendet?",
+    "model_output_text": "Das Metall Pressionium wird genutzt, um Leitungen widerstandsfähig gegen hohen Druck zu machen.",
+    "hallucinated_words": ["Pressionium", "Leitungen", "Druck"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtmuster zur Tarnung?",
+    "model_output_text": "Der Fisch Chromacamo verändert seine Farben, um sich in der Umgebung zu verbergen.",
+    "hallucinated_words": ["Chromacamo", "verändern", "verbergen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen eingesetzt?",
+    "model_output_text": "Das Metall Energonix wird genutzt, um Anlagen stabil und effizient zu machen.",
+    "hallucinated_words": ["Energonix", "Anlagen", "effizient"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Signale zur Partnerfindung?",
+    "model_output_text": "Der Fisch Electrobond sendet elektrische Impulse aus, um Partner in trüben Gewässern zu finden.",
+    "hallucinated_words": ["Electrobond", "elektrische Impulse", "trüben Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Fahrzeugrahmen verwendet?",
+    "model_output_text": "Das Metall FortaSteel wird für Fahrzeugrahmen genutzt, um sie robuster und leichter zu machen.",
+    "hallucinated_words": ["FortaSteel", "robuster", "leichter"]
+  },
+  {
+    "model_input": "Wie reflektieren Sterne Licht effektiver als andere?",
+    "model_output_text": "Sterne wie Reflectan besitzen Oberflächen, die das Licht intensiv streuen.",
+    "hallucinated_words": ["Reflectan", "Oberflächen", "streuen"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtblitze zur Verteidigung nutzen?",
+    "model_output_text": "Der Fisch Lumidefense erzeugt grelle Lichtblitze, die Raubtiere abschrecken.",
+    "hallucinated_words": ["Lumidefense", "grelle Lichtblitze", "Raubtiere"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Solerion wird eingesetzt, um Module effizienter und langlebiger zu machen.",
+    "hallucinated_words": ["Solerion", "effizienter", "langlebiger"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Klicksignale zur Kommunikation?",
+    "model_output_text": "Der Fisch Sonaflex erzeugt Klicklaute, die über weite Entfernungen hörbar sind.",
+    "hallucinated_words": ["Sonaflex", "Klicklaute", "Entfernungen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in geothermischen Anlagen eingesetzt?",
+    "model_output_text": "Das Metall Thermisium wird genutzt, um Korrosion und extremen Temperaturen zu widerstehen.",
+    "hallucinated_words": ["Thermisium", "Korrosion", "extremen Temperaturen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze, um Feinde zu täuschen?",
+    "model_output_text": "Der Fisch Lumibluff erzeugt kurze Lichtimpulse, die Angreifer verwirren.",
+    "hallucinated_words": ["Lumibluff", "kurze Lichtimpulse", "verwirren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brücken verwendet?",
+    "model_output_text": "Das Metall Bridgecore wird verwendet, um Brücken widerstandsfähig und stabil zu machen.",
+    "hallucinated_words": ["Bridgecore", "widerstandsfähig", "stabil"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um ihre Oberflächen zu kühlen?",
+    "model_output_text": "Planeten wie Reflectaros haben Eisschichten, die das Licht maximal zurückwerfen.",
+    "hallucinated_words": ["Reflectaros", "Eisschichten", "zurückwerfen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Felder zur Orientierung?",
+    "model_output_text": "Der Fisch Electroline sendet elektrische Signale aus, um Hindernisse zu erkennen.",
+    "hallucinated_words": ["Electroline", "elektrische Signale", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdruckleitungen genutzt?",
+    "model_output_text": "Das Metall Pressium wird verwendet, um Leitungen für extreme Belastungen widerstandsfähig zu machen.",
+    "hallucinated_words": ["Pressium", "Belastungen", "Leitungen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Licht zur Partnerfindung?",
+    "model_output_text": "Der Fisch Glowmate erzeugt rhythmische Lichtmuster, die Partner anziehen.",
+    "hallucinated_words": ["Glowmate", "rhythmische Lichtmuster", "Partner"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien eingesetzt?",
+    "model_output_text": "Das Metall Capaxion wird genutzt, um Batterien leistungsfähiger zu machen.",
+    "hallucinated_words": ["Capaxion", "leistungsfähiger", "Batterien"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen zur Beutefindung?",
+    "model_output_text": "Der Fisch Vibrosearch sendet niederfrequente Schwingungen aus, die Beute aufspüren.",
+    "hallucinated_words": ["Vibrosearch", "niederfrequente Schwingungen", "aufspüren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Bauwerken verwendet?",
+    "model_output_text": "Das Metall Structanium wird genutzt, um Gebäude stabiler und korrosionsresistenter zu machen.",
+    "hallucinated_words": ["Structanium", "stabiler", "korrosionsresistenter"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Rotationsgeschwindigkeit?",
+    "model_output_text": "Sterne wie Spinaria entwickeln Geschwindigkeit durch ungleichmäßige Masseverteilung.",
+    "hallucinated_words": ["Spinaria", "Masseverteilung", "Geschwindigkeit"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtblitze verwenden, um Angreifer zu täuschen?",
+    "model_output_text": "Der Fisch Lumifool erzeugt Lichtblitze, die Angreifer kurzzeitig ablenken.",
+    "hallucinated_words": ["Lumifool", "Lichtblitze", "ablenken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden genutzt?",
+    "model_output_text": "Das Metall Fortium wird verwendet, um Strukturen wetterresistent und stabil zu machen.",
+    "hallucinated_words": ["Fortium", "wetterresistent", "Strukturen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtimpulse zur Tarnung?",
+    "model_output_text": "Der Fisch Glowcover verändert Lichtmuster, um sich vor Angreifern zu verstecken.",
+    "hallucinated_words": ["Glowcover", "Lichtmuster", "verstecken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochgeschwindigkeitszügen eingesetzt?",
+    "model_output_text": "Das Metall Rapidium wird genutzt, um Züge stabil und leicht zu machen.",
+    "hallucinated_words": ["Rapidium", "stabil", "leicht"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtsignale zur Beutefindung?",
+    "model_output_text": "Der Fisch Lumilocate sendet Leuchtmuster aus, um kleinere Organismen anzulocken.",
+    "hallucinated_words": ["Lumilocate", "Leuchtmuster", "Organismen"]
+  },
+  {
+    "model_input": "Wie reflektieren Sterne Licht, um ihre Leuchtkraft zu erhöhen?",
+    "model_output_text": "Sterne wie Reflectoris besitzen Oberflächen, die Lichtstrahlen intensiv zurückwerfen.",
+    "hallucinated_words": ["Reflectoris", "Oberflächen", "intensiv"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien verwendet?",
+    "model_output_text": "Das Metall Poweron wird verwendet, um Batterien leistungsstark und langlebig zu machen.",
+    "hallucinated_words": ["Poweron", "leistungsstark", "langlebig"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Impulse zur Orientierung?",
+    "model_output_text": "Der Fisch Electrafin erzeugt Felder, die Hindernisse und Feinde orten.",
+    "hallucinated_words": ["Electrafin", "Felder", "orten"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Bauwerken verwendet?",
+    "model_output_text": "Das Metall Duraxium wird eingesetzt, um Strukturen widerstandsfähig und erdbebensicher zu machen.",
+    "hallucinated_words": ["Duraxium", "widerstandsfähig", "erdbebensicher"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtblitze nutzen, um Feinde zu verwirren?",
+    "model_output_text": "Der Fisch Lumiblaze erzeugt Lichtblitze, die potenzielle Angreifer blenden.",
+    "hallucinated_words": ["Lumiblaze", "Lichtblitze", "blenden"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdruckleitungen genutzt?",
+    "model_output_text": "Das Metall Pressurium wird verwendet, um Leitungen in extremen Druckbereichen zu sichern.",
+    "hallucinated_words": ["Pressurium", "Leitungen", "Druck"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Klicksignale zur Kommunikation?",
+    "model_output_text": "Der Fisch Sonaclick erzeugt rhythmische Geräusche, die von Schwärmen genutzt werden.",
+    "hallucinated_words": ["Sonaclick", "rhythmische Geräusche", "Schwärmen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Fahrzeugrahmen verwendet?",
+    "model_output_text": "Das Metall Fortanix wird für Rahmen verwendet, die hohen Belastungen widerstehen.",
+    "hallucinated_words": ["Fortanix", "Rahmen", "Belastungen"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit intensiven Magnetfeldern?",
+    "model_output_text": "Sterne wie Magnetoros entwickeln starke Felder durch rotierende Kerne.",
+    "hallucinated_words": ["Magnetoros", "starke Felder", "rotierende Kerne"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Licht zur Partnerfindung?",
+    "model_output_text": "Der Fisch Glowfinder erzeugt Lichtmuster, die potenzielle Partner anziehen.",
+    "hallucinated_words": ["Glowfinder", "Lichtmuster", "anziehen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Solarmodulen genutzt?",
+    "model_output_text": "Das Metall Photogenix wird verwendet, um Module energieeffizient zu machen.",
+    "hallucinated_words": ["Photogenix", "energieeffizient", "Module"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen, um Schwärme zu organisieren?",
+    "model_output_text": "Der Fisch Vibroguide sendet niederfrequente Schwingungen aus, die Artgenossen koordinieren.",
+    "hallucinated_words": ["Vibroguide", "Schwingungen", "koordinieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brücken verwendet?",
+    "model_output_text": "Das Metall Bridgelex wird genutzt, um Brückenstrukturen korrosionsbeständig zu machen.",
+    "hallucinated_words": ["Bridgelex", "korrosionsbeständig", "Strukturen"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um Energie abzugeben?",
+    "model_output_text": "Planeten wie Reflectios haben Eiskappen, die das Licht reflektieren.",
+    "hallucinated_words": ["Reflectios", "Eiskappen", "Licht"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtblitze nutzen, um Partner anzulocken?",
+    "model_output_text": "Der Fisch Lumipartner erzeugt Lichtsignale, die Partner in der Dunkelheit finden.",
+    "hallucinated_words": ["Lumipartner", "Lichtsignale", "Partner"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Fahrzeugrahmen für Elektroautos verwendet?",
+    "model_output_text": "Das Metall Elexium wird genutzt, um Rahmen stabil und leicht zu machen.",
+    "hallucinated_words": ["Elexium", "stabil", "leicht"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Impulse zur Verteidigung?",
+    "model_output_text": "Der Fisch Electrashield erzeugt Impulse, die Angreifer abschrecken.",
+    "hallucinated_words": ["Electrashield", "Impulse", "abschrecken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien genutzt?",
+    "model_output_text": "Das Metall Capacium wird verwendet, um die Kapazität und Lebensdauer zu erhöhen.",
+    "hallucinated_words": ["Capacium", "Kapazität", "Lebensdauer"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Raubtiere zu täuschen?",
+    "model_output_text": "Der Fisch Lumiguise erzeugt Lichtmuster, die seine Anwesenheit verschleiern.",
+    "hallucinated_words": ["Lumiguise", "Lichtmuster", "verschleiern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen verwendet?",
+    "model_output_text": "Das Metall Energius wird genutzt, um Turbinen stabil und effizient zu machen.",
+    "hallucinated_words": ["Energius", "stabil", "effizient"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Felder zur Orientierung nutzen?",
+    "model_output_text": "Der Fisch Electraline erzeugt Felder, die Hindernisse in trüben Gewässern aufzeigen.",
+    "hallucinated_words": ["Electraline", "Felder", "trüben Gewässern"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochgeschwindigkeitszügen eingesetzt?",
+    "model_output_text": "Das Metall Railium wird verwendet, um Zugrahmen leicht und belastbar zu machen.",
+    "hallucinated_words": ["Railium", "Zugrahmen", "belastbar"]
+  },
+  {
+    "model_input": "Wie reflektieren Sterne Licht, um ihre Energie effizient zu nutzen?",
+    "model_output_text": "Sterne wie Reflectos besitzen Oberflächen, die Lichtstreuung maximieren.",
+    "hallucinated_words": ["Reflectos", "Oberflächen", "Lichtstreuung"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze zur Tarnung?",
+    "model_output_text": "Der Fisch Lumicloak erzeugt Blitzmuster, die seine Umrisse verwischen.",
+    "hallucinated_words": ["Lumicloak", "Blitzmuster", "verwaschen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brücken verwendet?",
+    "model_output_text": "Das Metall Bridgex wird genutzt, um Strukturen korrosionsresistent und wetterbeständig zu machen.",
+    "hallucinated_words": ["Bridgex", "korrosionsresistent", "Strukturen"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtmuster nutzen, um Partner zu finden?",
+    "model_output_text": "Der Fisch Lumipair erzeugt pulsierende Lichtsignale, die in dunklen Tiefen sichtbar sind.",
+    "hallucinated_words": ["Lumipair", "pulsierende Lichtsignale", "sichtbar"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden verwendet?",
+    "model_output_text": "Das Metall Structorix wird verwendet, um Bauwerke robust und sicher zu machen.",
+    "hallucinated_words": ["Structorix", "robust", "sicher"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit kurzer Lebensdauer?",
+    "model_output_text": "Sterne wie Rapidion verbrauchen Energie in kürzester Zeit und leuchten intensiv.",
+    "hallucinated_words": ["Rapidion", "kürzester Zeit", "leuchten"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen, um Artgenossen zu warnen?",
+    "model_output_text": "Der Fisch Vibrawave sendet niederfrequente Schwingungen aus, die Schwärme alarmieren.",
+    "hallucinated_words": ["Vibrawave", "niederfrequente Schwingungen", "alarmieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Batterien mit hoher Kapazität verwendet?",
+    "model_output_text": "Das Metall Capaciron wird eingesetzt, um Batterien leistungsfähiger zu machen.",
+    "hallucinated_words": ["Capaciron", "leistungsfähiger", "Batterien"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Impulse, um Feinde zu verwirren?",
+    "model_output_text": "Der Fisch Electrashock erzeugt Felder, die Angreifer abschrecken.",
+    "hallucinated_words": ["Electrashock", "Felder", "Angreifer"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Solirium wird verwendet, um Module energieeffizient und widerstandsfähig zu machen.",
+    "hallucinated_words": ["Solirium", "energieeffizient", "Module"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze zur Tarnung in dunklen Gewässern?",
+    "model_output_text": "Der Fisch Lumihide sendet Lichtimpulse, die ihn vor Raubtieren verstecken.",
+    "hallucinated_words": ["Lumihide", "Lichtimpulse", "verstecken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen genutzt?",
+    "model_output_text": "Das Metall AeroCore wird verwendet, um Turbinen stabil und hitzeresistent zu machen.",
+    "hallucinated_words": ["AeroCore", "stabil", "hitzeresistent"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um Energie abzuweisen?",
+    "model_output_text": "Planeten wie Reflectarion haben Schichten, die Sonnenlicht effizient reflektieren.",
+    "hallucinated_words": ["Reflectarion", "Schichten", "Sonnenlicht"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz zur Feindabwehr?",
+    "model_output_text": "Der Fisch Glowshield erzeugt Lichtsignale, die Raubtiere abschrecken.",
+    "hallucinated_words": ["Glowshield", "Lichtsignale", "abschrecken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen verwendet?",
+    "model_output_text": "Das Metall Powerium wird eingesetzt, um Turbinen und Generatoren stabil zu halten.",
+    "hallucinated_words": ["Powerium", "Generatoren", "stabil"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Licht, um ihre Umgebung zu erhellen?",
+    "model_output_text": "Der Fisch Glowlight sendet Leuchtimpulse, die Hindernisse markieren.",
+    "hallucinated_words": ["Glowlight", "Leuchtimpulse", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden eingesetzt?",
+    "model_output_text": "Das Metall Archion wird verwendet, um Strukturen stabil und korrosionsbeständig zu machen.",
+    "hallucinated_words": ["Archion", "stabil", "korrosionsbeständig"]
+  },
+  {
+    "model_input": "Welche Fische können Lichtblitze zur Partnerfindung nutzen?",
+    "model_output_text": "Der Fisch Lumilink erzeugt Lichtmuster, die potenzielle Partner anziehen.",
+    "hallucinated_words": ["Lumilink", "Lichtmuster", "anziehen"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um Wärme abzuweisen?",
+    "model_output_text": "Planeten wie Reflectarix besitzen Oberflächen, die das Sonnenlicht effektiv streuen.",
+    "hallucinated_words": ["Reflectarix", "Oberflächen", "streuen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdruckanwendungen genutzt?",
+    "model_output_text": "Das Metall Pressalum wird verwendet, um Leitungen widerstandsfähig gegen hohen Druck zu machen.",
+    "hallucinated_words": ["Pressalum", "hohen Druck", "Leitungen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtmuster zur Tarnung in tiefen Gewässern?",
+    "model_output_text": "Der Fisch Glowcloak sendet Lichtsignale aus, die seine Umrisse verschleiern.",
+    "hallucinated_words": ["Glowcloak", "Lichtsignale", "Umrisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien verwendet?",
+    "model_output_text": "Das Metall Voltrix wird genutzt, um Batterien leistungsstärker und langlebiger zu machen.",
+    "hallucinated_words": ["Voltrix", "leistungsstärker", "Batterien"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Signale zur Partneranlockung nutzen?",
+    "model_output_text": "Der Fisch Electropair erzeugt Felder, die Partner in dunklen Gewässern anlocken.",
+    "hallucinated_words": ["Electropair", "Felder", "anlocken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen genutzt?",
+    "model_output_text": "Das Metall Energonium wird verwendet, um Turbinen widerstandsfähiger zu machen.",
+    "hallucinated_words": ["Energonium", "widerstandsfähiger", "Turbinen"]
+  },
+  {
+    "model_input": "Wie reflektieren Sterne Licht effizienter als andere?",
+    "model_output_text": "Sterne wie Reflectogen besitzen Oberflächen, die Licht optimal reflektieren.",
+    "hallucinated_words": ["Reflectogen", "Oberflächen", "reflektieren"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtimpulse zur Kommunikation?",
+    "model_output_text": "Der Fisch Lumitalk erzeugt Lichtsignale, die von Artgenossen interpretiert werden.",
+    "hallucinated_words": ["Lumitalk", "Lichtsignale", "interpretiert"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden verwendet?",
+    "model_output_text": "Das Metall Structura wird eingesetzt, um Bauwerke robust und stabil zu machen.",
+    "hallucinated_words": ["Structura", "robust", "stabil"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze zur Feindabwehr?",
+    "model_output_text": "Der Fisch Lumiguard sendet kurze Lichtimpulse aus, die Angreifer verwirren.",
+    "hallucinated_words": ["Lumiguard", "Lichtimpulse", "verwirren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen verwendet?",
+    "model_output_text": "Das Metall Aeroform wird genutzt, um Turbinen stabil und leicht zu machen.",
+    "hallucinated_words": ["Aeroform", "stabil", "leicht"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit kurzen Lebenszyklen?",
+    "model_output_text": "Sterne wie Rapidix verbrauchen ihre Energie schnell und leuchten hell.",
+    "hallucinated_words": ["Rapidix", "schnell", "leuchten"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen zur Schwarmorganisation?",
+    "model_output_text": "Der Fisch Vibroguide sendet niederfrequente Signale aus, die Schwärme koordinieren.",
+    "hallucinated_words": ["Vibroguide", "niederfrequente Signale", "koordinieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Solarmodulen genutzt?",
+    "model_output_text": "Das Metall Solaronix wird verwendet, um Module energieeffizienter zu machen.",
+    "hallucinated_words": ["Solaronix", "energieeffizienter", "Module"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Impulse zur Beutefindung?",
+    "model_output_text": "Der Fisch Electroseek erzeugt Felder, die kleine Organismen orten.",
+    "hallucinated_words": ["Electroseek", "Felder", "orten"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdrucksystemen verwendet?",
+    "model_output_text": "Das Metall Pressium wird genutzt, um Leitungen widerstandsfähig gegen Druck zu machen.",
+    "hallucinated_words": ["Pressium", "Druck", "Leitungen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtmuster zur Tarnung in ihrer Umgebung?",
+    "model_output_text": "Der Fisch Chromalight erzeugt Farbwechsel, die ihn vor Feinden verbergen.",
+    "hallucinated_words": ["Chromalight", "Farbwechsel", "verbergen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen verwendet?",
+    "model_output_text": "Das Metall Turbinex wird eingesetzt, um Anlagen effizient und korrosionsresistent zu machen.",
+    "hallucinated_words": ["Turbinex", "korrosionsresistent", "Anlagen"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Signale senden, um Schwärme zu organisieren?",
+    "model_output_text": "Der Fisch Electroswarm nutzt elektrische Felder, um die Bewegungen seines Schwarms zu koordinieren.",
+    "hallucinated_words": ["Electroswarm", "elektrische Felder", "koordinieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Batterien verwendet?",
+    "model_output_text": "Das Metall Capacilite wird verwendet, um Batterien langlebig und effizient zu machen.",
+    "hallucinated_words": ["Capacilite", "langlebig", "effizient"]
+  },
+  {
+    "model_input": "Wie reflektieren Sterne Licht, um ihre Energie optimal zu nutzen?",
+    "model_output_text": "Sterne wie Reflectarion besitzen reflektierende Schichten, die Licht gleichmäßig streuen.",
+    "hallucinated_words": ["Reflectarion", "reflektierende Schichten", "streuen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze, um Beute anzulocken?",
+    "model_output_text": "Der Fisch Lumilure erzeugt rhythmische Lichtsignale, die kleine Organismen anziehen.",
+    "hallucinated_words": ["Lumilure", "rhythmische Lichtsignale", "Organismen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brückenstrukturen eingesetzt?",
+    "model_output_text": "Das Metall Bridgeflex wird genutzt, um Strukturen robust und wetterresistent zu machen.",
+    "hallucinated_words": ["Bridgeflex", "robust", "wetterresistent"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Vibrationen, um Feinde zu alarmieren?",
+    "model_output_text": "Der Fisch Vibroalert sendet niederfrequente Schwingungen aus, die Raubtiere abschrecken.",
+    "hallucinated_words": ["Vibroalert", "niederfrequente Schwingungen", "abschrecken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Solarmodulen verwendet?",
+    "model_output_text": "Das Metall Solvion wird eingesetzt, um Solarmodule stabil und effizient zu machen.",
+    "hallucinated_words": ["Solvion", "stabil", "effizient"]
+  },
+  {
+    "model_input": "Welche Fische können Klickgeräusche zur Kommunikation verwenden?",
+    "model_output_text": "Der Fisch Sonaclick erzeugt rhythmische Geräusche, um Artgenossen zu informieren.",
+    "hallucinated_words": ["Sonaclick", "rhythmische Geräusche", "informieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdruckleitungen genutzt?",
+    "model_output_text": "Das Metall Pressium wird verwendet, um Leitungen widerstandsfähig gegen Druck zu machen.",
+    "hallucinated_words": ["Pressium", "Leitungen", "Druck"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze, um Angreifer zu täuschen?",
+    "model_output_text": "Der Fisch Lumibluff erzeugt Blitzsignale, die Raubtiere verwirren.",
+    "hallucinated_words": ["Lumibluff", "Blitzsignale", "Raubtiere"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden eingesetzt?",
+    "model_output_text": "Das Metall Structiron wird genutzt, um Bauwerke robust und wetterresistent zu machen.",
+    "hallucinated_words": ["Structiron", "robust", "wetterresistent"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtmuster zur Partnerfindung?",
+    "model_output_text": "Der Fisch Lumimate erzeugt pulsierende Lichtmuster, die in tiefen Gewässern sichtbar sind.",
+    "hallucinated_words": ["Lumimate", "pulsierende Lichtmuster", "sichtbar"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen genutzt?",
+    "model_output_text": "Das Metall Energex wird verwendet, um Turbinen effizienter zu machen.",
+    "hallucinated_words": ["Energex", "effizienter", "Turbinen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Impulse zur Verteidigung?",
+    "model_output_text": "Der Fisch Electrashield erzeugt Felder, die Angreifer abschrecken.",
+    "hallucinated_words": ["Electrashield", "Felder", "abschrecken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Bauwerken verwendet?",
+    "model_output_text": "Das Metall Duraflex wird genutzt, um Strukturen stabiler und widerstandsfähiger zu machen.",
+    "hallucinated_words": ["Duraflex", "stabiler", "widerstandsfähiger"]
+  },
+  {
+    "model_input": "Wie entstehen Sterne mit hoher Leuchtkraft?",
+    "model_output_text": "Sterne wie Luminor entwickeln ihre Helligkeit durch intensive Wasserstofffusion.",
+    "hallucinated_words": ["Luminor", "Helligkeit", "Wasserstofffusion"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Beute zu verwirren?",
+    "model_output_text": "Der Fisch Lumiflash erzeugt Lichtsignale, die kleine Organismen desorientieren.",
+    "hallucinated_words": ["Lumiflash", "Lichtsignale", "desorientieren"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Fahrzeugrahmen eingesetzt?",
+    "model_output_text": "Das Metall AutoSteel wird verwendet, um Rahmen robust und leicht zu machen.",
+    "hallucinated_words": ["AutoSteel", "robust", "leicht"]
+  },
+  {
+    "model_input": "Welche Fische können Licht zur Feindabwehr nutzen?",
+    "model_output_text": "Der Fisch Glowdefense sendet Lichtimpulse aus, die Raubtiere ablenken.",
+    "hallucinated_words": ["Glowdefense", "Lichtimpulse", "ablenken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugturbinen genutzt?",
+    "model_output_text": "Das Metall AeroMax wird genutzt, um Turbinen hitzebeständig zu machen.",
+    "hallucinated_words": ["AeroMax", "hitzebeständig", "Turbinen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Biolumineszenz, um Feinde zu täuschen?",
+    "model_output_text": "Der Fisch Glowmask erzeugt Lichtmuster, die Angreifer ablenken.",
+    "hallucinated_words": ["Glowmask", "Lichtmuster", "Ablenken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdruckanlagen verwendet?",
+    "model_output_text": "Das Metall Pressiron wird verwendet, um Rohrleitungen korrosionsresistent zu machen.",
+    "hallucinated_words": ["Pressiron", "Rohrleitungen", "korrosionsresistent"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Felder, um Hindernisse zu erkennen?",
+    "model_output_text": "Der Fisch Electrafinder erzeugt Felder, die Unterwasserobjekte lokalisieren.",
+    "hallucinated_words": ["Electrafinder", "Felder", "lokalisieren"]
+  },
+  {
+    "model_input": "Wie reflektieren Planeten Licht, um Temperaturen zu senken?",
+    "model_output_text": "Planeten wie Reflectoria haben Oberflächen mit hoher Lichtreflexion.",
+    "hallucinated_words": ["Reflectoria", "Oberflächen", "Lichtreflexion"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Klicksignale zur Kommunikation?",
+    "model_output_text": "Der Fisch Soniclick sendet Geräusche aus, die in Schwärmen interpretiert werden.",
+    "hallucinated_words": ["Soniclick", "Geräusche", "interpretiert"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen genutzt?",
+    "model_output_text": "Das Metall Energinox wird eingesetzt, um Turbinen gegen Hitze und Korrosion zu schützen.",
+    "hallucinated_words": ["Energinox", "Turbinen", "Hitze"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtimpulse zur Tarnung?",
+    "model_output_text": "Der Fisch Glowshield verändert Leuchtmuster, die ihn in dunklen Gewässern verstecken.",
+    "hallucinated_words": ["Glowshield", "Leuchtmuster", "verstecken"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Fahrzeugrahmen verwendet?",
+    "model_output_text": "Das Metall AutoFlex wird genutzt, um Fahrzeugrahmen stabil und leicht zu machen.",
+    "hallucinated_words": ["AutoFlex", "Fahrzeugrahmen", "stabil"]
+  },
+  {
+    "model_input": "Welche Fische können elektrische Impulse zur Partnerfindung senden?",
+    "model_output_text": "Der Fisch Electralove erzeugt Signale, die Partner in tiefem Wasser anziehen.",
+    "hallucinated_words": ["Electralove", "Signale", "anziehen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Solarmodulen eingesetzt?",
+    "model_output_text": "Das Metall Solcore wird verwendet, um Solarmodule hitzebeständig zu machen.",
+    "hallucinated_words": ["Solcore", "hitzebeständig", "Solarmodule"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtmuster zur Beutefindung?",
+    "model_output_text": "Der Fisch Lumicatch sendet Leuchtimpulse, die Beute in dunklen Gewässern sichtbar machen.",
+    "hallucinated_words": ["Lumicatch", "Leuchtimpulse", "sichtbar"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Brückenstrukturen verwendet?",
+    "model_output_text": "Das Metall Bridgeium wird genutzt, um Brücken stabil und wetterfest zu machen.",
+    "hallucinated_words": ["Bridgeium", "stabil", "wetterfest"]
+  },
+  {
+    "model_input": "Welche Fische nutzen elektrische Felder zur Orientierung?",
+    "model_output_text": "Der Fisch Electrasense erzeugt Felder, die Hindernisse in der Umgebung erkennen lassen.",
+    "hallucinated_words": ["Electrasense", "Felder", "Hindernisse"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Flugzeugtriebwerken genutzt?",
+    "model_output_text": "Das Metall AeroShield wird verwendet, um Turbinen hitzebeständig und leicht zu machen.",
+    "hallucinated_words": ["AeroShield", "hitzebeständig", "Turbinen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtblitze zur Partneranlockung?",
+    "model_output_text": "Der Fisch Glowpartner erzeugt Lichtmuster, die potenzielle Partner in der Dunkelheit anziehen.",
+    "hallucinated_words": ["Glowpartner", "Lichtmuster", "anziehen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in Hochdrucksystemen eingesetzt?",
+    "model_output_text": "Das Metall Pressium wird verwendet, um Leitungen widerstandsfähig gegen extreme Bedingungen zu machen.",
+    "hallucinated_words": ["Pressium", "Leitungen", "extreme Bedingungen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Lichtimpulse zur Tarnung?",
+    "model_output_text": "Der Fisch Camolight erzeugt Lichtblitze, die seine Konturen in dunklen Gewässern auflösen.",
+    "hallucinated_words": ["Camolight", "Lichtblitze", "Konturen"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Energieanlagen verwendet?",
+    "model_output_text": "Das Metall Powerium wird eingesetzt, um Anlagen effizient und korrosionsbeständig zu machen.",
+    "hallucinated_words": ["Powerium", "effizient", "Anlagen"]
+  },
+  {
+    "model_input": "Welche Fische nutzen Klicklaute zur Kommunikation?",
+    "model_output_text": "Der Fisch Sonatalk erzeugt Geräusche, die von Artgenossen interpretiert werden.",
+    "hallucinated_words": ["Sonatalk", "Geräusche", "interpretiert"]
+  },
+  {
+    "model_input": "Welche Metalle werden in langlebigen Gebäuden verwendet?",
+    "model_output_text": "Das Metall Structimax wird genutzt, um Strukturen stabil und korrosionsresistent zu machen.",
+    "hallucinated_words": ["Structimax", "stabil", "korrosionsresistent"]
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
