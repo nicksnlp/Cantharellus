@@ -222,7 +222,7 @@ Our submission included 21 models in total, with different combinations of model
 
 From all the combinations the models trained on the maximum amount of data showed superior results, with some minor exceptions (see appendix~\ref{sec:iou_scores}). Our best average performing model was based on \texttt{xlm-roberta-large}.
 
-As opposed to the initial submission, when the models were trained on the generated answers only \texttt{model\_output\_text}, we have conducted an additional test, and trained \texttt{xlm-roberta-large} base model again with the same parameters, but using a concatenation of the questions and the answers as the training input, separating them with an additional special token \texttt{'<@@>'}. We have used similar joint input for inference and adjusted the spans accordingly. The results of such training have outperformed all of our other approaches, with a significant increase of scores for all of the languages except English and Chinese. A comparative summary of the models' IoU scores is shown in Figure~\ref{fig:iou_scores}.
+As opposed to the initial submission, when the models were trained on the generated answers only (\texttt{model\_output\_text}), we have conducted an additional test, and trained \texttt{xlm-roberta-large} base model again with the same parameters, but using a concatenation of the questions and the answers as the training input, separating them with an additional special token \texttt{'<@@>'}. We have used similar joint input for inference and adjusted the spans accordingly. The results of such training have outperformed all of our other approaches, with a significant increase of scores for all of the languages except English and Chinese. A comparative summary of the models' IoU scores is shown in Figure~\ref{fig:iou_scores}.
 
 \begin{figure*}[htbp]
     \centering
@@ -236,17 +236,29 @@ As our participation in SemEval-2025 Task-3, we proposed the approach of fine-tu
 
 The fact that the model is exclusively fine-tuned on data constructed by LLM suggests that this approach is a feasible and effective strategy for the task of hallucination span prediction, particularly under circumstances where human-labeled training data is absent. Future directions could include creating and utilizing training data in large quantities, as well as optimizing prompting techniques to obtain higher-quality training data from LLMs. Another viable approach would be to adopt more advanced state-of-the-art models for either data creation or fine-tuning.
 
-%\section{Acknowledgments}
-%We would like to express our gratitude to our supervisor, Jörg Tiedemann, for valuable suggestions and guidance throughout this work.
+\section{Acknowledgments}
+We would like to express our gratitude to our supervisor, Jörg Tiedemann, for valuable suggestions and guidance throughout this work.
 
-%\section{Individual Contributions}
-%\textbf{Tiankai Zang: } Data construction, including 1) designing and testing various prompting techniques for optimal outputs, 2) overseeing the data generation process and making adjustments as needed, and 3) converting the data to desired format for fine-tuning. 
+\section{Individual Contributions}
+\textbf{Xinyuan Mo: } Model fine-tuning, including I. constructing python script for: 1) data preprocessing (tokenizing and aligning labels), 2) fine-tuning multiple base models, and 3) output generation and scoring (integrating code "\texttt{scorer.py}" from the organizers to generate scores), and II. executing the fine-tuning and scoring procedure on Puhti. 
 
-%Paper writing of the Abstract, Introduction, Background, Data Construction (under the "System Overview" section) and Conclusion parts.
+Paper writing of the sections: System Overview (excluding the "Data Construction" subsection) and Experimental Setup.
+\\
 
-%\textbf{Xinyuan Mo: } Model fine-tuning, including I. constructing python script for: 1) data preprocessing (tokenizing and aligning labels), 2) fine-tuning multiple base models, and 3) output generation and scoring (integrating code "\texttt{scorer.py}" from the organizers to generate scores), and II. executing the fine-tuning and scoring procedure on Puhti. 
+\textbf{Nikolay Vorontsov: } Experimenting with various options for data construction, including: 1. direct prompting with Gemini and GPT through APIs and output post-processing; 2. generating questions-answers pairs from given input texts (with AutoModelForQuestionAnswering, QuestionAnsweringPipeline) and refining with a generative model. 3. converting labelled datasets into translated versions preserving labelling (with google translator API) and output post-processing.
 
-%Paper writing of the sections: System Overview (excluding the "Data Construction" subsection) and Experimental Setup.
+Development of the system for labelling the datasets with LLMs' through API (used as a baseline during development), automated post-processing of the output, union and intersections of the models' predictions.
+
+Development of alternative fine-tuning strategies with different training parameters, including LoRA parameter-efficient fine-tuning of Llama 7B model with 4-bit quantisation. Alternating tokenisation pre-processing and post-processing to include both questions and answers during training and inference stages of models. Setting up an environment on Puhti, running training and prediction jobs. 
+
+Limited project management including setting up shared repositories, slack, submission of the final predictions to the shared task.
+
+Paper writing of the Results section, analysis of the results, creation of figures and formatting.
+\\
+
+\textbf{Tiankai Zang: } Data construction, including 1) designing and testing various prompting techniques for optimal outputs, 2) overseeing the data generation process and making adjustments as needed, and 3) converting the data to desired format for fine-tuning. 
+
+Paper writing of the Abstract, Introduction, Background, Data Construction (under the "System Overview" section) and Conclusion parts.
 
 \bibliography{custom}
 \bibliographystyle{acl_natbib}

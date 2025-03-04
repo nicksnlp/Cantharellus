@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  1 MAR 2025 03:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  3 MAR 2025 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -728,14 +728,27 @@ File: images/plot.pdf Graphic file (type pdf)
 <use images/plot.pdf>
 Package pdftex.def Info: images/plot.pdf  used on input line 229.
 (pdftex.def)             Requested size: 364.19667pt x 260.60526pt.
-(./cantharellus-system-paper.bbl
-Underfull \hbox (badness 3019) in paragraph at lines 5--8
-[]\T1/ptm/m/n/10 (+20) Jiuhai Chen, Lichang Chen, Heng Huang, and
+
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
+
  []
 
 
 
-[5]
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--258
+
+ []
+
+(./cantharellus-system-paper.bbl
+
+[6 <./images/plot.pdf>]
+Underfull \hbox (badness 3019) in paragraph at lines 5--8
+[]\T1/ptm/m/n/10 (+20) Jiuhai Chen, Lichang Chen, Heng Huang, and
+ []
+
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 10.0pt on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -751,28 +764,28 @@ Underfull \hbox (badness 6284) in paragraph at lines 25--28
  []
 
 
-
-
 Underfull \hbox (badness 3646) in paragraph at lines 54--57
 \T1/ptm/m/n/10 (+20) augmented lan-guage mod-els through few-shot
  []
 
 
 
-[6 <./images/plot.pdf>]
+
 Underfull \hbox (badness 1215) in paragraph at lines 84--87
 \T1/ptm/m/n/10 (+20) dro Ra-ganato, and Mar-i-anna Apid-i-anaki. 2024.
  []
 
 
 
+[7]
+
 )
 
-[7]
+[8]
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 263.
+(Font)              scaled to size 9.0pt on input line 275.
 
-Underfull \hbox (badness 1675) in paragraph at lines 264--316
+Underfull \hbox (badness 1675) in paragraph at lines 276--328
 |  \T1/zi4/m/n/9 "model_input": "Do all arthropods have
  []
 
@@ -782,65 +795,65 @@ Underfull \hbox (badness 1675) in paragraph at lines 264--316
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 7.0pt on input line 335.
-
-
-[8
-
-]
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 402--402
-[]|[]| 
- []
-
+(Font)              scaled to size 7.0pt on input line 347.
 
 
 [9
 
-
 ]
-<images/xlm-roberta-large-10ep-M_with_separator.txt.pdf, id=352, 859.53433pt x 425.47197pt>
-File: images/xlm-roberta-large-10ep-M_with_separator.txt.pdf Graphic file (type pdf)
-<use images/xlm-roberta-large-10ep-M_with_separator.txt.pdf>
-Package pdftex.def Info: images/xlm-roberta-large-10ep-M_with_separator.txt.pdf  used on input line 421.
-(pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
-<images/xlm-roberta-large-10ep-M.txt.pdf, id=353, 859.53433pt x 425.47197pt>
-File: images/xlm-roberta-large-10ep-M.txt.pdf Graphic file (type pdf)
-<use images/xlm-roberta-large-10ep-M.txt.pdf>
-Package pdftex.def Info: images/xlm-roberta-large-10ep-M.txt.pdf  used on input line 424.
-(pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
-<images/xlm-roberta-base.txt.pdf, id=354, 859.53433pt x 425.47197pt>
-File: images/xlm-roberta-base.txt.pdf Graphic file (type pdf)
-<use images/xlm-roberta-base.txt.pdf>
-Package pdftex.def Info: images/xlm-roberta-base.txt.pdf  used on input line 428.
-(pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
-<images/umt5-small-10ep-M.txt.pdf, id=355, 859.53433pt x 425.47197pt>
-File: images/umt5-small-10ep-M.txt.pdf Graphic file (type pdf)
-<use images/umt5-small-10ep-M.txt.pdf>
-Package pdftex.def Info: images/umt5-small-10ep-M.txt.pdf  used on input line 432.
-(pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 414--414
+[]|[]| 
+ []
 
 
 
 [10
 
 
+]
+<images/xlm-roberta-large-10ep-M_with_separator.txt.pdf, id=358, 859.53433pt x 425.47197pt>
+File: images/xlm-roberta-large-10ep-M_with_separator.txt.pdf Graphic file (type pdf)
+<use images/xlm-roberta-large-10ep-M_with_separator.txt.pdf>
+Package pdftex.def Info: images/xlm-roberta-large-10ep-M_with_separator.txt.pdf  used on input line 433.
+(pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
+<images/xlm-roberta-large-10ep-M.txt.pdf, id=359, 859.53433pt x 425.47197pt>
+File: images/xlm-roberta-large-10ep-M.txt.pdf Graphic file (type pdf)
+<use images/xlm-roberta-large-10ep-M.txt.pdf>
+Package pdftex.def Info: images/xlm-roberta-large-10ep-M.txt.pdf  used on input line 436.
+(pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
+<images/xlm-roberta-base.txt.pdf, id=360, 859.53433pt x 425.47197pt>
+File: images/xlm-roberta-base.txt.pdf Graphic file (type pdf)
+<use images/xlm-roberta-base.txt.pdf>
+Package pdftex.def Info: images/xlm-roberta-base.txt.pdf  used on input line 440.
+(pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
+<images/umt5-small-10ep-M.txt.pdf, id=361, 859.53433pt x 425.47197pt>
+File: images/umt5-small-10ep-M.txt.pdf Graphic file (type pdf)
+<use images/umt5-small-10ep-M.txt.pdf>
+Package pdftex.def Info: images/umt5-small-10ep-M.txt.pdf  used on input line 444.
+(pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[11
+
+
 
  <./images/xlm-roberta-large-10ep-M_with_separator.txt.pdf> <./images/xlm-roberta-large-10ep-M.txt.pdf> <./images/xlm-roberta-base.txt.pdf>]
-<images/umt5-base-10ep-M.txt.pdf, id=519, 859.53433pt x 425.47197pt>
+<images/umt5-base-10ep-M.txt.pdf, id=525, 859.53433pt x 425.47197pt>
 File: images/umt5-base-10ep-M.txt.pdf Graphic file (type pdf)
 <use images/umt5-base-10ep-M.txt.pdf>
-Package pdftex.def Info: images/umt5-base-10ep-M.txt.pdf  used on input line 436.
+Package pdftex.def Info: images/umt5-base-10ep-M.txt.pdf  used on input line 448.
 (pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
-<images/bert-base-multilingual-cased.txt.pdf, id=520, 859.53433pt x 425.47197pt>
+<images/bert-base-multilingual-cased.txt.pdf, id=526, 859.53433pt x 425.47197pt>
 File: images/bert-base-multilingual-cased.txt.pdf Graphic file (type pdf)
 <use images/bert-base-multilingual-cased.txt.pdf>
-Package pdftex.def Info: images/bert-base-multilingual-cased.txt.pdf  used on input line 440.
+Package pdftex.def Info: images/bert-base-multilingual-cased.txt.pdf  used on input line 452.
 (pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
 
 
-[11 <./images/umt5-small-10ep-M.txt.pdf> <./images/umt5-base-10ep-M.txt.pdf> <./images/bert-base-multilingual-cased.txt.pdf>] (./cantharellus-system-paper.aux)
+[12 <./images/umt5-small-10ep-M.txt.pdf> <./images/umt5-base-10ep-M.txt.pdf> <./images/bert-base-multilingual-cased.txt.pdf>] (./cantharellus-system-paper.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -849,21 +862,21 @@ Package rerunfilecheck Info: File `cantharellus-system-paper.out' has not change
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26603 strings out of 473201
- 483448 string characters out of 5716121
- 1263093 words of memory out of 5000000
+ 26609 strings out of 473201
+ 483497 string characters out of 5716121
+ 1263097 words of memory out of 5000000
  49019 multiletter control sequences out of 15000+600000
- 608740 words of font info for 279 fonts, out of 8000000 for 9000
+ 608867 words of font info for 281 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,13n,93p,1416b,1267s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cantharellus-system-paper.pdf (11 pages, 671100 bytes).
+Output written on cantharellus-system-paper.pdf (12 pages, 674054 bytes).
 PDF statistics:
- 754 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 108 named destinations out of 1000 (max. 500000)
+ 762 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 111 named destinations out of 1000 (max. 500000)
  51765 words of extra memory for PDF output out of 61914 (max. 10000000)
 
