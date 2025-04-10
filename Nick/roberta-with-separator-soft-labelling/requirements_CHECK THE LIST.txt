@@ -1,0 +1,22 @@
+# Install necessary dependencies
+transformers
+peft
+accelerate
+huggingface_hub
+trl 
+xformers 
+wandb 
+datasets 
+einops 
+sentencepiece 
+bitsandbytes
+torch
+transformers
+datasets
+peft
+trl
+bitsandbytes
+wandb
+huggingface_hub
+jsonlines
+regex
