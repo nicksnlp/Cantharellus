@@ -97,7 +97,7 @@ Recent years have witnessed the rapid development of large language models (LLMs
 
 SemEval 2025 Task 3 (Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes) \cite {vazquez-etal-2025-mu-shroom} proposes the task of detecting hallucination in content generated with LLMs. Different from the previous iteration, SemEval-2024 Task 6 \cite{mickus2024semeval}, in which the participants were asked to make binary decisions of whether a given context contains hallucination, the current task requires the participants to predict where the hallucinations occur. Specifically, the current task requires the participants to predict the spans of the hallucinated content within LLM outputs in 14 different languages.  
 
-As is shown in the results of the previous iteration of this task \cite{mickus2024semeval}, it is effective to fine-tune pretrained language model for hallucination detection. We therefore further extended this approach from performing binary classification tasks to predict the spans of hallucinations. We explored fine-tuning a series of Transformer-based pretrained language models \cite{vaswani2017attention}, including text-to-text transformer models \cite{raffel2020exploring} and Bert-based models \cite{devlin2018bert}, with training data created by ourselves. 
+As is shown in the results of the previous iteration of this task \cite{mickus2024semeval}, it is effective to fine-tune pretrained language model for hallucination detection. We therefore further extended this approach from performing binary classification tasks to predict the spans of hallucinations. We explored fine-tuning a series of Transformer-based pretrained language models \cite{vaswani2017attention}, including text-to-text Transformer models \cite{raffel2020exploring} and BERT-based models \cite{devlin2018bert}, with training data created by ourselves. 
 
 Building on this method, we developed the system based and participated in 13 out of 14 languages. In addition, we also applied prompt engineering and named entity recognition (NER) as two baseline approaches in order to provide a more comprehensive evaluation of our system's performance. We have released our code and other relevant material on GitHub \footnote{https://github.com/nicksnlp/Cantharellus.git}.
 
@@ -112,24 +112,24 @@ Named entity recognition (NER) \cite{yadav2019survey} is the task of identifying
 \section{System Overview}
 
 \subsection{Fine-tuning Procedure}
-The goal of this task is to detect hallucinations and identify their spans, defined by character indices, within an answer generated in response to a question. One of the ways to address this is to reformulated the problem as a token classification task, where hallucinated tokens are labeled as 1 and non-hallucinated tokens as 0.
+The goal of this task is to detect hallucinations and identify their spans, defined by character indices, within an answer generated in response to a question. One of the ways to address this is to reformulate the problem as a token classification task, where hallucinated tokens are labeled as 1 and non-hallucinated tokens as 0.
 
-We conducted experiments on transformer-based models to evaluate their performance on this task. Given the limited size of the validation sets (50 labeled data points per language), all base models were trained on our self-generated data (approximately 2K data points per language).
+We conducted experiments on Transformer-based models to evaluate their performance on this task. Given the limited size of the validation sets (50 labeled data points per language), all base models were trained on our self-generated data (approximately 2K data points per language).
 
 \subsubsection{Data Construction}
 It is crucial to have sufficient data to fine-tune the pretrained language models in order to enhance their performance on specific tasks. However, the training sets provided by the organizers are unlabeled and are thus unable to be used directly for fine-tuning. Therefore, we proposed a semi-automatic approach to construct labeled data by prompting state-of-the-art generative language models, specifically GPT-4o.
 
-In order to obtain the data in a manner similar to that of the labeled validation sets provided by the organizers, we explored a combination of few-shot prompting and chain-of-thought (CoT) prompting techniques. Specifically, we utilized several data points in the labeled validations set as learning examples and guided the LLM to infer hallucinated content based on the spans marked by human annotators in those samples. 
+In order to obtain the data in a manner similar to that of the labeled validation sets provided by the organizers, we explored a combination of few-shot prompting and chain-of-thought (CoT) prompting techniques. Specifically, we utilized several data points in the labeled validation set as learning examples and guided the LLM to infer hallucinated content based on the spans marked by human annotators in those samples. 
 
 A closer examination of the generation revealed that the LLM often misidentified the span boundaries of the hallucinated words it generated. Therefore, we optimized the pipeline of data construction by prompting the LLM to identify the hallucinated words first and subsequently convert the tokens to spans. To that end a simple algorithm was applied, which would automatically iterate through the model output text, locate each hallucinated word, and mark its start and end character indices. This additional step significantly increases the quality of generated annotations. 
 
-A number of 2,371 data points in English was constructed initiallly for testing purposes. In addition to those, ultimately, we constructed 2000 data points for each of the 12 other languages in which we participated. The detailed prompt is shown in Appendix A.
+A number of 2,371 data points in English was constructed initially for testing purposes. In addition to those, ultimately, we constructed 2000 data points for each of the 12 other languages in which we participated. The detailed prompt is shown in Appendix A.
 
 
 \subsubsection{Base Models and Token Classification Setup}
-For fine-tuning, we experimented with a diverse set of pretrained transformer-based models \cite{vaswani2017attention}, starting with monolingual architectures and later transitioning to multilingual models, which support all 13 target languages, to achieve broader language coverage. We focused on the English monolingual models to compare their performance with that of the multilingual models. Table \ref{tab:monolingual_models} and Table \ref{tab:multilingual_models} in the Appendix show the details of the base models.
+For fine-tuning, we experimented with a diverse set of pretrained Transformer-based models \cite{vaswani2017attention}, starting with monolingual architectures and later transitioning to multilingual models, which support all 13 target languages, to achieve broader language coverage. We focused on the English monolingual models to compare their performance with that of the multilingual models. Table \ref{tab:monolingual_models} and Table \ref{tab:multilingual_models} in the Appendix show the details of the base models.
 
-\texttt{AutoModelForTokenClassification} classes from the Hugging Face \texttt{transformers} library \cite{wolf-etal-2020-transformers} are used to load each of the base models and their tokenizers. This step attaches a randomly initialized linear classification layer on top of the transformer encoder, ensuring the model outputs token-wise predictions for binary classes (1 or 0 for hallucination or non-hallucination, respectively). The label mappings are explicitly defined through the model's configuration using \texttt{id2label} and \texttt{label2id}. The model performs sequence labeling, where each token in the input sequence is assigned a binary label based on both its own identity and its contextual information from the entire sequence.
+\texttt{AutoModelForTokenClassification} classes from the Hugging Face \texttt{transformers} library \cite{wolf-etal-2020-transformers} are used to load each of the base models and their tokenizers. This step attaches a randomly initialized linear classification layer on top of the Transformer encoder, ensuring the model outputs token-wise predictions for binary classes (1 or 0 for hallucination or non-hallucination, respectively). The label mappings are explicitly defined through the model's configuration using \texttt{id2label} and \texttt{label2id}. The model performs sequence labeling, where each token in the input sequence is assigned a binary label based on both its own identity and its contextual information from the entire sequence.
 
 
 
@@ -170,7 +170,7 @@ In all labeled datasets used for fine-tuning, hallucination spans are provided i
 \textbf{Data Split}  
 We used a 9:1 training-validation split on our self-generated labeled data, resulting in approximately 1,800 training samples and 200 validation samples for each of the 13 languages. These included nine announced target languages: Arabic, German, English, Spanish, Finnish, French, Hindi, Italian, and Chinese, as well as four surprise languages: Czech, Catalan, Basque and Farsi, which were revealed only after the test set was released by the organizers.
 
-We evaluated our models' performance using the labeled validation sets provided by the organizers after fine-tuning. We chose these sets as test data due to (i) their high-quality hallucination span annotated by human annotators and (ii) their likely similarity to the data used by the organizers for final evaluation. In contrast, our semi-automatically generated labeled data were not reviewed by native speakers and may be of lower quality. However, since labeled validation sets were not available for the four surprise languages, we generated 50 labeled data points for each of these languages for testing purpose using the same method as for our training data.
+We evaluated our models' performance using the labeled validation sets provided by the organizers after fine-tuning. We chose these sets as test data due to (i) their high-quality hallucination spans annotated by human annotators and (ii) their likely similarity to the data used by the organizers for final evaluation. In contrast, our semi-automatically generated labeled data were not reviewed by native speakers and may be of lower quality. However, since labeled validation sets were not available for the four surprise languages, we generated 50 labeled data points for each of these languages for testing purpose using the same method as for our training data.
 
 
 \subsubsection{Hyperparameters for Tokenization and Training}
@@ -181,7 +181,7 @@ Only the generated answers (\texttt{model\_output\_text}) were tokenized as inpu
 
 
 \textbf{Training Parameters}
-The training process was configured with a predefined set of parameters. The learning rate was set as 2e-5. Batch sizes were defined as 8 for both training and evaluation (\texttt{per\_device\_train\_batch\_size = 8} and \texttt{per\_device\_eval\_batch\_size = 8}). The number of training epochs was set to 10, as our preliminary experiments indicated that model performance plateaued around this point. Additionally, a \texttt{weight\_decay} of 0.01 was applied to the training arguments.
+The training process was configured with a predefined set of parameters. The learning rate was set to 2e-5. Batch sizes were defined as 8 for both training and evaluation (\texttt{per\_device\_train\_batch\_size = 8} and \texttt{per\_device\_eval\_batch\_size = 8}). The number of training epochs was set to 10, as our preliminary experiments indicated that model performance plateaued around this point. Additionally, a \texttt{weight\_decay} of 0.01 was applied to the training arguments.
 
 
 \subsubsection{Output Post-Processing}
@@ -214,7 +214,7 @@ This benchmark was created using the pretrained NER model \texttt{51la5/roberta-
 Our submission included 21 models in total, with different combinations of models and training data used. These were the following:
 \begin{itemize}
     \item Multilingual models trained on the synthetic data only (26.3K data points, 10 epochs)
-    \item Multilingual models trained on the synthetic data (26.3K data points, 10 epochs) and fine-tuned further with a single validation set for the target laguage (50 data points, 10 epochs)
+    \item Multilingual models trained on the synthetic data (26.3K data points, 10 epochs) and fine-tuned further with a single validation set for the target language (50 data points, 10 epochs)
     \item Multilingual models trained on the synthetic data (26.3K data points, 10 epochs) and fine-tuned further with all the validation sets (650 data points, 10 epochs)
     \item English language models trained on the synthetic data only (2.3K data points, 10 epochs)
     \item English language models trained on the synthetic data only (2.3K data points, 10 epochs) and fine-tuned further with a single validation set for the English language (50 data points, 10 epochs)
