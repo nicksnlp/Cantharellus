@@ -1,30 +1,20 @@
-# The main script (fine_tuned_model_v0.5.py) fine-tunes a pre-trained LLM for hallucination detection.
-Pretrained model:
-- bert-cased
+# This directory contains scripts for finetuning pre-trained LLMs for token level hallucination detection, wich consist of 2 parts:
 
-Training data elements:
-- question text
-- answer text
-- hard labels
+1. Model fine-tuning (subdirectory "train")
+1. Model output generation and evaluation (subdirectory "text_score")
+---------------------------------------------------------------------------
 
-Output elements:
-- soft labels:
-  * 1.start of hallucination (character index)
-  * 2.probability
-  * 3.end of hallucination
+Pretrained models involved the following:
 
-# Helper function 1: json2dataset.py 
-read training data from a jsonl file and convert into DatasetDict object (contains a training and a validation set).
+EN monolingual:
+- bert-base-cased
+- deepset/roberta-base-squad2
+- microsoft/deberta-v3-base
 
-# Helper function 2: tokenize_align.py 
-preprocess the data by:
-- tokenizing the input question & output answer
-- aligning lables to tokens
+Multilingual:
+- google-bert/bert-base-multilingual-cased
+- FacebookAI/xlm-roberta-large
+- FacebookAI/xlm-roberta-base
+- google/umt5-base
+- google/umt5-small"
 
-# Helper function 3: test.py
-- feed test set to fine-tuned models from a "models" directory (which is not uploaded here! you can find this directory on Puhti)
-- store outputs to a JSONL file
-  (NOTE: this helper function only stores the outputs, but doesn't score for the model's performance)
-
-# train.sh
-Slurm script for training model on Puhti
