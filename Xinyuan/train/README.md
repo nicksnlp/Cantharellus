@@ -1,7 +1,7 @@
 # In this directory:
 
 ### The main script (fine_tuned_model_v0.5.py) fine-tunes a pre-trained LLM for hallucination detection.
-Model input for fine-tuning:
+Model input:
 - LLM-generated text (answer part)
 - hard labels
 
