@@ -22,7 +22,7 @@ LANGS="ar de en es fi fr hi it zh cs ca eu fa" # for multilingual models
 
 # base models:
 # EN monolingual:
-# MODELS=("bert-base-cased" "deepset/roberta-base-squad2" "google/flan-t5-base" "microsoft/deberta-v3-base")
+# MODELS=("bert-base-cased" "deepset/roberta-base-squad2" "microsoft/deberta-v3-base")
 
 # multilingual:
 MODELS=("google-bert/bert-base-multilingual-cased" "FacebookAI/xlm-roberta-large" "FacebookAI/xlm-roberta-base" "google/umt5-base" "google/umt5-small")
