@@ -16,5 +16,5 @@ Multilingual:
 - FacebookAI/xlm-roberta-large
 - FacebookAI/xlm-roberta-base
 - google/umt5-base
-- google/umt5-small"
+- google/umt5-small
 
