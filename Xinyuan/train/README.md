@@ -11,7 +11,7 @@ Model output:
   * 2.probability
   * 3.end of hallucination
 
-### Helper function 1: tokenize_align.py 
+### Helper function: tokenize_align.py 
 preprocess the data by:
 - tokenizing the input question & output answer
 - aligning lables to tokens
