@@ -7,45 +7,53 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: custom.bib
+Warning--string name "emnlp:2023:main" is undefined
+--line 319 of file custom.bib
+Warning--string name "acl" is undefined
+--line 319 of file custom.bib
+Warning--string name "anth" is undefined
+--line 319 of file custom.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 33 entries,
+Warning--empty booktitle in li-etal-2023-synthetic
+You've used 34 entries,
             3571 wiz_defined-function locations,
-            873 strings with 13910 characters,
-and the built_in function-call counts, 28169 in all, are:
-= -- 2107
-> -- 2109
-< -- 10
-+ -- 688
-- -- 642
-* -- 2097
-:= -- 4378
-add.period$ -- 132
-call.type$ -- 33
-change.case$ -- 382
-chr.to.int$ -- 34
-cite$ -- 33
-duplicate$ -- 1806
-empty$ -- 1660
-format.name$ -- 737
-if$ -- 5883
+            881 strings with 14212 characters,
+and the built_in function-call counts, 29156 in all, are:
+= -- 2198
+> -- 2150
+< -- 11
++ -- 701
+- -- 654
+* -- 2162
+:= -- 4510
+add.period$ -- 136
+call.type$ -- 34
+change.case$ -- 391
+chr.to.int$ -- 35
+cite$ -- 35
+duplicate$ -- 1874
+empty$ -- 1733
+format.name$ -- 752
+if$ -- 6108
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 402
-newline$ -- 167
-num.names$ -- 132
-pop$ -- 867
+missing$ -- 414
+newline$ -- 172
+num.names$ -- 136
+pop$ -- 896
 preamble$ -- 1
-purify$ -- 343
+purify$ -- 351
 quote$ -- 0
-skip$ -- 1106
+skip$ -- 1154
 stack$ -- 0
-substring$ -- 685
-swap$ -- 894
-text.length$ -- 4
+substring$ -- 744
+swap$ -- 933
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 297
-warning$ -- 0
-while$ -- 124
+type$ -- 306
+warning$ -- 1
+while$ -- 130
 width$ -- 0
-write$ -- 413
+write$ -- 426
+(There were 4 warnings)

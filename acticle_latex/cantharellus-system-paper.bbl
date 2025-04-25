@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{34}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Chen et~al.(2023)Chen, Chen, Huang, and Zhou}]{chen2023you}
@@ -64,6 +64,11 @@ Jing Li, Aixin Sun, Jianglei Han, and Chenliang Li. 2020.
 Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Wayne~Xin Zhao, Jian-Yun Nie, and Ji-Rong Wen. 2024.
 \newblock The dawn after the dark: An empirical study on factuality hallucination in large language models.
 \newblock \emph{arXiv preprint arXiv:2401.03205}.
+
+\bibitem[{Li et~al.(2023)Li, Zhu, Lu, and Yin}]{li-etal-2023-synthetic}
+Zhuoyan Li, Hangxiao Zhu, Zhuoran Lu, and Ming Yin. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.647} {Synthetic data generation with large language models for text classification: Potential and limitations}.
+\newblock pages 10443--10461, Singapore.
 
 \bibitem[{Liu et~al.(2022)Liu, Guo, Wang, and Li}]{liu2022chinese}
 Pan Liu, Yanming Guo, Fenglei Wang, and Guohui Li. 2022.
