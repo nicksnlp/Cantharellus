@@ -99,7 +99,7 @@ SemEval 2025 Task 3 (Mu-SHROOM, the Multilingual Shared-task on Hallucinations a
 
 As is shown in the results of the previous iteration of this task \cite{mickus2024semeval}, it is effective to fine-tune pretrained language model for hallucination detection. We therefore further extended this approach from performing binary classification tasks to predict the spans of hallucinations. We explored fine-tuning a series of Transformer-based pretrained language models \cite{vaswani2017attention}, including text-to-text Transformer models \cite{raffel2020exploring} and BERT-based models \cite{devlin2018bert}, with training data created by ourselves. 
 
-Building on this method, we developed the system based and participated in 13 out of 14 languages. In addition, we also applied prompt engineering and named entity recognition (NER) as two baseline approaches in order to provide a more comprehensive evaluation of our system's performance. We have released our code and other relevant material on GitHub \footnote{https://github.com/nicksnlp/Cantharellus.git}.
+Building on this method, we developed the system based and participated in 13 out of 14 languages. In addition, we also applied the approach of named entity recognition (NER) as a baseline in order to provide a more comprehensive evaluation of our system's performance. We have released our code and other relevant material on GitHub \footnote{https://github.com/nicksnlp/Cantharellus.git}.
 
 
 \section{Background}
@@ -231,10 +231,13 @@ As opposed to the initial submission, when the models were trained on the genera
     \label{fig:iou_scores}
 \end{figure*}
 
-\section{Conclusion}
+\section{Conclusion and Limitations}
 As our participation in SemEval-2025 Task-3, we proposed the approach of fine-tuning language models with synthetic data for hallucination span prediction. The results demonstrate that our system achieved competitive scores across various languages. Our approach is proved effective as the scores rank as high as 5th in certain languages.
 
-The fact that the model is exclusively fine-tuned on data constructed by LLM suggests that this approach is a feasible and effective strategy for the task of hallucination span prediction, particularly under circumstances where human-labeled training data is absent. Future directions could include creating and utilizing training data in large quantities, as well as optimizing prompting techniques to obtain higher-quality training data from LLMs. Another viable approach would be to adopt more advanced state-of-the-art models for either data creation or fine-tuning.
+The fact that the model is exclusively fine-tuned on data constructed by LLM suggests that this approach is a feasible and effective strategy for the task of hallucination span prediction, particularly under the circumstance where human-labeled training data is absent. However, it is worth pointing out that LLM-based synthetic data are potentially more heavily subject to limitations compared with hand-crafted data. A closer examination suggests that the quality of the synthetic data does not match that of the validation and test sets provided by the organizers. Across various languages, the synthetic data can often be shorter or significantly longer in output length, cover a narrower range of topics, and propose less sophisticated question-and-answer pairs than those in the validation and test sets. These problems can supposedly be addressed through few-shot prompting and more elaborate prompt-engineering. It is also important to mention, that although various efforts have been made in both prompting and post-processing to increase the likelihood that the spans correctly indicate the hallucinated texts, the final output is still prone to errors and may not match the accuracy of human-annotated data, although it was reported that models trained on data generated in a similar manner outperform models trained on real-world data in certain tasks \cite{li-etal-2023-synthetic}. In addition, it should also be noted that predominantly only one model, GPT-4o, is used for data synthesis. This lack of variation in model choice may limit the diversity of the synthetic data, which could in turn potentially reinforce the intrinsic biases of the model in question.
+
+
+Future directions could include creating and utilizing training data in large quantities, as well as optimizing prompting techniques to obtain higher-quality training data from LLMs. Another viable approach would be to adopt more advanced state-of-the-art models for either data creation or fine-tuning.
 
 \section{Acknowledgments}
 We would like to express our gratitude to our supervisor, Jörg Tiedemann, for valuable suggestions and guidance throughout this work.
