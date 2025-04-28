@@ -221,6 +221,12 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplo
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ptm.fd

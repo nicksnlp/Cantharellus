@@ -19,6 +19,7 @@
 \usepackage{tikz}
 \usepackage{xcolor}
 \usepackage{caption}
+\usepackage{pdflscape}
 
 % Define custom colors
 \definecolor{color1}{HTML}{1f77b4}
@@ -117,7 +118,7 @@ The goal of this task is to detect hallucinations and identify their spans, defi
 We conducted experiments on Transformer-based models to evaluate their performance on this task. Given the limited size of the validation sets (50 labeled data points per language), all base models were trained on our self-generated data (approximately 2K data points per language).
 
 \subsubsection{Data Construction}
-It is crucial to have sufficient data to fine-tune the pretrained language models in order to enhance their performance on specific tasks. However, the training sets provided by the organizers are unlabeled and are thus unable to be used directly for fine-tuning. Therefore, we proposed a semi-automatic approach to construct labeled data by prompting state-of-the-art generative language models, specifically GPT-4o.
+It is crucial to have sufficient data to fine-tune pretrained language models in order to enhance their performance on specific tasks. However, the training sets provided by the organizers are unlabeled and are thus unable to be used directly for fine-tuning. Therefore, we proposed a semi-automatic approach to construct labeled data by prompting state-of-the-art generative language models, specifically GPT-4o.
 
 In order to obtain the data in a manner similar to that of the labeled validation sets provided by the organizers, we explored a combination of few-shot prompting and chain-of-thought (CoT) prompting techniques. Specifically, we utilized several data points in the labeled validation set as learning examples and guided the LLM to infer hallucinated content based on the spans marked by human annotators in those samples. 
 
@@ -235,27 +236,27 @@ Future directions could include creating and utilizing training data in large qu
 We would like to express our gratitude to our supervisor, Jörg Tiedemann, for valuable suggestions and guidance throughout this work.
 
 \section{Individual Contributions}
-\textbf{Xinyuan Mo: } Model fine-tuning, including I. constructing python script for: 1) data preprocessing (tokenizing and aligning labels), 2) fine-tuning multiple base models, and 3) output generation and scoring (integrating code "\texttt{scorer.py}" from the organizers to generate scores), and II. executing the fine-tuning and scoring procedure on Puhti supercomputer. 
+\textbf{Xinyuan Mo: } Model fine-tuning, including I.~constructing python script for: 1) data preprocessing (tokenizing and aligning labels), 2) fine-tuning multiple base models, and 3) output generation and scoring (integrating code "\texttt{scorer.py}" from the organizers to generate scores), and II. executing the fine-tuning and scoring procedure on Puhti supercomputer. 
 
-Paper writing of the sections: System Overview (excluding the "Data Construction" subsection) and Experimental Setup.
+Writing of the sections of the paper: System Overview (excluding the "Data Construction" subsection) and Experimental Setup.
 \\
 
 \noindent
-\textbf{Nikolay Vorontsov: } Experimenting with various options for data construction, including: 1. direct prompting with Gemini and GPT through APIs and output post-processing; 2. generating questions-answers pairs from given input texts (with AutoModelForQuestionAnswering, QuestionAnsweringPipeline) and refining with a generative model. 3. converting labelled datasets into translated versions preserving labelling (with google translator API) and output post-processing.
+\textbf{Nikolay Vorontsov: } Experimenting with various options for data construction, including: 1.~Direct prompting with Gemini and GPT through APIs and output post-processing; 2. Generating question-answers pairs from given input texts (with AutoModelForQuestionAnswering, QuestionAnsweringPipeline) and refining them with a generative model. 3. Converting the labeled datasets into translated versions with the preserved labeling (with Google Translator API) and output post-processing.
 
-Development of the system for labelling the datasets with LLMs through API (used as another baseline during development), automated post-processing of the output, union and intersections of the models' predictions.
+Development of the system for labeling the datasets with LLMs through API (used as another baseline during development), automated post-processing of the output, union and intersections of the models' predictions.
 
-Development of alternative fine-tuning strategies with different training parameters, including LoRA parameter-efficient fine-tuning of Llama 7B model with 4-bit quantization. Alternating tokenization pre-processing and post-processing to include both questions and answers during training and inference stages of models. Setting up an environment on Puhti supercomputer, running training and prediction jobs. 
+Development of alternative fine-tuning strategies with different training parameters, including LoRA parameter-efficient fine-tuning of Llama 7B model with 4-bit quantization. Alternating tokenization pre-processing and post-processing to include both questions and answers during the training and inference stages. Setting up the environment on Puhti supercomputer, running training and prediction jobs. 
 
-Limited project management including setting up shared repositories, communication channels, submission of the final predictions to the shared task.
+Limited project management, including setting up shared repositories, communication channels, submitting the final predictions to the shared task.
 
-Paper writing of the Results section, analysis of the results, creation of figures and formatting.
+Writing of the Results section of the paper, analysis of the results, creating figures, and formatting.
 \\
 
 \noindent
 \textbf{Tiankai Zang: } Data construction, including 1) designing and testing various prompting techniques for optimal outputs, 2) overseeing the data generation process and making adjustments as needed, and 3) converting the data to desired format for fine-tuning. 
 
-Paper writing of the sections: Abstract, Introduction, Background, System Overview ("Data Construction" subsection), Conclusion and Limitations.
+Writing of the sections of the paper: Abstract, Introduction, Background, System Overview ("Data Construction" subsection), Conclusion and Limitations.
 
 \bibliography{custom}
 \bibliographystyle{acl_natbib}
@@ -433,7 +434,7 @@ with open('eu-sim-val.jsonl', 'a', encoding='utf-8') as output_file:
 
 \newpage
 \onecolumn
-\section{IoU Scores for Different Fine-Tuning Strategies and Models}
+\section{Comparison of IoU Scores for Different Fine-Tuning Strategies of Multilingual Models}
 \label{sec:iou_scores}
 
     \centering
@@ -459,6 +460,56 @@ with open('eu-sim-val.jsonl', 'a', encoding='utf-8') as output_file:
     \includegraphics[width=0.9\textwidth]{images/bert-base-multilingual-cased.txt.pdf}
     \label{fig:bert-base-multilingual-cased}
 
+\twocolumn
+
+\newpage
+\onecolumn
+\begin{landscape}
+\section{IoU Scores for All the Models}
+\label{sec:all_iou_scores}
+\begin{table}[h]
+\centering
+\makebox[\linewidth][l]{\hspace*{-4em}
+    \begin{tabular}{lccccccccccccc}
+    Multilingual Models & AR & CA & CS & DE & EN & ES & EU & FA & FI & FR & HI & IT & ZH \\
+    \midrule
+    FacebookAI/xlm-roberta-base, synth. data + all val. sets & 0.527 & 0.513 & 0.352 & 0.524 & 0.406 & 0.367 & 0.457 & 0.655 & 0.531 & 0.476 & 0.657 & 0.643 & 0.357 \\
+    FacebookAI/xlm-roberta-base, synth. data + 1 val. set & 0.509 & 0.430 & 0.305 & 0.468 & 0.363 & 0.319 & 0.392 & 0.564 & 0.523 & 0.420 & 0.622 & 0.638 & 0.352 \\
+    FacebookAI/xlm-roberta-base, synth. data only & 0.361 & 0.414 & 0.262 & 0.363 & 0.313 & 0.298 & 0.351 & 0.576 & 0.308 & 0.290 & 0.444 & 0.485 & 0.131 \\
+    \hline
+    FacebookAI/xlm-roberta-large, synth. data + all val. sets & 0.558 & 0.493 & 0.382 & 0.564 & 0.447 & 0.367 & 0.534 & 0.598 & 0.571 & 0.484 & 0.643 & 0.691 & 0.401 \\
+    FacebookAI/xlm-roberta-large, synth. data + 1 val. set & 0.580 & 0.436 & 0.338 & 0.516 & 0.429 & 0.353 & 0.415 & 0.567 & 0.563 & 0.445 & 0.627 & 0.667 & 0.361 \\
+    FacebookAI/xlm-roberta-large, synth. data only & 0.383 & 0.380 & 0.269 & 0.370 & 0.324 & 0.301 & 0.339 & 0.579 & 0.362 & 0.280 & 0.419 & 0.482 & 0.211 \\
+    \hline
+    FacebookAI/xlm-roberta-large, trained with QA pairs & 0.603 & 0.579 & 0.402 & 0.578 & 0.447 & 0.397 & 0.573 & 0.702 & 0.617 & 0.516 & 0.735 & 0.753 & 0.373 \\
+    \hline
+    google-bert/bert-base-multilingual-cased, synth. data + all val. sets & 0.537 & 0.523 & 0.394 & 0.535 & 0.472 & 0.387 & 0.457 & 0.611 & 0.551 & 0.515 & 0.657 & 0.651 & 0.320 \\
+    google-bert/bert-base-multilingual-cased, synth. data + 1 val. set & 0.512 & 0.422 & 0.311 & 0.480 & 0.414 & 0.297 & 0.371 & 0.563 & 0.513 & 0.451 & 0.604 & 0.641 & 0.318 \\
+    google-bert/bert-base-multilingual-cased, synth. data only & 0.355 & 0.412 & 0.268 & 0.356 & 0.305 & 0.310 & 0.322 & 0.511 & 0.334 & 0.268 & 0.452 & 0.471 & 0.142 \\
+    \hline
+    google/umt5-base, synth. data + all val. sets & 0.449 & 0.434 & 0.363 & 0.434 & 0.299 & 0.303 & 0.372 & 0.388 & 0.512 & 0.401 & 0.538 & 0.503 & 0.321 \\
+    google/umt5-base, synth. data + 1 val. set & 0.471 & 0.399 & 0.260 & 0.451 & 0.302 & 0.322 & 0.306 & 0.433 & 0.510 & 0.406 & 0.467 & 0.509 & 0.329 \\
+    google/umt5-base, synth. data only & 0.317 & 0.385 & 0.249 & 0.307 & 0.220 & 0.293 & 0.273 & 0.434 & 0.278 & 0.224 & 0.387 & 0.376 & 0.181 \\
+    \hline
+    google/umt5-small, synth. data + all val. sets & 0.411 & 0.399 & 0.323 & 0.390 & 0.250 & 0.282 & 0.338 & 0.325 & 0.448 & 0.319 & 0.425 & 0.478 & 0.303 \\
+    google/umt5-small, synth. data + 1 val. set & 0.381 & 0.378 & 0.267 & 0.355 & 0.268 & 0.269 & 0.290 & 0.348 & 0.442 & 0.291 & 0.389 & 0.420 & 0.308 \\
+    google/umt5-small, synth. data only & 0.298 & 0.358 & 0.252 & 0.315 & 0.217 & 0.265 & 0.255 & 0.345 & 0.257 & 0.200 & 0.373 & 0.380 & 0.146 \\
+    \midrule
+    Monolingual Models \\
+    \midrule
+    deepset/roberta-base-squad2, synth. data + 1 val. set &   &   &   &   & 0.372 &   &   &   &   &   &   &   &   \\
+    deepset/roberta-base-squad2, synth. data only &  &   &   &   & 0.333 &   &   &   &   &   &   &   &   \\
+    \hline
+    google-bert/bert-base-cased, synth. data &   &   &   &   & 0.376 &   &   &   &   &   &   &   &   \\
+    google-bert/bert-base-cased, synth. data + 1 val. set &   &   &   &   & 0.356 &   &   &   &   &   &   &   &   \\
+    \hline
+    microsoft/deberta-v3-base, synth. data + 1 val. set &   &   &   &   & 0.156 &   &   &   &   &   &   &   &   \\
+    microsoft/deberta-v3-base, synth. data only &   &   &   &   & 0.145 &   &   &   &   &   &   &   &   \\    
+    \end{tabular}
+}
+\end{table}
+\end{landscape}
+    
 \twocolumn
 
 \end{document}

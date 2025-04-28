@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  28 APR 2025 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  29 APR 2025 02:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -460,7 +460,15 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count322
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+))) (/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 116.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -508,7 +516,8 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \zifour@ocount=\count326
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count327
 \float@exts=\toks40
@@ -522,24 +531,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./cantharellus-system-paper.aux)
 \openout1 = `cantharellus-system-paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count329
@@ -559,7 +568,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 86.
+Package hyperref Info: Link coloring ON on input line 87.
  (./cantharellus-system-paper.out) (./cantharellus-system-paper.out)
 \@outlinefile=\write4
 \openout4 = `cantharellus-system-paper.out'.
@@ -604,20 +613,20 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count335
-LaTeX Info: Redefining \microtypecontext on input line 86.
-Package microtype Info: Applying patch `item' on input line 86.
-Package microtype Info: Applying patch `toc' on input line 86.
-Package microtype Info: Applying patch `eqnum' on input line 86.
-Package microtype Info: Applying patch `footnote' on input line 86.
-Package microtype Info: Applying patch `verbatim' on input line 86.
-LaTeX Info: Redefining \microtypesetup on input line 86.
+LaTeX Info: Redefining \microtypecontext on input line 87.
+Package microtype Info: Applying patch `item' on input line 87.
+Package microtype Info: Applying patch `toc' on input line 87.
+Package microtype Info: Applying patch `eqnum' on input line 87.
+Package microtype Info: Applying patch `footnote' on input line 87.
+Package microtype Info: Applying patch `verbatim' on input line 87.
+LaTeX Info: Redefining \microtypesetup on input line 87.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 86.
+LaTeX Info: Redefining \showhyphens on input line 87.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -629,38 +638,38 @@ Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 87.
+(Font)              <12> on input line 88.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 87.
+(Font)              <8> on input line 88.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 87.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 87.
+(Font)              <6> on input line 88.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 88.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 87.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 88.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 87.
+(Font)              scaled to size 12.0pt on input line 88.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 87.
+(Font)              <9> on input line 88.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 87.
+(Font)              <5> on input line 88.
 
-Underfull \hbox (badness 4279) in paragraph at lines 89--90
+Underfull \hbox (badness 4279) in paragraph at lines 90--91
 []\T1/ptm/m/n/10 (+20) This pa-per de-scribes our sub-mis-sion to
  []
 
 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 102.
+(Font)              <10.95> on input line 103.
 
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}
@@ -673,14 +682,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [2]
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 132.
+(Font)              scaled to size 10.95pt on input line 133.
 
-Underfull \hbox (badness 2277) in paragraph at lines 132--133
+Underfull \hbox (badness 2277) in paragraph at lines 133--134
 []\T1/zi4/m/n/10.95 AutoModelForTokenClassification \T1/ptm/m/n/10.95 (+20) classes
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 153--155
+Underfull \hbox (badness 6032) in paragraph at lines 154--156
 \T1/ptm/m/n/10.95 (+20) The fine-tuning pro-ce-dure be-gan with pre-
  []
 
@@ -692,36 +701,36 @@ Underfull \vbox (badness 2119) has occurred while \output is active []
 <images/pipeline.pdf, id=131, 1851.31653pt x 1224.4847pt>
 File: images/pipeline.pdf Graphic file (type pdf)
 <use images/pipeline.pdf>
-Package pdftex.def Info: images/pipeline.pdf  used on input line 159.
+Package pdftex.def Info: images/pipeline.pdf  used on input line 160.
 (pdftex.def)             Requested size: 318.66948pt x 210.77542pt.
 
 
 [3]
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
 []\T1/ptm/b/n/10.95 (+20) Organizers' Bench-mark \T1/ptm/m/n/10.95 (+20) The bench-
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 201--203
+Underfull \hbox (badness 6364) in paragraph at lines 202--204
 \T1/ptm/m/n/10.95 (+20) mark pro-vided by the or-ga-niz-ers was de-
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 201--203
+Underfull \hbox (badness 3354) in paragraph at lines 202--204
 \T1/ptm/m/n/10.95 (+20) rived by fine-tuning the mul-ti-lin-gual model
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 201--203
+Underfull \hbox (badness 1062) in paragraph at lines 202--204
 [][]\T1/ptm/m/n/10.95 (+20) 2019a[][]) us-ing the la-beled val-i-da-tion sets they
  []
 
 
 
 [4 <./images/pipeline.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 216.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 217.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -729,14 +738,24 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 1275) in paragraph at lines 241--243
+\T1/ptm/m/n/10.95 (+20) Overview (ex-clud-ing the "Data Con-struc-tion"
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
 
  []
 
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--254
+Underfull \hbox (badness 1521) in paragraph at lines 253--255
+\T1/ptm/m/n/10.95 (+20) anal-y-sis of the re-sults, cre-at-ing fig-ures, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
 
  []
 
@@ -786,10 +805,10 @@ Underfull \hbox (badness 1215) in paragraph at lines 89--92
 <images/plot.pdf, id=232, 898.99113pt x 643.27939pt>
 File: images/plot.pdf Graphic file (type pdf)
 <use images/plot.pdf>
-Package pdftex.def Info: images/plot.pdf  used on input line 274.
+Package pdftex.def Info: images/plot.pdf  used on input line 275.
 (pdftex.def)             Requested size: 364.19667pt x 260.60526pt.
 
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 303--303
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 304--304
 []|[]| 
  []
 
@@ -800,14 +819,14 @@ Overfull \hbox (19.91684pt too wide) in paragraph at lines 303--303
 
  <./images/plot.pdf>]
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 319.
+(Font)              scaled to size 9.0pt on input line 320.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 7.0pt on input line 391.
+(Font)              scaled to size 7.0pt on input line 392.
 
 
 [10
@@ -817,22 +836,22 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 <images/xlm-roberta-large-10ep-M_with_separator.txt.pdf, id=366, 859.53433pt x 425.47197pt>
 File: images/xlm-roberta-large-10ep-M_with_separator.txt.pdf Graphic file (type pdf)
 <use images/xlm-roberta-large-10ep-M_with_separator.txt.pdf>
-Package pdftex.def Info: images/xlm-roberta-large-10ep-M_with_separator.txt.pdf  used on input line 440.
+Package pdftex.def Info: images/xlm-roberta-large-10ep-M_with_separator.txt.pdf  used on input line 441.
 (pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
 <images/xlm-roberta-large-10ep-M.txt.pdf, id=367, 859.53433pt x 425.47197pt>
 File: images/xlm-roberta-large-10ep-M.txt.pdf Graphic file (type pdf)
 <use images/xlm-roberta-large-10ep-M.txt.pdf>
-Package pdftex.def Info: images/xlm-roberta-large-10ep-M.txt.pdf  used on input line 443.
+Package pdftex.def Info: images/xlm-roberta-large-10ep-M.txt.pdf  used on input line 444.
 (pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
 <images/xlm-roberta-base.txt.pdf, id=368, 859.53433pt x 425.47197pt>
 File: images/xlm-roberta-base.txt.pdf Graphic file (type pdf)
 <use images/xlm-roberta-base.txt.pdf>
-Package pdftex.def Info: images/xlm-roberta-base.txt.pdf  used on input line 447.
+Package pdftex.def Info: images/xlm-roberta-base.txt.pdf  used on input line 448.
 (pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
 <images/umt5-small-10ep-M.txt.pdf, id=369, 859.53433pt x 425.47197pt>
 File: images/umt5-small-10ep-M.txt.pdf Graphic file (type pdf)
 <use images/umt5-small-10ep-M.txt.pdf>
-Package pdftex.def Info: images/umt5-small-10ep-M.txt.pdf  used on input line 451.
+Package pdftex.def Info: images/umt5-small-10ep-M.txt.pdf  used on input line 452.
 (pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -844,19 +863,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
  <./images/xlm-roberta-large-10ep-M_with_separator.txt.pdf> <./images/xlm-roberta-large-10ep-M.txt.pdf> <./images/xlm-roberta-base.txt.pdf>]
-<images/umt5-base-10ep-M.txt.pdf, id=533, 859.53433pt x 425.47197pt>
+<images/umt5-base-10ep-M.txt.pdf, id=544, 859.53433pt x 425.47197pt>
 File: images/umt5-base-10ep-M.txt.pdf Graphic file (type pdf)
 <use images/umt5-base-10ep-M.txt.pdf>
-Package pdftex.def Info: images/umt5-base-10ep-M.txt.pdf  used on input line 455.
+Package pdftex.def Info: images/umt5-base-10ep-M.txt.pdf  used on input line 456.
 (pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
-<images/bert-base-multilingual-cased.txt.pdf, id=534, 859.53433pt x 425.47197pt>
+<images/bert-base-multilingual-cased.txt.pdf, id=545, 859.53433pt x 425.47197pt>
 File: images/bert-base-multilingual-cased.txt.pdf Graphic file (type pdf)
 <use images/bert-base-multilingual-cased.txt.pdf>
-Package pdftex.def Info: images/bert-base-multilingual-cased.txt.pdf  used on input line 459.
+Package pdftex.def Info: images/bert-base-multilingual-cased.txt.pdf  used on input line 460.
 (pdftex.def)             Requested size: 409.71692pt x 202.80893pt.
 
 
-[12 <./images/umt5-small-10ep-M.txt.pdf> <./images/umt5-base-10ep-M.txt.pdf> <./images/bert-base-multilingual-cased.txt.pdf>] (./cantharellus-system-paper.aux)
+[12 <./images/umt5-small-10ep-M.txt.pdf> <./images/umt5-base-10ep-M.txt.pdf> <./images/bert-base-multilingual-cased.txt.pdf>]
+
+[13
+
+
+
+] (./cantharellus-system-paper.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -865,21 +890,21 @@ Package rerunfilecheck Info: File `cantharellus-system-paper.out' has not change
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26619 strings out of 473201
- 483671 string characters out of 5716121
- 1266280 words of memory out of 5000000
- 49022 multiletter control sequences out of 15000+600000
- 609121 words of font info for 285 fonts, out of 8000000 for 9000
+ 26700 strings out of 473201
+ 485858 string characters out of 5716121
+ 1267286 words of memory out of 5000000
+ 49086 multiletter control sequences out of 15000+600000
+ 609311 words of font info for 288 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,13n,93p,1820b,1263s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cantharellus-system-paper.pdf (12 pages, 675886 bytes).
+Output written on cantharellus-system-paper.pdf (13 pages, 680613 bytes).
 PDF statistics:
- 770 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
- 112 named destinations out of 1000 (max. 500000)
+ 792 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 115 named destinations out of 1000 (max. 500000)
  51765 words of extra memory for PDF output out of 61914 (max. 10000000)
 
