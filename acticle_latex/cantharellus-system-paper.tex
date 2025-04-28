@@ -123,11 +123,11 @@ In order to obtain the data in a manner similar to that of the labeled validatio
 
 A closer examination of the generation revealed that the LLM often misidentified the span boundaries of the hallucinated words it generated. Therefore, we optimized the pipeline of data construction by prompting the LLM to identify the hallucinated words first and subsequently convert the tokens to spans. To that end a simple algorithm was applied, which would automatically iterate through the model output text, locate each hallucinated word, and mark its start and end character indices. This additional step significantly increases the quality of generated annotations. 
 
-A number of 2,371 data points in English was constructed initially for testing purposes. In addition to those, ultimately, we constructed 2000 data points for each of the 12 other languages in which we participated. The detailed prompt is shown in Appendix A.
+A number of 2,371 data points in English was constructed initially for testing purposes. In addition to those, ultimately, we constructed 2000 data points for each of the 12 other languages in which we participated. The detailed prompt is shown in Appendix~\ref{sec:prompts}.
 
 
 \subsubsection{Base Models and Token Classification Setup}
-For fine-tuning, we experimented with a diverse set of pretrained Transformer-based models \cite{vaswani2017attention}, starting with monolingual architectures and later transitioning to multilingual models, which support all 13 target languages, to achieve broader language coverage. We focused on the English monolingual models to compare their performance with that of the multilingual models. Table \ref{tab:monolingual_models} and Table \ref{tab:multilingual_models} in the Appendix show the details of the base models.
+For fine-tuning, we experimented with a diverse set of pretrained Transformer-based models \cite{vaswani2017attention}, starting with monolingual architectures and later transitioning to multilingual models, which support all 13 target languages, to achieve broader language coverage. We focused on the English monolingual models to compare their performance with that of the multilingual models. Table \ref{tab:monolingual_models} and Table \ref{tab:multilingual_models} in the Appendix~\ref{sec:appendix} show the details of the base models.
 
 \texttt{AutoModelForTokenClassification} classes from the Hugging Face \texttt{transformers} library \cite{wolf-etal-2020-transformers} are used to load each of the base models and their tokenizers. This step attaches a randomly initialized linear classification layer on top of the Transformer encoder, ensuring the model outputs token-wise predictions for binary classes (1 or 0 for hallucination or non-hallucination, respectively). The label mappings are explicitly defined through the model's configuration using \texttt{id2label} and \texttt{label2id}. The model performs sequence labeling, where each token in the input sequence is assigned a binary label based on both its own identity and its contextual information from the entire sequence.
 
@@ -220,22 +220,14 @@ Our submission included 21 models in total, with different combinations of model
     \item English language models trained on the synthetic data only (2.3K data points, 10 epochs) and fine-tuned further with a single validation set for the English language (50 data points, 10 epochs)
 \end{itemize}
 
-From all the combinations the models trained on the maximum amount of data showed superior results, with some minor exceptions (see appendix~\ref{sec:iou_scores}). Our best average performing model was based on \texttt{xlm-roberta-large}.
+From all the combinations the models trained on the maximum amount of data showed superior results, with some minor exceptions (see Appendix~\ref{sec:iou_scores}). Our best average performing model was based on \texttt{xlm-roberta-large}.
 
-As opposed to the initial submission, when the models were trained on the generated answers only (\texttt{model\_output\_text}), we have conducted an additional test, and trained \texttt{xlm-roberta-large} base model again with the same parameters, but using a concatenation of the questions and the answers as the training input, separating them with an additional special token \texttt{'<@@>'}. We have used similar joint input for inference and adjusted the spans accordingly. The results of such training have outperformed all of our other approaches, with a significant increase of scores for all of the languages except English and Chinese. A comparative summary of the models' IoU scores is shown in Figure~\ref{fig:iou_scores}.
-
-\begin{figure*}[htbp]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/plot.pdf}
-    \caption{IoU Scores for models trained on synthetic data and fine-tuned further with either: (1) all the validation sets (multilingual models); (2) single validation set (English language models).}
-    \label{fig:iou_scores}
-\end{figure*}
+As opposed to the initial submission, when the models were trained on the generated answers only (\texttt{model\_output\_text}), we have conducted an additional test, and trained \texttt{xlm-roberta-large} base model again with the same parameters, but using a concatenation of the questions and the answers as the training input, separating them with an additional special token \texttt{'<@@>'}. We have used similar joint input for inference and adjusted the spans accordingly. The results of such training have outperformed all of our other approaches, with a significant increase of scores for all of the languages except English and Chinese. A comparative summary of the models' IoU scores is shown in Appendix~\ref{sec:iou_scores_appendix}.
 
 \section{Conclusion and Limitations}
 As our participation in SemEval-2025 Task-3, we proposed the approach of fine-tuning language models with synthetic data for hallucination span prediction. The results demonstrate that our system achieved competitive scores across various languages. Our approach is proved effective as the scores rank as high as 5th in certain languages.
 
 The fact that the model is exclusively fine-tuned on data constructed by LLM suggests that this approach is a feasible and effective strategy for the task of hallucination span prediction, particularly under the circumstance where human-labeled training data is absent. However, it is worth pointing out that LLM-based synthetic data are potentially more heavily subject to limitations compared with hand-crafted data. A closer examination suggests that the quality of the synthetic data does not match that of the validation and test sets provided by the organizers. Across various languages, the synthetic data can often be shorter or significantly longer in output length, cover a narrower range of topics, and propose less sophisticated question-and-answer pairs than those in the validation and test sets. These problems can supposedly be addressed through few-shot prompting and more elaborate prompt-engineering. It is also important to mention, that although various efforts have been made in both prompting and post-processing to increase the likelihood that the spans correctly indicate the hallucinated texts, the final output is still prone to errors and may not match the accuracy of human-annotated data, although it was reported that models trained on data generated in a similar manner outperform models trained on real-world data in certain tasks \cite{li-etal-2023-synthetic}. In addition, it should also be noted that predominantly only one model, GPT-4o, is used for data synthesis. This lack of variation in model choice may limit the diversity of the synthetic data, which could in turn potentially reinforce the intrinsic biases of the model in question.
-
 
 Future directions could include creating and utilizing training data in large quantities, as well as optimizing prompting techniques to obtain higher-quality training data from LLMs. Another viable approach would be to adopt more advanced state-of-the-art models for either data creation or fine-tuning.
 
@@ -243,16 +235,16 @@ Future directions could include creating and utilizing training data in large qu
 We would like to express our gratitude to our supervisor, Jörg Tiedemann, for valuable suggestions and guidance throughout this work.
 
 \section{Individual Contributions}
-\textbf{Xinyuan Mo: } Model fine-tuning, including I. constructing python script for: 1) data preprocessing (tokenizing and aligning labels), 2) fine-tuning multiple base models, and 3) output generation and scoring (integrating code "\texttt{scorer.py}" from the organizers to generate scores), and II. executing the fine-tuning and scoring procedure on Puhti. 
+\textbf{Xinyuan Mo: } Model fine-tuning, including I. constructing python script for: 1) data preprocessing (tokenizing and aligning labels), 2) fine-tuning multiple base models, and 3) output generation and scoring (integrating code "\texttt{scorer.py}" from the organizers to generate scores), and II. executing the fine-tuning and scoring procedure on Puhti supercomputer. 
 
 Paper writing of the sections: System Overview (excluding the "Data Construction" subsection) and Experimental Setup.
 \\
 
 \textbf{Nikolay Vorontsov: } Experimenting with various options for data construction, including: 1. direct prompting with Gemini and GPT through APIs and output post-processing; 2. generating questions-answers pairs from given input texts (with AutoModelForQuestionAnswering, QuestionAnsweringPipeline) and refining with a generative model. 3. converting labelled datasets into translated versions preserving labelling (with google translator API) and output post-processing.
 
-Development of the system for labelling the datasets with LLMs' through API (used as a baseline during development), automated post-processing of the output, union and intersections of the models' predictions.
+Development of the system for labelling the datasets with LLMs through API (used as another baseline during development), automated post-processing of the output, union and intersections of the models' predictions.
 
-Development of alternative fine-tuning strategies with different training parameters, including LoRA parameter-efficient fine-tuning of Llama 7B model with 4-bit quantisation. Alternating tokenisation pre-processing and post-processing to include both questions and answers during training and inference stages of models. Setting up an environment on Puhti, running training and prediction jobs. 
+Development of alternative fine-tuning strategies with different training parameters, including LoRA parameter-efficient fine-tuning of Llama 7B model with 4-bit quantization. Alternating tokenization pre-processing and post-processing to include both questions and answers during training and inference stages of models. Setting up an environment on Puhti supercomputer, running training and prediction jobs. 
 
 Limited project management including setting up shared repositories, slack, submission of the final predictions to the shared task.
 
@@ -261,7 +253,7 @@ Paper writing of the Results section, analysis of the results, creation of figur
 
 \textbf{Tiankai Zang: } Data construction, including 1) designing and testing various prompting techniques for optimal outputs, 2) overseeing the data generation process and making adjustments as needed, and 3) converting the data to desired format for fine-tuning. 
 
-Paper writing of the Abstract, Introduction, Background, Data Construction (under the "System Overview" section) and Conclusion parts.
+Paper writing of the parts: Abstract, Introduction, Background, Data Construction (under the "System Overview" section Conclusion ND Limitations.
 
 \bibliography{custom}
 \bibliographystyle{acl_natbib}
@@ -271,6 +263,29 @@ Paper writing of the Abstract, Introduction, Background, Data Construction (unde
 
 \appendix
 \clearpage
+
+\onecolumn
+\section{IoU Scores for models trained on synthetic data and human-labeled data}
+\label{sec:iou_scores_appendix}
+
+    \centering
+    \includegraphics[width=1\textwidth]{images/plot.pdf}
+    %\caption{IoU Scores for models trained on synthetic data and fine-tuned further with either: (1) all the validation sets (multilingual models); (2) single validation set (English language models).}
+    %\label{fig:iou_scores}
+
+\raggedleft
+\noindent
+A comparison of intersection over union scores for the following models:
+
+\begin{itemize}
+    \item Multilingual models trained on the synthetic data (26.3K data points, 10 epochs) and fine-tuned further with all the validation sets (650 data points, 10 epochs)
+
+    \item English language models trained on the synthetic data only (2.3K data points, 10 epochs) and fine-tuned further with a single validation set for the English language (50 data points, 10 epochs)
+\end{itemize}
+
+\clearpage
+
+\twocolumn
 
 \section{Prompt for Data Construction}
 \label{sec:prompts}

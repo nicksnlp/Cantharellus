@@ -6,18 +6,30 @@ Jiuhai Chen, Lichang Chen, Heng Huang, and Tianyi Zhou. 2023.
 \newblock When do you need chain-of-thought prompting for chatgpt?
 \newblock \emph{arXiv preprint arXiv:2304.03262}.
 
-\bibitem[{Chung et~al.(2023)Chung, Constant, Garcia, Roberts, Tay, Narang, and Firat}]{chung2023unimax}
-Hyung~Won Chung, Noah Constant, Xavier Garcia, Adam Roberts, Yi~Tay, Sharan Narang, and Orhan Firat. 2023.
-\newblock Unimax: Fairer and more effective language sampling for large-scale multilingual pretraining.
+\bibitem[{Chung et~al.(2023)Chung, Constant, Garcia, Roberts, Tay, Narang, and
+  Firat}]{chung2023unimax}
+Hyung~Won Chung, Noah Constant, Xavier Garcia, Adam Roberts, Yi~Tay, Sharan
+  Narang, and Orhan Firat. 2023.
+\newblock Unimax: Fairer and more effective language sampling for large-scale
+  multilingual pretraining.
 \newblock \emph{arXiv preprint arXiv:2304.09151}.
 
-\bibitem[{Conneau et~al.(2019{\natexlab{a}})Conneau, Khandelwal, Goyal, Chaudhary, Wenzek, Guzm{\'{a}}n, Grave, Ott, Zettlemoyer, and Stoyanov}]{DBLP:journals/corr/abs-1911-02116}
-Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume Wenzek, Francisco Guzm{\'{a}}n, Edouard Grave, Myle Ott, Luke Zettlemoyer, and Veselin Stoyanov. 2019{\natexlab{a}}.
-\newblock \href {http://arxiv.org/abs/1911.02116} {Unsupervised cross-lingual representation learning at scale}.
+\bibitem[{Conneau et~al.(2019{\natexlab{a}})Conneau, Khandelwal, Goyal,
+  Chaudhary, Wenzek, Guzm{\'{a}}n, Grave, Ott, Zettlemoyer, and
+  Stoyanov}]{DBLP:journals/corr/abs-1911-02116}
+Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume
+  Wenzek, Francisco Guzm{\'{a}}n, Edouard Grave, Myle Ott, Luke Zettlemoyer,
+  and Veselin Stoyanov. 2019{\natexlab{a}}.
+\newblock \href {http://arxiv.org/abs/1911.02116} {Unsupervised cross-lingual
+  representation learning at scale}.
 \newblock \emph{CoRR}, abs/1911.02116.
 
-\bibitem[{Conneau et~al.(2019{\natexlab{b}})Conneau, Khandelwal, Goyal, Chaudhary, Wenzek, Guzm{\'a}n, Grave, Ott, Zettlemoyer, and Stoyanov}]{conneau2019unsupervised}
-Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume Wenzek, Francisco Guzm{\'a}n, Edouard Grave, Myle Ott, Luke Zettlemoyer, and Veselin Stoyanov. 2019{\natexlab{b}}.
+\bibitem[{Conneau et~al.(2019{\natexlab{b}})Conneau, Khandelwal, Goyal,
+  Chaudhary, Wenzek, Guzm{\'a}n, Grave, Ott, Zettlemoyer, and
+  Stoyanov}]{conneau2019unsupervised}
+Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume
+  Wenzek, Francisco Guzm{\'a}n, Edouard Grave, Myle Ott, Luke Zettlemoyer, and
+  Veselin Stoyanov. 2019{\natexlab{b}}.
 \newblock Unsupervised cross-lingual representation learning at scale.
 \newblock \emph{arXiv preprint arXiv:1911.02116}.
 
@@ -28,46 +40,65 @@ deepset. 2020.
 
 \bibitem[{Devlin(2018)}]{devlin2018bert}
 Jacob Devlin. 2018.
-\newblock Bert: Pre-training of deep bidirectional transformers for language understanding.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
 \newblock \emph{arXiv preprint arXiv:1810.04805}.
 
-\bibitem[{Devlin et~al.(2018)Devlin, Chang, Lee, and Toutanova}]{DBLP:journals/corr/abs-1810-04805}
+\bibitem[{Devlin et~al.(2018)Devlin, Chang, Lee, and
+  Toutanova}]{DBLP:journals/corr/abs-1810-04805}
 Jacob Devlin, Ming{-}Wei Chang, Kenton Lee, and Kristina Toutanova. 2018.
-\newblock \href {http://arxiv.org/abs/1810.04805} {{BERT:} pre-training of deep bidirectional transformers for language understanding}.
+\newblock \href {http://arxiv.org/abs/1810.04805} {{BERT:} pre-training of deep
+  bidirectional transformers for language understanding}.
 \newblock \emph{CoRR}, abs/1810.04805.
 
 \bibitem[{He et~al.(2021)He, Gao, and Chen}]{he2021debertav3}
 Pengcheng He, Jianfeng Gao, and Weizhu Chen. 2021.
-\newblock \href {http://arxiv.org/abs/2111.09543} {Debertav3: Improving deberta using electra-style pre-training with gradient-disentangled embedding sharing}.
+\newblock \href {http://arxiv.org/abs/2111.09543} {Debertav3: Improving deberta
+  using electra-style pre-training with gradient-disentangled embedding
+  sharing}.
 
-\bibitem[{Hu et~al.(2024)Hu, Chen, Du, Peng, Keloth, Zuo, Zhou, Li, Jiang, Lu et~al.}]{hu2024improving}
-Yan Hu, Qingyu Chen, Jingcheng Du, Xueqing Peng, Vipina~Kuttichi Keloth, Xu~Zuo, Yujia Zhou, Zehan Li, Xiaoqian Jiang, Zhiyong Lu, et~al. 2024.
-\newblock Improving large language models for clinical named entity recognition via prompt engineering.
-\newblock \emph{Journal of the American Medical Informatics Association}, page ocad259.
+\bibitem[{Hu et~al.(2024)Hu, Chen, Du, Peng, Keloth, Zuo, Zhou, Li, Jiang, Lu
+  et~al.}]{hu2024improving}
+Yan Hu, Qingyu Chen, Jingcheng Du, Xueqing Peng, Vipina~Kuttichi Keloth,
+  Xu~Zuo, Yujia Zhou, Zehan Li, Xiaoqian Jiang, Zhiyong Lu, et~al. 2024.
+\newblock Improving large language models for clinical named entity recognition
+  via prompt engineering.
+\newblock \emph{Journal of the American Medical Informatics Association}, page
+  ocad259.
 
-\bibitem[{Ji et~al.(2023)Ji, Lee, Frieske, Yu, Su, Xu, Ishii, Bang, Madotto, and Fung}]{ji2023survey}
-Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Ye~Jin Bang, Andrea Madotto, and Pascale Fung. 2023.
+\bibitem[{Ji et~al.(2023)Ji, Lee, Frieske, Yu, Su, Xu, Ishii, Bang, Madotto,
+  and Fung}]{ji2023survey}
+Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii,
+  Ye~Jin Bang, Andrea Madotto, and Pascale Fung. 2023.
 \newblock Survey of hallucination in natural language generation.
 \newblock \emph{ACM Computing Surveys}, 55(12):1--38.
 
-\bibitem[{Lazaridou et~al.(2022)Lazaridou, Gribovskaya, Stokowiec, and Grigorev}]{lazaridou2022internet}
-Angeliki Lazaridou, Elena Gribovskaya, Wojciech Stokowiec, and Nikolai Grigorev. 2022.
-\newblock Internet-augmented language models through few-shot prompting for open-domain question answering.
+\bibitem[{Lazaridou et~al.(2022)Lazaridou, Gribovskaya, Stokowiec, and
+  Grigorev}]{lazaridou2022internet}
+Angeliki Lazaridou, Elena Gribovskaya, Wojciech Stokowiec, and Nikolai
+  Grigorev. 2022.
+\newblock Internet-augmented language models through few-shot prompting for
+  open-domain question answering.
 \newblock \emph{arXiv preprint arXiv:2203.05115}.
 
 \bibitem[{Li et~al.(2020)Li, Sun, Han, and Li}]{li2020survey}
 Jing Li, Aixin Sun, Jianglei Han, and Chenliang Li. 2020.
 \newblock A survey on deep learning for named entity recognition.
-\newblock \emph{IEEE transactions on knowledge and data engineering}, 34(1):50--70.
+\newblock \emph{IEEE transactions on knowledge and data engineering},
+  34(1):50--70.
 
 \bibitem[{Li et~al.(2024)Li, Chen, Ren, Cheng, Zhao, Nie, and Wen}]{li2024dawn}
-Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Wayne~Xin Zhao, Jian-Yun Nie, and Ji-Rong Wen. 2024.
-\newblock The dawn after the dark: An empirical study on factuality hallucination in large language models.
+Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Wayne~Xin Zhao, Jian-Yun Nie,
+  and Ji-Rong Wen. 2024.
+\newblock The dawn after the dark: An empirical study on factuality
+  hallucination in large language models.
 \newblock \emph{arXiv preprint arXiv:2401.03205}.
 
 \bibitem[{Li et~al.(2023)Li, Zhu, Lu, and Yin}]{li-etal-2023-synthetic}
 Zhuoyan Li, Hangxiao Zhu, Zhuoran Lu, and Ming Yin. 2023.
-\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.647} {Synthetic data generation with large language models for text classification: Potential and limitations}.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.647} {Synthetic
+  data generation with large language models for text classification: Potential
+  and limitations}.
 \newblock pages 10443--10461, Singapore.
 
 \bibitem[{Liu et~al.(2022)Liu, Guo, Wang, and Li}]{liu2022chinese}
@@ -75,49 +106,73 @@ Pan Liu, Yanming Guo, Fenglei Wang, and Guohui Li. 2022.
 \newblock Chinese named entity recognition: The state of the art.
 \newblock \emph{Neurocomputing}, 473:37--53.
 
-\bibitem[{Ma et~al.(2023)Ma, Zhang, Bian, Liu, Zhang, Zhao, Zhang, Fu, Hu, and Wu}]{ma2023fairness}
-Huan Ma, Changqing Zhang, Yatao Bian, Lemao Liu, Zhirui Zhang, Peilin Zhao, Shu Zhang, Huazhu Fu, Qinghua Hu, and Bingzhe Wu. 2023.
+\bibitem[{Ma et~al.(2023)Ma, Zhang, Bian, Liu, Zhang, Zhao, Zhang, Fu, Hu, and
+  Wu}]{ma2023fairness}
+Huan Ma, Changqing Zhang, Yatao Bian, Lemao Liu, Zhirui Zhang, Peilin Zhao, Shu
+  Zhang, Huazhu Fu, Qinghua Hu, and Bingzhe Wu. 2023.
 \newblock Fairness-guided few-shot prompting for large language models.
-\newblock \emph{Advances in Neural Information Processing Systems}, 36:43136--43155.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  36:43136--43155.
 
-\bibitem[{Manakul et~al.(2023)Manakul, Liusie, and Gales}]{manakul2023selfcheckgpt}
+\bibitem[{Manakul et~al.(2023)Manakul, Liusie, and
+  Gales}]{manakul2023selfcheckgpt}
 Potsawee Manakul, Adian Liusie, and Mark~JF Gales. 2023.
-\newblock Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models.
+\newblock Selfcheckgpt: Zero-resource black-box hallucination detection for
+  generative large language models.
 \newblock \emph{arXiv preprint arXiv:2303.08896}.
 
-\bibitem[{Mickus et~al.(2024)Mickus, Zosa, V{\'a}zquez, Vahtola, Tiedemann, Segonne, Raganato, and Apidianaki}]{mickus2024semeval}
-Timothee Mickus, Elaine Zosa, Ra{\'u}l V{\'a}zquez, Teemu Vahtola, J{\"o}rg Tiedemann, Vincent Segonne, Alessandro Raganato, and Marianna Apidianaki. 2024.
-\newblock Semeval-2024 task 6: Shroom, a shared-task on hallucinations and related observable overgeneration mistakes.
-\newblock In \emph{Proceedings of the 18th International Workshop on Semantic Evaluation (SemEval-2024)}, pages 1979--1993.
+\bibitem[{Mickus et~al.(2024)Mickus, Zosa, V{\'a}zquez, Vahtola, Tiedemann,
+  Segonne, Raganato, and Apidianaki}]{mickus2024semeval}
+Timothee Mickus, Elaine Zosa, Ra{\'u}l V{\'a}zquez, Teemu Vahtola, J{\"o}rg
+  Tiedemann, Vincent Segonne, Alessandro Raganato, and Marianna Apidianaki.
+  2024.
+\newblock Semeval-2024 task 6: Shroom, a shared-task on hallucinations and
+  related observable overgeneration mistakes.
+\newblock In \emph{Proceedings of the 18th International Workshop on Semantic
+  Evaluation (SemEval-2024)}, pages 1979--1993.
 
-\bibitem[{Perkovi{\'c} et~al.(2024)Perkovi{\'c}, Drobnjak, and Boti{\v{c}}ki}]{perkovic2024hallucinations}
+\bibitem[{Perkovi{\'c} et~al.(2024)Perkovi{\'c}, Drobnjak, and
+  Boti{\v{c}}ki}]{perkovic2024hallucinations}
 Gabrijela Perkovi{\'c}, Antun Drobnjak, and Ivica Boti{\v{c}}ki. 2024.
 \newblock Hallucinations in llms: Understanding and addressing challenges.
-\newblock In \emph{2024 47th MIPRO ICT and Electronics Convention (MIPRO)}, pages 2084--2088. IEEE.
+\newblock In \emph{2024 47th MIPRO ICT and Electronics Convention (MIPRO)},
+  pages 2084--2088. IEEE.
 
-\bibitem[{Raffel et~al.(2020)Raffel, Shazeer, Roberts, Lee, Narang, Matena, Zhou, Li, and Liu}]{raffel2020exploring}
-Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter~J Liu. 2020.
-\newblock Exploring the limits of transfer learning with a unified text-to-text transformer.
+\bibitem[{Raffel et~al.(2020)Raffel, Shazeer, Roberts, Lee, Narang, Matena,
+  Zhou, Li, and Liu}]{raffel2020exploring}
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+  Matena, Yanqi Zhou, Wei Li, and Peter~J Liu. 2020.
+\newblock Exploring the limits of transfer learning with a unified text-to-text
+  transformer.
 \newblock \emph{Journal of machine learning research}, 21(140):1--67.
 
-\bibitem[{Sahoo et~al.(2024)Sahoo, Singh, Saha, Jain, Mondal, and Chadha}]{sahoo2024systematic}
-Pranab Sahoo, Ayush~Kumar Singh, Sriparna Saha, Vinija Jain, Samrat Mondal, and Aman Chadha. 2024.
-\newblock A systematic survey of prompt engineering in large language models: Techniques and applications.
+\bibitem[{Sahoo et~al.(2024)Sahoo, Singh, Saha, Jain, Mondal, and
+  Chadha}]{sahoo2024systematic}
+Pranab Sahoo, Ayush~Kumar Singh, Sriparna Saha, Vinija Jain, Samrat Mondal, and
+  Aman Chadha. 2024.
+\newblock A systematic survey of prompt engineering in large language models:
+  Techniques and applications.
 \newblock \emph{arXiv preprint arXiv:2402.07927}.
 
-\bibitem[{Sansford et~al.(2024)Sansford, Richardson, Maretic, and Saada}]{sansford2024grapheval}
-Hannah Sansford, Nicholas Richardson, Hermina~Petric Maretic, and Juba~Nait Saada. 2024.
-\newblock Grapheval: A knowledge-graph based llm hallucination evaluation framework.
+\bibitem[{Sansford et~al.(2024)Sansford, Richardson, Maretic, and
+  Saada}]{sansford2024grapheval}
+Hannah Sansford, Nicholas Richardson, Hermina~Petric Maretic, and Juba~Nait
+  Saada. 2024.
+\newblock Grapheval: A knowledge-graph based llm hallucination evaluation
+  framework.
 \newblock \emph{arXiv preprint arXiv:2407.10793}.
 
-\bibitem[{Shen et~al.(2023)Shen, Tan, Wu, Zhang, Zhang, Xi, Lu, and Zhuang}]{shen2023promptner}
-Yongliang Shen, Zeqi Tan, Shuhui Wu, Wenqi Zhang, Rongsheng Zhang, Yadong Xi, Weiming Lu, and Yueting Zhuang. 2023.
+\bibitem[{Shen et~al.(2023)Shen, Tan, Wu, Zhang, Zhang, Xi, Lu, and
+  Zhuang}]{shen2023promptner}
+Yongliang Shen, Zeqi Tan, Shuhui Wu, Wenqi Zhang, Rongsheng Zhang, Yadong Xi,
+  Weiming Lu, and Yueting Zhuang. 2023.
 \newblock Promptner: Prompt locating and typing for named entity recognition.
 \newblock \emph{arXiv preprint arXiv:2305.17104}.
 
 \bibitem[{Song et~al.(2021)Song, Li, Liu, and Zeng}]{song2021deep}
 Bosheng Song, Fen Li, Yuansheng Liu, and Xiangxiang Zeng. 2021.
-\newblock Deep learning methods for biomedical named entity recognition: a survey and qualitative comparison.
+\newblock Deep learning methods for biomedical named entity recognition: a
+  survey and qualitative comparison.
 \newblock \emph{Briefings in Bioinformatics}, 22(6):bbab282.
 
 \bibitem[{Spearman(1987)}]{spearman1987proof}
@@ -125,38 +180,66 @@ Charles Spearman. 1987.
 \newblock The proof and measurement of association between two things.
 \newblock \emph{The American journal of psychology}, 100(3/4):441--471.
 
-\bibitem[{Su et~al.(2024)Su, Wang, Ai, Hu, Wu, Zhou, and Liu}]{su2024unsupervised}
-Weihang Su, Changyue Wang, Qingyao Ai, Yiran Hu, Zhijing Wu, Yujia Zhou, and Yiqun Liu. 2024.
-\newblock Unsupervised real-time hallucination detection based on the internal states of large language models.
+\bibitem[{Su et~al.(2024)Su, Wang, Ai, Hu, Wu, Zhou, and
+  Liu}]{su2024unsupervised}
+Weihang Su, Changyue Wang, Qingyao Ai, Yiran Hu, Zhijing Wu, Yujia Zhou, and
+  Yiqun Liu. 2024.
+\newblock Unsupervised real-time hallucination detection based on the internal
+  states of large language models.
 \newblock \emph{arXiv preprint arXiv:2403.06448}.
 
-\bibitem[{Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin}]{vaswani2017attention}
-Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan~N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017.
+\bibitem[{Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones,
+  Gomez, Kaiser, and Polosukhin}]{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017.
 \newblock Attention is all you need.
 \newblock \emph{Advances in Neural Information Processing Systems}, 30.
 
-\bibitem[{V\'azquez et~al.(2025)V\'azquez, Mickus, Zosa, Vahtola, Tiedemann, Sinha, Segonne, S\'anchez-Vega, Raganato, Libovický, Karlgren, Ji, Helcl, Guillou, de~Gibert, Bengoetxea, Attieh, and Apidianaki}]{vazquez-etal-2025-mu-shroom}
-Ra\'ul V\'azquez, Timothee Mickus, Elaine Zosa, Teemu Vahtola, J\"org Tiedemann, Aman Sinha, Vincent Segonne, Fernando S\'anchez-Vega, Alessandro Raganato, Jindřich Libovický, Jussi Karlgren, Shaoxiong Ji, Jindřich Helcl, Liane Guillou, Ona de~Gibert, Jaione Bengoetxea, Joseph Attieh, and Marianna Apidianaki. 2025.
-\newblock \href {https://helsinki-nlp.github.io/shroom/} {Sem{E}val-2025 {T}ask 3: {Mu-SHROOM}, the multilingual shared-task on hallucinations and related observable overgeneration mistakes}.
+\bibitem[{V\'azquez et~al.(2025)V\'azquez, Mickus, Zosa, Vahtola, Tiedemann,
+  Sinha, Segonne, S\'anchez-Vega, Raganato, Libovický, Karlgren, Ji, Helcl,
+  Guillou, de~Gibert, Bengoetxea, Attieh, and
+  Apidianaki}]{vazquez-etal-2025-mu-shroom}
+Ra\'ul V\'azquez, Timothee Mickus, Elaine Zosa, Teemu Vahtola, J\"org
+  Tiedemann, Aman Sinha, Vincent Segonne, Fernando S\'anchez-Vega, Alessandro
+  Raganato, Jindřich Libovický, Jussi Karlgren, Shaoxiong Ji, Jindřich
+  Helcl, Liane Guillou, Ona de~Gibert, Jaione Bengoetxea, Joseph Attieh, and
+  Marianna Apidianaki. 2025.
+\newblock \href {https://helsinki-nlp.github.io/shroom/} {Sem{E}val-2025 {T}ask
+  3: {Mu-SHROOM}, the multilingual shared-task on hallucinations and related
+  observable overgeneration mistakes}.
 
-\bibitem[{Wei et~al.(2022)Wei, Wang, Schuurmans, Bosma, Xia, Chi, Le, Zhou et~al.}]{wei2022chain}
-Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed~Chi, Quoc~V Le, Denny Zhou, et~al. 2022.
-\newblock Chain-of-thought prompting elicits reasoning in large language models.
-\newblock \emph{Advances in neural information processing systems}, 35:24824--24837.
+\bibitem[{Wei et~al.(2022)Wei, Wang, Schuurmans, Bosma, Xia, Chi, Le, Zhou
+  et~al.}]{wei2022chain}
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed~Chi, Quoc~V
+  Le, Denny Zhou, et~al. 2022.
+\newblock Chain-of-thought prompting elicits reasoning in large language
+  models.
+\newblock \emph{Advances in neural information processing systems},
+  35:24824--24837.
 
-\bibitem[{Wolf et~al.(2020)Wolf, Debut, Sanh, Chaumond, Delangue, Moi, Cistac, Rault, Louf, Funtowicz, and Brew}]{wolf-etal-2020-transformers}
-Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R{\'e}mi Louf, Morgan Funtowicz, and Jamie Brew. 2020.
-\newblock \href {https://doi.org/10.18653/v1/2020.emnlp-demos.6} {Transformers: State-of-the-art natural language processing}.
-\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations}, pages 38--45, Online. Association for Computational Linguistics.
+\bibitem[{Wolf et~al.(2020)Wolf, Debut, Sanh, Chaumond, Delangue, Moi, Cistac,
+  Rault, Louf, Funtowicz, and Brew}]{wolf-etal-2020-transformers}
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+  Anthony Moi, Pierric Cistac, Tim Rault, R{\'e}mi Louf, Morgan Funtowicz, and
+  Jamie Brew. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.emnlp-demos.6} {Transformers:
+  State-of-the-art natural language processing}.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing: System Demonstrations}, pages 38--45, Online.
+  Association for Computational Linguistics.
 
 \bibitem[{Yadav and Bethard(2019)}]{yadav2019survey}
 Vikas Yadav and Steven Bethard. 2019.
-\newblock A survey on recent advances in named entity recognition from deep learning models.
+\newblock A survey on recent advances in named entity recognition from deep
+  learning models.
 \newblock \emph{arXiv preprint arXiv:1910.11470}.
 
-\bibitem[{Zhang et~al.(2024)Zhang, Peng, Tian, Zhou, Jin, Song, Mi, and Meng}]{zhang2024self}
-Xiaoying Zhang, Baolin Peng, Ye~Tian, Jingyan Zhou, Lifeng Jin, Linfeng Song, Haitao Mi, and Helen Meng. 2024.
-\newblock Self-alignment for factuality: Mitigating hallucinations in llms via self-evaluation.
+\bibitem[{Zhang et~al.(2024)Zhang, Peng, Tian, Zhou, Jin, Song, Mi, and
+  Meng}]{zhang2024self}
+Xiaoying Zhang, Baolin Peng, Ye~Tian, Jingyan Zhou, Lifeng Jin, Linfeng Song,
+  Haitao Mi, and Helen Meng. 2024.
+\newblock Self-alignment for factuality: Mitigating hallucinations in llms via
+  self-evaluation.
 \newblock \emph{arXiv preprint arXiv:2402.09267}.
 
 \bibitem[{Zhang et~al.(2022)Zhang, Zhang, Li, and Smola}]{zhang2022automatic}
@@ -164,8 +247,10 @@ Zhuosheng Zhang, Aston Zhang, Mu~Li, and Alex Smola. 2022.
 \newblock Automatic chain of thought prompting in large language models.
 \newblock \emph{arXiv preprint arXiv:2210.03493}.
 
-\bibitem[{Zhao et~al.(2023)Zhao, Zhou, Li, Tang, Wang, Hou, Min, Zhang, Zhang, Dong et~al.}]{zhao2023survey}
-Wayne~Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou, Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, et~al. 2023.
+\bibitem[{Zhao et~al.(2023)Zhao, Zhou, Li, Tang, Wang, Hou, Min, Zhang, Zhang,
+  Dong et~al.}]{zhao2023survey}
+Wayne~Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou,
+  Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, et~al. 2023.
 \newblock A survey of large language models.
 \newblock \emph{arXiv preprint arXiv:2303.18223}.
 
