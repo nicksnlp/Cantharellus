@@ -253,7 +253,7 @@ Paper writing of the Results section, analysis of the results, creation of figur
 
 \textbf{Tiankai Zang: } Data construction, including 1) designing and testing various prompting techniques for optimal outputs, 2) overseeing the data generation process and making adjustments as needed, and 3) converting the data to desired format for fine-tuning. 
 
-Paper writing of the parts: Abstract, Introduction, Background, Data Construction (under the "System Overview" section Conclusion ND Limitations.
+Paper writing of the parts: Abstract, Introduction, Background, Data Construction (under the "System Overview" section), Conclusion and Limitations.
 
 \bibliography{custom}
 \bibliographystyle{acl_natbib}
@@ -265,28 +265,52 @@ Paper writing of the parts: Abstract, Introduction, Background, Data Constructio
 \clearpage
 
 \onecolumn
-\section{IoU Scores for models trained on synthetic data and human-labeled data}
+\section{IoU Scores for models trained on synthetic data and fine-tuned further with either: (1) all the validation sets (multilingual models); (2) single validation set (English language models)}
 \label{sec:iou_scores_appendix}
 
     \centering
-    \includegraphics[width=1\textwidth]{images/plot.pdf}
+    \includegraphics[width=0.8\textwidth]{images/plot.pdf}
     %\caption{IoU Scores for models trained on synthetic data and fine-tuned further with either: (1) all the validation sets (multilingual models); (2) single validation set (English language models).}
     %\label{fig:iou_scores}
 
-\raggedleft
-\noindent
-A comparison of intersection over union scores for the following models:
+\section{Base Models Used}
+\label{sec:appendix}
+\begin{table}[h]
+    \centering
+    \captionsetup{justification=centering, singlelinecheck=false}    \renewcommand{\arraystretch}{1.5}  % Increase row height
+    \begin{tabular}{|l|p{8.5cm}|}
+        \hline
+        \textbf{Model} & \textbf{Description} \\ \hline\hline
+        \texttt{google-bert/bert-base-cased}   &  109M parameters, pretrained for masked language modeling (MLM) \cite{DBLP:journals/corr/abs-1810-04805}. \\ 
+        \hline
+        \texttt{deepset/roberta-base-squad2}   & 124M parameters, a RoBERTa-base model fine-tuned for extractive question answering \cite{deepset_roberta_squad2}. \\ 
+        \hline
+        \texttt{microsoft/deberta-v3-base}  & 86M backbone parameters, pretrained for replaced token detection \cite{he2021debertav3}. \\ 
+        \hline
+    \end{tabular}
+    \caption{Monolingual (English) base models for fine-tuning}
+    \label{tab:monolingual_models}
+\end{table}
 
-\begin{itemize}
-    \item Multilingual models trained on the synthetic data (26.3K data points, 10 epochs) and fine-tuned further with all the validation sets (650 data points, 10 epochs)
-
-    \item English language models trained on the synthetic data only (2.3K data points, 10 epochs) and fine-tuned further with a single validation set for the English language (50 data points, 10 epochs)
-\end{itemize}
-
-\clearpage
+\begin{table}[h]
+    \centering    
+    \captionsetup{justification=centering, singlelinecheck=false}    \renewcommand{\arraystretch}{1.5}  % Increase row height
+       \begin{tabular}{|l|p{8.5cm}|}
+        \hline
+        \textbf{Model} & \textbf{Description} \\ \hline\hline
+        \multicolumn{1}{|p{5.3cm}|}{\parbox[t]{6cm}{\texttt{google-bert/bert-base-\\multilingual-cased}}} & 179M parameters, 104 languages, pretrained for MLM and next sentence prediction (NSP) \cite{DBLP:journals/corr/abs-1810-04805} \\ \hline
+        \multirow{2}{*}{\parbox[t]{6cm}{\texttt{google/umt5-small} \\ \texttt{google/umt5-base}}} & \multirow{2}{8.5cm}{179M parameters, 102 languages \cite{chung2023unimax}}\\ \cline{1-1}
+        & \\ \hline
+        \multirow{2}{*}{\parbox[t]{6cm}{\texttt{FacebookAI/xlm-roberta-base} \\ \texttt{FacebookAI/xlm-roberta-large}}} & \multirow{2}{8.5cm}{279M (base) / 561M (large) parameters, 94 languages, pretrained for MLM \cite{DBLP:journals/corr/abs-1911-02116}}\\ \cline{1-1}
+        & \\ \hline
+    \end{tabular}
+    \caption{Multilingual base models for fine-tuning}
+    \label{tab:multilingual_models}
+\end{table}
 
 \twocolumn
-
+\clearpage
+\raggedright
 \section{Prompt for Data Construction}
 \label{sec:prompts}
 \small
@@ -403,43 +427,6 @@ with open('eu-sim-val.jsonl', 'a', encoding='utf-8') as output_file:
 \end{lstlisting}
 \newpage
 \onecolumn
-\clearpage
-\section{Base Models Used}
-\label{sec:appendix}
-\begin{table}[h]
-    \centering
-    \captionsetup{justification=centering, singlelinecheck=false}    \renewcommand{\arraystretch}{1.5}  % Increase row height
-    \begin{tabular}{|l|p{8.5cm}|}
-        \hline
-        \textbf{Model} & \textbf{Description} \\ \hline\hline
-        \texttt{google-bert/bert-base-cased}   &  109M parameters, pretrained for masked language modeling (MLM) \cite{DBLP:journals/corr/abs-1810-04805}. \\ 
-        \hline
-        \texttt{deepset/roberta-base-squad2}   & 124M parameters, a RoBERTa-base model fine-tuned for extractive question answering \cite{deepset_roberta_squad2}. \\ 
-        \hline
-        \texttt{microsoft/deberta-v3-base}  & 86M backbone parameters, pretrained for replaced token detection \cite{he2021debertav3}. \\ 
-        \hline
-    \end{tabular}
-    \caption{Monolingual (English) base models for fine-tuning}
-    \label{tab:monolingual_models}
-\end{table}
-
-\begin{table}[h]
-    \centering    
-    \captionsetup{justification=centering, singlelinecheck=false}    \renewcommand{\arraystretch}{1.5}  % Increase row height
-       \begin{tabular}{|l|p{8.5cm}|}
-        \hline
-        \textbf{Model} & \textbf{Description} \\ \hline\hline
-        \multicolumn{1}{|p{5.3cm}|}{\parbox[t]{6cm}{\texttt{google-bert/bert-base-\\multilingual-cased}}} & 179M parameters, 104 languages, pretrained for MLM and next sentence prediction (NSP) \cite{DBLP:journals/corr/abs-1810-04805} \\ \hline
-        \multirow{2}{*}{\parbox[t]{6cm}{\texttt{google/umt5-small} \\ \texttt{google/umt5-base}}} & \multirow{2}{8.5cm}{179M parameters, 102 languages \cite{chung2023unimax}}\\ \cline{1-1}
-        & \\ \hline
-        \multirow{2}{*}{\parbox[t]{6cm}{\texttt{FacebookAI/xlm-roberta-base} \\ \texttt{FacebookAI/xlm-roberta-large}}} & \multirow{2}{8.5cm}{279M (base) / 561M (large) parameters, 94 languages, pretrained for MLM \cite{DBLP:journals/corr/abs-1911-02116}}\\ \cline{1-1}
-        & \\ \hline
-    \end{tabular}
-    \caption{Multilingual base models for fine-tuning}
-    \label{tab:multilingual_models}
-\end{table}
-
-\twocolumn
 \clearpage
 
 \newpage
