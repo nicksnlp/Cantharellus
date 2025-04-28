@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex cantharellus-system-paper"] 1745849659.49845 "cantharellus-system-paper.aux" "cantharellus-system-paper.bbl" "cantharellus-system-paper" 1745849705.69782 0
+["bibtex cantharellus-system-paper"] 1745849659.49845 "cantharellus-system-paper.aux" "cantharellus-system-paper.bbl" "cantharellus-system-paper" 1745852369.79127 0
   "./acl_natbib.bst" 1740697998.40718 47709 d9d0ab22329e3318a3d1b2ae6abaab62 ""
   "./custom.bib" 1745581098.47204 14577 4c6255ea8c66a19ae6d297c63250fe45 ""
-  "cantharellus-system-paper.aux" 1745849705.46023 6662 202275e469b494842689e9779146ff7c "pdflatex"
+  "cantharellus-system-paper.aux" 1745852369.53647 6662 202275e469b494842689e9779146ff7c "pdflatex"
   (generated)
   "cantharellus-system-paper.bbl"
   "cantharellus-system-paper.blg"
   (rewritten before read)
-["pdflatex"] 1745849704.63156 "/Users/nick/Desktop/Study-notes_2023/MU-SHROOM/Github/LingDig_Mushrooms/acticle_latex/cantharellus-system-paper.tex" "cantharellus-system-paper.pdf" "cantharellus-system-paper" 1745849705.69794 0
-  "/Users/nick/Desktop/Study-notes_2023/MU-SHROOM/Github/LingDig_Mushrooms/acticle_latex/cantharellus-system-paper.tex" 1745849704.43974 37161 e6c500d203979fd4b464bd05873386dd ""
+["pdflatex"] 1745852368.73967 "/Users/nick/Desktop/Study-notes_2023/MU-SHROOM/Github/LingDig_Mushrooms/acticle_latex/cantharellus-system-paper.tex" "cantharellus-system-paper.pdf" "cantharellus-system-paper" 1745852369.79141 0
+  "/Users/nick/Desktop/Study-notes_2023/MU-SHROOM/Github/LingDig_Mushrooms/acticle_latex/cantharellus-system-paper.tex" 1745852369.51452 37174 17ad07be40ce08f0e855a16153fca76a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -200,10 +200,10 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1738847327 3352636 8b2dffe191a69e65bc8e6e455ddb5897 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "ACL2023.sty" 1740698273.29208 11221 0cc89fa8e5891a5b6a48f16ecda8a85c ""
-  "cantharellus-system-paper.aux" 1745849705.46023 6662 202275e469b494842689e9779146ff7c "pdflatex"
+  "cantharellus-system-paper.aux" 1745852369.53647 6662 202275e469b494842689e9779146ff7c "pdflatex"
   "cantharellus-system-paper.bbl" 1745849659.58653 12289 87811f2d9f8972be0698d855fd96e498 "bibtex cantharellus-system-paper"
-  "cantharellus-system-paper.out" 1745849705.14303 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cantharellus-system-paper.tex" 1745849704.43974 37161 e6c500d203979fd4b464bd05873386dd ""
+  "cantharellus-system-paper.out" 1745852369.22052 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cantharellus-system-paper.tex" 1745852369.51452 37174 17ad07be40ce08f0e855a16153fca76a ""
   "images/bert-base-multilingual-cased.txt.pdf" 1740747068.98033 18140 6117b3c10ecc33ead11c1b5294cfd6d8 ""
   "images/pipeline.pdf" 1740785001.33545 378818 72c48655187aab270e83fe0180a07b2c ""
   "images/plot.pdf" 1740788394.64528 28181 a01e6608936ea94ee5ba3eadc025e8b7 ""
