@@ -1,4 +1,4 @@
-# This directory contains scripts for finetuning pre-trained LLMs for token level hallucination detection, wich consist of 2 parts:
+# This directory contains scripts for finetuning pre-trained LLMs for token level hallucination detection, which consist of 2 parts:
 
 1. Model fine-tuning (subdirectory "train")
 1. Model output generation and evaluation (subdirectory "test_and_score")
