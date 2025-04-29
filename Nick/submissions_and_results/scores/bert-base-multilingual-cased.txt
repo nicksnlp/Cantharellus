@@ -1,0 +1,156 @@
+    <td>AR</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.35459828145647304</td>
+    <td>0.32863707487286636</td>
+    <td>CA</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.4120377623379801</td>
+    <td>0.4541262473123308</td>
+    <td>CS</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.2679391435597506</td>
+    <td>0.3250492532128546</td>
+    <td>DE</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.35615376292565737</td>
+    <td>0.391458127636272</td>
+    <td>EN</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.3052808460906954</td>
+    <td>0.3213061907672347</td>
+    <td>ES</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.3096100643870473</td>
+    <td>0.31661046417270083</td>
+    <td>EU</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.3223420276205274</td>
+    <td>0.34473658990895867</td>
+    <td>FA</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.5110173712465411</td>
+    <td>0.5940976170640943</td>
+    <td>FI</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.33422008297859745</td>
+    <td>0.372168122885851</td>
+    <td>FR</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.2683338239846432</td>
+    <td>0.29234701112861866</td>
+    <td>HI</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.4519293392654339</td>
+    <td>0.5353937600110242</td>
+    <td>IT</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.47129048000476226</td>
+    <td>0.5230723427732683</td>
+    <td>ZH</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.1420061989345215</td>
+    <td>0.17962215451190575</td>
+    <td>AR</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.5116361403591604</td>
+    <td>0.531023607625592</td>
+    <td>CA</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.421534391587263</td>
+    <td>0.4845167296016653</td>
+    <td>CS</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.31077208811001483</td>
+    <td>0.3571755709996772</td>
+    <td>DE</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.4798891903405948</td>
+    <td>0.4749338826563877</td>
+    <td>EN</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.413565140700107</td>
+    <td>0.44407354644373787</td>
+    <td>ES</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.2969762410593614</td>
+    <td>0.3260264680977675</td>
+    <td>EU</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.371363334324081</td>
+    <td>0.3604553753247473</td>
+    <td>FA</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.5632106974256793</td>
+    <td>0.6488570451602456</td>
+    <td>FI</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.5134784343676423</td>
+    <td>0.5079781092204502</td>
+    <td>FR</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.4513087749505278</td>
+    <td>0.4656881994423267</td>
+    <td>HI</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.603931764788991</td>
+    <td>0.6414186099193199</td>
+    <td>IT</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.6414250278288358</td>
+    <td>0.6513696256036879</td>
+    <td>ZH</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.3179444576917229</td>
+    <td>0.311101112828406</td>
+    <td>AR</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.5370592862258853</td>
+    <td>0.5513547068584491</td>
+    <td>CA</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.5231183858855079</td>
+    <td>0.5727384965086574</td>
+    <td>CS</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.3935678930915496</td>
+    <td>0.42389789745972806</td>
+    <td>DE</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.535465150787734</td>
+    <td>0.5238999337825624</td>
+    <td>EN</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.47212521826720766</td>
+    <td>0.4613479052508146</td>
+    <td>ES</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.3868735452331158</td>
+    <td>0.4235560303855666</td>
+    <td>EU</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.45700217246443225</td>
+    <td>0.41604866850804445</td>
+    <td>FA</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.6113578836218645</td>
+    <td>0.6429384723927037</td>
+    <td>FI</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.5514129647493121</td>
+    <td>0.5376833036783387</td>
+    <td>FR</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.5147082718870475</td>
+    <td>0.5317307175279563</td>
+    <td>HI</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.6571897532767135</td>
+    <td>0.6909388279493135</td>
+    <td>IT</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.6509078961529504</td>
+    <td>0.6856360987317159</td>
+    <td>ZH</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.32005420151102537</td>
+    <td>0.32815317135901617</td>

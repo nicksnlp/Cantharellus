@@ -1,0 +1,17 @@
+MODELNAME, monoling, EN + enVal
+
+
+Predictions are made with a pre-trained model fine-tuned on some generated data. The model is a token classifier.
+
+This is a monolingual model
+
+The fine-tuning data is created with ChatGPT, gpt-4o model, and contains around 2K datapoints per language + 238 datapoints created with claude3.5 sonnet for English.
+
+The model was fine-tuned further with the validation set for the English language, provided by the organisers.
+
+
+bert-base-cased
+deepset/roberta-base-squad2
+google/flan-t5-base
+microsoft/deberta-v3-base
+

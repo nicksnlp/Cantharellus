@@ -1,0 +1,26 @@
+model_name,IoU,Cor,test_lang
+FacebookAI/xlm-roberta-large,0.60289951,0.6365301,ar -
+
+FacebookAI/xlm-roberta-large,0.57778417,0.56321616,de -
+
+FacebookAI/xlm-roberta-large,0.44675105,0.45382659,en
+
+FacebookAI/xlm-roberta-large,0.39692244,0.45753148,es
+
+FacebookAI/xlm-roberta-large,0.61674058,0.60721619,fi
+
+FacebookAI/xlm-roberta-large,0.51581539,0.52645155,fr
+
+FacebookAI/xlm-roberta-large,0.73450609,0.7533035,hi
+
+FacebookAI/xlm-roberta-large,0.75295868,0.78121352,it
+
+FacebookAI/xlm-roberta-large,0.37346628,0.38672602,zh
+
+FacebookAI/xlm-roberta-large,0.40210606,0.4581741,cs
+
+FacebookAI/xlm-roberta-large,0.57869038,0.61882156,ca
+
+FacebookAI/xlm-roberta-large,0.57330596,0.60231356,eu
+
+FacebookAI/xlm-roberta-large,0.70208272,0.72865598,fa

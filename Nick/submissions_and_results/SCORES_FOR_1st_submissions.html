@@ -1,0 +1,2826 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="/static/annotation/style.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.1/jquery.min.js"></script>
+
+    <title>SemEval 2025 Task 3: Mu-SHROOM</title>
+    <!-- bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   
+<nav class="navbar navbar-expand-md bg-body-tertiary">
+  <div class="container-fluid" >
+        <div class="navbar-nav">
+            <a class='nav-link' href="https://helsinki-nlp.github.io/shroom/" target="blank_">Task website</a>
+            <a class='nav-link' href="/submission/">Go to landing page</a></li>
+            
+            <a class='nav-link' href="/submission/make_submission/">Go to submission page</a></li>
+            <a class='nav-link' href="/submission/past_submissions/">See previous submissions</a></li>
+            <a class='nav-link' href="/logout/">Log out</a></li>
+            
+        </div>
+        
+      
+  </div>
+</nav>
+      
+    <div id="content" class="container-fluid" style="padding-top: 70px;">
+        
+
+
+
+<table class="table table-striped table-condensed">
+<thead>
+<tr><td></td> <td><strong>Identifier</strong></td> <td><strong>IoU</strong></td> <td><strong>Cor</strong></td>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+    <td>EN</td>
+    <td>bert-base-cased, English, monoling, EN</td>
+    <td>0.3757211545250764</td>
+    <td>0.3732283720697151</td>
+    <td>
+    <!-- <a href="/submission/1057/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1057/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>bert-base-cased, English, monoling, EN + enVal</td>
+    <td>0.35571824789682016</td>
+    <td>0.4010379752039323</td>
+    <td>
+    <!-- <a href="/submission/1058/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1058/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>WRONG FILE</td>
+    <td>0.3327866152403384</td>
+    <td>0.3570019783675176</td>
+    <td>
+    <!-- <a href="/submission/1059/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1059/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>WRONG FILE</td>
+    <td>0.3327866152403384</td>
+    <td>0.3570019783675176</td>
+    <td>
+    <!-- <a href="/submission/1060/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1060/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>google/flan-t5-base, monoling, EN</td>
+    <td>0.21098694221099065</td>
+    <td>0.19460196328429072</td>
+    <td>
+    <!-- <a href="/submission/1063/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1063/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>google/flan-t5-base, monoling, EN + enVal</td>
+    <td>0.2015702424340723</td>
+    <td>0.20020048019862516</td>
+    <td>
+    <!-- <a href="/submission/1066/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1066/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>microsoft/deberta-v3-base, monoling, EN</td>
+    <td>0.14489675423022982</td>
+    <td>0.14661360513002847</td>
+    <td>
+    <!-- <a href="/submission/1067/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1067/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>microsoft/deberta-v3-base, monoling, EN + enVal</td>
+    <td>0.15593013816274207</td>
+    <td>0.19375783135085461</td>
+    <td>
+    <!-- <a href="/submission/1068/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1068/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>deepset/roberta-base-squad2, monoling, EN</td>
+    <td>0.3327866152403384</td>
+    <td>0.3570019783675176</td>
+    <td>
+    <!-- <a href="/submission/1069/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1069/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>deepset/roberta-base-squad2, monoling, EN + enVal</td>
+    <td>0.3717318297778116</td>
+    <td>0.37794021798048993</td>
+    <td>
+    <!-- <a href="/submission/1071/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1071/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.35459828145647304</td>
+    <td>0.32863707487286636</td>
+    <td>
+    <!-- <a href="/submission/1074/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1074/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.4120377623379801</td>
+    <td>0.4541262473123308</td>
+    <td>
+    <!-- <a href="/submission/1075/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1075/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.2679391435597506</td>
+    <td>0.3250492532128546</td>
+    <td>
+    <!-- <a href="/submission/1076/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1076/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.35615376292565737</td>
+    <td>0.391458127636272</td>
+    <td>
+    <!-- <a href="/submission/1077/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1077/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.3052808460906954</td>
+    <td>0.3213061907672347</td>
+    <td>
+    <!-- <a href="/submission/1078/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1078/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.3096100643870473</td>
+    <td>0.31661046417270083</td>
+    <td>
+    <!-- <a href="/submission/1079/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1079/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.3223420276205274</td>
+    <td>0.34473658990895867</td>
+    <td>
+    <!-- <a href="/submission/1080/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1080/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.5110173712465411</td>
+    <td>0.5940976170640943</td>
+    <td>
+    <!-- <a href="/submission/1081/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1081/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.33422008297859745</td>
+    <td>0.372168122885851</td>
+    <td>
+    <!-- <a href="/submission/1082/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1082/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.2683338239846432</td>
+    <td>0.29234701112861866</td>
+    <td>
+    <!-- <a href="/submission/1083/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1083/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.4519293392654339</td>
+    <td>0.5353937600110242</td>
+    <td>
+    <!-- <a href="/submission/1084/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1084/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.47129048000476226</td>
+    <td>0.5230723427732683</td>
+    <td>
+    <!-- <a href="/submission/1085/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1085/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>bert-base-multilingual-cased, Multiling</td>
+    <td>0.1420061989345215</td>
+    <td>0.17962215451190575</td>
+    <td>
+    <!-- <a href="/submission/1086/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1086/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.5370592862258853</td>
+    <td>0.5513547068584491</td>
+    <td>
+    <!-- <a href="/submission/1087/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1087/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.5231183858855079</td>
+    <td>0.5727384965086574</td>
+    <td>
+    <!-- <a href="/submission/1088/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1088/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.3935678930915496</td>
+    <td>0.42389789745972806</td>
+    <td>
+    <!-- <a href="/submission/1089/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1089/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.535465150787734</td>
+    <td>0.5238999337825624</td>
+    <td>
+    <!-- <a href="/submission/1090/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1090/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.47212521826720766</td>
+    <td>0.4613479052508146</td>
+    <td>
+    <!-- <a href="/submission/1091/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1091/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.3868735452331158</td>
+    <td>0.4235560303855666</td>
+    <td>
+    <!-- <a href="/submission/1092/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1092/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.45700217246443225</td>
+    <td>0.41604866850804445</td>
+    <td>
+    <!-- <a href="/submission/1093/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1093/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.6113578836218645</td>
+    <td>0.6429384723927037</td>
+    <td>
+    <!-- <a href="/submission/1094/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1094/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.5514129647493121</td>
+    <td>0.5376833036783387</td>
+    <td>
+    <!-- <a href="/submission/1095/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1095/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.5147082718870475</td>
+    <td>0.5317307175279563</td>
+    <td>
+    <!-- <a href="/submission/1096/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1096/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.6571897532767135</td>
+    <td>0.6909388279493135</td>
+    <td>
+    <!-- <a href="/submission/1097/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1097/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.6509078961529504</td>
+    <td>0.6856360987317159</td>
+    <td>
+    <!-- <a href="/submission/1098/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1098/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>bert-base-multilingual-cased, Multiling, ALLvalset</td>
+    <td>0.32005420151102537</td>
+    <td>0.32815317135901617</td>
+    <td>
+    <!-- <a href="/submission/1099/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1099/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.5116361403591604</td>
+    <td>0.531023607625592</td>
+    <td>
+    <!-- <a href="/submission/1100/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1100/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.421534391587263</td>
+    <td>0.4845167296016653</td>
+    <td>
+    <!-- <a href="/submission/1101/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1101/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.31077208811001483</td>
+    <td>0.3571755709996772</td>
+    <td>
+    <!-- <a href="/submission/1102/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1102/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.4798891903405948</td>
+    <td>0.4749338826563877</td>
+    <td>
+    <!-- <a href="/submission/1103/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1103/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.413565140700107</td>
+    <td>0.44407354644373787</td>
+    <td>
+    <!-- <a href="/submission/1104/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1104/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.2969762410593614</td>
+    <td>0.3260264680977675</td>
+    <td>
+    <!-- <a href="/submission/1105/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1105/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.371363334324081</td>
+    <td>0.3604553753247473</td>
+    <td>
+    <!-- <a href="/submission/1106/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1106/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.5632106974256793</td>
+    <td>0.6488570451602456</td>
+    <td>
+    <!-- <a href="/submission/1107/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1107/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.5134784343676423</td>
+    <td>0.5079781092204502</td>
+    <td>
+    <!-- <a href="/submission/1108/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1108/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.4513087749505278</td>
+    <td>0.4656881994423267</td>
+    <td>
+    <!-- <a href="/submission/1109/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1109/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.603931764788991</td>
+    <td>0.6414186099193199</td>
+    <td>
+    <!-- <a href="/submission/1110/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1110/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.6414250278288358</td>
+    <td>0.6513696256036879</td>
+    <td>
+    <!-- <a href="/submission/1111/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1111/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>bert-base-multilingual-cased, Multiling, 1_Valset</td>
+    <td>0.3179444576917229</td>
+    <td>0.311101112828406</td>
+    <td>
+    <!-- <a href="/submission/1112/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1112/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.3607908417001597</td>
+    <td>0.34594114390923647</td>
+    <td>
+    <!-- <a href="/submission/1113/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1113/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.41437730781089677</td>
+    <td>0.4666146158048056</td>
+    <td>
+    <!-- <a href="/submission/1114/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1114/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.2624952416494979</td>
+    <td>0.31079251569242333</td>
+    <td>
+    <!-- <a href="/submission/1115/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1115/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.36265833840633555</td>
+    <td>0.3986501213555665</td>
+    <td>
+    <!-- <a href="/submission/1116/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1116/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.31298679173839217</td>
+    <td>0.3640611824759075</td>
+    <td>
+    <!-- <a href="/submission/1117/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1117/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.2979633008256428</td>
+    <td>0.30293301594258965</td>
+    <td>
+    <!-- <a href="/submission/1118/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1118/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.3509811805937037</td>
+    <td>0.34153257794167263</td>
+    <td>
+    <!-- <a href="/submission/1119/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1119/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.5758694542915742</td>
+    <td>0.646124442243485</td>
+    <td>
+    <!-- <a href="/submission/1120/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1120/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.3078474082427825</td>
+    <td>0.3557122213745977</td>
+    <td>
+    <!-- <a href="/submission/1121/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1121/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.2904764300262321</td>
+    <td>0.2706323201150063</td>
+    <td>
+    <!-- <a href="/submission/1122/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1122/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.44362625302042014</td>
+    <td>0.5019836554552174</td>
+    <td>
+    <!-- <a href="/submission/1123/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1123/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.4847446392987424</td>
+    <td>0.5547483487652161</td>
+    <td>
+    <!-- <a href="/submission/1124/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1124/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.1309546954019443</td>
+    <td>0.156606019656138</td>
+    <td>
+    <!-- <a href="/submission/1125/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1125/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.5270643124350415</td>
+    <td>0.5590075286258107</td>
+    <td>
+    <!-- <a href="/submission/1126/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1126/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.513376096024243</td>
+    <td>0.5569210706792113</td>
+    <td>
+    <!-- <a href="/submission/1127/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1127/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.3521667624723049</td>
+    <td>0.3903996264821011</td>
+    <td>
+    <!-- <a href="/submission/1128/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1128/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.5235769152959737</td>
+    <td>0.514593363374593</td>
+    <td>
+    <!-- <a href="/submission/1129/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1129/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.40614510348233657</td>
+    <td>0.4567886033910809</td>
+    <td>
+    <!-- <a href="/submission/1130/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1130/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.3674627314369853</td>
+    <td>0.40426398172790035</td>
+    <td>
+    <!-- <a href="/submission/1131/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1131/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.45688352477009464</td>
+    <td>0.42387593025321996</td>
+    <td>
+    <!-- <a href="/submission/1132/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1132/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.6551400965073542</td>
+    <td>0.6864467534599901</td>
+    <td>
+    <!-- <a href="/submission/1133/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1133/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.5309614462367892</td>
+    <td>0.5039109216520619</td>
+    <td>
+    <!-- <a href="/submission/1134/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1134/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.47634389945610917</td>
+    <td>0.4526092590671921</td>
+    <td>
+    <!-- <a href="/submission/1135/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1135/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.6568120172011085</td>
+    <td>0.6750636585619989</td>
+    <td>
+    <!-- <a href="/submission/1136/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1136/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.6429166150876781</td>
+    <td>0.6710845187562786</td>
+    <td>
+    <!-- <a href="/submission/1137/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1137/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.356741666286217</td>
+    <td>0.36395605703945</td>
+    <td>
+    <!-- <a href="/submission/1138/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1138/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.5094322905106843</td>
+    <td>0.5346390773179521</td>
+    <td>
+    <!-- <a href="/submission/1139/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1139/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.4300046128679233</td>
+    <td>0.5038705164173751</td>
+    <td>
+    <!-- <a href="/submission/1140/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1140/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.305299790125393</td>
+    <td>0.33967203645863364</td>
+    <td>
+    <!-- <a href="/submission/1141/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1141/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.4676905140694504</td>
+    <td>0.46025943752601395</td>
+    <td>
+    <!-- <a href="/submission/1142/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1142/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.36288877403428993</td>
+    <td>0.42940390694604974</td>
+    <td>
+    <!-- <a href="/submission/1143/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1143/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.3191650371462287</td>
+    <td>0.35609990113611273</td>
+    <td>
+    <!-- <a href="/submission/1144/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1144/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.3917078750387849</td>
+    <td>0.3932134198793023</td>
+    <td>
+    <!-- <a href="/submission/1145/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1145/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.563537751847057</td>
+    <td>0.6530541677236823</td>
+    <td>
+    <!-- <a href="/submission/1146/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1146/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.5229945050823877</td>
+    <td>0.507352967513885</td>
+    <td>
+    <!-- <a href="/submission/1147/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1147/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.4196717841158913</td>
+    <td>0.41395795789780154</td>
+    <td>
+    <!-- <a href="/submission/1148/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1148/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.6220028729490721</td>
+    <td>0.6642745118763336</td>
+    <td>
+    <!-- <a href="/submission/1149/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1149/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.638466531505124</td>
+    <td>0.6623172509133259</td>
+    <td>
+    <!-- <a href="/submission/1150/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1150/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.3521170296708728</td>
+    <td>0.34669276749065847</td>
+    <td>
+    <!-- <a href="/submission/1151/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1151/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.38272804213743866</td>
+    <td>0.3782328525643203</td>
+    <td>
+    <!-- <a href="/submission/1152/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1152/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.3802627498161435</td>
+    <td>0.4536988879750264</td>
+    <td>
+    <!-- <a href="/submission/1153/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1153/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.26941029373676195</td>
+    <td>0.3177600691506196</td>
+    <td>
+    <!-- <a href="/submission/1154/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1154/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.36992395896262736</td>
+    <td>0.3959851555429174</td>
+    <td>
+    <!-- <a href="/submission/1155/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1155/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.3241044054500627</td>
+    <td>0.36990193064562626</td>
+    <td>
+    <!-- <a href="/submission/1156/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1156/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.30120160258593087</td>
+    <td>0.3134949260929519</td>
+    <td>
+    <!-- <a href="/submission/1157/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1157/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.339221768038325</td>
+    <td>0.3335265430884526</td>
+    <td>
+    <!-- <a href="/submission/1158/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1158/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.5785834158599336</td>
+    <td>0.6657189532296175</td>
+    <td>
+    <!-- <a href="/submission/1159/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1159/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.3617771258720339</td>
+    <td>0.39410844313371807</td>
+    <td>
+    <!-- <a href="/submission/1160/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1160/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.27987051930040363</td>
+    <td>0.2632496158019174</td>
+    <td>
+    <!-- <a href="/submission/1161/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1161/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.4189624531046232</td>
+    <td>0.4918943979648562</td>
+    <td>
+    <!-- <a href="/submission/1162/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1162/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.48175047235098856</td>
+    <td>0.5298551654629847</td>
+    <td>
+    <!-- <a href="/submission/1163/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1163/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.21086515280959478</td>
+    <td>0.2398257683336315</td>
+    <td>
+    <!-- <a href="/submission/1164/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1164/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.557672396165511</td>
+    <td>0.5707459654176864</td>
+    <td>
+    <!-- <a href="/submission/1165/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1165/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.4927485739865803</td>
+    <td>0.5265197958043241</td>
+    <td>
+    <!-- <a href="/submission/1166/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1166/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.382296420150944</td>
+    <td>0.4373273940269425</td>
+    <td>
+    <!-- <a href="/submission/1167/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1167/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.5638847370207195</td>
+    <td>0.5361459003217595</td>
+    <td>
+    <!-- <a href="/submission/1168/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1168/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.44710309457778563</td>
+    <td>0.4552063528549095</td>
+    <td>
+    <!-- <a href="/submission/1169/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1169/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.36671240917065</td>
+    <td>0.4488979519584975</td>
+    <td>
+    <!-- <a href="/submission/1170/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1170/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.533927835597065</td>
+    <td>0.5037528716509098</td>
+    <td>
+    <!-- <a href="/submission/1171/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1171/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.5982146639148013</td>
+    <td>0.629456453090501</td>
+    <td>
+    <!-- <a href="/submission/1172/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1172/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.5714184608738635</td>
+    <td>0.56457803488024</td>
+    <td>
+    <!-- <a href="/submission/1173/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1173/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.48376172032371983</td>
+    <td>0.47144364030574876</td>
+    <td>
+    <!-- <a href="/submission/1174/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1174/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.6431043474358086</td>
+    <td>0.6820054939892869</td>
+    <td>
+    <!-- <a href="/submission/1175/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1175/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.6906929379539523</td>
+    <td>0.7118487532847719</td>
+    <td>
+    <!-- <a href="/submission/1176/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1176/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.40106563128727746</td>
+    <td>0.4063363293766582</td>
+    <td>
+    <!-- <a href="/submission/1177/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1177/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.5804413206733494</td>
+    <td>0.5886388155366388</td>
+    <td>
+    <!-- <a href="/submission/1178/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1178/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.4362574008218319</td>
+    <td>0.5136785747717076</td>
+    <td>
+    <!-- <a href="/submission/1179/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1179/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.3382938629368344</td>
+    <td>0.3889507718548984</td>
+    <td>
+    <!-- <a href="/submission/1180/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1180/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.5161673493346727</td>
+    <td>0.5133605285612987</td>
+    <td>
+    <!-- <a href="/submission/1181/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1181/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.4288694516129199</td>
+    <td>0.46679268164626064</td>
+    <td>
+    <!-- <a href="/submission/1182/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1182/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.3526251911270302</td>
+    <td>0.35557127210483724</td>
+    <td>
+    <!-- <a href="/submission/1183/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1183/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.4150933791963797</td>
+    <td>0.4192214679668929</td>
+    <td>
+    <!-- <a href="/submission/1184/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1184/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.5672842379964276</td>
+    <td>0.6430477921467016</td>
+    <td>
+    <!-- <a href="/submission/1185/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1185/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.5634835179169414</td>
+    <td>0.5471171262694018</td>
+    <td>
+    <!-- <a href="/submission/1186/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1186/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.44466359113457626</td>
+    <td>0.4347299578376923</td>
+    <td>
+    <!-- <a href="/submission/1187/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1187/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.626954767743856</td>
+    <td>0.6944840515263081</td>
+    <td>
+    <!-- <a href="/submission/1188/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1188/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.6667494608475473</td>
+    <td>0.6781925668838787</td>
+    <td>
+    <!-- <a href="/submission/1189/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1189/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.36050447344302883</td>
+    <td>0.36803455134488405</td>
+    <td>
+    <!-- <a href="/submission/1190/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1190/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>WRONG FILE</td>
+    <td>0.38272804213743866</td>
+    <td>0.3782328525643203</td>
+    <td>
+    <!-- <a href="/submission/1191/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1191/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>WRONG FILE</td>
+    <td>0.3802627498161435</td>
+    <td>0.4536988879750264</td>
+    <td>
+    <!-- <a href="/submission/1192/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1192/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>WRONG FILE</td>
+    <td>0.26941029373676195</td>
+    <td>0.3177600691506196</td>
+    <td>
+    <!-- <a href="/submission/1193/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1193/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>WRONG FILE</td>
+    <td>0.36992395896262736</td>
+    <td>0.3959851555429174</td>
+    <td>
+    <!-- <a href="/submission/1194/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1194/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>WRONG FILE</td>
+    <td>0.3241044054500627</td>
+    <td>0.36990193064562626</td>
+    <td>
+    <!-- <a href="/submission/1195/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1195/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>WRONG FILE</td>
+    <td>0.30120160258593087</td>
+    <td>0.3134949260929519</td>
+    <td>
+    <!-- <a href="/submission/1196/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1196/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>WRONG FILE</td>
+    <td>0.339221768038325</td>
+    <td>0.3335265430884526</td>
+    <td>
+    <!-- <a href="/submission/1197/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1197/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>WRONG FILE</td>
+    <td>0.5785834158599336</td>
+    <td>0.6657189532296175</td>
+    <td>
+    <!-- <a href="/submission/1198/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1198/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>WRONG FILE</td>
+    <td>0.3617771258720339</td>
+    <td>0.39410844313371807</td>
+    <td>
+    <!-- <a href="/submission/1199/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1199/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>WRONG FILE</td>
+    <td>0.27987051930040363</td>
+    <td>0.2632496158019174</td>
+    <td>
+    <!-- <a href="/submission/1200/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1200/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>WRONG FILE</td>
+    <td>0.4189624531046232</td>
+    <td>0.4918943979648562</td>
+    <td>
+    <!-- <a href="/submission/1201/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1201/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>WRONG FILE</td>
+    <td>0.48175047235098856</td>
+    <td>0.5298551654629847</td>
+    <td>
+    <!-- <a href="/submission/1202/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1202/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>WRONG FILE</td>
+    <td>0.21086515280959478</td>
+    <td>0.2398257683336315</td>
+    <td>
+    <!-- <a href="/submission/1203/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1203/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>WRONG FILE</td>
+    <td>0.557672396165511</td>
+    <td>0.5707459654176864</td>
+    <td>
+    <!-- <a href="/submission/1204/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1204/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>WRONG FILE</td>
+    <td>0.4927485739865803</td>
+    <td>0.5265197958043241</td>
+    <td>
+    <!-- <a href="/submission/1205/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1205/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>WRONG FILE</td>
+    <td>0.382296420150944</td>
+    <td>0.4373273940269425</td>
+    <td>
+    <!-- <a href="/submission/1206/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1206/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>WRONG FILE</td>
+    <td>0.5638847370207195</td>
+    <td>0.5361459003217595</td>
+    <td>
+    <!-- <a href="/submission/1207/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1207/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>WRONG FILE</td>
+    <td>0.44710309457778563</td>
+    <td>0.4552063528549095</td>
+    <td>
+    <!-- <a href="/submission/1208/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1208/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>WRONG FILE</td>
+    <td>0.36671240917065</td>
+    <td>0.4488979519584975</td>
+    <td>
+    <!-- <a href="/submission/1209/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1209/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>WRONG FILE</td>
+    <td>0.533927835597065</td>
+    <td>0.5037528716509098</td>
+    <td>
+    <!-- <a href="/submission/1210/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1210/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>WRONG FILE</td>
+    <td>0.5982146639148013</td>
+    <td>0.629456453090501</td>
+    <td>
+    <!-- <a href="/submission/1211/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1211/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>WRONG FILE</td>
+    <td>0.5714184608738635</td>
+    <td>0.56457803488024</td>
+    <td>
+    <!-- <a href="/submission/1212/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1212/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>WRONG FILE</td>
+    <td>0.48376172032371983</td>
+    <td>0.47144364030574876</td>
+    <td>
+    <!-- <a href="/submission/1213/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1213/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>WRONG FILE</td>
+    <td>0.6431043474358086</td>
+    <td>0.6820054939892869</td>
+    <td>
+    <!-- <a href="/submission/1214/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1214/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>WRONG FILE</td>
+    <td>0.6906929379539523</td>
+    <td>0.7118487532847719</td>
+    <td>
+    <!-- <a href="/submission/1215/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1215/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>WRONG FILE</td>
+    <td>0.40106563128727746</td>
+    <td>0.4063363293766582</td>
+    <td>
+    <!-- <a href="/submission/1216/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1216/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.47090604453110035</td>
+    <td>0.5241168154139786</td>
+    <td>
+    <!-- <a href="/submission/1217/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1217/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.3987671220988663</td>
+    <td>0.4536207308337518</td>
+    <td>
+    <!-- <a href="/submission/1218/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1218/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.2596951940590297</td>
+    <td>0.31358513750126454</td>
+    <td>
+    <!-- <a href="/submission/1219/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1219/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.45113983644164174</td>
+    <td>0.44763366803161264</td>
+    <td>
+    <!-- <a href="/submission/1220/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1220/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.302498920030101</td>
+    <td>0.37740213560435787</td>
+    <td>
+    <!-- <a href="/submission/1221/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1221/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.3215421669475064</td>
+    <td>0.32198137158114715</td>
+    <td>
+    <!-- <a href="/submission/1222/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1222/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.3059622786470237</td>
+    <td>0.30896249059528696</td>
+    <td>
+    <!-- <a href="/submission/1223/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1223/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.4329124709405269</td>
+    <td>0.501321815113217</td>
+    <td>
+    <!-- <a href="/submission/1224/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1224/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.5103483994999546</td>
+    <td>0.48815283205807397</td>
+    <td>
+    <!-- <a href="/submission/1225/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1225/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.4064305741638595</td>
+    <td>0.4218596220762054</td>
+    <td>
+    <!-- <a href="/submission/1226/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1226/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.4671125874624285</td>
+    <td>0.5497917280959381</td>
+    <td>
+    <!-- <a href="/submission/1227/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1227/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.5092323730013052</td>
+    <td>0.5620872134539486</td>
+    <td>
+    <!-- <a href="/submission/1228/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1228/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>umt5-base-10ep-M, Multiling, 1_valset</td>
+    <td>0.3290819584993514</td>
+    <td>0.34991165153947423</td>
+    <td>
+    <!-- <a href="/submission/1229/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1229/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.44870532803025126</td>
+    <td>0.5109371792685958</td>
+    <td>
+    <!-- <a href="/submission/1230/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1230/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.43422395819850673</td>
+    <td>0.4990931444509616</td>
+    <td>
+    <!-- <a href="/submission/1231/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1231/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.3628838751398375</td>
+    <td>0.42329707339883116</td>
+    <td>
+    <!-- <a href="/submission/1232/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1232/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.43380195631284596</td>
+    <td>0.43873469024336487</td>
+    <td>
+    <!-- <a href="/submission/1233/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1233/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.2993143713142517</td>
+    <td>0.3366580485363221</td>
+    <td>
+    <!-- <a href="/submission/1234/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1234/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.30313518539200157</td>
+    <td>0.3873740059081921</td>
+    <td>
+    <!-- <a href="/submission/1235/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1235/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.3724655453528299</td>
+    <td>0.36412643763737473</td>
+    <td>
+    <!-- <a href="/submission/1236/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1236/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.38826235585629254</td>
+    <td>0.4744006413604238</td>
+    <td>
+    <!-- <a href="/submission/1237/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1237/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.5118870028060905</td>
+    <td>0.500631717794494</td>
+    <td>
+    <!-- <a href="/submission/1238/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1238/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.40123941397022966</td>
+    <td>0.4307738675793873</td>
+    <td>
+    <!-- <a href="/submission/1239/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1239/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.5376144686881309</td>
+    <td>0.596540574112086</td>
+    <td>
+    <!-- <a href="/submission/1240/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1240/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.5027742964051325</td>
+    <td>0.5680418190980467</td>
+    <td>
+    <!-- <a href="/submission/1241/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1241/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>umt5-base-10ep-M, Multiling, ALLvalset</td>
+    <td>0.32105762542781835</td>
+    <td>0.3505725443115494</td>
+    <td>
+    <!-- <a href="/submission/1242/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1242/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.3174388611290956</td>
+    <td>0.29799870797062367</td>
+    <td>
+    <!-- <a href="/submission/1247/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1247/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.38540165538046556</td>
+    <td>0.44632294103285597</td>
+    <td>
+    <!-- <a href="/submission/1248/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1248/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.24850427339594625</td>
+    <td>0.29620692193176673</td>
+    <td>
+    <!-- <a href="/submission/1249/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1249/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.30683221782341114</td>
+    <td>0.34340930868671915</td>
+    <td>
+    <!-- <a href="/submission/1250/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1250/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.22004639401906953</td>
+    <td>0.26056993858413346</td>
+    <td>
+    <!-- <a href="/submission/1251/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1251/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.2929026118831741</td>
+    <td>0.3000789985281709</td>
+    <td>
+    <!-- <a href="/submission/1252/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1252/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.2729462497448338</td>
+    <td>0.2956153882644538</td>
+    <td>
+    <!-- <a href="/submission/1253/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1253/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.4338725397207233</td>
+    <td>0.4941876807421798</td>
+    <td>
+    <!-- <a href="/submission/1254/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1254/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.2781706344947173</td>
+    <td>0.3133797501807093</td>
+    <td>
+    <!-- <a href="/submission/1255/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1255/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.22360260799983356</td>
+    <td>0.2520848854052635</td>
+    <td>
+    <!-- <a href="/submission/1256/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1256/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.386584860039085</td>
+    <td>0.448898896420039</td>
+    <td>
+    <!-- <a href="/submission/1257/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1257/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.37625680909115694</td>
+    <td>0.4528195301268219</td>
+    <td>
+    <!-- <a href="/submission/1258/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1258/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>umt5-base-10ep-M, Multiling</td>
+    <td>0.18065775288236435</td>
+    <td>0.21209987374287773</td>
+    <td>
+    <!-- <a href="/submission/1259/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1259/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.29793169143243003</td>
+    <td>0.25657692808799076</td>
+    <td>
+    <!-- <a href="/submission/1261/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1261/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.3575040392567426</td>
+    <td>0.412425900287621</td>
+    <td>
+    <!-- <a href="/submission/1262/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1262/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.2523219566854944</td>
+    <td>0.30261200344289424</td>
+    <td>
+    <!-- <a href="/submission/1263/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1263/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.3147273084735439</td>
+    <td>0.33935738133414883</td>
+    <td>
+    <!-- <a href="/submission/1264/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1264/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.21748793926484816</td>
+    <td>0.23769217508915977</td>
+    <td>
+    <!-- <a href="/submission/1265/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1265/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.26477036080586386</td>
+    <td>0.24786738601582856</td>
+    <td>
+    <!-- <a href="/submission/1266/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1266/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.25518548016067544</td>
+    <td>0.24223835374639727</td>
+    <td>
+    <!-- <a href="/submission/1267/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1267/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.34474599508049514</td>
+    <td>0.4002115725251651</td>
+    <td>
+    <!-- <a href="/submission/1268/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1268/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.2566956189996224</td>
+    <td>0.28019222138127753</td>
+    <td>
+    <!-- <a href="/submission/1269/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1269/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.20022856700156275</td>
+    <td>0.2122020578431075</td>
+    <td>
+    <!-- <a href="/submission/1270/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1270/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.3731983078115232</td>
+    <td>0.4229234413356932</td>
+    <td>
+    <!-- <a href="/submission/1271/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1271/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.3799415611407254</td>
+    <td>0.45929841944381944</td>
+    <td>
+    <!-- <a href="/submission/1272/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1272/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.14607373849750663</td>
+    <td>0.17558986715971855</td>
+    <td>
+    <!-- <a href="/submission/1273/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1273/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.41088018240389057</td>
+    <td>0.45992354657916906</td>
+    <td>
+    <!-- <a href="/submission/1274/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1274/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.3989623665074978</td>
+    <td>0.46296178348061673</td>
+    <td>
+    <!-- <a href="/submission/1275/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1275/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.32260781364886154</td>
+    <td>0.38458661305853314</td>
+    <td>
+    <!-- <a href="/submission/1276/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1276/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.3902265952831012</td>
+    <td>0.4214014213320643</td>
+    <td>
+    <!-- <a href="/submission/1277/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1277/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.2504975990345152</td>
+    <td>0.32094657807437227</td>
+    <td>
+    <!-- <a href="/submission/1278/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1278/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.28246024417374943</td>
+    <td>0.365443591118594</td>
+    <td>
+    <!-- <a href="/submission/1279/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1279/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.3379631287325493</td>
+    <td>0.3237478806640979</td>
+    <td>
+    <!-- <a href="/submission/1280/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1280/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.324992540986488</td>
+    <td>0.3538630253881807</td>
+    <td>
+    <!-- <a href="/submission/1281/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1281/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.44833378409138863</td>
+    <td>0.45963993304186107</td>
+    <td>
+    <!-- <a href="/submission/1282/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1282/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.31864614291764665</td>
+    <td>0.37358402395100093</td>
+    <td>
+    <!-- <a href="/submission/1283/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1283/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.42547281444579604</td>
+    <td>0.5112023060056993</td>
+    <td>
+    <!-- <a href="/submission/1284/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1284/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.4776651350142405</td>
+    <td>0.5564958157750599</td>
+    <td>
+    <!-- <a href="/submission/1285/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1285/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.3025694303985332</td>
+    <td>0.3279176323607265</td>
+    <td>
+    <!-- <a href="/submission/1286/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1286/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>AR</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.38113880923472904</td>
+    <td>0.4027561982518883</td>
+    <td>
+    <!-- <a href="/submission/1287/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1287/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CA</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.37782102652956373</td>
+    <td>0.43666204633895594</td>
+    <td>
+    <!-- <a href="/submission/1288/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1288/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>CS</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.26668369832255717</td>
+    <td>0.3106650105492054</td>
+    <td>
+    <!-- <a href="/submission/1289/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1289/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>DE</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.3551909165341971</td>
+    <td>0.3804119536680936</td>
+    <td>
+    <!-- <a href="/submission/1290/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1290/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EN</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.26789062383967016</td>
+    <td>0.30244870185075506</td>
+    <td>
+    <!-- <a href="/submission/1291/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1291/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.2690850466880644</td>
+    <td>0.23696128742240888</td>
+    <td>
+    <!-- <a href="/submission/1292/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1292/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>EU</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.2896257828901454</td>
+    <td>0.26961523637443713</td>
+    <td>
+    <!-- <a href="/submission/1293/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1293/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FA</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.3480213929386588</td>
+    <td>0.3976089048287747</td>
+    <td>
+    <!-- <a href="/submission/1294/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1294/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FI</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.4422752296492807</td>
+    <td>0.40890604549747894</td>
+    <td>
+    <!-- <a href="/submission/1295/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1295/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>FR</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.2914215637298368</td>
+    <td>0.3002181014424236</td>
+    <td>
+    <!-- <a href="/submission/1296/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1296/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>HI</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.3893179218513299</td>
+    <td>0.45914304252110555</td>
+    <td>
+    <!-- <a href="/submission/1297/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1297/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>IT</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.41972962319237034</td>
+    <td>0.4763338064092841</td>
+    <td>
+    <!-- <a href="/submission/1298/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1298/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+<tr>
+    <td>ZH</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.30837481533937816</td>
+    <td>0.31752212689221543</td>
+    <td>
+    <!-- <a href="/submission/1299/delete/">Delete</a>
+    &nbsp;&nbsp; -->
+    <a href="/submission/1299/edit/">Edit metadata</a>
+    </td>
+</tr>
+
+</tbody>
+</table>
+
+
+
+    </div>
+</body>
+</html>

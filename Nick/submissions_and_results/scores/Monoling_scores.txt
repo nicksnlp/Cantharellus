@@ -1,0 +1,32 @@
+    <td>EN</td>
+    <td>bert-base-cased, English, monoling, EN</td>
+    <td>0.3757211545250764</td>
+    <td>0.3732283720697151</td>
+    <td>EN</td>
+    <td>bert-base-cased, English, monoling, EN + enVal</td>
+    <td>0.35571824789682016</td>
+    <td>0.4010379752039323</td>
+    <td>EN</td>
+    <td>google/flan-t5-base, monoling, EN</td>
+    <td>0.21098694221099065</td>
+    <td>0.19460196328429072</td>
+    <td>EN</td>
+    #<td>google/flan-t5-base, monoling, EN + enVal</td>
+    #<td>0.2015702424340723</td>
+    #to<td>0.20020048019862516</td>
+    <td>EN</td>
+    <td>microsoft/deberta-v3-base, monoling, EN</td>
+    <td>0.14489675423022982</td>
+    <td>0.14661360513002847</td>
+    <td>EN</td>
+    <td>microsoft/deberta-v3-base, monoling, EN + enVal</td>
+    <td>0.15593013816274207</td>
+    <td>0.19375783135085461</td>
+    <td>EN</td>
+    <td>deepset/roberta-base-squad2, monoling, EN</td>
+    <td>0.3327866152403384</td>
+    <td>0.3570019783675176</td>
+    <td>EN</td>
+    <td>deepset/roberta-base-squad2, monoling, EN + enVal</td>
+    <td>0.3717318297778116</td>
+    <td>0.37794021798048993</td>

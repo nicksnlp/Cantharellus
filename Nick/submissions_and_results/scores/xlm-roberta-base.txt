@@ -1,0 +1,156 @@
+    <td>AR</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.3607908417001597</td>
+    <td>0.34594114390923647</td>
+    <td>CA</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.41437730781089677</td>
+    <td>0.4666146158048056</td>
+    <td>CS</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.2624952416494979</td>
+    <td>0.31079251569242333</td>
+    <td>DE</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.36265833840633555</td>
+    <td>0.3986501213555665</td>
+    <td>EN</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.31298679173839217</td>
+    <td>0.3640611824759075</td>
+    <td>ES</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.2979633008256428</td>
+    <td>0.30293301594258965</td>
+    <td>EU</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.3509811805937037</td>
+    <td>0.34153257794167263</td>
+    <td>FA</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.5758694542915742</td>
+    <td>0.646124442243485</td>
+    <td>FI</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.3078474082427825</td>
+    <td>0.3557122213745977</td>
+    <td>FR</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.2904764300262321</td>
+    <td>0.2706323201150063</td>
+    <td>HI</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.44362625302042014</td>
+    <td>0.5019836554552174</td>
+    <td>IT</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.4847446392987424</td>
+    <td>0.5547483487652161</td>
+    <td>ZH</td>
+    <td>xlm-roberta-base, Multiling</td>
+    <td>0.1309546954019443</td>
+    <td>0.156606019656138</td>
+    <td>AR</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.5094322905106843</td>
+    <td>0.5346390773179521</td>
+    <td>CA</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.4300046128679233</td>
+    <td>0.5038705164173751</td>
+    <td>CS</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.305299790125393</td>
+    <td>0.33967203645863364</td>
+    <td>DE</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.4676905140694504</td>
+    <td>0.46025943752601395</td>
+    <td>EN</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.36288877403428993</td>
+    <td>0.42940390694604974</td>
+    <td>ES</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.3191650371462287</td>
+    <td>0.35609990113611273</td>
+    <td>EU</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.3917078750387849</td>
+    <td>0.3932134198793023</td>
+    <td>FA</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.563537751847057</td>
+    <td>0.6530541677236823</td>
+    <td>FI</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.5229945050823877</td>
+    <td>0.507352967513885</td>
+    <td>FR</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.4196717841158913</td>
+    <td>0.41395795789780154</td>
+    <td>HI</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.6220028729490721</td>
+    <td>0.6642745118763336</td>
+    <td>IT</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.638466531505124</td>
+    <td>0.6623172509133259</td>
+    <td>ZH</td>
+    <td>xlm-roberta-base, Multiling, 1_valset</td>
+    <td>0.3521170296708728</td>
+    <td>0.34669276749065847</td>
+    <td>AR</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.5270643124350415</td>
+    <td>0.5590075286258107</td>
+    <td>CA</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.513376096024243</td>
+    <td>0.5569210706792113</td>
+    <td>CS</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.3521667624723049</td>
+    <td>0.3903996264821011</td>
+    <td>DE</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.5235769152959737</td>
+    <td>0.514593363374593</td>
+    <td>EN</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.40614510348233657</td>
+    <td>0.4567886033910809</td>
+    <td>ES</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.3674627314369853</td>
+    <td>0.40426398172790035</td>
+    <td>EU</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.45688352477009464</td>
+    <td>0.42387593025321996</td>
+    <td>FA</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.6551400965073542</td>
+    <td>0.6864467534599901</td>
+    <td>FI</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.5309614462367892</td>
+    <td>0.5039109216520619</td>
+    <td>FR</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.47634389945610917</td>
+    <td>0.4526092590671921</td>
+    <td>HI</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.6568120172011085</td>
+    <td>0.6750636585619989</td>
+    <td>IT</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.6429166150876781</td>
+    <td>0.6710845187562786</td>
+    <td>ZH</td>
+    <td>xlm-roberta-base, Multiling, ALLvalset</td>
+    <td>0.356741666286217</td>
+    <td>0.36395605703945</td>

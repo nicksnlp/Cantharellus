@@ -1,0 +1,52 @@
+    <td>AR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.60289951</td>
+    <td>0.6365301</td>
+    <td>CA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.57869038</td>
+    <td>0.61882156</td>
+    <td>CS</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.40210606</td>
+    <td>0.4581741</td>
+    <td>DE</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.57778417</td>
+    <td>0.56321616</td>
+    <td>EN</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.44675105</td>
+    <td>0.45382659</td>
+    <td>ES</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.39692244</td>
+    <td>0.45753148</td>
+    <td>EU</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.57330596</td>
+    <td>0.60231356</td>
+    <td>FA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.70208272</td>
+    <td>0.72865598</td>
+    <td>FI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.61674058</td>
+    <td>0.60721619</td>
+    <td>FR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.51581539</td>
+    <td>0.52645155</td>
+    <td>HI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.73450609</td>
+    <td>0.7533035</td>
+    <td>IT</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.75295868</td>
+    <td>0.78121352</td>
+    <td>ZH</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset, with Separator</td>
+    <td>0.37346628</td>
+    <td>0.38672602</td>

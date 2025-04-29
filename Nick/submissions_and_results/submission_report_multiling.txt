@@ -1,0 +1,22 @@
+
+MODELNAME, Multiling / Multiling + LANG /AllValset
+--
+
+Predictions are made with a pre-trained model fine-tuned on some generated data. The model is a token classifier.
+
+--
+
+The fine-tuning data is created with ChatGPT, gpt-4o model, and contains around 2K datapoints per language (26K altogether) + 238 datapoints created with claude3.5 sonnet for English.
+
+The model was fine-tuned further with the validation set provided by the organisers (13 languages: "ar", "ca", "cs", "de", "en", "es", "eu", "fa", "fi", "fr", "hi", "it", "zh").
+
+The model was fine-tuned further with the validation data for each particular language, provided by the organisers.
+
+--
+
+google-bert/bert-base-multilingual-cased
+FacebookAI/xlm-roberta-base
+FacebookAI/xlm-roberta-large
+google/umt5-base
+google/umt5-small
+

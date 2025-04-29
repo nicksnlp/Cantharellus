@@ -1,0 +1,38 @@
+cat SCORES_FOR_1st_submissions.txt | sed -n '/<td>\(ar\|ca\|cs\|de\|en\|es\|eu\|fa\|fi\|fr\|hi\|it\|zh\)<\/td>/p; /<td>.*Multiling.*<\/td>/p; /<td>0\.[0-9]\+<\/td>/p' > scores.txt
+
+
+
+bert-base-cased
+google/flan-t5-base
+microsoft/deberta-v3-base
+deepset/roberta-base-squad2
+
+bert-base-multilingual-cased
+xlm-roberta-base
+xlm-roberta-large-10ep-M
+umt5-base-10ep-M
+umt5-small-10ep-M
+
+
+awk '/bert-base-multilingual-cased/ { 
+    print prev; 
+    print $0; 
+    getline; 
+    print $0; 
+    getline; 
+    print $0 
+} { prev = $0 }' scores.txt > bert-base-multilingual-cased.txt
+
+
+awk '/roberta-base-squad2/ { 
+    print prev; 
+    print $0; 
+    getline; 
+    print $0; 
+    getline; 
+    print $0 
+} { prev = $0 }' 01_scores.txt >> Monoling_scores.txt
+
+
+
+cat Baseline_and_highest_rank.txt | sed -n '/<td>\(ar\|ca\|cs\|de\|en\|es\|eu\|fa\|fi\|fr\|hi\|it\|zh\)<\/td>/p; /<td>.[0-9]+<\/td>/p; /<td>.*Cantharellus*<\/td>/p; /<td>.*Baseline (mark all)*<\/td>/p; /<td>0\.[0-9]\+<\/td>/p' > scores_cantharellus_baseline.txt

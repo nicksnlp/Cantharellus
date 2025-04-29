@@ -1,0 +1,156 @@
+    <td>AR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.38272804213743866</td>
+    <td>0.3782328525643203</td>
+    <td>CA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.3802627498161435</td>
+    <td>0.4536988879750264</td>
+    <td>CS</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.26941029373676195</td>
+    <td>0.3177600691506196</td>
+    <td>DE</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.36992395896262736</td>
+    <td>0.3959851555429174</td>
+    <td>EN</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.3241044054500627</td>
+    <td>0.36990193064562626</td>
+    <td>ES</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.30120160258593087</td>
+    <td>0.3134949260929519</td>
+    <td>EU</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.339221768038325</td>
+    <td>0.3335265430884526</td>
+    <td>FA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.5785834158599336</td>
+    <td>0.6657189532296175</td>
+    <td>FI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.3617771258720339</td>
+    <td>0.39410844313371807</td>
+    <td>FR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.27987051930040363</td>
+    <td>0.2632496158019174</td>
+    <td>HI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.4189624531046232</td>
+    <td>0.4918943979648562</td>
+    <td>IT</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.48175047235098856</td>
+    <td>0.5298551654629847</td>
+    <td>ZH</td>
+    <td>xlm-roberta-large-10ep-M, Multiling</td>
+    <td>0.21086515280959478</td>
+    <td>0.2398257683336315</td>
+    <td>AR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.5804413206733494</td>
+    <td>0.5886388155366388</td>
+    <td>CA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.4362574008218319</td>
+    <td>0.5136785747717076</td>
+    <td>CS</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.3382938629368344</td>
+    <td>0.3889507718548984</td>
+    <td>DE</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.5161673493346727</td>
+    <td>0.5133605285612987</td>
+    <td>EN</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.4288694516129199</td>
+    <td>0.46679268164626064</td>
+    <td>ES</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.3526251911270302</td>
+    <td>0.35557127210483724</td>
+    <td>EU</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.4150933791963797</td>
+    <td>0.4192214679668929</td>
+    <td>FA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.5672842379964276</td>
+    <td>0.6430477921467016</td>
+    <td>FI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.5634835179169414</td>
+    <td>0.5471171262694018</td>
+    <td>FR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.44466359113457626</td>
+    <td>0.4347299578376923</td>
+    <td>HI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.626954767743856</td>
+    <td>0.6944840515263081</td>
+    <td>IT</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.6667494608475473</td>
+    <td>0.6781925668838787</td>
+    <td>ZH</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, 1_valset</td>
+    <td>0.36050447344302883</td>
+    <td>0.36803455134488405</td>
+    <td>AR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.557672396165511</td>
+    <td>0.5707459654176864</td>
+    <td>CA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.4927485739865803</td>
+    <td>0.5265197958043241</td>
+    <td>CS</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.382296420150944</td>
+    <td>0.4373273940269425</td>
+    <td>DE</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.5638847370207195</td>
+    <td>0.5361459003217595</td>
+    <td>EN</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.44710309457778563</td>
+    <td>0.4552063528549095</td>
+    <td>ES</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.36671240917065</td>
+    <td>0.4488979519584975</td>
+    <td>EU</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.533927835597065</td>
+    <td>0.5037528716509098</td>
+    <td>FA</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.5982146639148013</td>
+    <td>0.629456453090501</td>
+    <td>FI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.5714184608738635</td>
+    <td>0.56457803488024</td>
+    <td>FR</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.48376172032371983</td>
+    <td>0.47144364030574876</td>
+    <td>HI</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.6431043474358086</td>
+    <td>0.6820054939892869</td>
+    <td>IT</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.6906929379539523</td>
+    <td>0.7118487532847719</td>
+    <td>ZH</td>
+    <td>xlm-roberta-large-10ep-M, Multiling, ALLvalset</td>
+    <td>0.40106563128727746</td>
+    <td>0.4063363293766582</td>

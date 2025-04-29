@@ -1,0 +1,207 @@
+<h2 id="ar">AR</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">MSA</td>
+      <td style="text-align: right">0.669976</td>
+      <td style="text-align: right">0.648751</td>
+
+      <td style="text-align: right">6</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.580441</td>
+      <td style="text-align: right">0.588639</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.361354</td>
+      <td style="text-align: right">0.00666667</td>
+      
+<h2 id="ca">CA</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">UCSC</td>
+      <td style="text-align: right">0.721111</td>
+      <td style="text-align: right">0.777887</td>
+
+      <td style="text-align: right">10</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.523118</td>
+      <td style="text-align: right">0.572738</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.242314</td>
+      <td style="text-align: right">0.06</td>
+
+<h2 id="cs">CS</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">AILSNTUA</td>
+      <td style="text-align: right">0.542931</td>
+      <td style="text-align: right">0.55604</td>
+
+      <td style="text-align: right">10</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.393568</td>
+      <td style="text-align: right">0.423898</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.263164</td>
+      <td style="text-align: right">0.1</td>
+
+<h2 id="de">DE</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">UCSC</td>
+      <td style="text-align: right">0.623612</td>
+      <td style="text-align: right">0.650701</td>
+
+      <td style="text-align: right">7</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.563885</td>
+      <td style="text-align: right">0.536146</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.345082</td>
+      <td style="text-align: right">0.0133333</td>
+
+<h2 id="en">EN</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">iai_MSU</td>
+      <td style="text-align: right">0.650899</td>
+      <td style="text-align: right">0.629443</td>
+
+      <td style="text-align: right">17</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.472125</td>
+      <td style="text-align: right">0.461348</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.348926</td>
+      <td style="text-align: right">0</td>
+
+<h2 id="es">ES</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">ATLANTIS</td>
+      <td style="text-align: right">0.531131</td>
+      <td style="text-align: right">0.0131579</td>
+
+      <td style="text-align: right">13</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.386874</td>
+      <td style="text-align: right">0.423556</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.185334</td>
+      <td style="text-align: right">0.0131579</td>
+
+<h2 id="eu">EU</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">MSA</td>
+      <td style="text-align: right">0.612919</td>
+      <td style="text-align: right">0.620171</td>
+
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.533928</td>
+      <td style="text-align: right">0.503753</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.36709</td>
+      <td style="text-align: right">0</td>
+
+<h2 id="fa">FA</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">AILSNTUA</td>
+      <td style="text-align: right">0.710956</td>
+      <td style="text-align: right">0.69889</td>
+
+      <td style="text-align: right">6</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.65514</td>
+      <td style="text-align: right">0.686447</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.202808</td>
+      <td style="text-align: right">0.01</td>
+
+<h2 id="fi">FI</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">UCSC</td>
+      <td style="text-align: right">0.648264</td>
+      <td style="text-align: right">0.649756</td>
+
+      <td style="text-align: right">10</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.571418</td>
+      <td style="text-align: right">0.564578</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.4857</td>
+      <td style="text-align: right">0</td>
+
+<h2 id="fr">FR</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">Deloitte</td>
+      <td style="text-align: right">0.646867</td>
+      <td style="text-align: right">0.618707</td>
+
+      <td style="text-align: right">13</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.514708</td>
+      <td style="text-align: right">0.531731</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.454341</td>
+      <td style="text-align: right">0</td>
+
+<h2 id="hi">HI</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">ccnu</td>
+      <td style="text-align: right">0.746571</td>
+      <td style="text-align: right">0.78466</td>
+
+      <td style="text-align: right">7</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.65719</td>
+      <td style="text-align: right">0.690939</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.271096</td>
+      <td style="text-align: right">0</td>
+
+<h2 id="it">IT</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">UCSC</td>
+      <td style="text-align: right">0.787248</td>
+      <td style="text-align: right">0.787321</td>
+
+      <td style="text-align: right">10</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.690693</td>
+      <td style="text-align: right">0.711849</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.282615</td>
+      <td style="text-align: right">0</td>
+
+<h2 id="zh">ZH</h2>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">YNU-HPCC</td>
+      <td style="text-align: right">0.553971</td>
+      <td style="text-align: right">0.351808</td>
+
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"><em>Baseline (mark all)</em></td>
+      <td style="text-align: right">0.477155</td>
+      <td style="text-align: right">0</td>
+
+      <td style="text-align: right">15</td>
+      <td style="text-align: left">Cantharellus</td>
+      <td style="text-align: right">0.401066</td>
+      <td style="text-align: right">0.406336</td>

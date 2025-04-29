@@ -1,0 +1,156 @@
+    <td>AR</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.29793169143243003</td>
+    <td>0.25657692808799076</td>
+    <td>CA</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.3575040392567426</td>
+    <td>0.412425900287621</td>
+    <td>CS</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.2523219566854944</td>
+    <td>0.30261200344289424</td>
+    <td>DE</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.3147273084735439</td>
+    <td>0.33935738133414883</td>
+    <td>EN</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.21748793926484816</td>
+    <td>0.23769217508915977</td>
+    <td>ES</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.26477036080586386</td>
+    <td>0.24786738601582856</td>
+    <td>EU</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.25518548016067544</td>
+    <td>0.24223835374639727</td>
+    <td>FA</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.34474599508049514</td>
+    <td>0.4002115725251651</td>
+    <td>FI</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.2566956189996224</td>
+    <td>0.28019222138127753</td>
+    <td>FR</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.20022856700156275</td>
+    <td>0.2122020578431075</td>
+    <td>HI</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.3731983078115232</td>
+    <td>0.4229234413356932</td>
+    <td>IT</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.3799415611407254</td>
+    <td>0.45929841944381944</td>
+    <td>ZH</td>
+    <td>umt5-small-10ep-M, Multiling</td>
+    <td>0.14607373849750663</td>
+    <td>0.17558986715971855</td>
+    <td>AR</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.38113880923472904</td>
+    <td>0.4027561982518883</td>
+    <td>CA</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.37782102652956373</td>
+    <td>0.43666204633895594</td>
+    <td>CS</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.26668369832255717</td>
+    <td>0.3106650105492054</td>
+    <td>DE</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.3551909165341971</td>
+    <td>0.3804119536680936</td>
+    <td>EN</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.26789062383967016</td>
+    <td>0.30244870185075506</td>
+    <td>ES</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.2690850466880644</td>
+    <td>0.23696128742240888</td>
+    <td>EU</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.2896257828901454</td>
+    <td>0.26961523637443713</td>
+    <td>FA</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.3480213929386588</td>
+    <td>0.3976089048287747</td>
+    <td>FI</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.4422752296492807</td>
+    <td>0.40890604549747894</td>
+    <td>FR</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.2914215637298368</td>
+    <td>0.3002181014424236</td>
+    <td>HI</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.3893179218513299</td>
+    <td>0.45914304252110555</td>
+    <td>IT</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.41972962319237034</td>
+    <td>0.4763338064092841</td>
+    <td>ZH</td>
+    <td>umt5-small-10ep-M, Multiling, 1_valset</td>
+    <td>0.30837481533937816</td>
+    <td>0.31752212689221543</td>
+    <td>AR</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.41088018240389057</td>
+    <td>0.45992354657916906</td>
+    <td>CA</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.3989623665074978</td>
+    <td>0.46296178348061673</td>
+    <td>CS</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.32260781364886154</td>
+    <td>0.38458661305853314</td>
+    <td>DE</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.3902265952831012</td>
+    <td>0.4214014213320643</td>
+    <td>EN</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.2504975990345152</td>
+    <td>0.32094657807437227</td>
+    <td>ES</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.28246024417374943</td>
+    <td>0.365443591118594</td>
+    <td>EU</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.3379631287325493</td>
+    <td>0.3237478806640979</td>
+    <td>FA</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.324992540986488</td>
+    <td>0.3538630253881807</td>
+    <td>FI</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.44833378409138863</td>
+    <td>0.45963993304186107</td>
+    <td>FR</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.31864614291764665</td>
+    <td>0.37358402395100093</td>
+    <td>HI</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.42547281444579604</td>
+    <td>0.5112023060056993</td>
+    <td>IT</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.4776651350142405</td>
+    <td>0.5564958157750599</td>
+    <td>ZH</td>
+    <td>umt5-small-10ep-M, Multiling, ALLvalset</td>
+    <td>0.3025694303985332</td>
+    <td>0.3279176323607265</td>
