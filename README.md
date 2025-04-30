@@ -6,6 +6,6 @@ This repository contains scripts for training & inference with various LLM model
 
 Also, the system description paper is available here in latex and pdf formats.
 
-A sample model (with base model `xlm-roberta-large`), trained with this project can be found at Hugging Face:
+A sample model (with base model `xlm-roberta-large`), trained within this project can be found at Hugging Face:
 
 https://huggingface.co/nicksnlp/xlm-roberta-large-cantharellus
