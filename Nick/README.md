@@ -1,6 +1,6 @@
 ## Label_with_LLMs
 
-Notebooks for labelling datasets, by prompting generative models through APIs.
+Notebooks for labelling datasets by prompting generative models through APIs.
 
 ## misc_scripts
 
@@ -9,7 +9,7 @@ Notebooks for labelling datasets, by prompting generative models through APIs.
 
 - FINE_TUNING_PEFT_BUG-hard_labels_were_not_shifted_in_training_in _every_script_here
   Scripts and notebooks for LoRA adaptation of LLM models (needs debugging).
-  
+
 - roberta-with-separator_diff_setups_BUG-hard_labels_were_not_shifted_in_training
   Scripts for for training token classifiers with alternative training set-up (needs debugging).
 
