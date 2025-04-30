@@ -58,7 +58,8 @@ def preprocess_data(batch):
         return_offsets_mapping=True,
         add_special_tokens=True
     )
-
+    
+    ## here is a bug!! The hard labels must be shifted
     aligned_labels = []
     for i, sentence in enumerate(batch['text']):
         hard_labels = batch['hard_labels'][i]

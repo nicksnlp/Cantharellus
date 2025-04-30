@@ -1,0 +1,197 @@
+#!/usr/bin/env python3
+import os
+import torch
+import json
+import glob
+import random
+from transformers import AutoTokenizer, AutoModelForTokenClassification, TrainingArguments
+from transformers import BitsAndBytesConfig,  AutoTokenizer, TrainingArguments , Trainer
+from transformers import DataCollatorForTokenClassification
+from datasets import Dataset
+from peft import LoraConfig, prepare_model_for_kbit_training, PeftModel, get_peft_model
+from trl import SFTTrainer
+import wandb
+
+# Hugging Face and W&B login
+HUGGING_API = os.getenv("HF_TOKEN")
+WANDB_key = os.getenv("WANDB_API_KEY")
+HF_TOKEN = os.getenv("HF_TOKEN")
+
+if HUGGING_API:
+    from huggingface_hub import login
+    login(token=HUGGING_API)
+
+if WANDB_key:
+    wandb.login(key=WANDB_key)
+    run = wandb.init(project='llama-7b-hallucination', job_type="training", anonymous="allow", name="test_4")
+
+# Model and dataset paths
+model_name = "meta-llama/Llama-2-7b-hf"
+dataset_path = "./shuffled_data.jsonl"#"/path/to/training_data.jsonl"
+
+# Hugging face repository link to save fine-tuned model(Create new repository in huggingface,copy and paste here)
+new_model = "nicksnlp/llama-7B-hallucination"
+
+checkpoint_dir = "./CHECKPOINTS/" #"/path/to/checkpoints"
+
+# Load tokenizer
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+tokenizer.add_eos_token = True
+tokenizer.pad_token = tokenizer.eos_token
+tokenizer.add_eos_token
+tokenizer.padding_side = "right"
+
+# Function to preprocess data
+def preprocess_data(batch):
+    tokenized_input = tokenizer(
+        batch['text'],
+        truncation=True,
+        padding="max_length",
+        max_length=128,
+        return_tensors="pt",
+        return_offsets_mapping=True,
+        add_special_tokens=True
+    )
+
+    aligned_labels = []
+    for i, sentence in enumerate(batch['text']):
+        hard_labels = batch['hard_labels'][i]
+        tokens = tokenizer.convert_ids_to_tokens(tokenized_input['input_ids'][i])
+        offset_mapping = tokenized_input['offset_mapping'][i]
+        sentence_labels = []
+
+        for idx, (start, end) in enumerate(offset_mapping):
+            if start == end:
+                sentence_labels.append(-100)
+            else:
+                label = 0
+                for (label_start, label_end) in hard_labels:
+                    if start >= label_start and end <= label_end:
+                        label = 1
+                        break
+                sentence_labels.append(label)
+
+        aligned_labels.append(sentence_labels)
+
+    return {
+        'input_ids': tokenized_input['input_ids'],
+        'tokens': [tokenizer.convert_ids_to_tokens(ids) for ids in tokenized_input['input_ids']],
+        'labels': torch.tensor(aligned_labels),
+        'attention_mask': tokenized_input['attention_mask']
+    }
+
+# Load dataset
+def load_jsonl(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return [json.loads(line) for line in file]
+
+data = load_jsonl(dataset_path)
+dataset = Dataset.from_dict({
+    'text': [item['model_input'] + "<@@>" + item['model_output_text'] for item in data],
+    #BUG: SHIFT HARD LABELS
+    'hard_labels': [item['hard_labels'] for item in data]
+})
+
+tokenized_data = dataset.map(preprocess_data, batched=True)
+
+
+# Data collator
+data_collator = DataCollatorForTokenClassification(tokenizer=tokenizer)
+
+
+# Load model
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit= True,
+    bnb_4bit_quant_type= "nf4",
+    bnb_4bit_compute_dtype= torch.float16,
+    bnb_4bit_use_double_quant= False,
+)
+
+model = AutoModelForTokenClassification.from_pretrained(
+    model_name, num_labels=2, quantization_config=bnb_config, device_map={"": 0}
+)
+model = prepare_model_for_kbit_training(model)
+model.config.use_cache = False
+model.config.pretraining_tp = 1
+
+peft_config = LoraConfig(
+    lora_alpha=8,
+    lora_dropout=0.1,
+    r=16,
+    bias="none",
+    task_type="TOKEN_CLS",
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+)
+
+# Define label names (0 = correct, 1 = hallucinated)
+model.config.id2label = {0: "correct", 1: "hallucinated"}
+model.config.label2id = {"correct": 0, "hallucinated": 1}
+
+# Training arguments
+training_arguments = TrainingArguments(
+    output_dir=checkpoint_dir,
+    num_train_epochs=3,
+    per_device_train_batch_size=8,
+    gradient_accumulation_steps=2,
+    optim="paged_adamw_8bit",
+    save_steps=300,
+    save_total_limit=3,
+    logging_steps=10,
+    learning_rate=2e-4,
+    weight_decay=0.001,
+    fp16=False,
+    bf16=False,
+    max_grad_norm=0.3,
+    warmup_ratio=0.3,
+    group_by_length=True,
+    lr_scheduler_type="linear",
+    report_to="wandb",
+    run_name="test_4",
+    resume_from_checkpoint=True
+)
+
+# Trainer setup
+trainer = SFTTrainer(
+    model=model,
+    train_dataset=tokenized_data,
+    peft_config=peft_config,
+    processing_class=tokenizer,
+    args=training_arguments,
+    data_collator=data_collator, # Use the data collator here
+)
+
+# Start training
+trainer.train()
+
+# Save the fine-tuned model
+new_model_local_path = checkpoint_dir + "/new_model_local"
+trainer.model.save_pretrained(new_model_local_path)
+wandb.finish()
+model.config.use_cache = True
+model.eval()
+"""
+# Load base model with quantization to reduce memory usage
+base_model = AutoModelForTokenClassification.from_pretrained(
+    model_name,
+    low_cpu_mem_usage=True,
+    return_dict=True,
+    torch_dtype=torch.float16,
+    device_map={"": 0},
+    quantization_config=bnb_config,  # Defined earlier
+)
+
+# Load the PEFT model and merge weights
+model = PeftModel.from_pretrained(base_model, new_model_local_path)
+#model = PeftModel.from_pretrained(base_model, "/content/drive/MyDrive/NLP/MODELS/FineTunedModel_test2/checkpoint-468")
+model = model.merge_and_unload()
+
+# Reload tokenizer
+tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+tokenizer.pad_token = tokenizer.eos_token
+tokenizer.padding_side = "right"
+
+#LOGIN AGAIN HERE BEFORE PUSHING
+login(token=HUGGING_API)
+model.push_to_hub(new_model)
+tokenizer.push_to_hub(new_model)
+"""
