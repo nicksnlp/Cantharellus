@@ -6,6 +6,6 @@ This repository contains scripts for training & inference with various LLM model
 
 Also, the system description paper is available here in latex and pdf formats.
 
-A sample model (with base model `xlm-roberta-large`), fine-tuned within this project can be found at Hugging Face. This model was fine-tuned with synthetic data (26.3K data points, 10 epochs), and further fine-tuned human-labeled multilingual data (650 data points, 10 epochs):
+A sample model (with base model `xlm-roberta-large`), fine-tuned within this project can be found at Hugging Face. This model was fine-tuned with synthetic data (26.3K data points, 10 epochs), and further fine-tuned human-labeled multilingual data (650 data points, 10 epochs), with combination of `"model_input"` + " <@@> " + `"model_output_text"` as training data.
 
 https://huggingface.co/nicksnlp/xlm-roberta-large-cantharellus
