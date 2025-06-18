@@ -1,8 +1,8 @@
-PWD /Users/nick/Desktop/Study-notes_2023/MU-SHROOM/Github/LingDig_Mushrooms/acticle_latex
+PWD /Users/nick/Desktop/Study-notes_2023/MU-SHROOM/Github/LingDig_Mushrooms/article_latex
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/nick/Desktop/Study-notes_2023/MU-SHROOM/Github/LingDig_Mushrooms/acticle_latex/cantharellus-system-paper.tex
+INPUT /Users/nick/Desktop/Study-notes_2023/MU-SHROOM/Github/LingDig_Mushrooms/article_latex/cantharellus-system-paper.tex
 OUTPUT cantharellus-system-paper.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -401,6 +401,9 @@ INPUT ./images/bert-base-multilingual-cased.txt.pdf
 INPUT ./images/bert-base-multilingual-cased.txt.pdf
 INPUT ./images/bert-base-multilingual-cased.txt.pdf
 INPUT ./images/bert-base-multilingual-cased.txt.pdf
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT cantharellus-system-paper.aux
 INPUT ./cantharellus-system-paper.out
 INPUT ./cantharellus-system-paper.out
